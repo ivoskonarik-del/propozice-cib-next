@@ -1,0 +1,1 @@
+(function(jQuery){jQuery(document).ready(function(){jQuery(".wpcf7-form-control-wrap").hover(function(){jQuery(this).children(".wpcf7-not-valid-tip").fadeOut()});jQuery(".wpcf7-form-control-wrap").on("mouseover mouseenter",function(){jQuery(this).children(".wpcf7-not-valid-tip").fadeOut()})})})(jQuery)

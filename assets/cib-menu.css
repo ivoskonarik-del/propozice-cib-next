@@ -1,0 +1,82 @@
+/* ═══ MENU — vysouvací panel zprava, stěr kosodélníkem (předpis VP-MENU.md, 1:1 z cib-v1) ═══ */
+@font-face{font-family:"Playfair Display";src:url(/propozice-cib-next/assets/PlayfairDisplay-latinext.woff2) format("woff2");font-weight:400 700;font-display:swap;unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"Playfair Display";src:url(/propozice-cib-next/assets/PlayfairDisplay-latin.woff2) format("woff2");font-weight:400 700;font-display:swap;unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+@font-face{font-family:"Jost";src:url(/propozice-cib-next/assets/Jost-latinext.woff2) format("woff2");font-weight:300 700;font-display:swap;unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"Jost";src:url(/propozice-cib-next/assets/Jost-latin.woff2) format("woff2");font-weight:300 700;font-display:swap;unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+
+.panel{
+  --noc:#12142b;--noc-hloub:#0d0f1f;--krem:#f7f1eb;--bronz:#a17652;--bronz-svetly:#c49a73;
+  --linka:rgba(247,241,235,.18);--tlum:rgba(247,241,235,.64);
+  --display:"Barlow Condensed","Arial Narrow",sans-serif;--ui:"Barlow Condensed","Arial Narrow",sans-serif;--body:"sofia-pro-soft","Nunito","Helvetica Neue",Arial,sans-serif;
+  --sp-1:8px;--sp-2:16px;--sp-3:24px;--sp-4:32px;--sp-5:48px;--sp-6:64px;--sp-8:120px;
+  --e-ven:cubic-bezier(.22,1,.36,1);--d-rychle:180ms;--d-stred:420ms;
+  --okraj:clamp(20px,8.33vw,120px);--shell:1600px;
+  --panel-sirka:min(40%,560px);
+  --panel-kruh:clamp(96px,8vw,132px);
+  --panel-okraj:calc(max(0px,(100vw - var(--shell)) / 2) + var(--okraj));
+  /* zprava: vnitřní okraj u levé hrany panelu 82 px, vpravo plný okraj */
+  --panel-pad-zac:calc(var(--panel-kruh) / 2 + 40px);--panel-pad-kon:clamp(24px,3.5vw,56px);
+  position:fixed;inset:0;z-index:99999;display:flex;justify-content:flex-end;color:var(--krem);font-family:var(--ui);
+}
+.panel[hidden]{display:none}
+.panel *{box-sizing:border-box}
+.panel__pozadi{position:absolute;inset:0;display:block;width:100%;margin:0;padding:0;border:0;background:rgba(0,0,0,.35);opacity:1;cursor:pointer}
+.panel__scroller{position:relative;z-index:1;width:var(--panel-sirka);max-width:100%;height:100%}
+.panel__obsah{position:relative;height:100%;overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;background:var(--noc-hloub);clip-path:polygon(0 0,100% 0,100% 100%,0 100%);will-change:clip-path}
+/* PŘÍCHOD 1,3 s */
+.panel--prichod .panel__pozadi{transition:opacity 1.3s cubic-bezier(.74,0,.24,.99)}
+.panel--prichod .panel__obsah{transition:clip-path 1.3s cubic-bezier(.74,0,.24,.99);clip-path:polygon(0 0,100% 0,100% 100%,0 100%)}
+.panel--prichod.panel--neaktivni .panel__pozadi{opacity:0}
+.panel--zprava.panel--prichod.panel--neaktivni .panel__obsah{clip-path:polygon(100% 0,200% 0,220% 100%,120% 100%)}
+/* ODCHOD 0,8 s */
+.panel--odchod .panel__pozadi{transition:opacity .8s cubic-bezier(.74,0,.24,.99)}
+.panel--odchod .panel__obsah{transition:clip-path .8s cubic-bezier(.74,0,.24,.99);clip-path:polygon(0 0,100% 0,100% 100%,0 100%)}
+.panel--odchod.panel--aktivni .panel__pozadi{opacity:0}
+.panel--zprava.panel--odchod.panel--aktivni .panel__obsah{clip-path:polygon(120% 0,220% 0,200% 100%,100% 100%)}
+/* zavírací kruh na hraně panelu, 56,94 % výšky */
+.panel__zavrit{position:absolute;top:50%;z-index:4;display:grid;place-items:center;width:var(--panel-kruh);height:var(--panel-kruh);padding:0;border:1px solid color-mix(in srgb,var(--bronz) 72%,transparent);border-radius:50%;background:transparent;color:var(--krem);cursor:pointer;opacity:1;transition:background var(--d-rychle) var(--e-ven),border-color var(--d-rychle) var(--e-ven),color var(--d-rychle) var(--e-ven)}
+.panel__zavrit:hover{border-color:var(--bronz);background:var(--bronz);color:var(--noc)}
+.panel__zavrit svg{width:22%;height:22%;fill:none;stroke:currentColor;stroke-width:1.3;stroke-linecap:round}
+.panel--zprava .panel__zavrit{left:calc(100% - var(--panel-sirka));transform:translate(-50%,-50%)}
+/* obsah menu */
+.panel-menu{display:grid;grid-template-rows:auto 1fr auto;min-height:100%;padding-block-end:var(--sp-8)}
+.panel-menu__lista{display:flex;align-items:center;justify-content:flex-end;gap:var(--sp-2);min-height:84px;padding-inline:var(--panel-pad-zac) var(--panel-pad-kon)}
+.pilulka{display:inline-flex;align-items:center;justify-content:center;gap:var(--sp-2);min-height:42px;padding-inline:var(--sp-2) var(--sp-3);border:1px solid var(--linka);border-radius:999px;background:transparent;color:inherit;font-family:var(--ui);font-size:.75rem;font-weight:500;letter-spacing:.12em;text-transform:uppercase;cursor:pointer;transition:border-color var(--d-rychle) var(--e-ven),color var(--d-rychle) var(--e-ven)}
+.pilulka:hover{border-color:var(--bronz);color:var(--bronz)}
+.panel-menu__tahy{display:grid;gap:4px;width:16px}.panel-menu__tahy span{height:1px;background:currentColor;display:block}
+.stitek{font-family:var(--ui);font-size:.75rem;font-weight:500;line-height:1.2;letter-spacing:.16em;text-transform:uppercase}
+.panel-menu__domu{margin-inline-start:auto;color:var(--krem);text-decoration:none;white-space:nowrap;transition:color var(--d-rychle) var(--e-ven)}
+.panel-menu__domu:hover{color:var(--bronz)}
+.panel-menu__hlavni{align-self:center;padding-block:var(--sp-4);padding-inline:var(--panel-pad-zac) var(--panel-pad-kon)}
+.panel-menu__seznam{display:grid;justify-items:start;list-style:none;margin:0;padding:0}
+.panel-menu__odkaz{display:block;margin:0;padding:0;border:0;background:transparent;color:var(--krem);font-family:var(--display);font-size:clamp(1.75rem,2.6vw,2.5rem);font-weight:300;line-height:1.5;letter-spacing:.06em;text-align:start;text-transform:uppercase;text-decoration:none;cursor:pointer;transition:color var(--d-rychle) var(--e-ven),padding-inline-start var(--d-stred) var(--e-ven)}
+.panel-menu__odkaz:hover{padding-inline-start:var(--sp-2);color:var(--bronz)}
+.panel-menu__pata{display:grid;gap:var(--sp-4);padding-inline:var(--panel-pad-zac) var(--panel-pad-kon)}
+.panel-menu__drobne{display:grid;gap:0}
+.panel-menu__drobnyOdkaz{display:inline-block;justify-self:start;color:var(--krem);font-family:var(--ui);font-size:.8125rem;font-weight:400;line-height:2.1;letter-spacing:.22em;text-transform:uppercase;text-decoration:none;transition:color var(--d-rychle) var(--e-ven)}
+.panel-menu__drobnyOdkaz:hover{color:var(--bronz)}
+.panel-menu__kruhy{display:grid;gap:9px;align-content:end}
+.panel-menu__kruh{display:flex;align-items:center;gap:var(--sp-2);text-decoration:none;color:var(--krem)}
+.panel-menu__kruhIkona{flex:0 0 auto;display:grid;place-items:center;width:33px;height:33px;border:1px solid color-mix(in srgb,var(--bronz) 62%,transparent);border-radius:50%;color:var(--bronz);transition:background var(--d-rychle) var(--e-ven),border-color var(--d-rychle) var(--e-ven),color var(--d-rychle) var(--e-ven)}
+.panel-menu__kruhIkona svg{width:13px;height:13px;fill:none;stroke:currentColor;stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round}
+.panel-menu__kruh:hover .panel-menu__kruhIkona{border-color:var(--bronz);background:var(--bronz);color:var(--noc)}
+.panel-menu__kruhText{display:grid;gap:2px;min-width:0}
+.panel-menu__kruhNazev{font-family:var(--ui);font-size:.8125rem;font-weight:400;letter-spacing:.22em;line-height:1.3;text-transform:uppercase;transition:color var(--d-rychle) var(--e-ven)}
+.panel-menu__kruh:hover .panel-menu__kruhNazev{color:var(--bronz)}
+.panel-menu__kruhNota{font-family:var(--body);font-size:.75rem;line-height:1.4;letter-spacing:.02em;color:var(--tlum)}
+@media (max-width:900px){
+  .panel{--panel-sirka:100%;--panel-kruh:88px;--panel-pad-zac:clamp(20px,6vw,40px)}
+  .panel--zprava .panel__zavrit{top:auto;left:auto;right:var(--okraj);bottom:var(--sp-4);transform:none;background:rgba(14,20,26,.9);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
+  .panel-menu{padding-block-end:calc(var(--sp-6) + 88px)}
+  .panel-menu__hlavni{align-self:start;padding-block:var(--sp-4) var(--sp-6)}
+}
+@media (prefers-reduced-motion:reduce){
+  .panel__obsah,.panel__pozadi{transition:none!important}
+  .panel--zprava.panel--prichod.panel--neaktivni .panel__obsah,.panel--zprava.panel--odchod.panel--aktivni .panel__obsah{clip-path:polygon(0 0,100% 0,100% 100%,0 100%)}
+  .panel--prichod.panel--neaktivni .panel__pozadi,.panel--odchod.panel--aktivni .panel__pozadi{opacity:1}
+}
+/* původní off-canvas předlohy se nepoužívá */
+.site-offcanvas,.aios-mobile-header-wrapper .amh-navigation{display:none!important}
+body.cib-menu-open{overflow:hidden}
+/* Bootstrap předlohy má vlastní .panel (bílé pozadí, rámeček) — vypnout, jinak je závoj za menu šedý místo průhledného */
+.panel{background:transparent!important;border:0!important;border-radius:0!important;box-shadow:none!important;margin:0!important}

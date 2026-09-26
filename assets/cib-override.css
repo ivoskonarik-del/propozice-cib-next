@@ -1,0 +1,80 @@
+/* CIB – doladění nad původními styly předlohy */
+html,body{overflow-x:hidden}
+.header-nav a,.footernav a,.slider-office-list a,.amh-menu a{text-decoration:none!important}
+#pojo-a11y-toolbar,.pojo-a11y-toolbar-toggle,.testi-slick-slider .slick-list{display:none}
+.testi-slick-slider .slick-list{display:block;overflow:hidden}
+.slideshow-area .aios-slider-volume{display:none}
+/* hero: jedno smyčkové video přes celou plochu */
+.cib-hero,.cib-hero .aios-slider-custom-video{position:relative;background:#000}
+.cib-hero canvas{aspect-ratio:1600/800;display:block;width:100%;height:auto;max-height:calc(100vh - 80px);min-height:420px}
+.cib-hero video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+/* loga značek: drobná řada vlevo dole se štítkem, jako popisek záběru */
+.cib-hero-brands{position:absolute;left:5vw;bottom:44px;z-index:6;display:flex;align-items:center;gap:1.6vw;opacity:.9}
+.cib-hero-brands__label{font-family:var(--font-family-title);font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:#fff;opacity:.75;margin-right:.6vw;padding-right:1.2vw;border-right:1px solid rgba(255,255,255,.35);line-height:1}
+.cib-hero-brands img{height:1.9vw;max-height:30px;min-height:20px;width:auto;display:block;filter:drop-shadow(0 1px 4px rgba(0,0,0,.5))}
+.slideshow-area .slider-content .slider-offices-slider{max-width:640px}
+.slideshow-area .slider-content .slider-office-list a{white-space:nowrap}
+@media (max-width:991px){.cib-hero-brands{display:none}}
+@media (max-width:991px){.cib-hero-brands{display:none}}
+/* development (netflix) */
+#content-netflix .netflix-media-area{display:none}
+#content-netflix .netflix-inner{display:flex!important;flex-wrap:nowrap;align-items:center;justify-content:space-between;gap:4vw;padding:4vw 0}
+#content-netflix .netflix-video-area,#content-netflix .netflix-account-area{float:none!important;display:block}
+#content-netflix .netflix-subtext{margin-bottom:0}
+#content-netflix .netflix-video-area{width:62%}
+#content-netflix .netflix-account-area{width:30%;position:static;top:0;transform:none!important;align-items:center;justify-content:flex-start}
+#content-netflix .netflix-head{right:0;top:0;position:static;transform:none!important}
+#content-netflix .netflix-name{transform:none!important;position:static;width:auto;font-size:6.2vw;line-height:.85;left:0;top:0;padding:0 0 1.2vw}
+#content-netflix .netflix-head .global-site-title{position:static}
+#content-netflix .netflix-feed{align-items:stretch}
+#content-netflix .netflix-subtext{margin-top:3vw}
+@media (max-width:991px){#content-netflix .netflix-inner{flex-direction:column;gap:40px}#content-netflix .netflix-video-area,#content-netflix .netflix-account-area{width:100%}#content-netflix .netflix-name{font-size:56px}}
+/* o skupině */
+#content-jason{padding-bottom:5vw}
+#content-jason .aj-photo{margin-bottom:0}
+#content-jason .aj-photo img{border-radius:0 40px 0 0}
+#content-jason .aj-right{align-self:center}
+.aj-link{margin-top:24px}
+.aj-link+.aj-link{margin-top:18px}
+.aj-link.video-link a{background:transparent!important;color:#000;padding:0;max-width:none;height:auto;justify-content:flex-start;gap:16px}
+.aj-link.video-link a span{display:inline;letter-spacing:.24em}
+/* stáje (philanthropy): titulek vlevo dole přes fotku, bez parallaxu, s tmavým přechodem */
+#content-philantrophy .philantrophy-slider .global-site-title{position:absolute;left:2.2vw;right:auto;bottom:2vw;top:auto;transform:none!important;z-index:5;width:auto;text-shadow:0 2px 14px rgba(0,0,0,.45)}
+#content-philantrophy .philantrophy-slider .global-site-title span{left:0}
+#content-philantrophy .philantrophy-slider .global-site-title i{left:0}
+#content-philantrophy .philantrophy-slick-slider{position:relative}
+#content-philantrophy .philantrophy-slick-slider::after{content:"";position:absolute;inset:0;background:linear-gradient(to top,rgba(0,0,0,.72),rgba(0,0,0,0) 60%);pointer-events:none;z-index:2}
+#content-philantrophy .philantrophy-list img{border-radius:0 30px 0 0}
+/* sídlo (magazine) */
+#content-magazine .magazine-bg canvas{opacity:.28}
+#content-magazine{background:#f3f3f3}
+/* kanceláře */
+.office-list.office-list-heading .office-name{font-size:5vw;width:36.25vw;left:-13.75vw;top:-13.6vw}
+@media (max-width:991px){.office-list.office-list-heading .office-name{font-size:50px;width:100%;left:0;top:0}}
+/* podstránky */
+.ip-about__history-text-top{width:28%;margin-left:5%}
+.ip-about__history-title{right:0}
+.ip-about__history-title .global-site-title{font-size:96px}
+.ip-about__history-title .global-site-title span{max-width:22vw;white-space:normal;line-height:1.4}
+@media (max-width:991px){.ip-about__history-title .global-site-title{font-size:60px}}
+.ip-about__history-reviews li span,.ip-about__history-reviews li span strong{color:#a17652}
+.cib-gal{display:flex;flex-wrap:wrap;margin:40px -8px 0}.cib-gal a{width:33.3333%;padding:8px;display:block}.cib-gal img{width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;border-radius:30px;display:block}@media(max-width:767px){.cib-gal a{width:50%}}.cib-cta{margin:40px 0 80px}
+/* CTA tlačítko na podstránkách */
+.cib-cta a.global-btn{display:inline-flex;align-items:center;background:#a17652;color:#fff;padding:14px 28px;border-radius:0 16px 0 0;font-family:var(--font-family-title);letter-spacing:.3em;text-transform:uppercase;font-size:14px;text-decoration:none}
+.cib-cta a.global-btn i{display:none}
+.cib-cta a.global-btn:hover{background:#8a6442;color:#fff}
+/* loga v pásu „Ozvěte se nám“ (světlé pozadí) */
+.git-logos .logo-item img{filter:brightness(0) opacity(.7);height:40px;width:auto}
+
+/* Ozvěte se nám: bez řady log (jsou v heru a patičce), titulek menší, tmavé kontakty na světlém */
+#content-git .git-logos{visibility:hidden}
+#content-git .git-info .license,#content-git .git-info .smi a{color:#12142b}
+
+/* Ozvěte se nám: otočený titulek předlohy sedí na 2 krátká slova; náš je delší → posunout níž, ať nepřetéká nad sekci */
+@media (min-width:992px){#content-git .git-content .git-title-wrap{top:8vw}#content-git .git-content .git-title-wrap .git-title{transform:rotate(-90deg) translate(-2vw)}#content-git .git-content .git-title-wrap:before{top:-4vw;height:24vw}}
+/* titulek "Ozvěte se nám": bez scroll-paralaxy předlohy, ta ho u delšího textu vytlačí nad sekci */
+#content-git .git-content .git-title-wrap{transform:none!important}
+/* kontakt: fotka v pozadí viditelnější než ve výchozím tématu */
+.ip-contact__bg canvas{opacity:.28!important}
+.ip-contact__main-form .cib-consent{font-size:13px;color:#000;line-height:1.5;margin-left:8px}
+.ip-contact__main-form .field-disclaimer{display:flex;align-items:flex-start;gap:6px;margin:10px 0 14px}
