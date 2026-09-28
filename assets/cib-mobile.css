@@ -1,0 +1,949 @@
+/* ═══ CIB GROUP – MOBILNÍ VRSTVA, základ (načítá se jen do 991 px) ═══
+   Sdílené tokeny a primitiva. Sekce řeší cib-mobile-1/2/3.css. Desktop se nemění. */
+@media (max-width:991px){
+:root{--mp:20px;--m-bronz:#a17652;--m-bronz-d:#8a6442;--m-ink:#111;--m-muted:#6f6f6f;--m-gray:#f3f3f3;--m-line:rgba(0,0,0,.14);--m-line-w:rgba(255,255,255,.18);--ft:var(--font-family-title);--fs:var(--font-family-sofia)}
+html,body{overflow-x:clip}
+/* dekorace předlohy, které na telefonu jen překážejí */
+.side-offices-links,.aj-monogram,.philantrophy-monogram,.ftr-monogram,#scroll-down,.side-fixed-contact,.quote-holder,.magazine-bg::before,.ftr-monogram-wrap{display:none!important}
+/* kontejnery: jednotný boční okraj 20 px */
+.pg-wrap,.ss__in,.m2__in,.m2l__in,.cib-write__in,.cib-dev__in,.gal__in,.tl2__in,.cib-nem-grid .fp-inner,.fp-inner,.pp-holder,.aj-holder,.testi-holder,.philantrophy-holder,.magazine-holder,.netflix-holder,.social-holder,.newsletter-holder{padding-left:var(--mp)!important;padding-right:var(--mp)!important;max-width:100%!important}
+/* nadpisy sekcí: jeden vzor pro celý web */
+.global-site-title{font-size:38px!important;line-height:.95!important;letter-spacing:.02em!important;margin:0 0 18px!important;left:0!important;position:static!important;transform:none!important;width:auto!important;max-width:100%!important;text-align:left}
+.global-site-title span{display:block!important;font-size:11px!important;font-weight:400!important;letter-spacing:.26em!important;margin:0 0 12px!important;padding:0!important;line-height:1.2!important;max-width:100%!important;white-space:normal!important}
+.global-site-title span i{display:none!important}
+.global-site-title strong{font-weight:500!important}
+/* tlačítka */
+.global-btn,.pg-btn{display:inline-flex!important;align-items:center;justify-content:center;gap:14px;min-height:50px;padding:0 24px!important;font-family:var(--ft)!important;font-size:12px!important;letter-spacing:.24em!important;text-transform:uppercase;line-height:1.1;text-decoration:none;border-radius:0 14px 0 0}
+.global-btn span{gap:14px!important}
+.global-btn span i{width:26px!important;height:26px!important}
+.global-btn span i:before{font-size:13px!important}
+/* text */
+p{-webkit-text-size-adjust:100%}
+.pg-text p,.aj-text p,.philantrophy-content-text p,.magazine-text p,.netflix-subtext p,.cib-dev__text p,.m2l__p p,.dir__side p,.m2__side>p,.tl2__head p,.ss__head p,.pl__head p,.cib-write__side>p{font-size:15.5px!important;line-height:1.7!important;letter-spacing:.01em!important;text-align:left!important}
+/* obrázky nikdy nepřetečou */
+img{max-width:100%}
+/* formuláře: 16 px = iOS nezoomuje */
+.cib-field input,.cib-field textarea,.cib-field select{font-size:16px!important}
+}
+
+
+/* cib-mobile-1.css – Builder 1: hlavička, hero, projekty (karusel + mřížka), CIB GROUP (aj), čísla (pp), projekty před patičkou (office), patička. Viz MOBILE-SPEC.md */
+@media (max-width:991px){
+
+/* ═══ HLAVIČKA ═══ */
+header.main-header{height:64px!important;padding:0 var(--mp)!important}
+header.main-header .header-inner .header-logo{max-width:calc(100% - 140px)!important}
+header.main-header .header-inner .header-logo img{max-height:26px;width:auto}
+header.main-header .header-inner .header-mobile-content{gap:2px!important}
+header.main-header .header-contact-details ul{display:flex;gap:2px;margin:0;padding:0;list-style:none}
+header.main-header .header-contact-details ul li a{display:flex;align-items:center;justify-content:center;width:40px;height:40px;font-size:17px}
+header.main-header .header-burger-menu{width:44px!important;height:44px!important;display:flex;align-items:center;justify-content:center;margin:0 -8px 0 0!important}
+header.main-header .header-burger-menu .hb{width:24px;gap:6px}
+
+/* ═══ HERO (domov + podstránky): .cib-hero je jen pozadí (video/prolínání), rámem je .slider-holder > .textwidget (100svh), titulek + značky/fakta v toku dole, tmavý gradient ═══ */
+#content-slider .slider-holder>.textwidget{position:relative;display:flex;flex-direction:column;justify-content:flex-end;height:100svh;min-height:560px;padding:0 var(--mp) 30px;box-sizing:border-box;overflow:hidden;background:#000}
+.slideshow-area .slider-holder .cib-hero,.cib-hero{position:absolute!important;inset:0;height:100%!important;min-height:0!important;display:block!important;padding:0!important;z-index:1}
+.cib-hero .aios-slider-custom-video{position:absolute!important;inset:0;z-index:1;height:100%}
+.slideshow-area .slider-holder .cib-hero .aios-slider-custom-video canvas,.cib-hero canvas{height:100%!important;min-height:0!important;max-height:none!important;aspect-ratio:auto!important;width:100%}
+.cib-hero video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.cib-hero::after{content:"";position:absolute;left:0;right:0;bottom:0;height:72%!important;background:linear-gradient(to top,rgba(0,0,0,.88) 0%,rgba(0,0,0,.55) 38%,rgba(0,0,0,0) 100%)!important;z-index:2;pointer-events:none}
+.slideshow-area .slider-holder:before{opacity:.55;z-index:2}
+/* titulek: vlevo, v toku */
+.slideshow-area .slider-content,.cib-sub .slideshow-area .slider-content{position:relative!important;inset:auto!important;bottom:auto!important;order:1;width:100%!important;max-width:100%!important;margin:0!important;z-index:5;overflow:visible!important;opacity:1!important;transform:none!important}
+.slideshow-area .slider-content .slider-offices-label,.cib-sub .slideshow-area .slider-content .slider-offices-label{text-align:left!important;padding:0!important;font-size:11px!important;font-weight:400;letter-spacing:.26em!important;color:rgba(255,255,255,.82);margin:0 0 10px}
+.slideshow-area .slider-content .slider-offices-slider,.cib-sub .slideshow-area .slider-content .slider-offices-slider{max-width:100%!important;text-align:left!important;margin:0!important}
+.slideshow-area .slider-content .slider-office-list,.cib-sub .slideshow-area .slider-content .slider-office-list{padding:0!important;margin:0!important}
+.slideshow-area .slider-content .slider-office-list a,.cib-sub .slideshow-area .slider-content .slider-office-list a{font-size:40px!important;line-height:.98!important;font-weight:500!important;letter-spacing:.03em!important;white-space:normal!important;text-align:left;padding:0 0 14px;color:#fff}
+.slideshow-area .slider-content .slider-office-list a i{display:none!important}
+/* značky (domov) / klíčová fakta (podstránky): v toku pod titulkem */
+.cib-hero-brands,.cib-hero-brands:not(.cib-hero-facts),.cib-sub .cib-hero-brands.cib-hero-facts{display:flex!important;flex-direction:column;align-items:flex-start;position:relative!important;inset:auto!important;left:auto!important;right:auto!important;bottom:auto!important;order:2;width:100%;margin:6px 0 0;padding-top:18px;border-top:1px solid rgba(255,255,255,.22);z-index:5;opacity:1!important;transform:none!important}
+.cib-hero-brands .cib-hero-brands__label,.cib-hero-brands:not(.cib-hero-facts) .cib-hero-brands__label,.cib-sub .cib-hero-facts .cib-hero-brands__label{font-size:11px!important;letter-spacing:.26em!important;color:rgba(255,255,255,.6)!important;opacity:1;border:0;margin:0 0 14px!important;padding:0;text-shadow:none}
+.cib-hero-brands:not(.cib-hero-facts) .cib-hero-brands__row{display:flex;flex-wrap:wrap;align-items:center;gap:14px 26px!important;padding:0!important}
+.cib-hero-brands:not(.cib-hero-facts) img{height:30px!important;max-height:30px!important;min-height:0!important;width:auto;filter:drop-shadow(0 1px 6px rgba(0,0,0,.6))}
+.cib-sub .cib-hero-facts .cib-hero-brands__row{display:grid!important;grid-template-columns:1fr 1fr;gap:14px 16px!important;padding:0!important;width:100%}
+.cib-sub .cib-hero-fact b{font-size:24px!important;line-height:1;letter-spacing:.04em;text-shadow:none}
+.cib-sub .cib-hero-fact span{font-size:10px!important;letter-spacing:.24em;margin-top:6px!important;color:rgba(255,255,255,.6)!important;text-shadow:none}
+
+/* ═══ PROJEKTY: karusel (domov, podstránky) + mřížka #portfolio ═══ */
+section.featured-properties-area{padding:56px 0 64px!important;background:#000}
+.featured-properties-area .fp-inner{display:flex;flex-direction:column}
+.featured-properties-area .fp-head{display:contents}
+.featured-properties-area .fp-head .global-site-title{margin:0 0 26px!important}
+.featured-properties-area .fp-head .fp-link{display:block!important;order:3;margin:28px 0 0}
+.featured-properties-area .fp-head .fp-link a{width:100%;max-width:100%;height:auto;font-size:12px}
+.featured-properties-area .fp-feed{order:2;margin:0 calc(-1 * var(--mp)) 0 0!important;max-width:none!important}
+.featured-properties-area .fp-slider-wrap{max-width:none!important;margin:0!important}
+/* slick (téma ho na telefonu zapíná, JS nesmím měnit): 13.5 % vpravo = další karta vykukuje, karta = 82 % obrazovky */
+.fp-slider .slick-list{padding:0 13.5% 0 0!important;overflow:hidden}
+.fp-slider .slick-track{display:flex;align-items:flex-start}
+.fp-slider .slick-slide{height:auto}
+.fp-slider .slick-slide>div{max-width:100%!important;justify-self:auto!important}
+.fp-slider .fp-list{padding:0 14px 0 0!important;width:100%!important}
+/* záloha bez slicku (až koordinátor vypne slick na telefonu v scripts-theme.js initFeaturedProperties): nativní scroll-snap, karta 82 %, další vykukuje */
+.fp-slider:not(.slick-initialized){display:flex!important;flex-wrap:nowrap!important;overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding-left:0;scrollbar-width:none;-webkit-overflow-scrolling:touch;padding-right:var(--mp)}
+.fp-slider:not(.slick-initialized)::-webkit-scrollbar{display:none}
+.fp-slider:not(.slick-initialized) .fp-list{flex:0 0 82%!important;width:82%!important;scroll-snap-align:start;padding:0 14px 0 0!important}
+/* karta: fotka 4:3, popisek POD fotkou (žádný hover), jeden nadpis */
+.featured-properties-area .fp-list a{display:block;border-radius:0!important;background:transparent!important;overflow:visible!important;max-width:100%!important;margin:0!important}
+.featured-properties-area .fp-photo{overflow:visible!important;background:transparent!important}
+.featured-properties-area .fp-photo:before,.featured-properties-area .fp-photo:after{display:none!important}
+.featured-properties-area .fp-photo-wrap{border-radius:0 20px 0 0;overflow:hidden;aspect-ratio:4/3;background:#111}
+.featured-properties-area .fp-photo img{aspect-ratio:4/3!important;height:100%!important;min-height:0!important;width:100%;object-fit:cover;transform:none!important;opacity:1!important}
+.featured-properties-area .fp-list a:hover .fp-photo img{opacity:1!important;transform:none!important}
+.featured-properties-area .fp-photo>.fp-photo-content{position:static!important;opacity:1!important;height:auto!important;width:100%!important;padding:16px 0 0!important;pointer-events:auto;display:block!important;transform:none!important}
+.featured-properties-area .fp-photo+.fp-address{display:none!important}
+.featured-properties-area .fp-photo-content .fp-price{margin:0 0 8px}
+.featured-properties-area .fp-photo-content .fp-price span{font-size:11px!important;letter-spacing:.26em!important;color:var(--m-bronz);padding:0!important;margin:0!important;font-weight:400!important;line-height:1.2}
+.featured-properties-area .fp-price span:before{display:none!important}
+.featured-properties-area .fp-photo .fp-address{position:static!important;display:block!important;height:auto!important;margin:0 0 8px!important;padding:0!important;color:#fff!important;font-size:22px!important;line-height:1.1!important;font-weight:500!important;letter-spacing:.03em!important;opacity:1!important}
+.featured-properties-area .fp-photo .fp-address span{display:block;color:rgba(255,255,255,.6)!important;font-size:11px!important;letter-spacing:.2em!important;margin-top:6px;font-weight:400}
+.featured-properties-area .fp-details ul{display:flex!important;flex-direction:row!important;flex-wrap:wrap;align-items:center;gap:2px 7px!important;margin:0!important;padding:0;font-family:var(--fs);text-transform:none;letter-spacing:0;font-size:13px;line-height:1.5;color:rgba(255,255,255,.62)}
+.featured-properties-area .fp-details ul li{padding:0!important;gap:0!important;color:rgba(255,255,255,.35)}
+.featured-properties-area .fp-details ul li em{color:rgba(255,255,255,.66)!important}
+.featured-properties-area .fp-details ul li span[class*=listing-icon]{display:none!important}
+.featured-properties-area .fp-monogram{display:none!important}
+/* mřížka portfolia (nemovitosti/): jeden sloupec, filtr jako vodorovná řada */
+.cib-nem-grid .fp-inner{padding:0 var(--mp)!important;max-width:100%!important}
+.cib-nem-grid .fp-head{margin:0!important}
+.cib-nem-grid .pg-filter{display:flex;flex-wrap:nowrap!important;overflow-x:auto;scrollbar-width:none;gap:0 22px!important;margin:0 calc(-1 * var(--mp)) 30px!important;padding:0 var(--mp) 12px!important;border-bottom:1px solid rgba(255,255,255,.18);scroll-padding-left:var(--mp);-webkit-mask-image:linear-gradient(to right,#000 calc(100% - 44px),transparent);mask-image:linear-gradient(to right,#000 calc(100% - 44px),transparent)}
+.cib-nem-grid .pg-filter::-webkit-scrollbar{display:none}
+.cib-nem-grid .pg-filter button{flex:0 0 auto;white-space:nowrap;font-size:12px!important;letter-spacing:.24em!important;padding:6px 0!important}
+.cib-nem-grid .pg-filter button::after{bottom:-13px!important;height:2px!important}
+.cib-nem-grid .fp-feed{margin:0!important}
+.cib-nem-grid .fp-static{display:flex!important;flex-direction:column;gap:34px;margin:0!important}
+.cib-nem-grid .fp-list{width:100%!important;padding:0!important}
+.cib-nem-grid .fp-list.is-hidden{display:none!important}
+
+/* ═══ CIB GROUP / úvod podstránky (content-jason) ═══ */
+section.about-jason-area{padding:56px 0 64px!important;overflow:hidden}
+.about-jason-area .aj-inner{display:block}
+.about-jason-area .aj-left,.about-jason-area .aj-right{width:100%!important;padding:0!important;display:block}
+.about-jason-area .aj-head{text-align:left!important;margin:0 0 22px!important}
+.about-jason-area .aj-head:after{display:none!important}
+.about-jason-area .aj-head .global-site-title{margin:0 0 14px!important}
+.about-jason-area .aj-head .global-site-title span{margin:0!important}
+.about-jason-area .aj-name{font-size:36px!important;line-height:.95!important;letter-spacing:.02em!important;white-space:normal!important;padding:0!important;width:auto!important}
+.about-jason-area .aj-name span{font-weight:200!important}
+.about-jason-area .aj-photo{max-width:100%!important;margin:0!important}
+.about-jason-area .aj-photo img{max-width:100%!important;margin:0!important;aspect-ratio:4/3!important;height:auto;object-fit:cover;border-radius:0 20px 0 0!important}
+.about-jason-area .aj-content{display:flex;flex-direction:column;padding-top:26px}
+.about-jason-area .aj-text{order:1}
+.about-jason-area .aj-text p{padding:0 0 18px!important;color:#111}
+.about-jason-area .aj-text p:last-child{padding-bottom:0!important}
+.about-jason-area .aj-link{order:2;margin:28px 0 0!important}
+.about-jason-area .aj-link a.global-btn{width:100%;max-width:100%!important;margin:0!important;height:auto!important}
+.about-jason-area .aj-link.video-link{order:3;margin:22px 0 0!important}
+.about-jason-area .aj-link.video-link a{display:flex;align-items:center;gap:14px;justify-content:flex-start;margin:0!important;max-width:100%!important;font-size:12px!important;letter-spacing:.24em!important;height:auto!important}
+.about-jason-area .aj-link.video-link em.ai-font-play-button-a{width:44px!important;height:44px!important;flex:0 0 44px;margin:0!important;font-size:12px}
+
+/* ═══ ČÍSLA (content-stats): plné černé pozadí, nadpis vlevo, dva sloupce ═══ */
+section.proven-performance-area{padding:56px var(--mp) 64px!important;background:#0a0a0a}
+.proven-performance-area .pp-bg{display:none!important}
+.proven-performance-area .pp-holder{padding:0!important}
+.proven-performance-area .pp-inner{display:block}
+.proven-performance-area .pp-head{display:flex;flex-direction:column;width:100%!important;text-align:left!important;padding:0 0 30px!important;position:static!important}
+.proven-performance-area .pp-head .global-site-title{order:1;margin:0 0 12px!important}
+.proven-performance-area .pp-head .global-site-title span{margin:0!important;letter-spacing:.26em!important}
+.proven-performance-area .pp-name{order:2;font-size:38px!important;line-height:.95!important;letter-spacing:.02em!important;white-space:normal!important;padding:0!important;width:auto!important;position:static!important;transform:none!important;text-align:left}
+.proven-performance-area .pp-name span{font-weight:200!important}
+.proven-performance-area .pp-content{margin:0!important;width:100%!important;max-width:100%!important}
+.proven-performance-area .pp-list-holder{display:grid!important;grid-template-columns:1fr 1fr;gap:22px 20px!important;padding:0!important;max-width:100%!important;margin:0!important}
+.proven-performance-area .pp-list{width:auto!important;margin:0!important;padding:14px 0 0!important;text-align:left!important;border-top:1px solid rgba(255,255,255,.22)}
+.proven-performance-area .pp-stats-number{font-size:38px!important;font-weight:400!important;line-height:1;letter-spacing:.01em!important;margin:0 0 8px!important;white-space:nowrap}
+.proven-performance-area .pp-stats-number em{font-size:.55em;font-weight:300;color:var(--m-bronz);vertical-align:baseline}
+.proven-performance-area .pp-text{font-size:11px!important;letter-spacing:.22em!important;color:rgba(255,255,255,.62);border:0!important;padding:0!important;text-align:left!important;white-space:normal!important;line-height:1.4}
+
+/* ═══ NAŠE PROJEKTY před patičkou (content-office): vodorovný pás karet, text pod fotkou ═══ */
+section.office-area{background:#000;padding:0 0 64px!important}
+.office-area .cib-of-title{padding:56px var(--mp) 26px!important;background:#000}
+.office-area .cib-of-title .global-site-title{font-size:38px!important;margin:0!important}
+.office-area .office-list-wrap{display:block;overflow:visible}
+.office-area .office-list.office-list-heading{display:none!important}
+.office-area .office-list{display:flex!important;flex-wrap:nowrap!important;gap:14px;width:100%!important;overflow-x:auto;scroll-snap-type:x mandatory;scroll-padding-left:var(--mp);padding:0 var(--mp) 6px!important;margin:0;scrollbar-width:none;-webkit-overflow-scrolling:touch;box-sizing:border-box}
+.office-area .office-list::-webkit-scrollbar{display:none}
+.office-area .office-list .office-item{flex:0 0 82%!important;width:82%!important;scroll-snap-align:start;position:static}
+.office-area .office-list .office-item>div{display:flex;flex-direction:column}
+.office-area .office-list .office-item .item-img{position:relative;aspect-ratio:4/3;border-radius:0 20px 0 0;overflow:hidden;background:#111;order:1}
+.office-area .office-list .office-item .item-img canvas{display:none!important}
+.office-area .office-list .office-item .item-img img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:1!important}
+.office-area .office-list .office-item .item-name{order:2;position:static!important;writing-mode:horizontal-tb!important;font-size:22px!important;font-weight:500;letter-spacing:.03em;line-height:1.1;padding:18px 0 0!important;margin:0}
+.office-area .office-list .office-item .item-name:before{position:static;display:block;width:34px;height:3px;margin:0 0 12px}
+.office-area .office-list .office-item .item-info{order:3;position:static!important;padding:10px 0 0;opacity:1!important;visibility:visible!important}
+.office-area .office-list .office-item .item-info .phone{font-size:13px;letter-spacing:.2em;margin:0 0 6px}
+.office-area .office-list .office-item .item-info .phone:after{display:none}
+.office-area .office-list .office-item .item-info .address{font-size:14px;line-height:1.5;color:rgba(255,255,255,.66)}
+
+/* ═══ PATIČKA (content-ftr): plné pozadí, vše vlevo, bez duplicitního loga ═══ */
+footer.main-footer{padding:56px var(--mp) 64px!important;background:#050505;position:relative}
+.main-footer .ftr-bg,.main-footer .ftr-monogram,.main-footer .ftr-logos,.main-footer .ftr-disclaimer-logo{display:none!important}
+.main-footer .ftr-holder{max-width:100%;padding:0}
+.main-footer .ftr-logo{margin:0 0 30px!important}
+.main-footer .ftr-logo a{max-width:180px!important;margin:0!important}
+.main-footer .ftr-awards-logos{margin:0 0 36px!important}
+.main-footer .ftr-awards-inner{display:block}
+.main-footer .ftr-awards{display:flex;flex-wrap:wrap;justify-content:flex-start!important;align-items:center;gap:16px 24px!important;max-width:100%;margin:0!important;width:100%!important}
+.main-footer .ftr-awards img{height:38px!important;width:auto!important;max-width:none!important;opacity:.92}
+.main-footer .ftr-nav{margin:0!important;padding:22px 0!important;border-top:1px solid rgba(255,255,255,.18);border-bottom:1px solid rgba(255,255,255,.18)}
+.main-footer ul.footernav{display:grid!important;grid-template-columns:1fr 1fr;gap:4px 16px;margin:0;padding:0}
+.main-footer ul.footernav>li{width:auto!important;text-align:left!important;margin:0!important}
+.main-footer ul.footernav>li>a{font-size:12px!important;letter-spacing:.22em!important;padding:9px 0!important;display:block}
+.main-footer .ftr-disclaimer{margin:30px 0 0!important;text-align:left!important;font-family:var(--fs)!important;font-size:14px!important;line-height:1.65!important;letter-spacing:.01em!important;color:rgba(255,255,255,.62)!important;max-width:100%}
+.main-footer .ftr-bottom{flex-direction:column;align-items:flex-start;gap:0;margin:30px 0 0!important;padding:22px 76px 0 0;border-top:1px solid rgba(255,255,255,.18)}
+.main-footer .footer-copyright,.main-footer .footer-copyright a{font-size:12px!important;letter-spacing:.14em!important;line-height:1.8!important;text-transform:uppercase;color:rgba(255,255,255,.55)!important;text-align:left}
+.main-footer .footer-copyright a{color:#fff!important}
+.main-footer .footer-copyright span{color:#fff}
+.main-footer .backtotop{right:var(--mp)!important;bottom:var(--mp)!important}
+.main-footer .backtotop__button{width:48px!important;height:48px!important;background:var(--m-bronz)!important;border-radius:0 14px 0 0!important}
+.main-footer .backtotop__button svg{width:24px!important}
+
+/* ═══════════════════════════════════════════════════════════════
+   OPRAVY PO KRITICE (2. kolo) – hlavička, menu, hero, tlačítka, stats, office, patička
+   ═══════════════════════════════════════════════════════════════ */
+
+/* ── HERO: tmavší gradient zespodu (světlé záběry videa), jemný pás nahoře pod logem ── */
+.cib-hero::after{height:85%!important;background:linear-gradient(to top,rgba(0,0,0,.94) 0%,rgba(0,0,0,.82) 30%,rgba(0,0,0,.5) 60%,rgba(0,0,0,0) 100%)!important}
+#content-slider .slider-holder>.textwidget::before{content:"";position:absolute;top:0;left:0;right:0;height:170px;background:linear-gradient(to bottom,rgba(0,0,0,.62),rgba(0,0,0,0));z-index:2;pointer-events:none}
+#content-slider .slider-office-list a,#content-slider .slider-content .global-site-title,#content-slider .slider-offices-label{text-shadow:0 2px 14px rgba(0,0,0,.55)}
+header.main-header .header-logo img{filter:drop-shadow(0 1px 2px rgba(0,0,0,.55))}
+header.main-header .header-contact-details ul li a,header.main-header .header-burger-menu{filter:drop-shadow(0 1px 2px rgba(0,0,0,.5))}
+/* titulek podstránky: vyvážený zlom („RESIDENCE / VODIČKOVA 33“, ne osiřelé „33“) */
+.cib-sub .slideshow-area .slider-content .slider-office-list a{font-size:38px!important;text-wrap:balance;padding-right:24px}
+/* klíčová fakta: 3 v jednom řádku, 4 se zalomí 2+2 – nikdy osiřelá buňka */
+.cib-sub .cib-hero-facts .cib-hero-brands__row{display:flex!important;flex-wrap:wrap;gap:14px 30px!important}
+.cib-sub .cib-hero-fact{flex:0 0 auto;min-width:0}
+/* O nás: stejná čísla jsou hned v „Skupina v číslech“ – v heru fakta schovat */
+body:has(#content-vedeni) .cib-sub .slideshow-area .cib-hero-facts,body:has(#content-vedeni) .cib-hero-facts{display:none!important}
+
+/* ── MENU #vp-menu: celé do jedné obrazovky, logo nahoře, křížek v horní liště, okraj 20 px ── */
+#vp-menu{--panel-pad-zac:var(--mp);--panel-pad-kon:var(--mp);--panel-kruh:48px;--panel-sirka:100%}
+#vp-menu .panel__scroller,#vp-menu .panel__obsah{width:100%!important;max-width:none!important}
+#vp-menu .panel-menu{padding-block-end:20px!important;min-height:100%}
+#vp-menu .panel-menu__lista{min-height:64px!important;justify-content:flex-start!important;padding-right:76px}
+#vp-menu .panel-menu__domu{margin-inline-start:0!important;display:block;width:150px;height:22px;font-size:0!important;line-height:0;background:url(/propozice-cib-next/assets/cib-logo-main.png) left center/contain no-repeat}
+#vp-menu .panel__zavrit,#vp-menu.panel--zprava .panel__zavrit{top:8px!important;bottom:auto!important;left:auto!important;right:14px!important;transform:none!important;width:48px!important;height:48px!important;background:transparent!important;backdrop-filter:none!important;-webkit-backdrop-filter:none!important}
+#vp-menu .panel__zavrit svg{width:18px;height:18px}
+#vp-menu .panel-menu__hlavni{align-self:start!important;padding-block:6px 0!important}
+#vp-menu .panel-menu__odkaz{font-size:27px!important;line-height:1.38!important;font-weight:300!important}
+#vp-menu .panel-menu__pata{gap:18px!important;padding-top:20px}
+#vp-menu .panel-menu__drobne{padding-top:16px;border-top:1px solid rgba(255,255,255,.14)}
+#vp-menu .panel-menu__drobnyOdkaz{font-size:12px!important;line-height:1.85!important;letter-spacing:.2em!important;color:rgba(255,255,255,.72)!important}
+#vp-menu .panel-menu__kruhy{gap:8px!important;padding-top:16px;border-top:1px solid rgba(255,255,255,.14)}
+#vp-menu .panel-menu__kruhIkona{width:30px!important;height:30px!important}
+#vp-menu .panel-menu__kruhNazev{font-size:12px!important}
+#vp-menu .panel-menu__kruhNota{font-size:11px!important}
+
+/* ── TLAČÍTKA .global-btn: jeden tvar (jen pravý horní roh), plný bronz, bez rozbitého glyfu agentimage – místo něj čistá šipka ── */
+a.global-btn,button.global-btn,.global-btn{border-radius:0 14px 0 0!important;border-bottom-right-radius:0!important;background:#a17652!important;color:#fff!important;overflow:hidden}
+.global-btn:hover{background:#8a6442!important;color:#fff!important}
+.global-btn:after{display:none!important}
+.global-btn span i,.global-btn span i:before,.global-btn span i:after{display:none!important}
+.global-btn>span{display:flex!important;align-items:center;justify-content:space-between;width:100%!important;gap:16px!important;background:transparent!important;color:#fff!important;border-radius:0!important}
+.global-btn>span::after{content:"";flex:0 0 auto;width:20px;height:12px;background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 12' fill='none' stroke='%23fff' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M1 6h17M13 1l5 5-5 5'/%3E%3C/svg%3E") center/contain no-repeat}
+.featured-properties-area .fp-head .fp-link a.global-btn{height:50px!important}
+/* třetí odkaz na tutéž galerii (karty už na ni vedou) */
+#content-listings a.global-btn[href="#galerie"],#content-listings a.global-btn[href$="#galerie"]{display:none!important}
+#content-listings .fp-head .fp-link:has(>a[href$="#galerie"]){display:none!important}
+
+/* ── content-jason: nadpis černý jako všechny ostatní (žádný bronzový gradient); sídlo: kontakty se neopakují ── */
+.about-jason-area .aj-name,.about-jason-area .aj-name span{background:none!important;-webkit-background-clip:initial!important;background-clip:initial!important;-webkit-text-fill-color:#111!important;color:#111!important}
+#content-jason:has(.video-link a[href*="#fakturace"]) .aj-text p:nth-of-type(2){display:none!important}
+
+/* ── content-stats: 3 položky = řádkový seznam (číslo vlevo, popisek vpravo), žádná osiřelá buňka ── */
+.proven-performance-area .pp-list-holder--3,.proven-performance-area .pp-list-holder:has(>.pp-list:nth-child(3):last-child){grid-template-columns:1fr!important;gap:0!important}
+.proven-performance-area .pp-list-holder--3 .pp-list,.proven-performance-area .pp-list-holder:has(>.pp-list:nth-child(3):last-child) .pp-list{display:flex!important;align-items:baseline;gap:20px;padding:16px 0!important;border-top:1px solid rgba(255,255,255,.22)}
+.proven-performance-area .pp-list-holder--3 .pp-list:last-child,.proven-performance-area .pp-list-holder:has(>.pp-list:nth-child(3):last-child) .pp-list:last-child{border-bottom:1px solid rgba(255,255,255,.22)}
+.proven-performance-area .pp-list-holder--3 .pp-stats-number,.proven-performance-area .pp-list-holder:has(>.pp-list:nth-child(3):last-child) .pp-stats-number{flex:0 0 118px;margin:0!important;font-size:40px!important}
+.proven-performance-area .pp-list-holder--3 .pp-text,.proven-performance-area .pp-list-holder:has(>.pp-list:nth-child(3):last-child) .pp-text{flex:1 1 auto;margin:0!important;padding-bottom:0!important}
+/* O nás: pět tmavých sekcí za sebou – čísla světle, ať se rytmus vrátí */
+body:has(#content-vedeni) section.proven-performance-area{background:#f3f3f3!important;color:#0a0a0a}
+body:has(#content-vedeni) .proven-performance-area .pp-head .global-site-title,body:has(#content-vedeni) .proven-performance-area .pp-name,body:has(#content-vedeni) .proven-performance-area .pp-stats-number,body:has(#content-vedeni) .proven-performance-area .pp-stats-number span,body:has(#content-vedeni) .proven-performance-area .pp-stats-number i{color:#0a0a0a!important;-webkit-text-fill-color:#0a0a0a}
+body:has(#content-vedeni) .proven-performance-area .pp-text{color:rgba(0,0,0,.58)!important}
+body:has(#content-vedeni) .proven-performance-area .pp-list{border-color:rgba(0,0,0,.16)!important}
+body:has(#content-vedeni) .proven-performance-area .pp-head .global-site-title span{color:var(--m-bronz)!important;-webkit-text-fill-color:var(--m-bronz)!important}
+
+/* ── content-office: jiný nadpis než content-listings („Naše projekty“ 2× na stránce) → „Kontakty objektů / Naše adresy“ ── */
+.office-area .cib-of-title .global-site-title{font-size:0!important;line-height:0!important;margin:0!important}
+.office-area .cib-of-title .global-site-title>span,.office-area .cib-of-title .global-site-title strong{display:none!important}
+.office-area .cib-of-title .global-site-title::before{content:"Kontakty objektů";display:block;font-family:var(--ft);font-size:11px;font-weight:400;letter-spacing:.26em;line-height:1.2;text-transform:uppercase;color:var(--m-bronz);margin:0 0 12px}
+.office-area .cib-of-title .global-site-title::after{content:"Naše adresy";display:block;font-family:var(--ft);font-size:38px;font-weight:300;letter-spacing:.02em;line-height:.95;text-transform:uppercase;color:#fff}
+
+/* ── PATIČKA: logo jen jednou, loga značek větší a klidnější, bez dlouhého textu, copyright jako dva čisté řádky, tlačítko nahoru u loga ── */
+.main-footer .ftr-logo{margin:0 0 34px!important;padding-right:70px}
+.main-footer .ftr-logo a{max-width:230px!important}
+.main-footer .ftr-logo img{width:100%;height:auto}
+.main-footer .ftr-awards img[alt="CIB GROUP"],.main-footer .ftr-awards img[src*="brand-cib-"]{display:none!important}
+.main-footer .ftr-awards{gap:18px 28px!important}
+.main-footer .ftr-awards img{height:44px!important;opacity:.85}
+.main-footer .ftr-disclaimer{display:none!important}
+.main-footer .ftr-bottom{padding:22px 0 0!important;margin:0!important;border-top:0!important}
+.main-footer .ftr-nav{border-bottom:1px solid rgba(255,255,255,.18)}
+.main-footer .footer-copyright a{display:inline-block!important;margin:12px 18px 0 0!important;padding:0 0 3px!important;border-bottom:1px solid rgba(255,255,255,.35);font-family:var(--ft)!important;font-size:12px!important;line-height:1.3!important;letter-spacing:.22em!important;text-transform:uppercase!important;color:#fff!important;text-decoration:none;white-space:nowrap}
+.main-footer .backtotop{top:56px!important;right:var(--mp)!important;bottom:auto!important}
+
+/* ── #portfolio filtr: zalomit do dvou řádků, žádný vodorovný scroll ani maska ── */
+.cib-nem-grid .pg-filter{flex-wrap:wrap!important;overflow:visible!important;gap:6px 22px!important;margin:0 0 30px!important;padding:0 0 14px!important;-webkit-mask-image:none!important;mask-image:none!important}
+.cib-nem-grid .pg-filter button{padding:6px 0!important;position:relative}
+.cib-nem-grid .pg-filter button::after{bottom:0!important;height:2px!important}
+/* ── content-stats: bez ztmavovací vrstvy a bez halo kolem čísel ── */
+.proven-performance-area:after,.proven-performance-area:before{display:none!important}
+.proven-performance-area .pp-stats-number,.proven-performance-area .pp-stats-number *,.proven-performance-area .pp-text,.proven-performance-area .pp-name{text-shadow:none!important}
+
+/* ═══════════════════════════════════════════════════════════════
+   OPRAVY PO KRITICE (3. kolo) – hero světlejší, fakta jako mřížka, kotvy pod hlavičkou, menu rychlejší + aktivní položka,
+   duplicitní čísla pryč, office/patička, telefon v kartách
+   ═══════════════════════════════════════════════════════════════ */
+
+/* ── HERO: fotka/video musí zůstat světlé. Celoplošný závoj tématu (.slider-holder:before) pryč, horní pás jen krátký a slabý
+   (pod logem v hlavičce), spodní gradient jen pod textem (horní ~45 % hera je čistých) ── */
+#content-slider .slider-holder::before,.slideshow-area .slider-holder:before,.cib-sub .slideshow-area .slider-holder:before{display:none!important;opacity:0!important}
+#content-slider .slider-holder>.textwidget::before{height:120px!important;background:linear-gradient(to bottom,rgba(0,0,0,.52),rgba(0,0,0,0))!important}
+.cib-hero::after,.slideshow-area .slider-holder .cib-hero::after{height:66%!important;background:linear-gradient(to top,rgba(0,0,0,.92) 0%,rgba(0,0,0,.74) 30%,rgba(0,0,0,.42) 60%,rgba(0,0,0,0) 100%)!important}
+#content-slider .slider-office-list a,#content-slider .slider-offices-label{text-shadow:0 1px 3px rgba(0,0,0,.5),0 4px 22px rgba(0,0,0,.55)}
+.cib-sub .cib-hero-fact b,.cib-sub .cib-hero-fact span{text-shadow:0 1px 3px rgba(0,0,0,.5)!important}
+/* domov: řádek čtyř log (30 px, nečitelné wordmarky) pryč – loga značek jsou v patičce; titulek dosedne dolů */
+body:not(.cib-sub) #content-slider .cib-hero-brands:not(.cib-hero-facts){display:none!important}
+body:not(.cib-sub) #content-slider .slider-holder>.textwidget{padding-bottom:44px}
+body:not(.cib-sub) #content-slider .slider-office-list a{padding-bottom:0!important}
+/* praha: sepiová ulice Benkova – motiv je dole, nebe nahoře → posunout výřez, ať první obrazovka není prázdná plocha */
+#content-slider img.cib-slide-base[src*="benkova"],#content-slider img.cib-slide[src*="benkova"]{height:138%!important;top:auto!important;bottom:0!important;object-position:50% 100%!important}
+/* klíčová fakta = mřížka 2×2 na společné ose (3 fakta = 1 řádek o třech sloupcích); popisky 11 px */
+.cib-sub .cib-hero-facts .cib-hero-brands__row,#content-slider .cib-hero-facts .cib-hero-brands__row{display:grid!important;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:18px 20px!important;flex-wrap:nowrap;align-items:start}
+#content-slider .cib-hero-facts .cib-hero-brands__row:has(>.cib-hero-fact:nth-child(3):last-child){grid-template-columns:repeat(3,minmax(0,auto));justify-content:space-between;gap:18px 16px!important}
+.cib-sub .cib-hero-fact{flex:none!important;min-width:0;width:auto}
+.cib-sub .cib-hero-fact b{display:block;font-size:24px!important;line-height:1;letter-spacing:.04em}
+.cib-sub .cib-hero-fact span{display:block;font-size:11px!important;letter-spacing:.24em!important;line-height:1.4;margin-top:6px!important;color:rgba(255,255,255,.7)!important}
+.cib-sub .cib-hero-facts{margin-top:4px!important;padding-top:16px!important}
+
+/* ── KOTVY: hlavička je fixed 64 px → každý cíl kotvy (#galerie, #content-jason…) začíná pod ní ── */
+section[id],footer[id],div[id]{scroll-margin-top:72px!important}
+
+/* ── MENU: wipe 1,3 s zkrátit na .45 s (hrana wipu jinak sekundu uřezává písmena); aktuální stránka bronzově ── */
+#vp-menu.panel--prichod .panel__obsah,#vp-menu.panel--odchod .panel__obsah,#vp-menu .panel__obsah{transition-duration:.45s!important}
+#vp-menu .panel__pozadi,#vp-menu.panel--prichod .panel__pozadi,#vp-menu.panel--odchod .panel__pozadi{transition-duration:.4s!important}
+body:has(#portfolio) #vp-menu a.panel-menu__odkaz[href$="/nemovitosti/"],
+body:has(#content-slider video[data-mobil*="balabenka"]) #vp-menu a.panel-menu__odkaz[href$="/nemovitosti/"],
+body:has(#content-slider video[data-mobil*="hero-v33"]) #vp-menu a.panel-menu__odkaz[href$="/nemovitosti/"],
+body:has(#content-slider video[data-mobil*="liberec"]) #vp-menu a.panel-menu__odkaz[href$="/nemovitosti/"],
+body:has(#content-slider img[src*="v33lux"]) #vp-menu a.panel-menu__odkaz[href$="/nemovitosti/"],
+body:has(#content-slider img[src*="benkova"]) #vp-menu a.panel-menu__odkaz[href$="/nemovitosti/"],
+body:has(#content-slider img[src*="cib-p-ovz"]) #vp-menu a.panel-menu__odkaz[href$="/development/lichoceves/"],
+body:has(a[href*="esstables.com"]) #vp-menu a.panel-menu__odkaz[href$="/staje/emma-sophia-stables/"],
+body:has(#content-jason a[href$="kontakt/#fakturace"]) #vp-menu a.panel-menu__odkaz[href$="/sidlo/"],
+body:has(#content-vedeni) #vp-menu a.panel-menu__odkaz[href$="/o-nas/"],
+body:has(#content-kontakt) #vp-menu a.panel-menu__odkaz[href$="/kontakt/"]{color:var(--m-bronz)!important;font-weight:400!important}
+/* rozcestník projektů: aktuální projekt bronzově */
+body:has(#content-slider video[data-mobil*="balabenka"]) #vp-menu a.panel-menu__drobnyOdkaz[href$="/balabenka/"],
+body:has(#content-slider video[data-mobil*="hero-v33"]) #vp-menu a.panel-menu__drobnyOdkaz[href$="/vodickova-33/"],
+body:has(#content-slider video[data-mobil*="liberec"]) #vp-menu a.panel-menu__drobnyOdkaz[href$="/sprava-bytu-liberec/"],
+body:has(#content-slider img[src*="v33lux"]) #vp-menu a.panel-menu__drobnyOdkaz[href$="/vodickova-luxury-suites/"],
+body:has(#content-slider img[src*="benkova"]) #vp-menu a.panel-menu__drobnyOdkaz[href$="/sprava-bytu-praha/"],
+body:has(#content-slider img[src*="cib-p-ovz"]) #vp-menu a.panel-menu__drobnyOdkaz[href$="/development/lichoceves/"],
+body:has(a[href*="esstables.com"]) #vp-menu a.panel-menu__drobnyOdkaz[href$="/staje/emma-sophia-stables/"]{color:var(--m-bronz)!important}
+
+/* ── DUPLICITNÍ ČÍSLA: kde „v číslech“ opakuje hero fakta, jednu ze sekcí vypustit ── */
+/* liberec (405/2/2006 = totéž), stáje (2023/20 min = totéž), Vodičkova 33 (1899/2024 = totéž): sekce content-stats pryč */
+body:has(#content-lokalita-2) #content-stats,body:has(a[href*="esstables.com"]) #content-stats,body:has(#content-slider video[data-mobil*="hero-v33"]) #content-stats{display:none!important}
+/* balabenka: 4 hero fakta jsou podmnožinou šesti čísel níže → v heru fakta schovat (jako O nás) */
+body:has(#content-slider video[data-mobil*="balabenka"]) .cib-sub .cib-hero-facts,body:has(#content-slider video[data-mobil*="balabenka"]) .cib-hero-facts{display:none!important}
+/* content-stats obecně: štítek bronzově (ne bílý .is-white), 3-položkový seznam těsnější (číslo 100 px, popisek světlejší) */
+.proven-performance-area .pp-head .global-site-title span,.proven-performance-area .pp-head .global-site-title.is-white span{color:var(--m-bronz)!important}
+.proven-performance-area .pp-list-holder--3 .pp-stats-number,.proven-performance-area .pp-list-holder:has(>.pp-list:nth-child(3):last-child) .pp-stats-number{flex:0 0 88px}
+.proven-performance-area .pp-list-holder--3 .pp-text,.proven-performance-area .pp-list-holder:has(>.pp-list:nth-child(3):last-child) .pp-text{color:rgba(255,255,255,.8)!important}
+
+/* ── NAŠE ADRESY → PATIČKA: kratší dojezd, dělicí linka, patička o odstín světlejší (ne 135 px prázdné černi) ── */
+section.office-area{padding-bottom:56px!important}
+.office-area .office-list{padding-bottom:0!important}
+footer.main-footer{border-top:1px solid rgba(255,255,255,.16)!important;background:#0a0a0a!important}
+/* telefon v kartách jako číslo (20 px, bez prostrkání), ne jako štítek */
+.office-area .office-list .office-item .item-info .phone{font-size:20px!important;letter-spacing:.02em!important;font-weight:400!important;margin:0 0 6px;color:#fff;text-transform:none}
+.office-area .office-list .office-item .item-info .phone a,.office-area .office-list .office-item .item-info .phone em{color:#fff!important;font-style:normal;font-family:var(--ft)}
+.office-area .office-list .office-item .item-info .address{font-size:14px;color:rgba(255,255,255,.66)}
+}
+
+/* koordinátor: křížek zavření menu bílý; patička po úpravě HTML (bez hacku přes ::before) */
+#vp-menu .panel__zavrit,#vp-menu .panel__zavrit svg{color:#fff!important}
+#vp-menu .panel__zavrit:hover{color:#a17652!important}
+.main-footer .footer-copyright{display:flex!important;flex-wrap:wrap;align-items:baseline;column-gap:.32em;row-gap:0;font-family:var(--fs)!important;font-size:12.5px!important;line-height:1.6!important;letter-spacing:.02em!important;text-transform:none!important;color:rgba(255,255,255,.5)!important;text-align:left}
+.main-footer .footer-copyright span{color:rgba(255,255,255,.5)!important;font-size:12.5px!important;letter-spacing:.02em!important;text-transform:none!important;font-family:var(--fs)!important}
+.main-footer .footer-copyright .fc-sep,.main-footer .footer-copyright br{display:none!important}
+.main-footer .footer-copyright .fc-addr{flex:0 0 100%;margin-top:2px}
+.main-footer .footer-copyright a{order:2;margin:14px 22px 0 0!important}
+/* karty: logo projektu vpravo nahoře na fotce (bílé, jemný stín); přebíjí obecné pravidlo pro img v .fp-photo */
+.featured-properties-area .fp-photo .fp-brand{position:absolute!important;top:14px!important;right:14px!important;left:auto!important;z-index:4;height:40px!important;min-height:0!important;max-height:none!important;width:auto!important;max-width:40%!important;aspect-ratio:auto!important;object-fit:contain!important;opacity:1!important;transform:none!important;filter:drop-shadow(0 1px 6px rgba(0,0,0,.6))!important;transition:none!important;pointer-events:none}
+.featured-properties-area .fp-photo .fp-brand--color{filter:drop-shadow(0 1px 6px rgba(0,0,0,.45))!important}
+
+
+/* cib-mobile-2.css – Builder 2: content-netflix, content-testi, content-philantrophy,
+   content-magazine, content-social, content-newsletter. Jen telefon (do 991 px), viz MOBILE-SPEC.md.
+   Zásady: jeden sloupec, nadpis vlevo 38 px, sekce 56 px nahoře i dole, fotky 4:3 s rohem 0 20px 0 0,
+   žádný text přes rušnou fotku, pozadí sekcí plná barva (fotky ztlumené pod 20 %). */
+@media (max-width:991px){
+
+/* ═══ content-netflix (.cib-dev): tmavá kapitola „Development“ ══════════════
+   pozadí: plná černá + fotka ztlumená; text → tlačítko → pás dvou karet */
+#content-netflix.netflix-area{padding:0!important;background:#0a0a0a!important}
+#content-netflix.netflix-area:after{display:none!important}
+#content-netflix .netflix-bg{opacity:.07!important;filter:grayscale(.5)}
+#content-netflix .cib-dev__in{display:block!important;padding:56px var(--mp)!important;gap:0!important}
+#content-netflix .cib-dev__text .global-site-title span{color:#a17652}
+#content-netflix .cib-dev__quote{font-size:17px!important;line-height:1.35!important;letter-spacing:.06em!important;font-weight:300;border-left:2px solid #a17652;padding-left:16px;margin:24px 0 18px!important}
+#content-netflix .cib-dev__text p{max-width:100%!important;color:rgba(255,255,255,.88)!important;margin:0 0 24px!important}
+#content-netflix .cib-dev__text .global-btn{width:100%!important;height:50px!important;margin:0 0 32px!important;border-radius:0 14px 0 0!important}
+#content-netflix .cib-dev__cards{display:flex!important;grid-template-columns:none!important;gap:12px!important;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;margin:0 calc(-1 * var(--mp));padding:0 var(--mp);scroll-padding:0 var(--mp);scrollbar-width:none}
+#content-netflix .cib-dev__cards::-webkit-scrollbar{display:none}
+#content-netflix .cib-dev__cards::after{content:"";flex:0 0 8px}
+#content-netflix .cib-dev__card{flex:0 0 82%;scroll-snap-align:start;margin:0!important;border-radius:0 20px 0 0!important;background:transparent!important;overflow:hidden}
+#content-netflix .cib-dev__card img,#content-netflix .cib-dev__card video{width:100%;height:auto;aspect-ratio:4/3!important;object-fit:cover;display:block;transform:none!important}
+#content-netflix .cib-dev__card span{position:static!important;display:block;padding:13px 16px!important;background:#a17652!important;color:#fff;font-size:12px!important;letter-spacing:.22em!important;line-height:1.3}
+@media (min-width:600px){#content-netflix .cib-dev__card{flex-basis:46%}}
+
+/* ═══ content-testi: „Historie a milníky“ ═══════════════════════════════════
+   slick (fade) se na telefonu rozloží do čitelného seznamu milníků: rok/štítek + text */
+#content-testi.testimonials-area{padding:56px 0!important;background:#0a0a0a!important}
+#content-testi .testi-bg{opacity:.1!important}
+#content-testi .testi-inner{display:flex!important;flex-direction:column!important;align-items:stretch!important;gap:0!important}
+#content-testi .testi-head{order:-1;width:100%!important;text-align:left!important;margin:0 0 26px!important;position:static!important}
+#content-testi .testi-head>div{display:flex;flex-direction:column}
+#content-testi .testi-head .global-site-title{order:-1;margin:0!important;font-size:0!important}
+#content-testi .testi-head .global-site-title span{color:#a17652;margin:0 0 12px!important}
+#content-testi .testi-name{font-size:38px!important;line-height:.95!important;font-weight:500!important;letter-spacing:.02em!important;color:#fff!important;-webkit-text-fill-color:#fff!important;background:none!important;padding:0!important;width:auto!important;white-space:normal!important}
+#content-testi .testi-name span{display:block;font-weight:300!important}
+#content-testi .testi-content{display:block!important;width:100%!important}
+#content-testi .testi-links{display:none!important}
+#content-testi .testi-slider{width:100%!important;padding:0!important}
+#content-testi .testi-slick-slider{border-bottom:1px solid rgba(255,255,255,.16)}
+#content-testi .testi-slick-slider .slick-list{overflow:visible!important;height:auto!important;touch-action:pan-y}
+#content-testi .testi-slick-slider .slick-track{width:auto!important;height:auto!important;transform:none!important;opacity:1!important;display:block!important}
+#content-testi .testi-slick-slider .slick-track:before,#content-testi .testi-slick-slider .slick-track:after{display:none!important}
+#content-testi .testi-slick-slider .slick-slide{position:static!important;left:auto!important;top:auto!important;width:100%!important;height:auto!important;opacity:1!important;z-index:auto!important;display:block!important;float:none!important}
+#content-testi .testi-slick-slider .slick-cloned{display:none!important}
+#content-testi .testi-slick-slider:not(.slick-initialized)>div{display:block!important}
+#content-testi .testi-list{display:flex;flex-direction:column;padding:16px 0;border-top:1px solid rgba(255,255,255,.16)}
+#content-testi .testi-list span{order:-1;display:block;font-family:var(--ft)!important;font-size:12px!important;font-weight:500;letter-spacing:.24em!important;text-transform:uppercase;color:#a17652!important;line-height:1.2!important;margin:0 0 8px}
+#content-testi .testi-list span i{display:none!important}
+#content-testi .testi-list p{font-size:15.5px!important;line-height:1.6!important;letter-spacing:.01em!important;text-align:left!important;color:rgba(255,255,255,.9)!important;margin:0!important}
+#content-testi .testi-slick-navigation{display:block!important;margin-top:28px!important}
+#content-testi .testi-slick-arrows{display:none!important}
+#content-testi .testi-slick-button a.global-btn{width:100%!important;height:50px!important;padding:0 24px!important;margin:0!important;background:#a17652!important;color:#fff!important;white-space:normal!important}
+
+/* ═══ content-philantrophy: fotoshowcase (Emma Sophia, Vize, Dům a dvůr…) ═══
+   titulek NAD fotkou, normální velikost; fotky 4:3; text a tlačítko pod tím */
+#content-philantrophy.philantrophy-area{margin-top:0!important;padding:56px 0!important;background:#f3f3f3!important}
+#content-philantrophy .philantrophy-inner{display:block!important}
+#content-philantrophy .philantrophy-slider{width:100%!important;display:block!important;overflow:visible!important;border-radius:0!important}
+#content-philantrophy .philantrophy-bg{display:none!important}
+#content-philantrophy .philantrophy-slider .global-site-title{position:static!important;left:auto!important;right:auto!important;bottom:auto!important;top:auto!important;text-align:left!important;font-size:38px!important;line-height:.95!important;padding:0!important;margin:0 0 22px!important;text-shadow:none!important;color:#111!important;width:auto!important;z-index:auto}
+#content-philantrophy .philantrophy-slider .global-site-title span{color:#a17652;left:0!important}
+#content-philantrophy .philantrophy-slider .global-site-title strong br{display:none}
+#content-philantrophy .philantrophy-main-holder{position:relative}
+#content-philantrophy .philantrophy-slick-slider{border-radius:0 20px 0 0!important;overflow:hidden}
+#content-philantrophy .philantrophy-slick-slider::after{display:none!important}
+#content-philantrophy .philantrophy-list img{width:100%;height:auto;aspect-ratio:4/3!important;object-fit:cover!important;object-position:center!important;border-radius:0 20px 0 0!important;display:block}
+/* slick se na domovské neinicializuje → fotky jako scroll-snap pás (další „vykukuje“) */
+#content-philantrophy .philantrophy-slick-slider:not(.slick-initialized){display:flex;gap:10px;overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory;-webkit-overflow-scrolling:touch;border-radius:0!important;margin:0 calc(-1 * var(--mp));padding:0 var(--mp);scroll-padding:0 var(--mp);scrollbar-width:none}
+#content-philantrophy .philantrophy-slick-slider:not(.slick-initialized)::-webkit-scrollbar{display:none}
+#content-philantrophy .philantrophy-slick-slider:not(.slick-initialized)>div{display:block!important;flex:0 0 84%;scroll-snap-align:start}
+#content-philantrophy .philantrophy-slick-slider:not(.slick-initialized)>div:only-child{flex-basis:100%}
+#content-philantrophy .philantrophy-slick-slider:not(.slick-initialized)::after{content:"";display:block;flex:0 0 8px}
+#content-philantrophy .philantrophy-content{width:100%!important;padding:26px 0 0!important;text-align:left!important}
+#content-philantrophy .philantrophy-content-inner{max-width:100%!important;margin:0!important}
+#content-philantrophy .philantrophy-content-text{padding:18px 0 0!important;margin:0 0 24px!important}
+#content-philantrophy .philantrophy-content-text:after{width:40px;height:3px}
+#content-philantrophy .philantrophy-content-text p{color:#111!important;margin:0 0 14px!important}
+#content-philantrophy .philantrophy-content-text p:last-child{margin-bottom:0!important}
+#content-philantrophy .philantrophy-links{display:flex;flex-direction:column;gap:12px}
+#content-philantrophy .philantrophy-links a.global-btn{width:100%!important;max-width:100%!important;height:50px!important;margin:0!important;padding:0 24px!important;background:#a17652!important;color:#fff!important;white-space:normal!important}
+#content-philantrophy #philantrophy-video-trigger.hidden{display:none!important}
+#content-philantrophy div#philantrophy-vimeo-container{border-radius:0 20px 0 0}
+
+/* ═══ content-magazine: koláž sídla / Luxury Suites / Dům 1899 ══════════════
+   plné světlé pozadí bez fotky za textem; hlavní fotka 4:3 + 4 fotky z popupu jako mřížka 2×2
+   (popup se na telefonu neotevírá: je rozbalený přímo do stránky) */
+#content-magazine.magazine-area{padding:56px 0!important;background:#f3f3f3!important}
+#content-magazine .magazine-bg{display:none!important}
+#content-magazine .magazine-inner{display:block!important}
+#content-magazine .magazine-head-wrap{width:100%!important;padding:0!important}
+#content-magazine .magazine-head:after{display:none!important}
+#content-magazine .magazine-head .global-site-title{margin:0!important;font-size:0!important}
+#content-magazine .magazine-head .global-site-title span{color:#a17652}
+#content-magazine .magazine-name{font-size:38px!important;line-height:.95!important;font-weight:500!important;letter-spacing:.02em!important;text-align:left!important;white-space:normal!important;background:none!important;-webkit-text-fill-color:#111!important;color:#111!important;padding:0!important;margin:0 0 20px}
+#content-magazine .magazine-name span{display:block;font-weight:300!important}
+#content-magazine .magazine-text{max-width:100%!important;padding:0!important}
+#content-magazine .magazine-text p{color:#111!important;margin:0 0 14px!important}
+#content-magazine .magazine-photo{width:100%!important;margin-top:24px}
+#content-magazine .magazine-photo-inner{margin:0!important;max-width:100%!important}
+#content-magazine .magazine-photo-inner img{width:100%;height:auto;aspect-ratio:4/3!important;object-fit:cover;border-radius:0 20px 0 0;display:block;cursor:default}
+#content-magazine a.magazine-click-to-read{display:inline-block!important;margin:18px 0 0!important;font-family:var(--ft)!important;font-size:12px!important;letter-spacing:.24em!important;text-transform:uppercase;color:#a17652!important;text-decoration:none;border-bottom:1px solid #a17652;padding-bottom:4px}
+#content-magazine div#magazinePopup{position:static!important;display:block!important;opacity:1!important;pointer-events:auto!important;background:none!important;padding:0 var(--mp)!important;width:auto!important;height:auto!important;margin-top:12px;transition:none!important}
+#content-magazine div#magazinePopup *{pointer-events:auto!important}
+#content-magazine span.magazine-close,#content-magazine .magazinePopup-backdrop{display:none!important}
+#content-magazine .magazinePopup-content{max-width:100%!important;pointer-events:auto!important}
+#content-magazine .magazine-gallery-wrap{margin:0!important}
+#content-magazine .magazine-gallery{display:grid!important;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px;margin:0!important}
+#content-magazine .magazine-img{width:auto!important;padding:0!important}
+#content-magazine .magazine-img a{display:block;pointer-events:auto!important}
+#content-magazine .magazine-img canvas{display:none!important}
+#content-magazine .magazine-img img{position:static!important;width:100%;height:auto!important;aspect-ratio:4/3!important;object-fit:cover;display:block}
+
+/* ═══ content-social: „Portfolio v číslech“ ═════════════════════════════════
+   čitelný seznam: název · vodorovný proužek v poměru počtu · číslo (žádné otočené texty) */
+#content-social.social-area{padding:56px 0!important;background:#f3f3f3!important}
+#content-social .social-bg{display:none!important}
+#content-social .social-inner{display:flex!important;flex-direction:column!important;padding:0!important}
+#content-social .social-feed{display:none!important}
+#content-social .social-title-wrap{order:1!important;padding:0!important;justify-content:flex-start!important;margin:0 0 22px}
+#content-social .social-title-wrap .social-title{width:100%!important;text-align:left!important;font-size:38px!important;line-height:.95!important;font-weight:300!important;letter-spacing:.02em!important;color:#111!important}
+#content-social .social-title-wrap .social-title span{display:block;font-weight:500!important;background:none!important;-webkit-text-fill-color:#111!important;color:#111}
+#content-social .social-stats-wrap{order:2!important;padding:0!important;max-width:100%!important;margin:0!important}
+#content-social .social-stats-wrap ul{display:block!important;max-width:100%!important;margin:0!important;padding:0!important;list-style:none;border-top:1px solid rgba(0,0,0,.14)}
+#content-social .social-stats-wrap ul li{display:grid!important;grid-template-columns:minmax(0,1fr) auto;align-items:baseline;gap:12px 14px;padding:14px 0 16px!important;border-bottom:1px solid rgba(0,0,0,.14);position:static!important}
+#content-social .social-stats-wrap ul li strong{grid-area:1/1;position:static!important;transform:none!important;white-space:normal!important;font-size:14px!important;letter-spacing:.14em!important;font-weight:400!important;color:#111!important;text-transform:uppercase;line-height:1.25}
+#content-social .social-stats-wrap ul li.highlight strong{color:#a17652!important;font-weight:600!important}
+#content-social .social-stats-wrap ul li span{grid-area:1/2;position:static!important;transform:none!important;font-size:11px!important;letter-spacing:.2em!important;text-transform:uppercase;color:#6f6f6f!important;line-height:1;text-align:right;white-space:nowrap}
+#content-social .social-stats-wrap ul li span i{font-style:normal;font-size:24px;font-weight:500;letter-spacing:0;color:#111;margin-right:5px;vertical-align:baseline}
+#content-social .social-stats-wrap ul li .bar-line{display:block!important;grid-area:2/1/3/3;width:100%!important;height:5px!important;background:rgba(0,0,0,.09)!important;position:relative}
+#content-social .social-stats-wrap ul li .bar-line:before{height:100%!important;width:var(--w,0);min-width:6px;left:0;bottom:0;background:#a17652}
+/* poměry k 760 (Písnice): 300, 105, 100, 50, 12 – data jsou v HTML natvrdo, viz poznámky */
+#content-social .social-stats-wrap ul li:nth-child(1){--w:100%}
+#content-social .social-stats-wrap ul li:nth-child(2){--w:39.5%}
+#content-social .social-stats-wrap ul li:nth-child(3){--w:13.8%}
+#content-social .social-stats-wrap ul li:nth-child(4){--w:13.2%}
+#content-social .social-stats-wrap ul li:nth-child(5){--w:6.6%}
+#content-social .social-stats-wrap ul li:nth-child(6){--w:1.6%}
+#content-social .social-stats-text{order:3!important;padding:24px 0 0!important}
+#content-social .social-stats-text p{text-align:left!important;font-size:15px!important;letter-spacing:.1em!important;line-height:1.55!important;color:#111}
+#content-social .social-stats-text p i{color:#a17652;font-weight:600;font-style:normal}
+
+/* ═══ content-newsletter (.cib-write): „Napište nám“ ════════════════════════
+   na telefonu SVĚTLÁ: bílé pozadí, tmavý text, kontakty jako čistý seznam, formulář ve světlé variantě */
+#content-newsletter.newsletter-area.cib-write{padding:56px 0!important;margin:0!important;background:#fff!important}
+#content-newsletter .newsletter-bg{display:none!important}
+#content-newsletter .cib-write__in{display:block!important;padding:0 var(--mp)!important;gap:0!important}
+#content-newsletter .cib-write__side .global-site-title{color:#111!important;margin:0 0 18px!important}
+#content-newsletter .cib-write__side .global-site-title span{color:#a17652}
+#content-newsletter .cib-write__side>p{color:#333!important;max-width:100%!important;margin:0 0 24px!important}
+#content-newsletter .cib-write__contacts{display:block!important;margin:0 0 30px!important;padding:0!important;border-top:1px solid rgba(0,0,0,.12)}
+#content-newsletter .cib-write__contacts li{display:flex;gap:14px;align-items:center;color:#111!important;padding:10px 0;border-bottom:1px solid rgba(0,0,0,.12)}
+#content-newsletter .cib-write__contacts a{color:#111!important}
+#content-newsletter .cib-write__contacts i{width:38px!important;height:38px!important}
+#content-newsletter .cib-write__contacts i svg{width:16px!important;height:16px!important}
+#content-newsletter .cib-write__contacts b{font-size:18px!important;line-height:1.15!important}
+#content-newsletter .cib-write__contacts small{color:#6f6f6f!important;font-size:10.5px!important;margin-top:3px!important}
+#content-newsletter .cib-write__form{padding:0!important}
+#content-newsletter .cib-form{--fg:#111;--line:rgba(0,0,0,.26);--mut:#6b6b6b;color:#111!important}
+#content-newsletter .cib-form__grid{grid-template-columns:minmax(0,1fr)!important;gap:0!important}
+#content-newsletter .cib-field__err{color:#c4503f!important}
+#content-newsletter .cib-field textarea{min-height:96px!important}
+#content-newsletter .cib-field select{color:#111!important}
+#content-newsletter .cib-check{margin:18px 0 22px!important;max-width:100%!important;font-size:13px!important;color:#555!important}
+#content-newsletter .cib-form__foot{display:block!important}
+#content-newsletter .cib-form__foot .pg-btn{width:100%!important;justify-content:center;height:50px!important}
+#content-newsletter .cib-form__note{color:#6b6b6b!important}
+#content-newsletter .cib-form__done{padding:12px 0 0!important}
+
+/* ═══ Opravy po kritice (f1-2) ══════════════════════════════════════════════ */
+/* netflix: tučná část titulku na vlastním řádku (žádné osiřelé „V“) */
+#content-netflix .cib-dev__text .global-site-title strong{display:block!important}
+/* liberec: citát doslova opakuje odstavec pod ním → skrýt (přepis odstavce = HTML, koordinátor) */
+#content-netflix[data-aios-scroll-title="Domy na Trojmezí"] .cib-dev__quote{display:none!important}
+
+/* philantrophy: inicializovaný slick (podstránky) → karta 80 % šířky, další vykukuje vpravo na krev,
+   počítadlo „02 / 05“ pod fotkou (slick-current + CSS counter); swipe obsluhuje slick */
+#content-philantrophy .philantrophy-main-holder:has(.slick-initialized){overflow:hidden;margin-right:calc(-1 * var(--mp));padding-bottom:26px}
+#content-philantrophy .philantrophy-slick-slider.slick-initialized{overflow:visible!important;border-radius:0!important}
+#content-philantrophy .philantrophy-slick-slider.slick-initialized .slick-list{overflow:visible!important;width:80%!important}
+#content-philantrophy .philantrophy-slick-slider.slick-initialized .slick-slide{padding-right:12px;box-sizing:border-box}
+#content-philantrophy .philantrophy-slick-slider.slick-initialized .slick-track{counter-reset:ph 0 phtot 0}
+#content-philantrophy .philantrophy-slick-slider.slick-initialized .slick-track:has(> :not(.slick-cloned)[data-slick-index="1"]):not(:has(> :not(.slick-cloned)[data-slick-index="2"])){counter-reset:ph 0 phtot 2}
+#content-philantrophy .philantrophy-slick-slider.slick-initialized .slick-track:has(> :not(.slick-cloned)[data-slick-index="2"]):not(:has(> :not(.slick-cloned)[data-slick-index="3"])){counter-reset:ph 0 phtot 3}
+#content-philantrophy .philantrophy-slick-slider.slick-initialized .slick-track:has(> :not(.slick-cloned)[data-slick-index="3"]):not(:has(> :not(.slick-cloned)[data-slick-index="4"])){counter-reset:ph 0 phtot 4}
+#content-philantrophy .philantrophy-slick-slider.slick-initialized .slick-track:has(> :not(.slick-cloned)[data-slick-index="4"]):not(:has(> :not(.slick-cloned)[data-slick-index="5"])){counter-reset:ph 0 phtot 5}
+#content-philantrophy .philantrophy-slick-slider.slick-initialized .slick-track:has(> :not(.slick-cloned)[data-slick-index="5"]):not(:has(> :not(.slick-cloned)[data-slick-index="6"])){counter-reset:ph 0 phtot 6}
+#content-philantrophy .philantrophy-slick-slider.slick-initialized .slick-track:has(> :not(.slick-cloned)[data-slick-index="6"]):not(:has(> :not(.slick-cloned)[data-slick-index="7"])){counter-reset:ph 0 phtot 7}
+#content-philantrophy .philantrophy-slick-slider.slick-initialized .slick-track:has(> :not(.slick-cloned)[data-slick-index="7"]):not(:has(> :not(.slick-cloned)[data-slick-index="8"])){counter-reset:ph 0 phtot 8}
+#content-philantrophy .philantrophy-slick-slider.slick-initialized .slick-track:has(> :not(.slick-cloned)[data-slick-index="8"]):not(:has(> :not(.slick-cloned)[data-slick-index="9"])){counter-reset:ph 0 phtot 9}
+#content-philantrophy .philantrophy-slick-slider.slick-initialized .slick-track:has(> :not(.slick-cloned)[data-slick-index="9"]):not(:has(> :not(.slick-cloned)[data-slick-index="10"])){counter-reset:ph 0 phtot 10}
+#content-philantrophy .philantrophy-slick-slider.slick-initialized .slick-track:has(> :not(.slick-cloned)[data-slick-index="10"]):not(:has(> :not(.slick-cloned)[data-slick-index="11"])){counter-reset:ph 0 phtot 11}
+#content-philantrophy .philantrophy-slick-slider.slick-initialized .slick-track:has(> :not(.slick-cloned)[data-slick-index="11"]):not(:has(> :not(.slick-cloned)[data-slick-index="12"])){counter-reset:ph 0 phtot 12}
+#content-philantrophy .philantrophy-slick-slider.slick-initialized .slick-slide:not(.slick-cloned){counter-increment:ph}
+#content-philantrophy .philantrophy-slick-slider.slick-initialized .philantrophy-list{position:relative}
+#content-philantrophy .philantrophy-slick-slider.slick-initialized .slick-current .philantrophy-list::after{content:counter(ph,decimal-leading-zero) " / " counter(phtot,decimal-leading-zero);position:absolute;left:0;top:100%;margin-top:12px;font-family:var(--ft);font-size:12px;font-weight:500;letter-spacing:.24em;line-height:1;color:#a17652;white-space:nowrap}
+/* tlačítka philantrophy + testi: jednotný tvar (jen pravý horní roh) a velikost jako všude */
+#content-philantrophy .philantrophy-links a.global-btn,#content-testi .testi-slick-button a.global-btn{border-radius:0 14px 0 0!important;font-size:12px!important;letter-spacing:.24em!important}
+/* duplicitní CTA: stejný odkaz už má content-jason o dvě obrazovky výš (suites, lichoceves, balabenka) */
+#content-jason:has(a.global-btn[href*="vodickovaluxurysuites"]) ~ #content-philantrophy .philantrophy-links a.global-btn[href*="vodickovaluxurysuites"],
+#content-jason:has(a.global-btn[href*="obecvzahrade"]) ~ #content-philantrophy .philantrophy-links a.global-btn[href*="obecvzahrade"],
+#content-jason:has(a.global-btn[href$="/kontakt/"]) ~ #content-philantrophy .philantrophy-links a.global-btn[href$="/kontakt/"]{display:none!important}
+/* …a když je to jediné tlačítko bloku, schovat celý .philantrophy-links (žádná prázdná mezera pod textem) */
+#content-jason:has(a.global-btn[href*="vodickovaluxurysuites"]) ~ #content-philantrophy .philantrophy-links:has(a.global-btn[href*="vodickovaluxurysuites"]),
+#content-jason:has(a.global-btn[href*="obecvzahrade"]) ~ #content-philantrophy .philantrophy-links:has(a.global-btn[href*="obecvzahrade"]),
+#content-jason:has(a.global-btn[href$="/kontakt/"]) ~ #content-philantrophy .philantrophy-links:has(a.global-btn[href$="/kontakt/"]){display:none!important}
+/* duplicitní odstavec (suites: 1:1 z jason; liberec: 1:1 z jason) → CSS pojistka, správně HTML */
+#content-jason:has(a.global-btn[href*="vodickovaluxurysuites"]) ~ #content-philantrophy .philantrophy-content-text p:first-child,
+#content-netflix[data-aios-scroll-title="Domy na Trojmezí"] ~ #content-philantrophy .philantrophy-content-text p:first-child{display:none!important}
+
+/* newsletter po lokalitě: šedý předěl místo 1 900 px bílé; kontakty, které lokalita už vypsala, skrýt */
+#content-lokalita ~ #content-newsletter.newsletter-area.cib-write{background:#f3f3f3!important}
+#content-lokalita:has(.m2l__addr > div:nth-child(4)) ~ #content-newsletter .cib-write__contacts{display:none!important}
+#content-lokalita ~ #content-newsletter .cib-write__contacts li:has(a[href*="vodickovaluxurysuites"]),
+#content-lokalita ~ #content-newsletter .cib-write__contacts li:has(a[href$="/nemovitosti/vodickova-33/"]),
+#content-lokalita ~ #content-newsletter .cib-write__contacts li:has(a[href*="obecvzahrade"]),
+#content-lokalita ~ #content-newsletter .cib-write__contacts li:has(a[href*="esstables.com"]),
+#content-lokalita ~ #content-newsletter .cib-write__contacts li:has(a[href="#content-lokalita"]),
+#content-lokalita ~ #content-newsletter .cib-write__contacts li:has(a[href="mailto:vasutova@cib.cz"]),
+#content-lokalita ~ #content-newsletter .cib-write__contacts li:has(a[href="tel:+420607085515"]),
+#content-lokalita:has(a[href*="commons.wikimedia"]) ~ #content-newsletter .cib-write__contacts li:has(a[href="tel:+420296249311"]){display:none!important}
+
+/* ═══ Opravy po kritice (f2-2) ══════════════════════════════════════════════ */
+/* netflix: karta = fotka + bronzový štítek POD fotkou (stejný jazyk jako .fp-photo-content a .office-item),
+   žádný pruh přes fotku */
+#content-netflix .cib-dev__card{display:flex!important;flex-direction:column;overflow:visible!important;border-radius:0!important;background:none!important}
+#content-netflix .cib-dev__card img,#content-netflix .cib-dev__card video{border-radius:0 20px 0 0!important}
+#content-netflix .cib-dev__card span{background:none!important;color:#a17652!important;font-family:var(--ft)!important;font-size:11px!important;font-weight:500!important;letter-spacing:.24em!important;line-height:1.4!important;padding:12px 0 0!important;text-transform:uppercase}
+
+/* tmavé kapitoly: plné pozadí bez prosvítající fotky (síť čar za odstavci = „špinavý“ dojem) */
+#content-testi .testi-bg,#content-netflix .netflix-bg{display:none!important}
+/* testi kratší: těsnější položky, menší mezera pod hlavičkou */
+#content-testi .testi-head{margin-bottom:20px!important}
+#content-testi .testi-list{padding:12px 0}
+#content-testi .testi-list p{line-height:1.55!important}
+#content-testi .testi-slick-navigation{margin-top:24px!important}
+
+/* philantrophy: titulek celý ve <strong> → první řádek (před <br>) tenký, zbytek tučný = vzor stránky */
+#content-philantrophy .philantrophy-slider .global-site-title strong{display:block!important;font-weight:500!important}
+#content-philantrophy .philantrophy-slider .global-site-title strong br{display:inline!important}
+#content-philantrophy .philantrophy-slider .global-site-title strong::first-line{font-weight:300}
+/* tlačítko nesmí být nalepené na text: mezera patří na .philantrophy-links */
+#content-philantrophy .philantrophy-content-text{margin-bottom:0!important}
+#content-philantrophy .philantrophy-links{margin-top:28px!important}
+/* staje: 2. odstavec + CTA „Obec v zahradě“ opakuje content-netflix níž na stránce → nechat jen v netflix */
+#content-philantrophy:has(~ #content-netflix[data-aios-scroll-title="Součást širší vize Lichocevsi"]) .philantrophy-content-text p:nth-of-type(2){display:none!important}
+#content-philantrophy:has(~ #content-netflix a.global-btn[href$="/development/lichoceves/"]) .philantrophy-links:has(a.global-btn[href$="/development/lichoceves/"]){display:none!important}
+
+/* magazine: sekce začíná velkou fotkou na krev, pak štítek/titulek/text a mřížka; bílé pozadí,
+   ať se po šedé philantrophy nespojí do 1 600 px šedi */
+#content-magazine.magazine-area{background:#fff!important;padding-top:0!important}
+#content-magazine .magazine-inner{display:flex!important;flex-direction:column!important}
+#content-magazine .magazine-photo{order:-1;margin:0 calc(-1 * var(--mp)) 32px!important;width:calc(100% + 2 * var(--mp))!important}
+#content-magazine .magazine-photo-inner img{border-radius:0 20px 0 0;aspect-ratio:4/3!important}
+#content-magazine .magazine-photo-inner{border-radius:0!important;overflow:hidden}
+#content-magazine .side-offices-links{display:none!important}
+#content-magazine div#magazinePopup{margin-top:16px}
+
+/* newsletter: tučná část titulku na vlastním řádku (žádné osiřelé „V“) */
+#content-newsletter .cib-write__side .global-site-title strong{display:block!important}
+/* kontakty, které stránka už vypsala v kartách kanceláří (liberec), neopakovat potřetí */
+#content-kancelare ~ #content-newsletter .cib-write__contacts{display:none!important}
+#content-newsletter .cib-write__side>p{margin-bottom:24px!important}
+#content-kancelare ~ #content-newsletter .cib-write__side>p{margin-bottom:6px!important}
+#content-newsletter .cib-write__contacts{margin-bottom:8px!important}
+#content-newsletter .cib-write__form{margin-top:0!important;padding-top:0!important}
+/* tlačítko formuláře ve stejném stylu jako .global-btn: text vlevo, šipka na pravém okraji */
+#content-newsletter .cib-form__foot .pg-btn{justify-content:space-between!important;padding:0 24px!important;gap:14px}
+#content-newsletter .cib-form__foot .pg-btn svg{width:26px!important;height:14px!important;flex:0 0 auto}
+
+/* ── tablet 600–991 px: dva sloupce tam, kde to dává smysl, tlačítka zpět na obsah ── */
+@media (min-width:600px){
+#content-newsletter .cib-form__grid{grid-template-columns:minmax(0,1fr) minmax(0,1fr)!important;gap:0 28px!important}
+#content-newsletter .cib-write__contacts{display:grid!important;grid-template-columns:minmax(0,1fr) minmax(0,1fr);column-gap:28px}
+#content-newsletter .cib-form__foot .pg-btn,#content-netflix .cib-dev__text .global-btn,#content-philantrophy .philantrophy-links a.global-btn,#content-testi .testi-slick-button a.global-btn{width:auto!important;min-width:280px}
+#content-magazine .magazine-gallery{grid-template-columns:repeat(4,minmax(0,1fr))}
+#content-philantrophy .philantrophy-slick-slider:not(.slick-initialized)>div{flex-basis:48%}
+#content-philantrophy .philantrophy-slick-slider.slick-initialized .slick-list{width:62%!important}
+}
+}
+
+
+/* cib-mobile-3.css – Builder 3: galerie (.ss), lokalita (.m2l), mapa (.m2), historie (.tl2),
+   pilíře (.pil) + vedení (.who), kontakt (.khero), kontakty (.dir), kanceláře (.oc), fakturace (.pg-bill), .pg-credit.
+   Vše jen do 991 px, viz MOBILE-SPEC.md. Desktop se nemění. */
+@media (max-width:991px){
+
+/* ── společný rytmus: 56 px nahoře i dole; tmavé pásy s fotkou v pozadí → plné pozadí ── */
+#galerie.ss,#content-map.m2,.m2l,#historie.tl2,#content-pilire.pil-sec,#content-kancelare.oc-sec,#content-kontakty.band,#fakturace.band{padding:56px 0!important}
+#content-kontakty .band__bg,#content-kontakty .band__dim,#fakturace .band__bg,#fakturace .band__dim,#historie .band__bg,#historie .band__dim{display:none!important}
+#content-kontakty{background:#fff!important;color:#111!important}
+#fakturace{background:#f3f3f3!important;color:#111!important}
+#historie{background:#fff!important;color:#0a0a0a!important}
+#content-kontakty .global-site-title,#fakturace .global-site-title,#historie .global-site-title{color:#111!important}
+#content-kontakty .dir__side p,#fakturace .pl__head p,#historie .tl2__head p{color:#444!important}
+.pl__head{display:block!important;margin:0 0 24px!important}
+.pl__head .global-site-title{margin-bottom:0!important}
+.pl__head p{margin:16px 0 0!important;max-width:none!important}
+
+/* ── GALERIE (.ss): záložky v řadě, fotka na krev 4:3, popisek pod fotkou, miniatury v řadě ── */
+#galerie .ss__head{display:block!important;margin:0 0 18px!important}
+#galerie .ss__head .global-site-title{margin-bottom:20px!important}
+/* záložky se zalamují do řádků (5 kategorií, dlouhé názvy na Sídle): všechny vidět, nic neujíždí za okraj */
+#galerie .ss__tabs{display:flex!important;flex-wrap:wrap!important;gap:0 22px!important;overflow:visible!important;margin:0!important;padding:0 0 6px!important;border-bottom:1px solid rgba(255,255,255,.14);-webkit-mask-image:none!important;mask-image:none!important}
+#galerie .ss__tabs button{padding:8px 0 10px!important;font-size:12px!important;letter-spacing:.2em!important;white-space:nowrap}
+#galerie .ss__tabs button::after{bottom:4px!important;height:2px!important}
+#galerie .ss__stage{margin:0 -20px!important;border-radius:0!important;background:#050505!important}
+#galerie .ss__slide{aspect-ratio:4/3!important;min-height:0!important;max-height:none!important}
+/* šipky jako dotykové terče 44 px v dolních rozích fotky (JS nemá swipe) */
+#galerie .ss__arr{display:flex!important;top:calc(75vw - 56px)!important;bottom:auto!important;transform:none!important;width:44px!important;height:44px!important;font-size:15px!important;background:rgba(0,0,0,.55)!important;color:#fff!important;z-index:3}
+#galerie .ss__arr--prev{left:12px!important}
+#galerie .ss__arr--next{right:12px!important}
+#galerie .ss__bar{position:static!important;display:flex!important;align-items:flex-start!important;justify-content:space-between!important;gap:16px!important;padding:14px 20px 16px!important;background:#050505!important}
+#galerie .ss__cap small{font-size:10.5px!important;letter-spacing:.26em!important;margin-bottom:4px!important}
+#galerie .ss__cap b{font-size:18px!important;line-height:1.1!important}
+#galerie .ss__cnt{font-size:12px!important;letter-spacing:.2em!important;margin:2px 0 0 auto!important}
+#galerie .ss__cnt span{font-size:18px!important}
+#galerie .ss__full{display:none!important}
+#galerie .ss__thumbs{display:flex!important;gap:6px!important;margin:0 -20px!important;padding:12px 20px 4px!important;overflow-x:auto!important;scrollbar-width:none}
+#galerie .ss__thumbs::-webkit-scrollbar{display:none}
+#galerie .ss__thumbs button{width:72px!important;height:52px!important;border-width:2px!important}
+
+/* ── LOKALITA (.m2l): text, adresa, mapa na krev ── */
+.m2l__in{display:block!important}
+.m2l__text .global-site-title{margin-bottom:20px!important}
+.m2l__p p{margin:0 0 14px!important;color:#333!important}
+.m2l__text .global-site-title strong{display:block}  /* tenký + tučný řádek, žádná vdova „1“ */
+.m2l--dark{background:#f3f3f3!important;color:#111!important}
+.m2l--dark .global-site-title{color:#111!important}
+.m2l--dark .m2l__p p{color:#333!important}
+.m2l--dark .m2l__addr small{color:var(--m-muted)!important}
+.m2l--dark .m2l__lab{color:#333!important;background:rgba(255,255,255,.85)!important}
+.m2l--dark .m2l__pin b{background:#111!important;color:#fff!important}
+#content-lokalita-2 .m2l__map{background-image:url(/propozice-cib-next/assets/maps/map-local-hradek.jpg)!important}
+.m2l__addr{display:grid!important;grid-template-columns:1fr!important;gap:14px!important;margin:22px 0 0!important}
+.m2l__addr i{width:40px!important;height:40px!important}
+.m2l__addr b{font-size:16px!important}
+.m2l__addr b a{color:inherit;text-decoration:none}  /* až koordinátor obalí telefony do tel: odkazů */
+.m2l__stage{margin:28px -20px 0!important}
+.m2l__map{border-radius:0!important;box-shadow:none!important;filter:none!important;border:0!important;background-color:#e9e9e9!important;aspect-ratio:4/3!important;height:auto!important}
+.m2l__pin{gap:16px!important}  /* štítek dál od bodu, ať nepřekrývá pulzující prstenec */
+.m2l__pin b{white-space:normal!important;text-align:center;max-width:250px;font-size:11px!important;letter-spacing:.12em!important;padding:7px 10px!important;line-height:1.3!important}
+#content-lokalita .m2l__lab:nth-of-type(4){display:none!important}
+/* Vodičkova: Můstek výš, Muzeum vpravo dolů, ať se nelepí na štítek špendlíku */
+#content-lokalita .m2l__lab:nth-of-type(2){transform:translate(-50%,-50%) translate(0,-10px)!important}
+#content-lokalita .m2l__lab:nth-of-type(3){transform:translate(-50%,-50%) translate(26px,24px)!important}
+.m2l__lab{font-size:10px!important;letter-spacing:.14em!important;padding:3px 6px!important}
+.m2__attr{padding:0 20px;margin-top:8px!important;font-size:10.5px!important;text-align:left!important}
+.pg-credit{font-size:11.5px!important;line-height:1.5!important;color:#8a8a8a!important}
+
+/* ── MAPA (.m2): na telefonu vždy světlá (šedý podklad, světlé dlaždice); titulek, text, záložky, mapa na krev
+   přiblížená na Čechy, pod ní výřez Prahy na plnou šířku, legenda, seznam; karta detailu jako spodní list v mapě ── */
+.m2,.m2--dark{background:#f3f3f3!important;color:#111!important}
+.m2--dark .global-site-title{color:#111!important}
+.m2--dark .m2__side>p{color:#444!important}
+.m2--dark .m2__tabs{border-color:var(--m-line)!important}
+.m2--dark .m2__tabs button.is-on{color:#111!important}
+.m2--dark .m2__item{border-color:var(--m-line)!important}
+.m2--dark .m2__item b small{color:var(--m-muted)!important}
+.m2--dark .m2__pin{color:#111!important}
+.m2--dark .m2__pin--hist i{background:#fff!important}
+.m2--dark .m2__pin b,.m2--dark .m2__map .m2__pin b{text-shadow:0 0 6px #fff,0 0 10px #fff,0 0 14px #fff!important}
+.m2--dark .m2__pin--hist b{color:#555!important}
+.m2--dark .m2__inset-label{color:var(--m-muted)!important}
+.m2--dark .m2__attr{color:#999!important}
+.m2--dark .m2__inset-map{border-color:#fff!important}
+.m2--dark:not(.m2--praha) .m2__map{background-image:url(/propozice-cib-next/assets/maps/map-cz.jpg)!important}
+.m2--praha .m2__map{background-image:url(/propozice-cib-next/assets/maps/map-praha.jpg)!important}
+.m2--dark .m2__inset-map>img{display:none!important}
+.m2--dark .m2__inset-map{background:#eee url(/propozice-cib-next/assets/maps/map-praha.jpg) 43.17% 35.3%/218.6% auto no-repeat!important}
+.m2__in{display:grid!important;grid-template-columns:minmax(0,1fr)!important;gap:0!important}
+.m2__side{display:contents!important}
+.m2__side .global-site-title{order:1;margin-bottom:20px!important}
+.m2__side>p{order:2;margin:0 0 22px!important;max-width:none!important}
+.m2__tabs{order:3;display:flex!important;margin:0 -20px!important;padding:0 20px!important;gap:0 24px!important;overflow-x:auto;scrollbar-width:none}
+.m2__tabs::-webkit-scrollbar{display:none}
+.m2__tabs button{padding:10px 0 12px!important;font-size:12px!important;letter-spacing:.22em!important;white-space:nowrap}
+.m2__stage{order:4;position:relative!important;top:auto!important;padding:0!important;margin:24px -20px 0!important;overflow:hidden}
+.m2__map{border-radius:0!important;box-shadow:none!important;border:0!important;filter:none!important;background-color:#e9e9e9!important}
+.m2__legend{order:5;margin:14px 0 0!important;gap:18px!important;font-size:11px!important;letter-spacing:.2em!important}
+.m2__list{order:6;margin:22px 0 0!important;border-top:1px solid var(--m-line)}
+.m2__item{grid-template-columns:40px 1fr auto!important;gap:0 12px!important;padding:10px 0!important}
+.m2__item i{width:40px!important;height:40px!important}
+.m2__item[data-kind=hist] i{width:12px!important;height:12px!important}
+.m2__item b{font-size:16px!important;letter-spacing:.04em!important}
+.m2__item b small{font-size:10.5px!important;letter-spacing:.12em!important;margin-top:2px!important}
+.m2__item span{font-size:10.5px!important;letter-spacing:.18em!important}
+.m2__item:hover{background:none!important}
+.m2__item.is-hot{background:linear-gradient(90deg,rgba(161,118,82,.16),transparent 70%)!important}
+/* mapa ČR: 160 % šířky, okno 390 px ukazuje Čechy (ořez 8 % vlevo, 19 % dole), pod ní pruh s popiskem a výřez Prahy na plnou šířku */
+.m2:not(.m2--praha) .m2__map{width:160%!important;margin:0 0 -18% -12.8%!important}
+.m2:not(.m2--praha) .m2__praha-ring,.m2__lead{display:none!important}
+.m2:not(.m2--praha) .m2__pin[data-id=lichoceves]{margin:-17px 0 0 -17px!important}
+.m2:not(.m2--praha) .m2__pin[data-id=ess]{margin:19px 0 0 19px!important}
+.m2__inset{position:absolute!important;left:8%!important;right:auto!important;top:100%!important;width:62.5%!important;margin:-5.45% 0 0!important;transform:none!important;z-index:4}
+.m2__inset::before{padding-top:72%!important}
+.m2__inset-label{top:auto!important;bottom:100%!important;left:0!important;right:0!important;transform:none!important;height:36px;display:flex;align-items:center;padding:0 20px;background:#f3f3f3;font-size:11px!important;letter-spacing:.24em!important;white-space:nowrap}
+.m2__inset-map{inset:auto!important;left:0!important;top:0!important;width:100%!important;aspect-ratio:1/1;height:auto!important;transform:translateY(-14%);clip-path:inset(14% 0 14% 0 round 0 20px 0 0);border:0!important;border-radius:0!important;box-shadow:none!important}
+.m2:not(.m2--praha) .m2__attr{margin-top:calc(72% + 48px)!important;padding:0 20px}
+/* výřez Prahy je teď velký: špendlíky s fotkou 30 px a popisky; historické body (bez popisku) ve výřezu skryté, nese je seznam pod mapou */
+.m2__inset .m2__pin--sm i{width:30px!important;height:30px!important}
+.m2__inset .m2__pin--sm.m2__pin--hist i{width:11px!important;height:11px!important}
+.m2__inset .m2__pin--now.m2__pin--sm b{display:block!important;font-size:10px!important;letter-spacing:.1em!important}
+.m2:not(.m2--praha) .m2__inset .m2__pin--hist{display:none!important}
+/* mapa Prahy (podstránka správa bytů Praha): 150 % šířky, okno ořezané o 17 % vlevo a 60 px nahoře i dole; historické body s popiskem */
+.m2--praha .m2__map{width:150%!important;margin:-15.4% 0 -15.4% -25.6%!important}
+.m2--praha .m2__pin--hist b{display:block!important;opacity:1!important;font-size:9.5px!important}
+.m2--praha .m2__pin--t{flex-direction:column-reverse!important}
+/* mapa Prahy: box špendlíku = jen kroužek (sedí přesně na bodu, ikony se nesrážejí), popisek absolutně vedle něj;
+   shluk Vodičkova 33 / Delta Haus / Strašnice: Delta Haus popisek diagonálně vlevo dolů */
+.m2--praha .m2__pin{flex-direction:row!important;gap:0!important}
+.m2--praha .m2__pin b{position:absolute;white-space:nowrap}
+.m2--praha .m2__pin--r b{left:100%;top:50%;transform:translateY(-50%);margin-left:6px}
+.m2--praha .m2__pin--l b{right:100%;top:50%;transform:translateY(-50%);margin-right:6px}
+.m2--praha .m2__pin--t b{bottom:100%;left:50%;transform:translateX(-50%);margin-bottom:5px}
+.m2--praha .m2__pin--b b{top:100%;left:50%;transform:translateX(-50%);margin-top:5px}
+.m2--praha .m2__pin[data-id=delta] b{left:auto;right:100%;top:100%;transform:none;margin:3px -4px 0 0}
+.m2--praha .m2__attr{margin-top:10px!important;padding:0 20px}
+/* špendlíky: menší měřítko; pulzující prstenec kotvený na ikonu (obrys), ne na celý box s popiskem */
+.m2__pin{gap:6px!important}
+.m2__pin i{width:26px!important;height:26px!important;border-width:2px!important;box-shadow:0 4px 12px rgba(0,0,0,.35)!important}
+.m2__pin--now::before,.m2__pin--l::before{display:none!important}
+.m2__pin--now i{outline:1.5px solid var(--m-bronz);outline-offset:1px;animation:m3Ring 3s ease-out infinite}
+@keyframes m3Ring{0%{outline-offset:1px;outline-color:var(--m-bronz)}70%,100%{outline-offset:13px;outline-color:transparent}}
+.m2__pin b{font-size:10px!important;letter-spacing:.1em!important}
+.m2__pin--hist i{width:12px!important;height:12px!important;border-width:2px!important}
+.m2__pin--hist b{font-size:9.5px!important}
+.m2__pin--nothumb i::after{inset:7px!important}
+.m2__pin--sm i{width:22px!important;height:22px!important}
+.m2__pin--sm.m2__pin--hist i{width:9px!important;height:9px!important}
+.m2__pin:hover i{transform:none!important}
+.m2__pin.is-hot i{transform:scale(1.12)!important}
+/* karta detailu: na telefonu spodní list obrazovky (position:fixed), vidět ať se klepne na kterýkoli špendlík nebo řádek seznamu;
+   JS ji vkládá do .m2__map a nastavuje inline left/top (přebito !important). Zavřená karta je neviditelná. Zavírá klepnutí mimo kartu / na týž špendlík (JS). */
+.m2__card{position:absolute!important;display:grid;grid-template-columns:96px minmax(0,1fr);border-left:0!important;border-top:3px solid var(--m-bronz);visibility:hidden;border-radius:0 16px 0 0;overflow:hidden}
+.m2__card.is-open{position:fixed!important;left:16px!important;right:16px!important;top:auto!important;bottom:calc(16px + env(safe-area-inset-bottom,0px))!important;width:auto!important;z-index:1200!important;transform:none!important;visibility:visible;box-shadow:0 18px 48px rgba(0,0,0,.4)!important}
+.m2__card::after{content:"Zavřete klepnutím mimo kartu";grid-column:1/-1;padding:0 14px 10px;font-family:var(--font-family-title);font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#9a9a9a}
+.m2__card img{width:100%!important;height:100%!important;aspect-ratio:auto!important;min-height:96px}
+.m2__card>div{padding:12px 14px 12px!important}
+.m2__card>div:first-child{grid-column:1/-1}
+.m2__card small{font-size:10px!important;letter-spacing:.2em!important;margin-bottom:4px!important}
+.m2__card b{font-size:17px!important}
+.m2__card p{font-size:13px!important;margin:4px 0 0!important}
+.m2__card a{margin-top:8px!important;font-size:11px!important;letter-spacing:.22em!important}
+
+/* ── HISTORIE (.tl2): bílá sekce, jedna osa vlevo, roky pod sebou s jednořádkovou upoutávkou, panel na plnou šířku ── */
+#historie .tl2__head{max-width:none!important;margin:0 0 24px!important;text-align:left!important}
+#historie .tl2__head .global-site-title span{margin:0 0 12px!important}
+#historie .tl2__head p{margin:0!important;max-width:none!important}
+#historie .tl2__list{padding:0!important;max-width:none!important;margin:0!important}
+#historie .tl2__spine{left:7px!important;transform:none!important;width:1px!important;background:rgba(0,0,0,.18)!important}
+#historie .tl2__item,#historie .tl2__item--r{padding:0!important}
+#historie .tl2__connector{display:none!important}
+#historie .tl2__dot{left:7px!important;top:22px!important;background:#fff!important}
+#historie .tl2__item:hover .tl2__dot,#historie .tl2__item.is-active .tl2__dot{background:var(--m-bronz)!important}
+#historie .tl2__item--now .tl2__dot{top:17px!important}
+#historie .tl2__item--l .tl2__content,#historie .tl2__item--r .tl2__content{margin:0 0 0 32px!important;text-align:left!important;border-bottom:1px solid rgba(0,0,0,.12)}
+#historie .tl2__btn{display:flex!important;width:100%;justify-content:space-between;align-items:center;flex-direction:row!important;padding:12px 0 0!important;min-height:44px!important;gap:12px;position:static!important}
+/* zavřený rok: klepnutí kamkoli na řádek (i na upoutávku) rozbalí – tlačítko dostane pseudo-vrstvu přes celý .tl2__content */
+#historie .tl2__item:not(.is-active) .tl2__btn::after{content:"";position:absolute;inset:0;z-index:1}
+#historie .tl2__num{font-size:26px!important;font-weight:300!important;line-height:1!important}
+#historie .tl2__item:not(.is-active) .tl2__num{color:#0a0a0a!important}
+#historie .tl2__item--now .tl2__num{font-size:13px!important;letter-spacing:.22em!important}
+#historie .tl2__plus{width:14px;height:14px;opacity:.8}
+#historie .tl2__plus::before,#historie .tl2__plus::after{color:#0a0a0a!important}
+#historie .tl2__panel-in{display:block!important;max-width:none!important;text-align:left!important;padding:6px 0 18px!important}
+#historie .tl2__panel li{font-size:15px!important;line-height:1.6!important;padding:8px 0!important;color:#333!important;border-top-color:rgba(0,0,0,.12)!important}
+#historie .tl2__pic{display:block!important;width:100%!important;margin:12px 0 0!important;border-radius:0 16px 0 0!important}
+#historie .tl2__item:not(.is-active) .tl2__panel li:not(:first-child),#historie .tl2__item:not(.is-active) .tl2__pic{display:none!important}
+
+/* ── PILÍŘE (.pil): karta = fotka nahoře, text na plném tmavém podkladu ── */
+#content-pilire .pil__grid{display:grid!important;grid-template-columns:1fr!important;gap:16px!important}
+#content-pilire .pil,#content-pilire .pil:nth-child(2),#content-pilire .pil:nth-child(3){aspect-ratio:auto!important;display:block!important;border-radius:0 20px 0 0!important;background:#141414!important;overflow:hidden}
+#content-pilire .pil img{position:relative!important;inset:auto!important;width:100%!important;height:auto!important;aspect-ratio:16/10;object-fit:cover;transform:none!important;display:block}
+#content-pilire .pil::after{display:none!important}
+#content-pilire .pil__in{position:static!important;padding:20px 20px 22px!important}
+#content-pilire .pil__n{font-size:11px!important;letter-spacing:.26em!important;margin-bottom:8px!important}
+#content-pilire .pil h3{font-size:26px!important;line-height:1!important;margin:0 0 10px!important}
+#content-pilire .pil p{font-size:15px!important;line-height:1.65!important;color:rgba(255,255,255,.78)!important;max-width:none!important}
+#content-pilire .pil em{margin-top:14px!important;font-size:11px!important;letter-spacing:.24em!important}
+
+/* ── VEDENÍ (.who): týmová fotka nahoře jako obrázek, pod ní plná černá a 3 řádky lidí ── */
+#content-vedeni{padding:0 0 56px!important;background:#0a0a0a!important}
+/* jiná fotka než v content-jason o dvě obrazovky výš (cib-p-team-01/02 = táž scéna): zasedací místnost sídla */
+#content-vedeni .band__bg{position:relative!important;inset:auto!important;width:100%;aspect-ratio:4/3;background-attachment:scroll!important;background-image:url(/propozice-cib-next/assets/cib-p-v33off-08.jpg)!important;background-position:center 55%!important}
+#content-vedeni .band__dim{display:none!important}
+#content-vedeni .band__in{padding-top:40px!important}
+#content-vedeni .who__head .global-site-title{margin-bottom:8px!important}
+#content-vedeni .who__grid{display:block!important}
+#content-vedeni .who{display:grid!important;grid-template-columns:48px 1fr;gap:2px 16px;align-items:center;padding:16px 0!important;border-top:0!important;border-bottom:1px solid rgba(255,255,255,.14)!important;background:none!important}
+#content-vedeni .who i{grid-row:1/3;width:48px!important;height:48px!important;font-size:15px!important;margin:0!important}
+#content-vedeni .who b{font-size:22px!important;line-height:1.05!important}
+#content-vedeni .who span{margin-top:3px!important;font-size:11px!important;letter-spacing:.22em!important}
+
+/* ── KONTAKT (.khero): krátká fotohlavička s titulkem, pod ní světlý blok: text, kontakty, bílá karta formuláře ── */
+#content-kontakt{display:block!important;min-height:0!important;padding:0 0 56px!important;background:#f3f3f3!important;color:#111!important;overflow:visible!important}
+#content-kontakt .cib-hero-slides{position:relative!important;inset:auto!important;height:46vh;min-height:300px;max-height:420px;z-index:0}
+#content-kontakt .cib-hero-slides::after{content:"";position:absolute;inset:0;z-index:2;background:linear-gradient(to top,rgba(0,0,0,.86),rgba(0,0,0,.12) 55%,rgba(0,0,0,.4))}
+#content-kontakt .khero__dim{display:none!important}
+#content-kontakt .khero__in{display:block!important;margin-top:-110px!important;padding:0 20px!important}
+#content-kontakt .cib-write__side .global-site-title{margin:0!important;min-height:110px;display:flex;flex-direction:column;justify-content:flex-end;padding-bottom:24px}
+#content-kontakt .cib-write__side>p{margin:24px 0 0!important;color:#333!important;max-width:none!important}
+#content-kontakt .cib-write__contacts{display:block!important;margin:22px 0 0!important;border-top:1px solid rgba(0,0,0,.12)}
+#content-kontakt .cib-write__contacts li{color:#111!important;gap:14px!important;padding:12px 0;border-bottom:1px solid rgba(0,0,0,.12)}
+#content-kontakt .cib-write__contacts a{color:#111!important}
+#content-kontakt .cib-write__contacts i{width:40px!important;height:40px!important}
+#content-kontakt .cib-write__contacts b{font-size:18px!important}
+#content-kontakt .cib-write__contacts small{color:#6f6f6f!important;font-size:10.5px!important;letter-spacing:.22em!important}
+#content-kontakt .cib-write__form{margin-top:32px!important;padding:22px 20px 26px!important;background:#fff;border-top:3px solid var(--m-bronz);border-radius:0 20px 0 0}
+#content-kontakt .cib-form{--fg:#111;--line:rgba(0,0,0,.28);--mut:#6b6b6b}
+#content-kontakt .cib-field__err{color:#c4503f!important}
+#content-kontakt .cib-form__grid{grid-template-columns:1fr!important;gap:0!important}
+#content-kontakt .cib-check{margin:18px 0 22px!important;font-size:13px!important}
+#content-kontakt .cib-form__foot .pg-btn{width:100%;justify-content:center}
+#content-kontakt .cib-form__done{padding:0!important}
+#content-kontakt .cib-form__done b{font-size:24px!important}
+
+/* ── KONTAKTY (.dir): adresář jako čistý seznam: malý štítek, velké kontakty, poznámka ── */
+#content-kontakty .dir__grid{display:block!important}
+#content-kontakty .dir__side .global-site-title{margin-bottom:20px!important}
+#content-kontakty .dir__side p{max-width:none!important;margin:0 0 26px!important}
+#content-kontakty .dir__rows{border-top:1px solid rgba(0,0,0,.12)!important}
+#content-kontakty .dir__row:nth-child(1),#content-kontakty .dir__row:nth-child(4){display:none!important}
+#content-kontakty .dir__row{display:block!important;padding:18px 0!important;background:none!important;border-bottom:1px solid rgba(0,0,0,.12)!important}
+#content-kontakty .dir__row::before{display:none!important}
+#content-kontakty .dir__k{font-size:11px!important;letter-spacing:.24em!important;color:var(--m-bronz)!important;padding:0 0 8px!important;font-weight:400!important}
+#content-kontakty .dir__v{display:flex!important;flex-direction:column;gap:4px!important}
+#content-kontakty .dir__v a,#content-kontakty .dir__v span{font-size:22px!important;line-height:1.2!important;border:0!important;color:#111!important}
+#content-kontakty .dir__v a[href^="mailto"]{align-self:flex-start;border-bottom:1px solid rgba(161,118,82,.55)!important;padding-bottom:1px}  /* e-mail stejně jako v .oc: bronzová linka */
+#content-kontakty .dir__n{margin-top:6px;font-size:13px!important;color:#6f6f6f!important}
+
+/* ── KANCELÁŘE (.oc): světlá sekce (za ní následuje černá galerie), bílé karty = fotka s názvem, adresa, velký telefon, úřední hodiny ── */
+#content-kancelare.oc-sec{background:#f3f3f3!important;color:#111!important}
+#content-kancelare .global-site-title.is-white{color:#111!important}
+#content-kancelare .oc-sec__lead,#content-kancelare .pl__head p{color:#444!important}
+#content-kancelare .oc__grid{display:grid!important;grid-template-columns:1fr!important;gap:16px!important}
+#content-kancelare .oc,#content-kancelare .oc:nth-child(2){border-radius:0 20px 0 0!important;background:#fff!important;color:#111!important}
+#content-kancelare .oc__body,#content-kancelare .oc__addr b,#content-kancelare .oc__tel,#content-kancelare .oc__mail,#content-kancelare .oc__hours,#content-kancelare .oc__hours b{color:#111!important}
+#content-kancelare .oc__hours span,#content-kancelare .oc__addr small{color:#6b6b6b!important}
+#content-kancelare .oc__contact{border-color:rgba(0,0,0,.14)!important}
+#content-kancelare .oc__img{aspect-ratio:16/10!important}
+#content-kancelare .oc__img img{transform:none!important}
+#content-kancelare .oc__img::after{background:linear-gradient(to top,rgba(0,0,0,.92),rgba(0,0,0,.55) 45%,transparent 80%)!important}
+#content-kancelare .oc__name{left:20px!important;right:20px!important;bottom:18px!important}
+#content-kancelare .oc__name small{font-size:10.5px!important;letter-spacing:.26em!important;color:#c9a27e!important}
+#content-kancelare .oc__name h3{font-size:26px!important;color:#fff!important}
+#content-kancelare .oc__body{padding:20px 20px 22px!important;gap:16px!important}
+#content-kancelare .oc__addr i{width:40px!important;height:40px!important}
+#content-kancelare .oc__addr b{font-size:15px!important}
+#content-kancelare .oc__contact{padding:14px 0!important;gap:4px 20px!important;flex-direction:column;align-items:flex-start!important}
+#content-kancelare .oc__tel{font-size:28px!important}
+#content-kancelare .oc__mail{font-size:15px!important}
+#content-kancelare .oc__hours{grid-template-columns:1fr!important;gap:5px!important}
+#content-kancelare .oc__hours div{grid-template-columns:30px 1fr!important;font-size:13.5px!important}
+
+/* ── FAKTURACE (.pg-bill): seznam společností pod sebou ── */
+#fakturace .pl__head{margin:0 0 8px!important}
+#fakturace .pg-bill{display:block!important}
+#fakturace .pg-bill div{padding:16px 0 18px!important;border-top:1px solid rgba(0,0,0,.14)!important}
+#fakturace .pg-bill b{font-size:17px!important;margin-bottom:6px!important;letter-spacing:.04em!important;color:#111!important}
+#fakturace .pg-bill p{font-size:13.5px!important;line-height:1.6!important;color:#444!important}
+
+/* ── tablet 600–991: dvousloupcové mřížky tam, kde to dává smysl ── */
+@media (min-width:600px){
+#content-pilire .pil,#content-pilire .pil:nth-child(2),#content-pilire .pil:nth-child(3){display:grid!important;grid-template-columns:minmax(0,5fr) minmax(0,6fr);align-items:stretch}
+#content-pilire .pil img{aspect-ratio:auto!important;height:100%!important;min-height:260px}
+#content-pilire .pil__in{padding:28px 28px 30px!important;align-self:center}
+#content-vedeni .band__bg{aspect-ratio:16/9!important}
+#content-kontakt .cib-write__contacts{display:grid!important;grid-template-columns:1fr 1fr;gap:0 32px}
+#content-kancelare .oc__grid{grid-template-columns:1fr 1fr!important}
+#fakturace .pg-bill{display:grid!important;grid-template-columns:1fr 1fr!important;gap:0 32px!important}
+#content-kontakt .cib-form__grid{grid-template-columns:1fr 1fr!important;gap:0 24px!important}
+#content-kontakt .cib-form__foot .pg-btn{width:auto}
+}
+}

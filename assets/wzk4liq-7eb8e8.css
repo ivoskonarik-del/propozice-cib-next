@@ -1,0 +1,43 @@
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * sofia-pro-soft:
+ *   - http://typekit.com/eulas/00000000000000007735a147
+ *   - http://typekit.com/eulas/00000000000000007735a149
+ *   - http://typekit.com/eulas/00000000000000007735a154
+ *   - http://typekit.com/eulas/00000000000000007735a157
+ *
+ * © 2009-2026 Adobe Systems Incorporated. All Rights Reserved.
+ */
+/*{"last_published":"2025-10-28 17:21:45 UTC"}*/
+
+@import url(/propozice-cib-next/assets/p-3bb50f.css);
+
+@font-face {
+font-family:"sofia-pro-soft";
+src:url(/propozice-cib-next/assets/l-200836.woff2) format("woff2"),url(/propozice-cib-next/assets/d-2d1fb4.woff2) format("woff"),url(/propozice-cib-next/assets/a-d71e2d.woff2) format("opentype");
+font-display:auto;font-style:normal;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"sofia-pro-soft";
+src:url(/propozice-cib-next/assets/l-ee267d.woff2) format("woff2"),url(/propozice-cib-next/assets/d-22fa58.woff2) format("woff"),url(/propozice-cib-next/assets/a-52e042.woff2) format("opentype");
+font-display:auto;font-style:italic;font-weight:700;font-stretch:normal;
+}
+
+@font-face {
+font-family:"sofia-pro-soft";
+src:url(/propozice-cib-next/assets/l-5fbaad.woff2) format("woff2"),url(/propozice-cib-next/assets/d-21f5ed.woff2) format("woff"),url(/propozice-cib-next/assets/a-4f652e.woff2) format("opentype");
+font-display:auto;font-style:normal;font-weight:400;font-stretch:normal;
+}
+
+@font-face {
+font-family:"sofia-pro-soft";
+src:url(/propozice-cib-next/assets/l-fce122.woff2) format("woff2"),url(/propozice-cib-next/assets/d-f3961a.woff2) format("woff"),url(/propozice-cib-next/assets/a-30237e.woff2) format("opentype");
+font-display:auto;font-style:italic;font-weight:400;font-stretch:normal;
+}
+
+.tk-sofia-pro-soft { font-family: "sofia-pro-soft",sans-serif; }
