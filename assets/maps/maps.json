@@ -1,0 +1,482 @@
+[
+  {
+    "name": "map-cz",
+    "variant": "light",
+    "zoom": 8,
+    "width": 2568,
+    "height": 1524,
+    "px0": 69886,
+    "py0": 43793,
+    "bbox": {
+      "west": 11.947632,
+      "south": 48.449244,
+      "east": 19.000854,
+      "north": 51.150063
+    },
+    "tile_size": 512,
+    "world_px": 131072,
+    "provider": "openfreemap",
+    "style": "positron (symbol layers removed)",
+    "attribution": "© OpenFreeMap © OpenMapTiles, data © OpenStreetMap contributors",
+    "files": {
+      "png": "map-cz.png",
+      "jpg": "map-cz.jpg"
+    },
+    "requested_bbox": {
+      "west": 11.95,
+      "south": 48.45,
+      "east": 19.0,
+      "north": 51.15
+    }
+  },
+  {
+    "name": "map-cz-dark",
+    "variant": "dark",
+    "zoom": 8,
+    "width": 2568,
+    "height": 1524,
+    "px0": 69886,
+    "py0": 43793,
+    "bbox": {
+      "west": 11.947632,
+      "south": 48.449244,
+      "east": 19.000854,
+      "north": 51.150063
+    },
+    "tile_size": 512,
+    "world_px": 131072,
+    "provider": "openfreemap",
+    "style": "dark (symbol layers removed)",
+    "attribution": "© OpenFreeMap © OpenMapTiles, data © OpenStreetMap contributors",
+    "files": {
+      "png": "map-cz-dark.png",
+      "jpg": "map-cz-dark.jpg"
+    },
+    "requested_bbox": {
+      "west": 11.95,
+      "south": 48.45,
+      "east": 19.0,
+      "north": 51.15
+    }
+  },
+  {
+    "name": "map-praha",
+    "variant": "light",
+    "zoom": 11,
+    "width": 1574,
+    "height": 1181,
+    "px0": 565648,
+    "py0": 354756,
+    "bbox": {
+      "west": 14.199829,
+      "south": 49.929787,
+      "east": 14.740219,
+      "north": 50.190089
+    },
+    "tile_size": 512,
+    "world_px": 1048576,
+    "provider": "openfreemap",
+    "style": "positron (symbol layers removed)",
+    "attribution": "© OpenFreeMap © OpenMapTiles, data © OpenStreetMap contributors",
+    "files": {
+      "png": "map-praha.png",
+      "jpg": "map-praha.jpg"
+    },
+    "requested_bbox": {
+      "west": 14.2,
+      "south": 49.93,
+      "east": 14.74,
+      "north": 50.19
+    }
+  },
+  {
+    "name": "map-praha-dark",
+    "variant": "dark",
+    "zoom": 11,
+    "width": 1574,
+    "height": 1181,
+    "px0": 565648,
+    "py0": 354756,
+    "bbox": {
+      "west": 14.199829,
+      "south": 49.929787,
+      "east": 14.740219,
+      "north": 50.190089
+    },
+    "tile_size": 512,
+    "world_px": 1048576,
+    "provider": "openfreemap",
+    "style": "dark (symbol layers removed)",
+    "attribution": "© OpenFreeMap © OpenMapTiles, data © OpenStreetMap contributors",
+    "files": {
+      "png": "map-praha-dark.png",
+      "jpg": "map-praha-dark.jpg"
+    },
+    "requested_bbox": {
+      "west": 14.2,
+      "south": 49.93,
+      "east": 14.74,
+      "north": 50.19
+    }
+  },
+  {
+    "name": "map-local-v33",
+    "variant": "light",
+    "zoom": 15,
+    "width": 1600,
+    "height": 1000,
+    "px0": 9060048,
+    "py0": 5683535,
+    "bbox": {
+      "west": 14.407539,
+      "south": 50.074012,
+      "east": 14.441872,
+      "north": 50.087781
+    },
+    "tile_size": 512,
+    "world_px": 16777216,
+    "provider": "openfreemap",
+    "style": "positron (symbol layers removed)",
+    "attribution": "© OpenFreeMap © OpenMapTiles, data © OpenStreetMap contributors",
+    "files": {
+      "png": "map-local-v33.png",
+      "jpg": "map-local-v33.jpg"
+    },
+    "center": {
+      "lat": 50.0809,
+      "lon": 14.4247,
+      "x": 799.743,
+      "y": 499.786
+    }
+  },
+  {
+    "name": "map-local-v33-dark",
+    "variant": "dark",
+    "zoom": 15,
+    "width": 1600,
+    "height": 1000,
+    "px0": 9060048,
+    "py0": 5683535,
+    "bbox": {
+      "west": 14.407539,
+      "south": 50.074012,
+      "east": 14.441872,
+      "north": 50.087781
+    },
+    "tile_size": 512,
+    "world_px": 16777216,
+    "provider": "openfreemap",
+    "style": "dark (symbol layers removed)",
+    "attribution": "© OpenFreeMap © OpenMapTiles, data © OpenStreetMap contributors",
+    "files": {
+      "png": "map-local-v33-dark.png",
+      "jpg": "map-local-v33-dark.jpg"
+    },
+    "center": {
+      "lat": 50.0809,
+      "lon": 14.4247,
+      "x": 799.743,
+      "y": 499.786
+    }
+  },
+  {
+    "name": "map-local-balabenka",
+    "variant": "light",
+    "zoom": 15,
+    "width": 1600,
+    "height": 1000,
+    "px0": 9062727,
+    "py0": 5681820,
+    "bbox": {
+      "west": 14.465024,
+      "south": 50.097624,
+      "east": 14.499357,
+      "north": 50.111387
+    },
+    "tile_size": 512,
+    "world_px": 16777216,
+    "provider": "openfreemap",
+    "style": "positron (symbol layers removed)",
+    "attribution": "© OpenFreeMap © OpenMapTiles, data © OpenStreetMap contributors",
+    "files": {
+      "png": "map-local-balabenka.png",
+      "jpg": "map-local-balabenka.jpg"
+    },
+    "center": {
+      "lat": 50.1045,
+      "lon": 14.4822,
+      "x": 800.438,
+      "y": 500.431
+    }
+  },
+  {
+    "name": "map-local-balabenka-dark",
+    "variant": "dark",
+    "zoom": 15,
+    "width": 1600,
+    "height": 1000,
+    "px0": 9062727,
+    "py0": 5681820,
+    "bbox": {
+      "west": 14.465024,
+      "south": 50.097624,
+      "east": 14.499357,
+      "north": 50.111387
+    },
+    "tile_size": 512,
+    "world_px": 16777216,
+    "provider": "openfreemap",
+    "style": "dark (symbol layers removed)",
+    "attribution": "© OpenFreeMap © OpenMapTiles, data © OpenStreetMap contributors",
+    "files": {
+      "png": "map-local-balabenka-dark.png",
+      "jpg": "map-local-balabenka-dark.jpg"
+    },
+    "center": {
+      "lat": 50.1045,
+      "lon": 14.4822,
+      "x": 800.438,
+      "y": 500.431
+    }
+  },
+  {
+    "name": "map-local-benkova",
+    "variant": "light",
+    "zoom": 15,
+    "width": 1600,
+    "height": 1000,
+    "px0": 9063124,
+    "py0": 5687063,
+    "bbox": {
+      "west": 14.473543,
+      "south": 50.025401,
+      "east": 14.507875,
+      "north": 50.039185
+    },
+    "tile_size": 512,
+    "world_px": 16777216,
+    "provider": "openfreemap",
+    "style": "positron (symbol layers removed)",
+    "attribution": "© OpenFreeMap © OpenMapTiles, data © OpenStreetMap contributors",
+    "files": {
+      "png": "map-local-benkova.png",
+      "jpg": "map-local-benkova.jpg"
+    },
+    "center": {
+      "lat": 50.0323,
+      "lon": 14.4907,
+      "x": 799.566,
+      "y": 499.538
+    }
+  },
+  {
+    "name": "map-local-benkova-dark",
+    "variant": "dark",
+    "zoom": 15,
+    "width": 1600,
+    "height": 1000,
+    "px0": 9063124,
+    "py0": 5687063,
+    "bbox": {
+      "west": 14.473543,
+      "south": 50.025401,
+      "east": 14.507875,
+      "north": 50.039185
+    },
+    "tile_size": 512,
+    "world_px": 16777216,
+    "provider": "openfreemap",
+    "style": "dark (symbol layers removed)",
+    "attribution": "© OpenFreeMap © OpenMapTiles, data © OpenStreetMap contributors",
+    "files": {
+      "png": "map-local-benkova-dark.png",
+      "jpg": "map-local-benkova-dark.jpg"
+    },
+    "center": {
+      "lat": 50.0323,
+      "lon": 14.4907,
+      "x": 799.566,
+      "y": 499.538
+    }
+  },
+  {
+    "name": "map-local-liberec",
+    "variant": "light",
+    "zoom": 15,
+    "width": 1600,
+    "height": 1000,
+    "px0": 9089939,
+    "py0": 5634473,
+    "bbox": {
+      "west": 15.048931,
+      "south": 50.744915,
+      "east": 15.083263,
+      "north": 50.758491
+    },
+    "tile_size": 512,
+    "world_px": 16777216,
+    "provider": "openfreemap",
+    "style": "positron (symbol layers removed)",
+    "attribution": "© OpenFreeMap © OpenMapTiles, data © OpenStreetMap contributors",
+    "files": {
+      "png": "map-local-liberec.png",
+      "jpg": "map-local-liberec.jpg"
+    },
+    "center": {
+      "lat": 50.7517,
+      "lon": 15.0661,
+      "x": 800.15,
+      "y": 500.246
+    }
+  },
+  {
+    "name": "map-local-liberec-dark",
+    "variant": "dark",
+    "zoom": 15,
+    "width": 1600,
+    "height": 1000,
+    "px0": 9089939,
+    "py0": 5634473,
+    "bbox": {
+      "west": 15.048931,
+      "south": 50.744915,
+      "east": 15.083263,
+      "north": 50.758491
+    },
+    "tile_size": 512,
+    "world_px": 16777216,
+    "provider": "openfreemap",
+    "style": "dark (symbol layers removed)",
+    "attribution": "© OpenFreeMap © OpenMapTiles, data © OpenStreetMap contributors",
+    "files": {
+      "png": "map-local-liberec-dark.png",
+      "jpg": "map-local-liberec-dark.jpg"
+    },
+    "center": {
+      "lat": 50.7517,
+      "lon": 15.0661,
+      "x": 800.15,
+      "y": 500.246
+    }
+  },
+  {
+    "name": "map-local-hradek",
+    "variant": "light",
+    "zoom": 15,
+    "width": 1600,
+    "height": 1000,
+    "px0": 9079635,
+    "py0": 5626989,
+    "bbox": {
+      "west": 14.827831,
+      "south": 50.846421,
+      "east": 14.862163,
+      "north": 50.859968
+    },
+    "tile_size": 512,
+    "world_px": 16777216,
+    "provider": "openfreemap",
+    "style": "positron (symbol layers removed)",
+    "attribution": "© OpenFreeMap © OpenMapTiles, data © OpenStreetMap contributors",
+    "files": {
+      "png": "map-local-hradek.png",
+      "jpg": "map-local-hradek.jpg"
+    },
+    "center": {
+      "lat": 50.8532,
+      "lon": 14.845,
+      "x": 800.143,
+      "y": 499.635
+    }
+  },
+  {
+    "name": "map-local-hradek-dark",
+    "variant": "dark",
+    "zoom": 15,
+    "width": 1600,
+    "height": 1000,
+    "px0": 9079635,
+    "py0": 5626989,
+    "bbox": {
+      "west": 14.827831,
+      "south": 50.846421,
+      "east": 14.862163,
+      "north": 50.859968
+    },
+    "tile_size": 512,
+    "world_px": 16777216,
+    "provider": "openfreemap",
+    "style": "dark (symbol layers removed)",
+    "attribution": "© OpenFreeMap © OpenMapTiles, data © OpenStreetMap contributors",
+    "files": {
+      "png": "map-local-hradek-dark.png",
+      "jpg": "map-local-hradek-dark.jpg"
+    },
+    "center": {
+      "lat": 50.8532,
+      "lon": 14.845,
+      "x": 800.143,
+      "y": 499.635
+    }
+  },
+  {
+    "name": "map-local-lichoceves",
+    "variant": "light",
+    "zoom": 14,
+    "width": 1600,
+    "height": 1000,
+    "px0": 4526543,
+    "py0": 2838916,
+    "bbox": {
+      "west": 14.258151,
+      "south": 50.138735,
+      "east": 14.326816,
+      "north": 50.166233
+    },
+    "tile_size": 512,
+    "world_px": 8388608,
+    "provider": "openfreemap",
+    "style": "positron (symbol layers removed)",
+    "attribution": "© OpenFreeMap © OpenMapTiles, data © OpenStreetMap contributors",
+    "files": {
+      "png": "map-local-lichoceves.png",
+      "jpg": "map-local-lichoceves.jpg"
+    },
+    "center": {
+      "lat": 50.1525,
+      "lon": 14.2925,
+      "x": 800.388,
+      "y": 499.5
+    }
+  },
+  {
+    "name": "map-local-lichoceves-dark",
+    "variant": "dark",
+    "zoom": 14,
+    "width": 1600,
+    "height": 1000,
+    "px0": 4526543,
+    "py0": 2838916,
+    "bbox": {
+      "west": 14.258151,
+      "south": 50.138735,
+      "east": 14.326816,
+      "north": 50.166233
+    },
+    "tile_size": 512,
+    "world_px": 8388608,
+    "provider": "openfreemap",
+    "style": "dark (symbol layers removed)",
+    "attribution": "© OpenFreeMap © OpenMapTiles, data © OpenStreetMap contributors",
+    "files": {
+      "png": "map-local-lichoceves-dark.png",
+      "jpg": "map-local-lichoceves-dark.jpg"
+    },
+    "center": {
+      "lat": 50.1525,
+      "lon": 14.2925,
+      "x": 800.388,
+      "y": 499.5
+    }
+  }
+]
