@@ -1,0 +1,62 @@
+/* CIB – jednotná typografie (7. 10. 2026)
+   Původní textový font sofia-pro-soft (Typekit) neměl české znaky č ď ě ň ř š ť ů ž → prohlížeč je
+   dokresloval náhradním písmem a v jednom odstavci se střídaly dva fonty. Nově jeden textový font
+   Manrope (plná čeština, self-hosted) + Barlow Condensed pro nadpisy a štítky beze změny.
+   Soubor se načítá jako poslední styl na všech stránkách (desktop i mobil). */
+@font-face{font-family:"Manrope";font-style:normal;font-weight:300 700;font-display:swap;src:url(/propozice-cib-next/assets/fonts-manrope/manrope-latin-ext.woff2) format("woff2");unicode-range:U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF}
+@font-face{font-family:"Manrope";font-style:normal;font-weight:300 700;font-display:swap;src:url(/propozice-cib-next/assets/fonts-manrope/manrope-latin.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
+
+:root{
+  --font-family-sofia:"Manrope","Helvetica Neue",Arial,sans-serif;
+  --t-font:"Manrope","Helvetica Neue",Arial,sans-serif;
+  --t-body:16px;  --t-body-lh:1.75; --t-body-ls:.005em;
+  --t-lead:18px;  --t-lead-lh:1.6;
+  --t-small:14px; --t-small-lh:1.6;
+  --t-cap:12px;
+  --t-kicker-ls:.08em;
+}
+body{font-family:var(--t-font)}
+
+/* běžný text: odstavce, popisy, texty v kartách a sekcích */
+.aj-text p,
+.magazine-text p,
+.philantrophy-content-text p,
+.cib-dev__text p:not(.cib-dev__quote),
+.cib-write__side>p,
+.m2__side>p,
+.m2l__p,
+.m2l__p p,
+.pl__head p,
+.tl2__head p,
+.dir__side p,
+.pil__in p,
+.oc__body,
+.ig dd,
+.cib-sidlo-info,
+.cib-ba__head p{
+  font-family:var(--t-font)!important;font-size:var(--t-body)!important;line-height:var(--t-body-lh)!important;
+  font-weight:400!important;letter-spacing:var(--t-body-ls)!important;font-style:normal
+}
+/* odrážky (milníky na ose) */
+.tl2__panel li{font-family:var(--t-font)!important;font-size:var(--t-body)!important;line-height:1.65!important;font-weight:400!important;letter-spacing:var(--t-body-ls)!important}
+/* perex / citace v slideru historie */
+.testi-list p{font-family:var(--t-font)!important;font-size:var(--t-lead)!important;line-height:var(--t-lead-lh)!important;font-weight:400!important;letter-spacing:0!important}
+/* krátký úvodní citát v tmavé kapitole (verzálky) */
+.cib-dev__text p.cib-dev__quote{font-family:var(--t-font)!important;font-size:14px!important;line-height:1.7!important;font-weight:500!important;letter-spacing:var(--t-kicker-ls)!important}
+/* drobný text: souhlas, fakturační řádky, kredity */
+.cib-check,.cib-nl__check,.pg-bill p,.wpcf7-form .field-disclaimer{font-family:var(--t-font)!important;font-size:var(--t-small)!important;line-height:var(--t-small-lh)!important;font-weight:400!important;letter-spacing:0!important}
+.pg-credit{font-family:var(--t-font)!important;font-size:var(--t-cap)!important;line-height:1.5!important;letter-spacing:0!important}
+/* formulářová pole a seznamy kontaktů/mapy */
+.cib-field,.cib-field input,.cib-field textarea,.cib-field select,.cib-write__contacts li,.m2__item,.social-stats-wrap li{font-family:var(--t-font)!important}
+
+/* zbylé odchylky srovnané na škálu 16 / 14 / 12 */
+.oc__body b,.oc__body a,.oc__addr b{font-size:var(--t-body)!important;line-height:1.5!important;font-weight:500!important}
+.oc__hours,.oc__hours b,.oc__hours span{font-size:var(--t-small)!important}
+.dir__n{font-family:var(--t-font)!important;font-size:var(--t-small)!important;line-height:var(--t-small-lh)!important}
+.testi-list span{font-family:var(--t-font)!important;font-size:var(--t-small)!important}
+.office-list .office-item .item-info .address a{font-family:var(--t-font)!important;font-size:var(--t-cap)!important;font-weight:400!important;line-height:1.5!important;letter-spacing:.01em!important}
+.csi dd,.csi__fakt-in{font-size:var(--t-body)!important}
+
+@media (max-width:991px){
+  :root{--t-body:15.5px;--t-body-lh:1.7;--t-lead:17px}
+}
