@@ -162,112 +162,126 @@
   }
 
 
-  /* 9) Historie holdingu (domovská) – interaktivní časová osa: tažení jezdce (myš/prst), vodorovné kolečko, šipky,
-        klik na rok, automatická jízda po milnících (zastaví se při první interakci). Data = <script type=application/json>. */
-  function timeline(){
-    var box=document.querySelector(".cib-tl"); if(!box)return;
-    var data; try{data=JSON.parse(box.querySelector(".cib-tl__data").textContent)}catch(e){return}
+  /* 9) Historie holdingu (domovská, 15. 10. 2026) – interaktivní osa přímo v sekci:
+        letopočet se točí jako počítadlo (u „Dnes“ dojede na písmena), jediná čára = osa s jezdcem (tažení myší/prstem,
+        vodorovné kolečko, šipky, klik na rok), text milníku najíždí zespodu, fotka pozadí „cestuje časem“ (--hx 0 → 1 =
+        2004 černobílá → dnes barevná). Při zobrazení se sama rozjede po milnících, první dotyk ji zastaví. */
+  function historyX(){
+    var box=document.querySelector(".cib-hx"); if(!box)return;
+    var data; try{data=JSON.parse(box.querySelector(".cib-hx__data").textContent)}catch(e){return}
     var n=data.length; if(!n)return;
-    var Y0=data[0].t,Y1=data[n-1].t,q=function(c){return box.querySelector(c)};
-    var track=q(".cib-tl__track"),rail=q(".cib-tl__rail"),fill=q(".cib-tl__fill"),ticks=q(".cib-tl__ticks"),head=q(".cib-tl__head"),chip=q(".cib-tl__chip"),
-        media=q(".cib-tl__media"),cap=q(".cib-tl__cap"),num=q(".cib-tl__num"),eyebrow=q(".cib-tl__eyebrow"),list=q(".cib-tl__items"),
-        bPrev=q(".cib-tl__btn--prev"),bNext=q(".cib-tl__btn--next"),bPlay=q(".cib-tl__btn--play");
-    var pos=0,cur=-1,anim=null,auto=null,autoOn=false,touched=false,layers={},z=0,wt=null;
+    var sec=box.closest("section")||box, q=function(c){return box.querySelector(c)};
+    var Y0=data[0].t,Y1=data[n-1].t;
+    var track=q(".cib-hx__track"),rail=q(".cib-hx__rail"),fill=q(".cib-hx__fill"),marks=q(".cib-hx__marks"),knob=q(".cib-hx__knob"),chip=q(".cib-hx__chip"),
+        yearEl=q(".cib-hx__year"),text=q(".cib-hx__text"),body=q(".cib-hx__body"),cnt=q(".cib-hx__cnt"),bPrev=q(".cib-hx__prev"),bNext=q(".cib-hx__next"),bPlay=q(".cib-hx__play");
+    sec.classList.add("has-hx");
+    var pos=0,cur=-1,anim=null,auto=null,autoOn=false,touched=false,drag=false,wt=null,swapT=null,lastLbl="";
     function p2y(p){return Y0+p*(Y1-Y0)} function y2p(y){return (y-Y0)/(Y1-Y0)}
-    function nearest(p){var y=p2y(p),best=0,d=1e9;for(var i=0;i<n;i++){var dd=Math.abs(data[i].t-y);if(dd<=d){d=dd;best=i}}return best}
+    function nearest(p){var y=p2y(p),b=0,d=1e9;for(var i=0;i<n;i++){var dd=Math.abs(data[i].t-y);if(dd<=d){d=dd;b=i}}return b}
+    function pad(k){return (k<10?"0":"")+k}
+    /* počítadlo: 4 sloupce 0–9 + písmeno slova „Dnes“ */
+    var LET="Dnes",cols=[];
+    for(var c=0;c<4;c++){var col=document.createElement("span"),st=document.createElement("span");col.className="cib-hx__col";st.className="cib-hx__stack";st.style.transitionDelay=(c*55)+"ms";
+      for(var d=0;d<=10;d++){var cell=document.createElement("span");cell.textContent=d<10?d:LET.charAt(c);st.appendChild(cell)}
+      col.appendChild(st);yearEl.appendChild(col);cols.push(st)}
+    function showYear(lbl){if(lbl===lastLbl)return;lastLbl=lbl;for(var c=0;c<4;c++){var k=lbl==="Dnes"?10:+lbl.charAt(c);cols[c].style.transform="translateY("+(-k*100/11)+"%)"}}
+    /* značky na ose */
+    for(var y=Y0;y<=Y1;y++){var t=document.createElement("i");t.className="cib-hx__tick";t.style.left=(y2p(y)*100)+"%";marks.appendChild(t)}
+    data.forEach(function(d,i){
+      var b=document.createElement("span");b.className="cib-hx__dot";b.style.left=(y2p(d.t)*100)+"%";b.setAttribute("aria-hidden","true");b.innerHTML="<span>"+d.y+"</span>";
+      marks.appendChild(b);d.el=b;
+    });
     function labels(){
-      var w=rail.getBoundingClientRect().width||1,xs=data.map(function(d){return y2p(d.t)*w}),show=[],last=-1e9;
-      for(var i=0;i<n;i++){show[i]=(xs[i]-last>=46);if(show[i])last=xs[i]}
-      if(!show[n-1]){show[n-1]=true;for(var j=n-2;j>=0;j--){if(xs[n-1]-xs[j]<46)show[j]=false;else break}}
+      var w=rail.getBoundingClientRect().width||1,xs=data.map(function(d){return y2p(d.t)*w}),show=[],last=-1e9,gap=w<600?40:44;
+      for(var i=0;i<n;i++){show[i]=xs[i]-last>=gap;if(show[i])last=xs[i]}
+      if(!show[n-1]){show[n-1]=true;for(var j=n-2;j>=0;j--){if(xs[n-1]-xs[j]<gap)show[j]=false;else break}}
       data.forEach(function(d,i){d.el.classList.toggle("no-lbl",!show[i])});
     }
-    function buildTicks(){
-      for(var y=Y0;y<=Y1;y++){var t=document.createElement("i");t.className="cib-tl__tick";t.style.left=(y2p(y)*100)+"%";ticks.appendChild(t)}
-      data.forEach(function(d,i){
-        var b=document.createElement("button");b.type="button";b.className="cib-tl__dot";b.style.left=(y2p(d.t)*100)+"%";
-        b.setAttribute("aria-label",(d.y==="Dnes"?"Současnost":d.y)+": "+d.items[0]);b.innerHTML="<span>"+d.y+"</span>";
-        b.addEventListener("click",function(e){e.preventDefault();user();goTo(i,true)});
-        ticks.appendChild(b);d.el=b;
-      });
-      labels();
+    /* text: pevná výška = nejdelší milník (sekce neskáče) */
+    function html(i){return data[i].items.map(function(t){return "<p><span>"+t+"</span></p>"}).join("")}
+    function fitText(){
+      var m=document.createElement("div");m.className="cib-hx__text";m.style.cssText="position:absolute;visibility:hidden;left:0;right:0;top:0;min-height:0";
+      body.appendChild(m);var mx=0;for(var i=0;i<n;i++){m.innerHTML=html(i);mx=Math.max(mx,m.offsetHeight)}body.removeChild(m);text.style.minHeight=mx+"px";
     }
-    function layer(i){
-      var d=data[i]; if(layers[i])return layers[i];
-      var el;
-      if(d.img){el=document.createElement("img");el.src=d.img;el.alt=d.cap||"";el.decoding="async"}
-      else{el=document.createElement("div");el.className="cib-tl__plate";el.innerHTML="<b>"+d.y+"</b><span>"+(d.cap||"")+"</span>"}
-      el.classList.add("cib-tl__layer");media.insertBefore(el,cap);layers[i]=el;return el;
+    function setText(i,quick){
+      clearTimeout(swapT);
+      function put(){text.innerHTML=html(i);text.classList.remove("is-out","is-in");void text.offsetWidth;text.classList.add(quick?"is-quick":"is-in");if(!quick)text.classList.remove("is-quick")}
+      if(reduce||!text.innerHTML){put();return}
+      text.classList.add("is-out");swapT=setTimeout(put,quick?60:200);
     }
     function render(i){
-      if(i===cur)return; var prev=cur; cur=i; var d=data[i];
-      var L=layer(i); if(prev>=0&&layers[prev])layers[prev].classList.remove("is-on");
-      L.classList.remove("is-on"); void L.offsetWidth; L.style.zIndex=++z; L.classList.add("is-on");
-      if(i+1<n)layer(i+1); if(i>0)layer(i-1);
-      cap.textContent=d.cap||""; cap.hidden=!d.cap;
-      eyebrow.textContent=(d.y==="Dnes"?"Současnost":"Rok "+d.y)+" · "+(i+1)+" / "+n;
-      list.classList.remove("is-in"); void list.offsetWidth;
-      list.innerHTML=d.items.map(function(t){return "<li>"+t+"</li>"}).join(""); list.classList.add("is-in");
-      data.forEach(function(x,k){x.el.classList.toggle("is-on",k===i)});
-      track.setAttribute("aria-valuenow",d.t); track.setAttribute("aria-valuetext",(d.y==="Dnes"?"Současnost":d.y)+": "+d.items.join(" "));
-      bPrev.disabled=i===0; bNext.disabled=i===n-1;
+      if(i===cur)return;cur=i;var d=data[i];
+      setText(i,drag);
+      data.forEach(function(x,k){x.el.classList.toggle("is-on",k===i);x.el.classList.toggle("is-past",k<i)});
+      cnt.innerHTML="<b>"+pad(i+1)+"</b> / "+pad(n);
+      track.setAttribute("aria-valuenow",d.t);track.setAttribute("aria-valuetext",(d.y==="Dnes"?"Současnost":d.y)+": "+d.items.join(" "));
+      bPrev.disabled=i===0;bNext.disabled=i===n-1;
     }
     function setPos(p,rolling){
-      pos=Math.max(0,Math.min(1,p)); var pc=(pos*100)+"%"; head.style.left=pc; fill.style.width=pc;
-      var i=nearest(pos),ry=Math.round(p2y(pos)),yr=ry>=Y1?"Dnes":String(ry);
-      chip.textContent=yr; num.textContent=rolling?yr:data[i].y; render(i);
+      pos=Math.max(0,Math.min(1,p));var pc=(pos*100)+"%";knob.style.left=pc;fill.style.width=pc;sec.style.setProperty("--hx",pos.toFixed(4));
+      var i=nearest(pos),ry=Math.round(p2y(pos)),lbl=rolling?(ry>=Y1?"Dnes":String(ry)):data[i].y;
+      chip.textContent=lbl;showYear(lbl);render(i);
     }
     function stopAnim(){if(anim){cancelAnimationFrame(anim);anim=null}}
     function animTo(target,dur){
-      stopAnim(); var p0=pos,t0=null,dp=target-p0;
+      stopAnim();var p0=pos,t0=null,dp=target-p0;
       if(reduce||Math.abs(dp)<1e-4){setPos(target);return}
-      function step(t){if(!t0)t0=t;var k=Math.min(1,(t-t0)/dur);k=1-Math.pow(1-k,3);setPos(p0+dp*k,k<1);if(k<1)anim=requestAnimationFrame(step);else anim=null}
+      function step(t){if(!t0)t0=t;var k=Math.min(1,(t-t0)/dur);k=k<.5?4*k*k*k:1-Math.pow(-2*k+2,3)/2;setPos(p0+dp*k,k<1);if(k<1)anim=requestAnimationFrame(step);else anim=null}
       anim=requestAnimationFrame(step);
     }
-    function goTo(i,animate){i=Math.max(0,Math.min(n-1,i));var t=y2p(data[i].t);if(animate)animTo(t,Math.min(900,260+Math.abs(t-pos)*1400));else setPos(t)}
+    function goTo(i,a){i=Math.max(0,Math.min(n-1,i));var t=y2p(data[i].t);if(a)animTo(t,Math.min(1100,380+Math.abs(t-pos)*1600));else setPos(t)}
     /* automatická jízda */
-    function tick(){clearTimeout(auto);auto=setTimeout(function(){if(!autoOn)return;if(cur>=n-1){stopAuto();return}goTo(cur+1,true);tick()},3400)}
+    function tick(){clearTimeout(auto);auto=setTimeout(function(){if(!autoOn)return;if(cur>=n-1){stopAuto();return}goTo(cur+1,true);tick()},3200)}
     function startAuto(){if(reduce||autoOn)return;autoOn=true;box.classList.add("is-auto");bPlay.setAttribute("aria-label","Pozastavit");tick()}
     function stopAuto(){autoOn=false;clearTimeout(auto);box.classList.remove("is-auto");bPlay.setAttribute("aria-label","Přehrát")}
     function user(){touched=true;stopAuto()}
-    /* tažení */
-    var drag=false;
-    function fromX(x){var r=rail.getBoundingClientRect();setPos((x-r.left)/r.width,true)}
+    /* tažení po ose */
+    /* stisk na ose: krátké klepnutí = skok na nejbližší milník, tažení (> 4 px) = plynulé „přetáčení“ let */
+    function fromX(x){var r=rail.getBoundingClientRect();return (x-r.left)/r.width}
+    var down=null;
     track.addEventListener("pointerdown",function(e){
-      if(e.target.closest&&e.target.closest(".cib-tl__dot"))return; if(e.pointerType==="mouse"&&e.button!==0)return;
-      user();stopAnim();drag=true;box.classList.add("is-drag");if(track.setPointerCapture)try{track.setPointerCapture(e.pointerId)}catch(x){}
-      fromX(e.clientX);if(e.pointerType==="mouse")e.preventDefault();
+      if(e.pointerType==="mouse"&&e.button!==0)return;
+      user();down={x:e.clientX,id:e.pointerId};if(track.setPointerCapture)try{track.setPointerCapture(e.pointerId)}catch(x){}
+      if(e.pointerType==="mouse")e.preventDefault();
     });
-    track.addEventListener("pointermove",function(e){if(drag)fromX(e.clientX)});
-    function endDrag(){if(!drag)return;drag=false;box.classList.remove("is-drag");goTo(nearest(pos),true)}
+    track.addEventListener("pointermove",function(e){
+      if(!down)return;
+      if(!drag&&Math.abs(e.clientX-down.x)>4){drag=true;stopAnim();box.classList.add("is-drag")}
+      if(drag)setPos(fromX(e.clientX),true);
+    });
+    function endDrag(e){
+      if(!down)return;var wasDrag=drag;drag=false;box.classList.remove("is-drag");
+      if(wasDrag){cur=-1;goTo(nearest(pos),true)}else if(e&&e.type==="pointerup"){goTo(nearest(Math.max(0,Math.min(1,fromX(down.x)))),true)}
+      down=null;
+    }
     ["pointerup","pointercancel","lostpointercapture"].forEach(function(t){track.addEventListener(t,endDrag)});
-    /* vodorovné kolečko / touchpad */
     track.addEventListener("wheel",function(e){
-      var dx=e.deltaX; if(Math.abs(dx)<2||Math.abs(dx)<Math.abs(e.deltaY))return; e.preventDefault();user();stopAnim();
-      var w=rail.getBoundingClientRect().width||1; setPos(pos+dx/w*.6,true);
-      clearTimeout(wt); wt=setTimeout(function(){goTo(nearest(pos),true)},160);
+      var dx=e.deltaX;if(Math.abs(dx)<2||Math.abs(dx)<Math.abs(e.deltaY))return;e.preventDefault();user();stopAnim();
+      setPos(pos+dx/(rail.getBoundingClientRect().width||1)*.6,true);clearTimeout(wt);wt=setTimeout(function(){goTo(nearest(pos),true)},160);
     },{passive:false});
-    /* klávesnice */
-    track.addEventListener("keydown",function(e){
-      var k=e.key,m={ArrowRight:cur+1,ArrowUp:cur+1,ArrowLeft:cur-1,ArrowDown:cur-1,Home:0,End:n-1};
-      if(k in m){e.preventDefault();user();goTo(m[k],true)}
-    });
+    track.addEventListener("keydown",function(e){var m={ArrowRight:cur+1,ArrowUp:cur+1,ArrowLeft:cur-1,ArrowDown:cur-1,Home:0,End:n-1};if(e.key in m){e.preventDefault();user();goTo(m[e.key],true)}});
+    /* přejetí prstem po textu = další / předchozí */
+    var x0=null,y0=null;
+    body.addEventListener("touchstart",function(e){x0=e.touches[0].clientX;y0=e.touches[0].clientY},{passive:true});
+    body.addEventListener("touchend",function(e){if(x0===null)return;var dx=e.changedTouches[0].clientX-x0,dy=e.changedTouches[0].clientY-y0;if(Math.abs(dx)>50&&Math.abs(dx)>Math.abs(dy)*1.4){user();goTo(cur+(dx<0?1:-1),true)}x0=null});
     bPrev.addEventListener("click",function(){user();goTo(cur-1,true)});
     bNext.addEventListener("click",function(){user();goTo(cur+1,true)});
     bPlay.addEventListener("click",function(){if(autoOn){touched=true;stopAuto()}else{if(cur>=n-1)goTo(0,false);startAuto()}});
-    box.addEventListener("mouseenter",function(){if(autoOn){clearTimeout(auto);box.classList.add("is-hold")}});
-    box.addEventListener("mouseleave",function(){box.classList.remove("is-hold");if(autoOn)tick()});
-    window.addEventListener("resize",labels);
-    buildTicks(); setPos(0);
-    var seen=false,vis=false;
+    box.addEventListener("mouseenter",function(){if(autoOn)clearTimeout(auto)});
+    box.addEventListener("mouseleave",function(){if(autoOn)tick()});
+    var rz;window.addEventListener("resize",function(){clearTimeout(rz);rz=setTimeout(function(){labels();fitText()},150)});
+    labels();fitText();setPos(0);
+    if(document.fonts&&document.fonts.ready)document.fonts.ready.then(function(){labels();fitText()});
     if("IntersectionObserver" in window){
+      var seen=false,vis=false;
       new IntersectionObserver(function(es){es.forEach(function(e){vis=e.isIntersecting;
-        if(vis){box.classList.add("is-in");if(!seen){seen=true;labels();setTimeout(function(){if(vis&&!touched)startAuto()},1200)}else if(autoOn)tick()}
+        if(vis){box.classList.add("is-in");if(!seen){seen=true;setTimeout(function(){if(vis&&!touched)startAuto()},900)}else if(autoOn)tick()}
         else clearTimeout(auto);
-      })},{threshold:.3}).observe(box);
+      })},{threshold:.35}).observe(box);
     }else box.classList.add("is-in");
   }
 
   revealGuard();
   lazyMedia();
-  onReady(function(){nbsp();portfolio();beforeAfter();tilesToGallery();sideIcons();bgVideos();devShows();timeline()});
+  onReady(function(){nbsp();portfolio();beforeAfter();tilesToGallery();sideIcons();bgVideos();devShows();historyX()});
 })();
