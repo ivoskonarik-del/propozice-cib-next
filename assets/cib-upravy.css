@@ -623,3 +623,5 @@ a.oc__addr:hover b{color:var(--bronz,#a17652);border-color:var(--bronz,#a17652)}
 .m2l__pin.is-hero{transform:translate(-50%,-14px)}
 .m2l__pin.lab-r{flex-direction:row;transform:translate(-12px,-50%)}
 .m2l__pin.lab-l{flex-direction:row-reverse;transform:translate(calc(-100% + 12px),-50%)}
+.cib-dev--nocap .cds__cap,.cib-dev--nocap .cib-dev__card span{display:none!important}
+.cib-dev--nocap .cds__bar{display:none!important}.cib-dev--nocap .cds__cnt{display:none}
