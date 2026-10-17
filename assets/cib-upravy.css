@@ -507,3 +507,71 @@ section.cib-nem-grid.cib-nem-grid--top{padding-top:clamp(112px,8.4vw,136px);padd
 .m2__pin--sm.m2__pin--hist.m2__pin--b{transform:translate(-50%,-5.5px)}
 .m2__pin--sm.m2__pin--hist.m2__pin--t{transform:translate(-50%,calc(-100% + 5.5px))}
 .m2__inset{width:40%!important}
+
+/* ── Nemovitosti 17. 10. (3): mezery mezi dlaždicemi a světlou sekcí + interaktivní mapa .m3 (cib-mapa.js) ── */
+section.cib-nem-grid.cib-nem-grid--top{padding-bottom:clamp(56px,5.5vw,96px)!important}
+section.cib-write--map.cib-write--light{padding-top:clamp(72px,6.5vw,112px)!important;padding-bottom:clamp(72px,6.5vw,112px)!important}
+.cib-write--map .cib-write__in{align-items:start}
+.cib-write--map .cib-write__side{padding-top:clamp(8px,1.4vw,24px)}
+.m3__live{display:none}
+.m3.is-live .m3__live{display:block}
+.m3.is-live .m2__stage{display:none}
+.m3__frame{position:relative;aspect-ratio:16/12;border-radius:0 30px 0 0;overflow:hidden;background:#ececea;box-shadow:0 30px 80px rgba(0,0,0,.10)}
+.m3__map{position:absolute;inset:0}
+.m3:not(.is-ready) .m3__frame::after{content:"";position:absolute;inset:0;background:linear-gradient(100deg,transparent 30%,rgba(255,255,255,.55) 50%,transparent 70%) #ececea;background-size:220% 100%;animation:m3Load 1.4s linear infinite}
+@keyframes m3Load{from{background-position:120% 0}to{background-position:-120% 0}}
+.m3__views{position:absolute;left:16px;top:16px;z-index:5;display:flex;background:rgba(255,255,255,.92);box-shadow:0 8px 24px rgba(0,0,0,.10);backdrop-filter:blur(6px)}
+.m3__views button{appearance:none;border:0;background:none;padding:11px 16px;font-family:var(--ft);font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:#6f6f6f;cursor:pointer;position:relative;transition:color .25s}
+.m3__views button::after{content:"";position:absolute;left:16px;right:16px;bottom:6px;height:2px;background:var(--bronz,#a17652);transform:scaleX(0);transform-origin:left;transition:transform .35s cubic-bezier(.2,.7,.2,1)}
+.m3__views button.is-on{color:#111}.m3__views button.is-on::after{transform:none}
+.m3__zoom{position:absolute;right:16px;top:16px;z-index:5;display:flex;flex-direction:column;background:rgba(255,255,255,.92);box-shadow:0 8px 24px rgba(0,0,0,.10)}
+.m3__zoom button{appearance:none;border:0;background:none;width:40px;height:40px;font-size:20px;line-height:1;color:#111;cursor:pointer}
+.m3__zoom button+button{border-top:1px solid rgba(0,0,0,.08)}
+.m3__zoom button:hover,.m3__views button:hover{color:var(--bronz,#a17652)}
+.m3__pin{appearance:none;border:0;padding:0;background:none;cursor:pointer;width:46px;height:46px;display:block}
+.m3__pin i{position:absolute;inset:0;border-radius:50%;background:#fff;border:3px solid var(--bronz,#a17652);box-shadow:0 8px 22px rgba(0,0,0,.28);overflow:hidden;transition:transform .3s cubic-bezier(.2,.7,.2,1)}
+.m3__pin i img{width:100%;height:100%;object-fit:cover;display:block}
+.m3__pin b{position:absolute;top:50%;transform:translateY(-50%);white-space:nowrap;font-family:var(--ft);font-weight:500;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:#111;text-shadow:0 0 6px #fff,0 0 10px #fff,0 0 14px #fff;pointer-events:none;transition:opacity .25s}
+.m3__pin--r b{left:calc(100% + 9px)}.m3__pin--l b{right:calc(100% + 9px)}
+.m3__pin::before{content:"";position:absolute;inset:0;border-radius:50%;border:1.5px solid var(--bronz,#a17652);animation:m2Pulse 3s ease-out infinite;pointer-events:none}
+.m3__pin:hover,.m3__pin.is-hot,.m3__pin.is-on{z-index:3}
+.m3__pin:hover i,.m3__pin.is-hot i{transform:scale(1.14)}
+.m3__pin.is-on i{transform:scale(1.22);border-color:#111}
+.m3__card{position:absolute;left:16px;bottom:16px;z-index:6;width:min(300px,calc(100% - 32px));background:#fff;color:#111;box-shadow:0 24px 60px rgba(0,0,0,.25);border-left:3px solid var(--bronz,#a17652);opacity:0;transform:translateY(12px);pointer-events:none;transition:opacity .35s,transform .45s cubic-bezier(.2,.7,.2,1)}
+.m3__card.is-open{opacity:1;transform:none;pointer-events:auto}
+.m3__card img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover}
+.m3__card>div{padding:14px 18px 18px}
+.m3__card small{display:block;font-family:var(--ft);font-size:11px;letter-spacing:.28em;text-transform:uppercase;color:var(--bronz,#a17652);margin-bottom:6px}
+.m3__card b{display:block;font-family:var(--ft);font-weight:500;font-size:20px;letter-spacing:.04em;text-transform:uppercase;line-height:1.1}
+.m3__card p{margin:8px 0 0;font-family:var(--fs);font-size:13.5px;line-height:1.55;color:#444}
+.m3__card p.m3__note{font-size:13px;color:#6f6f6f;margin-top:4px}
+.m3__btns{display:flex;gap:18px;flex-wrap:wrap;margin-top:14px}
+.m3__btns a{font-family:var(--ft);font-size:12px;letter-spacing:.28em;text-transform:uppercase;color:#111;border-bottom:2px solid var(--bronz,#a17652);text-decoration:none;padding-bottom:2px}
+.m3__btns a:hover{color:var(--bronz,#a17652)}
+.m3__btns a.m3__nav::before{content:"";display:inline-block;width:11px;height:11px;margin-right:7px;vertical-align:-1px;background:currentColor;clip-path:polygon(0 45%,100% 0,55% 100%,45% 55%)}
+.m3__close{position:absolute;right:8px;top:8px;z-index:2;width:30px;height:30px;border:0;border-radius:50%;background:rgba(0,0,0,.55);color:#fff;font-size:18px;line-height:1;cursor:pointer}
+.m3__strip{list-style:none;margin:16px 0 0;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}
+.m3__strip button{appearance:none;width:100%;display:flex;align-items:center;gap:10px;padding:8px 10px 8px 8px;border:1px solid rgba(0,0,0,.08);background:rgba(255,255,255,.6);text-align:left;cursor:pointer;transition:background .25s,border-color .25s}
+.m3__strip button:hover,.m3__strip button.is-hot{background:#fff;border-color:rgba(161,118,82,.45)}
+.m3__strip button.is-on{background:#fff;border-color:var(--bronz,#a17652);box-shadow:inset 3px 0 0 var(--bronz,#a17652)}
+.m3__strip i{flex:0 0 34px;height:34px;border-radius:50%;overflow:hidden;border:2px solid var(--bronz,#a17652)}
+.m3__strip i img{width:100%;height:100%;object-fit:cover;display:block}
+.m3__strip span{min-width:0;display:block}
+.m3__strip b{display:block;font-family:var(--ft);font-weight:500;font-size:12.5px;letter-spacing:.05em;text-transform:uppercase;color:#111;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.m3__strip small{display:block;font-family:var(--fs);font-size:11.5px;color:#6f6f6f;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.m3 .maplibregl-ctrl-attrib{font-size:10px}
+.m3 .maplibregl-cooperative-gesture-screen{font-family:var(--fs);font-size:15px}
+@media (max-width:1280px){.m3__strip{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:991px){
+  .m3__frame{aspect-ratio:1/1;border-radius:0 20px 0 0}
+  .m3__views{left:10px;top:10px}.m3__views button{padding:10px 11px;font-size:11px;letter-spacing:.16em}.m3__views button::after{left:11px;right:11px}
+  .m3__zoom{right:10px;top:10px}
+  .m3--far .m3__pin b{opacity:0}
+  .m3__pin{width:34px;height:34px}.m3__pin i{border-width:2px}
+  .m3__card{left:10px;right:10px;bottom:10px;width:auto;display:flex}
+  .m3__card img{width:38%;aspect-ratio:auto;object-fit:cover}
+  .m3__card>div{padding:12px 14px 14px}.m3__card b{font-size:17px}.m3__card p.m3__note{display:none}
+  .m3__strip{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;margin:12px calc(-1 * var(--mp,20px)) 0;padding:0 var(--mp,20px)}
+  .m3__strip::-webkit-scrollbar{display:none}
+  .m3__strip li{flex:0 0 72%;scroll-snap-align:start}
+}
