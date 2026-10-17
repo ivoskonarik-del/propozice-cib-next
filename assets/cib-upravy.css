@@ -591,3 +591,4 @@ section.pp--ico .pp-ico .pp-ico__it{border-top:0!important;text-align:center!imp
 @media (max-width:991px){section.pp--ico .pp-list-holder.pp-ico{grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:26px 8px!important}}
 @media (max-width:991px){body:has(.pp--ico) section#content-stats.pp--ico{display:block!important}}
 @media (max-width:991px){section.pp--ico .pp-list-holder.pp-ico{display:flex!important;flex-wrap:wrap;justify-content:center;gap:26px 0!important}section.pp--ico .pp-ico .pp-ico__it{width:33.333%!important;padding:0 4px!important}}
+/* nadpis sekce pod hero: bez parallax posunu šablony (vyčníval do hero videa) */ section.pp--ico .pp-head{transform:none!important}
