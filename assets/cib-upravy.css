@@ -575,3 +575,19 @@ section.cib-write--map.cib-write--light{padding-top:clamp(72px,6.5vw,112px)!impo
   .m3__strip::-webkit-scrollbar{display:none}
   .m3__strip li{flex:0 0 72%;scroll-snap-align:start}
 }
+
+/* ── Balabenka 17. 10.: „Budova a okolí“ – ikony vybavení místo čísel (podklad Evy), hned pod hero ── */
+.pp--ico .pp-list-holder.pp-ico{display:grid!important;grid-template-columns:repeat(7,minmax(0,1fr));gap:clamp(28px,3vw,48px) clamp(12px,1.4vw,24px);align-items:start}
+.pp--ico .pp-ico__it{width:auto!important;margin:0!important;padding:0!important;display:flex;flex-direction:column;align-items:center;text-align:center}
+.pp--ico .pp-ico__c{display:flex;align-items:center;justify-content:center;width:clamp(64px,5.6vw,88px);aspect-ratio:1;border-radius:50%;border:2px solid var(--bronz,#a17652);background:rgba(0,0,0,.28);backdrop-filter:blur(2px);transition:transform .45s cubic-bezier(.2,.7,.2,1),background .35s}
+.pp--ico .pp-ico__c img{width:56%;height:auto;display:block}
+.pp--ico .pp-ico__it:hover .pp-ico__c{transform:translateY(-4px);background:rgba(161,118,82,.35)}
+.pp--ico .pp-ico__it .pp-text{margin-top:14px!important;padding:0!important;border:0!important;line-height:1.5!important;max-width:14ch}
+.pp--ico .pp-ico__it .pp-text::before,.pp--ico .pp-ico__it .pp-text::after{display:none!important}
+@media (max-width:1280px){.pp--ico .pp-list-holder.pp-ico{grid-template-columns:repeat(5,minmax(0,1fr))}}
+@media (max-width:991px){.pp--ico .pp-list-holder.pp-ico{grid-template-columns:repeat(3,minmax(0,1fr));gap:28px 10px}.pp--ico .pp-ico__c{width:64px}.pp--ico .pp-ico__it .pp-text{font-size:10.5px!important;letter-spacing:.14em!important}}
+section.pp--ico .pp-ico .pp-ico__it .pp-text{white-space:normal!important;text-align:center!important;max-width:15ch;margin-left:auto!important;margin-right:auto!important}
+section.pp--ico .pp-ico .pp-ico__it{border-top:0!important;text-align:center!important;padding:0!important}
+@media (max-width:991px){section.pp--ico .pp-list-holder.pp-ico{grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:26px 8px!important}}
+@media (max-width:991px){body:has(.pp--ico) section#content-stats.pp--ico{display:block!important}}
+@media (max-width:991px){section.pp--ico .pp-list-holder.pp-ico{display:flex!important;flex-wrap:wrap;justify-content:center;gap:26px 0!important}section.pp--ico .pp-ico .pp-ico__it{width:33.333%!important;padding:0 4px!important}}
