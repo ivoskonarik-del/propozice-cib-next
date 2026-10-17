@@ -611,3 +611,15 @@ a.m2l__go:hover .m2l__gm{background:var(--bronz,#a17652);color:#fff;transform:tr
 @media (max-width:991px){.cib-hero-cta{justify-content:flex-start;margin-top:18px;padding-right:0}.cib-hero-cta a.cib-hero-btn{font-size:12px;letter-spacing:.24em;padding:14px 22px}}
 /* popisky fotek v galerii pryč (celý web) */
 .ss__cap b{display:none!important}
+
+/* ── 17. 10.: kontaktní centra – adresa proklik na Google Maps; popisek fotky v hero (Praha) ── */
+a.oc__addr{color:inherit;text-decoration:none;transition:color .2s}
+a.oc__addr b{border-bottom:1px solid rgba(161,118,82,.55)}
+a.oc__addr:hover b{color:var(--bronz,#a17652);border-color:var(--bronz,#a17652)}
+.cib-credit--hero{position:absolute;right:16px;bottom:10px;z-index:6;font-family:var(--fs,inherit);font-size:10px;letter-spacing:.04em;color:rgba(255,255,255,.6);pointer-events:none}
+
+/* ── 17. 10.: lokální mapy – na souřadnici sedí TEČKA (dřív střed tečky i s popiskem), popisek volitelně vlevo/vpravo ── */
+.m2l__pin{transform:translate(-50%,-12px)}
+.m2l__pin.is-hero{transform:translate(-50%,-14px)}
+.m2l__pin.lab-r{flex-direction:row;transform:translate(-12px,-50%)}
+.m2l__pin.lab-l{flex-direction:row-reverse;transform:translate(calc(-100% + 12px),-50%)}

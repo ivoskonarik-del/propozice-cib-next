@@ -422,19 +422,19 @@
   {
     "name": "map-local-lichoceves",
     "variant": "light",
-    "zoom": 14,
+    "zoom": 15,
     "width": 1600,
     "height": 1000,
-    "px0": 4526543,
-    "py0": 2838916,
+    "px0": 9053491,
+    "py0": 5678273,
     "bbox": {
-      "west": 14.258151,
-      "south": 50.138735,
-      "east": 14.326816,
-      "north": 50.166233
+      "west": 14.266841,
+      "south": 50.146423,
+      "east": 14.301174,
+      "north": 50.160171
     },
     "tile_size": 512,
-    "world_px": 8388608,
+    "world_px": 16777216,
     "provider": "openfreemap",
     "style": "positron (symbol layers removed)",
     "attribution": "© OpenFreeMap © OpenMapTiles, data © OpenStreetMap contributors",
@@ -443,28 +443,28 @@
       "jpg": "map-local-lichoceves.jpg"
     },
     "center": {
-      "lat": 50.1525,
-      "lon": 14.2925,
-      "x": 800.388,
-      "y": 499.5
+      "lat": 50.1533,
+      "lon": 14.284,
+      "x": 799.648,
+      "y": 499.814
     }
   },
   {
     "name": "map-local-lichoceves-dark",
     "variant": "dark",
-    "zoom": 14,
+    "zoom": 15,
     "width": 1600,
     "height": 1000,
-    "px0": 4526543,
-    "py0": 2838916,
+    "px0": 9053491,
+    "py0": 5678273,
     "bbox": {
-      "west": 14.258151,
-      "south": 50.138735,
-      "east": 14.326816,
-      "north": 50.166233
+      "west": 14.266841,
+      "south": 50.146423,
+      "east": 14.301174,
+      "north": 50.160171
     },
     "tile_size": 512,
-    "world_px": 8388608,
+    "world_px": 16777216,
     "provider": "openfreemap",
     "style": "dark (symbol layers removed)",
     "attribution": "© OpenFreeMap © OpenMapTiles, data © OpenStreetMap contributors",
@@ -473,10 +473,10 @@
       "jpg": "map-local-lichoceves-dark.jpg"
     },
     "center": {
-      "lat": 50.1525,
-      "lon": 14.2925,
-      "x": 800.388,
-      "y": 499.5
+      "lat": 50.1533,
+      "lon": 14.284,
+      "x": 799.648,
+      "y": 499.814
     }
   },
   {

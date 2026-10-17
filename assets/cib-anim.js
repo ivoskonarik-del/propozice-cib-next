@@ -57,6 +57,9 @@
       });
       set(50);
       /* jemná nápověda při prvním zobrazení: táhlo se jednou pohne */
+      /* 17. 10.: odkaz #ba-<klíč> (např. z Lichocevsi „Historický statek“) rovnou přepne na danou dvojici */
+      function fromHash(){var m=/^#ba-([\w-]+)$/.exec(location.hash);if(!m)return;var b=box.querySelector('.cib-ba__tabs button[data-k="'+m[1]+'"]');if(b){b.click();box.scrollIntoView({block:"center"})}}
+      fromHash();window.addEventListener("hashchange",fromHash);
       if(!reduce)inView(box,function(){stage.classList.add("is-hint");set(38);setTimeout(function(){set(50);setTimeout(function(){stage.classList.remove("is-hint")},700)},700)},.5);
     });
   }
