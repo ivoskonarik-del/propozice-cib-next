@@ -36,11 +36,11 @@
   $$('.m2').forEach(function(sec){
     var map=$('.m2__map',sec),list=$('.m2__list',sec),tabs=$('.m2__tabs',sec);if(!map)return;
     var card=document.createElement('div');card.className='m2__card';map.appendChild(card);
-    var data={};$$('.m2__item',sec).forEach(function(li){data[li.dataset.id]={name:li.querySelector('b').childNodes[0].textContent.trim(),place:li.querySelector('small').textContent,years:li.querySelector('span').textContent,kind:li.dataset.kind,href:li.dataset.href||'',thumb:(li.querySelector('img')||{}).src||''}});
+    var data={};$$('.m2__item',sec).forEach(function(li){data[li.dataset.id]={name:li.querySelector('b').childNodes[0].textContent.trim(),place:li.querySelector('small').textContent,years:li.querySelector('span').textContent,kind:li.dataset.kind,href:li.dataset.href||'',thumb:(function(i){return i?(i.getAttribute('data-lz')||i.getAttribute('src')||''):''})(li.querySelector('img')),ll:li.dataset.ll||''}});
     function hot(id,on){$$('.m2__pin',map).forEach(function(p){p.classList.toggle('is-hot',on&&p.dataset.id===id)});if(list)$$('.m2__item',list).forEach(function(li){li.classList.toggle('is-hot',on&&li.dataset.id===id)})}
     function open(id){
       var d=data[id],pin=$('.m2__pin[data-id="'+id+'"]',map);if(!d||!pin)return;
-      card.innerHTML='<button type="button" class="m2__close" aria-label="Zavřít">×</button>'+(d.thumb?'<img src="'+d.thumb+'" alt="">':'')+'<div><small>'+(d.kind==='now'?'Aktuální portfolio':'Historie skupiny')+' · '+d.years+'</small><b>'+d.name+'</b><p>'+d.place+'</p>'+(d.href?'<a href="'+d.href+'">Otevřít projekt</a>':'')+'</div>';
+      card.innerHTML='<button type="button" class="m2__close" aria-label="Zavřít">×</button>'+(d.thumb?'<img src="'+d.thumb+'" alt="">':'')+'<div><small>'+(d.kind==='now'?'Aktuální portfolio':'Historie skupiny')+' · '+d.years+'</small><b>'+d.name+'</b><p>'+d.place+'</p>'+((d.ll||d.href)?'<div class="m2__btns">'+(d.ll?'<a href="https://mapy.cz/zakladni?source=coor&id='+d.ll.split(',')[1]+'%2C'+d.ll.split(',')[0]+'&x='+d.ll.split(',')[1]+'&y='+d.ll.split(',')[0]+'&z=16" target="_blank" rel="noopener">Mapy.cz</a>':'')+(d.href?'<a href="'+d.href+'">Číst více</a>':'')+'</div>':'')+'</div>';
       var mr=map.getBoundingClientRect(),pr=pin.getBoundingClientRect();
       var x=pr.left-mr.left+pr.width/2,y=pr.top-mr.top;
       var left=Math.min(Math.max(x-140,0),mr.width-280);var top=y-card.offsetHeight-16;if(top<0)top=y+pr.height+14;

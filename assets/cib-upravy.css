@@ -469,13 +469,39 @@ header .header-logo img.site-main-logo{height:clamp(34px,3.2vw,46px)!important;w
 @media (max-width:991px){header .header-logo img.site-main-logo{height:30px!important}.ftr-brands__cib img{height:22px}}
 header .header-logo img.site-main-logo{filter:drop-shadow(0 1px 3px rgba(0,0,0,.55))}
 
-/* ── Nemovitosti 17. 10.: bez hero, dlaždice hned nahoře (5 projektů = 2 + 3), formulář a mapa aktuálních projektů v jedné sekci ── */
-section.cib-nem-grid.cib-nem-grid--top{padding-top:calc(clamp(120px,9.5vw,160px) + 2vw);padding-bottom:0!important}
-.cib-write--map{background:#000}
+/* ── Nemovitosti 17. 10.: světlá stránka, dlaždice hned nahoře místo hero, formulář a mapa aktuálních projektů v jedné sekci ── */
+body.cib-light{background:#f4f2ee}
+body.cib-light .main-header,body.cib-light .main-header:not(.sticky),body.cib-light .main-header.sticky{background:rgba(244,242,238,.94)!important;box-shadow:0 1px 0 rgba(0,0,0,.06)}
+body.cib-light .main-header .header-nav a,body.cib-light .main-header .header-inner a:not(.header-logo a){color:#1a1a1a!important}
+body.cib-light .main-header .header-burger-menu,body.cib-light .main-header .header-burger-menu *{color:#1a1a1a!important}
+body.cib-light .main-header .site-main-logo{filter:none!important}
+section.cib-nem-grid.cib-nem-grid--top{padding-top:clamp(92px,6.6vw,108px);padding-bottom:0!important}
+.cib-nem-grid--light{background:#f4f2ee!important}
+.cib-nem-grid--light .fp-list a{background:#e9e5de!important;box-shadow:0 18px 50px rgba(30,20,10,.10)}
+.cib-write--map{background:#f4f2ee!important;color:#1a1a1a}
 .cib-write--map .newsletter-bg{display:none!important}
 .cib-write--map .cib-write__in{grid-template-columns:minmax(0,5fr) minmax(0,7fr);align-items:center}
-.cib-write--map .cib-write__side>p{margin-bottom:2.4vw}
+.cib-write--map .cib-write__side>p{margin-bottom:2.4vw;color:#444!important}
+.cib-write--map .global-site-title,.cib-write--map .global-site-title strong{color:#1a1a1a!important}
 .cib-write--map .cib-write__form{padding-top:0}
-.m2--inline{position:relative;padding:0;background:none;z-index:auto}
+.m2--inline{position:relative;padding:0!important;background:none!important;z-index:auto}
 .m2--inline .m2__stage{position:relative;top:auto}
-@media (max-width:991px){.m2--inline{margin-top:48px}section.cib-nem-grid.cib-nem-grid--top{padding-top:96px!important}}
+.m2--inline .m2__map{border-radius:0 30px 0 0}
+.m2__obrys{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;overflow:visible}
+.m2__obrys polygon{fill:rgba(161,118,82,.07);stroke:#a17652;stroke-width:2;stroke-linejoin:round;vector-effect:non-scaling-stroke}
+.m2__btns{display:flex;gap:18px;flex-wrap:wrap;margin-top:12px}
+.m2__btns a{margin-top:0!important}
+@media (max-width:991px){.m2--inline{margin-top:48px}section.cib-nem-grid.cib-nem-grid--top{padding-top:84px!important}}
+body.cib-light [class*="ai-font-"]{color:#1a1a1a!important}
+.cib-nem-grid--top .fp-feed{margin-top:0!important}
+@media (max-width:991px){
+  .cib-nem-grid--light .fp-list a{background:transparent!important;box-shadow:none}
+  .cib-nem-grid--light .fp-list a *:not(img){color:#1a1a1a!important}
+  .cib-nem-grid--light .fp-list .fp-price span,.cib-nem-grid--light .fp-list .fp-address span{color:#8a6442!important}
+}
+@media (max-width:991px){
+  section.cib-nem-grid--light.featured-properties-area .fp-photo .fp-address,
+  section.cib-nem-grid--light.featured-properties-area .fp-details ul li em{color:#1a1a1a!important}
+  section.cib-nem-grid--light.featured-properties-area .fp-photo .fp-address span{color:#8a6442!important}
+  section.cib-nem-grid--light.featured-properties-area .fp-details ul li{color:rgba(0,0,0,.3)!important}
+}
