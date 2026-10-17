@@ -468,3 +468,14 @@ header .header-logo img.site-main-logo{height:clamp(34px,3.2vw,46px)!important;w
 .ftr-brands__cib img{height:24px}
 @media (max-width:991px){header .header-logo img.site-main-logo{height:30px!important}.ftr-brands__cib img{height:22px}}
 header .header-logo img.site-main-logo{filter:drop-shadow(0 1px 3px rgba(0,0,0,.55))}
+
+/* ── Nemovitosti 17. 10.: bez hero, dlaždice hned nahoře (5 projektů = 2 + 3), formulář a mapa aktuálních projektů v jedné sekci ── */
+section.cib-nem-grid.cib-nem-grid--top{padding-top:calc(clamp(120px,9.5vw,160px) + 2vw);padding-bottom:0!important}
+.cib-write--map{background:#000}
+.cib-write--map .newsletter-bg{display:none!important}
+.cib-write--map .cib-write__in{grid-template-columns:minmax(0,5fr) minmax(0,7fr);align-items:center}
+.cib-write--map .cib-write__side>p{margin-bottom:2.4vw}
+.cib-write--map .cib-write__form{padding-top:0}
+.m2--inline{position:relative;padding:0;background:none;z-index:auto}
+.m2--inline .m2__stage{position:relative;top:auto}
+@media (max-width:991px){.m2--inline{margin-top:48px}section.cib-nem-grid.cib-nem-grid--top{padding-top:96px!important}}
