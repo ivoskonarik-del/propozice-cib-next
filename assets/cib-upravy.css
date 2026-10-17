@@ -601,3 +601,13 @@ a.m2l__go:hover .m2l__gm{background:var(--bronz,#a17652);color:#fff;transform:tr
 .m2l__addr a,.m2p__row a,.ig dd a,a.fc-addr{color:inherit;text-decoration:none;border-bottom:1px solid rgba(161,118,82,.55);transition:color .2s,border-color .2s}
 .m2l__addr a:hover,.m2p__row a:hover,.ig dd a:hover,a.fc-addr:hover{color:var(--bronz,#a17652);border-color:var(--bronz,#a17652)}
 @media (max-width:991px){.m2l__gm{right:10px;bottom:10px;font-size:10.5px;letter-spacing:.16em;padding:8px 11px}}
+
+/* ── 17. 10.: tlačítko v hero (Luxury Suites → rezervace) ── */
+.cib-hero-cta{display:flex;justify-content:flex-end;margin-top:clamp(18px,1.8vw,28px);padding-right:64px}
+.cib-hero-cta a.cib-hero-btn{position:relative;z-index:5;display:inline-flex;align-items:center;gap:22px;padding:16px 28px;background:var(--bronz,#a17652);color:#fff!important;font-family:var(--font-family-title,'Barlow Condensed',sans-serif);font-size:13px;font-weight:500;letter-spacing:.32em;text-transform:uppercase;text-decoration:none;transition:background .3s,transform .35s cubic-bezier(.2,.7,.2,1)}
+.cib-hero-cta a.cib-hero-btn::after{content:"";width:26px;height:1px;background:currentColor;box-shadow:none;transition:width .3s}
+.cib-hero-cta a.cib-hero-btn:hover{background:#8a6442;transform:translateY(-2px)}
+.cib-hero-cta a.cib-hero-btn:hover::after{width:36px}
+@media (max-width:991px){.cib-hero-cta{justify-content:flex-start;margin-top:18px;padding-right:0}.cib-hero-cta a.cib-hero-btn{font-size:12px;letter-spacing:.24em;padding:14px 22px}}
+/* popisky fotek v galerii pryč (celý web) */
+.ss__cap b{display:none!important}
