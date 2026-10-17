@@ -625,3 +625,16 @@ a.oc__addr:hover b{color:var(--bronz,#a17652);border-color:var(--bronz,#a17652)}
 .m2l__pin.lab-l{flex-direction:row-reverse;transform:translate(calc(-100% + 12px),-50%)}
 .cib-dev--nocap .cds__cap,.cib-dev--nocap .cib-dev__card span{display:none!important}
 .cib-dev--nocap .cds__bar{display:none!important}.cib-dev--nocap .cds__cnt{display:none}
+
+/* ── 17. 10.: Kontakt – Ke stažení (logo, PENB) ── */
+section.dl-sec{position:relative;z-index:5;background:var(--gray,#f3f3f3);color:#111;padding:var(--sec-y,clamp(88px,7.5vw,128px)) 0}
+.dl-sec .pl__head p{color:#444}
+.dl{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.4fr) minmax(0,1.4fr) minmax(0,1fr);gap:clamp(24px,3vw,48px);margin-top:clamp(32px,3vw,48px);align-items:start}
+.dl__g h3{margin:0 0 14px;font-family:var(--font-family-title);font-weight:500;font-size:14px;letter-spacing:.28em;text-transform:uppercase;color:var(--bronz,#a17652)}
+.dl__g ul{list-style:none;margin:0;padding:0;border-top:1px solid rgba(0,0,0,.12)}
+.dl__g li a{display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding:12px 2px;border-bottom:1px solid rgba(0,0,0,.08);color:#111;text-decoration:none;font-family:var(--fs);font-size:15px;transition:color .2s,padding .25s}
+.dl__g li a span::before{content:"";display:inline-block;width:9px;height:11px;margin-right:10px;vertical-align:-1px;background:var(--bronz,#a17652);clip-path:polygon(35% 0,65% 0,65% 50%,100% 50%,50% 100%,0 50%,35% 50%)}
+.dl__g li a small{font-family:var(--font-family-title);font-size:11px;letter-spacing:.14em;color:#8a8a8a;white-space:nowrap}
+.dl__g li a:hover{color:var(--bronz,#a17652);padding-left:6px}
+@media (max-width:1200px){.dl{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media (max-width:991px){section.dl-sec{padding:64px var(--mp,20px)}.dl{grid-template-columns:1fr;gap:32px}}
