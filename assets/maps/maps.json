@@ -478,5 +478,65 @@
       "x": 800.388,
       "y": 499.5
     }
+  },
+  {
+    "name": "map-praha2",
+    "variant": "light",
+    "zoom": 11,
+    "width": 2214,
+    "height": 1954,
+    "px0": 565124,
+    "py0": 354209,
+    "bbox": {
+      "west": 14.019928,
+      "south": 49.879814,
+      "east": 14.780045,
+      "north": 50.310173
+    },
+    "tile_size": 512,
+    "world_px": 1048576,
+    "provider": "openfreemap",
+    "style": "positron (symbol layers removed)",
+    "attribution": "© OpenFreeMap © OpenMapTiles, data © OpenStreetMap contributors",
+    "files": {
+      "png": "map-praha2.png",
+      "jpg": "map-praha2.jpg"
+    },
+    "requested_bbox": {
+      "west": 14.02,
+      "south": 49.88,
+      "east": 14.78,
+      "north": 50.31
+    }
+  },
+  {
+    "name": "map-praha2-dark",
+    "variant": "dark",
+    "zoom": 11,
+    "width": 2214,
+    "height": 1954,
+    "px0": 565124,
+    "py0": 354209,
+    "bbox": {
+      "west": 14.019928,
+      "south": 49.879814,
+      "east": 14.780045,
+      "north": 50.310173
+    },
+    "tile_size": 512,
+    "world_px": 1048576,
+    "provider": "openfreemap",
+    "style": "dark (symbol layers removed)",
+    "attribution": "© OpenFreeMap © OpenMapTiles, data © OpenStreetMap contributors",
+    "files": {
+      "png": "map-praha2-dark.png",
+      "jpg": "map-praha2-dark.jpg"
+    },
+    "requested_bbox": {
+      "west": 14.02,
+      "south": 49.88,
+      "east": 14.78,
+      "north": 50.31
+    }
   }
 ]

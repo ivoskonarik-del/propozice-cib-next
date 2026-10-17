@@ -489,3 +489,21 @@ section.cib-nem-grid.cib-nem-grid--top{padding-top:clamp(112px,8.4vw,136px);padd
 .m2__btns a{margin-top:0!important}
 .m2__btns a.m2__nav::before{content:"";display:inline-block;width:11px;height:11px;margin-right:7px;vertical-align:-1px;background:currentColor;clip-path:polygon(0 45%,100% 0,55% 100%,45% 55%)}
 @media (max-width:991px){.m2--inline{margin-top:48px}section.cib-nem-grid.cib-nem-grid--top{padding-top:96px!important}}
+/* 17. 10. MAPY: na souřadnici sedí střed FOTKY, ne střed celého štítku (dřív translate(-50%,-50%) posouval bod o půl délky popisku) */
+.m2__pin{transform:translate(-20px,-50%)}
+.m2__pin--l{transform:translate(calc(-100% + 20px),-50%)}
+.m2__pin--b{transform:translate(-50%,-20px)}
+.m2__pin--t{transform:translate(-50%,calc(-100% + 20px))}
+.m2__pin--sm{transform:translate(-15px,-50%)}
+.m2__pin--sm.m2__pin--l{transform:translate(calc(-100% + 15px),-50%)}
+.m2__pin--sm.m2__pin--b{transform:translate(-50%,-15px)}
+.m2__pin--sm.m2__pin--t{transform:translate(-50%,calc(-100% + 15px))}
+.m2__pin--hist{transform:translate(-8px,-50%)}
+.m2__pin--hist.m2__pin--l{transform:translate(calc(-100% + 8px),-50%)}
+.m2__pin--hist.m2__pin--b{transform:translate(-50%,-8px)}
+.m2__pin--hist.m2__pin--t{transform:translate(-50%,calc(-100% + 8px))}
+.m2__pin--sm.m2__pin--hist{transform:translate(-5.5px,-50%)}
+.m2__pin--sm.m2__pin--hist.m2__pin--l{transform:translate(calc(-100% + 5.5px),-50%)}
+.m2__pin--sm.m2__pin--hist.m2__pin--b{transform:translate(-50%,-5.5px)}
+.m2__pin--sm.m2__pin--hist.m2__pin--t{transform:translate(-50%,calc(-100% + 5.5px))}
+.m2__inset{width:40%!important}
