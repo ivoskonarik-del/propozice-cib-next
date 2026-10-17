@@ -473,6 +473,10 @@ header .header-logo img.site-main-logo{filter:drop-shadow(0 1px 3px rgba(0,0,0,.
 section.cib-nem-grid.cib-nem-grid--top{padding-top:clamp(112px,8.4vw,136px);padding-bottom:0!important}
 .cib-nem-grid--top .fp-feed{margin-top:0!important}
 .cib-write--map{background:#000!important}
+/* 17. 10. Ivo: sekce formuláře a mapy světlá (šedá jako původní mapa projektů), dlaždice nad ní zůstávají černé */
+.cib-write--map.cib-write--light{background:var(--gray,#f3f3f3)!important;color:#111}
+.cib-write--light .global-site-title,.cib-write--light .global-site-title strong{color:#111!important}
+.cib-write--light .cib-write__side>p{color:#444!important}
 .cib-write--map .newsletter-bg{display:none!important}
 .cib-write--map .cib-write__in{grid-template-columns:minmax(0,5fr) minmax(0,7fr);align-items:center}
 .cib-write--map .cib-write__side>p{margin-bottom:2.4vw}
