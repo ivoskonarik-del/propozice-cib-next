@@ -150,3 +150,11 @@
   /* otevřít první (Současnost) po najetí do sekce */
   var first=items[0]; if(first&&'IntersectionObserver' in window){var o2=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){set(first,true);o2.disconnect()}})},{threshold:0.5});o2.observe(first)}
 })();
+/* 18. 10.: video v heru Kontaktu (desktop / mobil / HEVC na iPhonu) */
+(function(){
+  var v=document.querySelector('video.khero__v');if(!v)return;
+  if(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+  var mob=matchMedia('(max-width:991px)').matches;
+  v.src=mob?(v.canPlayType('video/mp4; codecs="hvc1.1.6.L123.B0"')==='probably'?v.dataset.mh:v.dataset.m):v.dataset.d;
+  var p=v.play();if(p&&p.catch)p.catch(function(){});
+})();

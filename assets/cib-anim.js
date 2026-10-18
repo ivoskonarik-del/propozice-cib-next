@@ -288,3 +288,15 @@
   lazyMedia();
   onReady(function(){nbsp();portfolio();beforeAfter();tilesToGallery();sideIcons();bgVideos();devShows();historyX()});
 })();
+/* 18. 10.: videa místo fotek v sekcích (.cib-secvid) – zdroj až u obrazovky, pauza mimo ni, bez pohybu při reduced-motion */
+(function(){
+  if(!('IntersectionObserver' in window)||(window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches))return;
+  function go(){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){var v=e.target;
+      if(e.isIntersecting){if(!v.getAttribute('src')){v.src=(v.dataset.m&&matchMedia('(max-width:991px)').matches)?v.dataset.m:v.dataset.src;v.addEventListener('playing',function(){v.classList.add('is-on')},{once:true})}var p=v.play();if(p&&p.catch)p.catch(function(){})}
+      else if(v.getAttribute('src'))v.pause();
+    })},{rootMargin:'200px 0px'});
+    [].forEach.call(document.querySelectorAll('video.cib-secvid'),function(v){io.observe(v)});
+  }
+  if(document.readyState==='complete')go();else window.addEventListener('load',go);
+})();
