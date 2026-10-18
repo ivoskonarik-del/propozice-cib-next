@@ -320,31 +320,25 @@ section[id],footer[id],div[id]{scroll-margin-top:72px!important}
 /* ── MENU: wipe 1,3 s zkrátit na .45 s (hrana wipu jinak sekundu uřezává písmena); aktuální stránka bronzově ── */
 #vp-menu.panel--prichod .panel__obsah,#vp-menu.panel--odchod .panel__obsah,#vp-menu .panel__obsah{transition-duration:.45s!important}
 #vp-menu .panel__pozadi,#vp-menu.panel--prichod .panel__pozadi,#vp-menu.panel--odchod .panel__pozadi{transition-duration:.4s!important}
-body:has(#portfolio) #vp-menu a.panel-menu__odkaz[href$="/nemovitosti/"],
-body:has(#content-slider video[data-mobil*="balabenka"]) #vp-menu a.panel-menu__odkaz[href$="/nemovitosti/"],
-body:has(#content-slider video[data-mobil*="hero-v33"]) #vp-menu a.panel-menu__odkaz[href$="/nemovitosti/"],
-body:has(#content-slider video[data-mobil*="liberec"]) #vp-menu a.panel-menu__odkaz[href$="/nemovitosti/"],
-body:has(#content-slider img[src*="v33lux"]) #vp-menu a.panel-menu__odkaz[href$="/nemovitosti/"],
-body:has(#content-slider img[src*="benkova"]) #vp-menu a.panel-menu__odkaz[href$="/nemovitosti/"],
-body:has(#content-slider img[src*="cib-p-ovz"]) #vp-menu a.panel-menu__odkaz[href$="/development/lichoceves/"],
-body:has(a[href*="esstables.com"]) #vp-menu a.panel-menu__odkaz[href$="/staje/emma-sophia-stables/"],
-body:has(#content-jason a[href$="kontakt/#fakturace"]) #vp-menu a.panel-menu__odkaz[href$="/sidlo/"],
-body:has(#content-vedeni) #vp-menu a.panel-menu__odkaz[href$="/o-nas/"],
-body:has(#content-kontakt) #vp-menu a.panel-menu__odkaz[href$="/kontakt/"]{color:var(--m-bronz)!important;font-weight:400!important}
+/* 18. 10.: stránka se pozná podle třídy na <body> (pages5 page(): pg-<stránka>, pg-sek-<oddíl>), ne podle obsahu – dřív odkaz na esstables.com
+   v patičce schovával čísla na homepage a v menu svítily Stáje všude; přejmenované video Balabenky a nová fotka Prahy pravidla vypnuly */
+body.pg-sek-nemovitosti #vp-menu a.panel-menu__odkaz[href$="/nemovitosti/"],
+body.pg-sek-development #vp-menu a.panel-menu__odkaz[href$="/development/lichoceves/"],
+body.pg-sek-staje #vp-menu a.panel-menu__odkaz[href$="/staje/emma-sophia-stables/"],
+body.pg-o-nas #vp-menu a.panel-menu__odkaz[href$="/o-nas/"],
+body.pg-kontakt #vp-menu a.panel-menu__odkaz[href$="/kontakt/"]{color:var(--m-bronz)!important;font-weight:400!important}
 /* rozcestník projektů: aktuální projekt bronzově */
-body:has(#content-slider video[data-mobil*="balabenka"]) #vp-menu a.panel-menu__drobnyOdkaz[href$="/balabenka/"],
-body:has(#content-slider video[data-mobil*="hero-v33"]) #vp-menu a.panel-menu__drobnyOdkaz[href$="/vodickova-33/"],
-body:has(#content-slider video[data-mobil*="liberec"]) #vp-menu a.panel-menu__drobnyOdkaz[href$="/sprava-bytu-liberec/"],
-body:has(#content-slider img[src*="v33lux"]) #vp-menu a.panel-menu__drobnyOdkaz[href$="/vodickova-luxury-suites/"],
-body:has(#content-slider img[src*="benkova"]) #vp-menu a.panel-menu__drobnyOdkaz[href$="/sprava-bytu-praha/"],
-body:has(#content-slider img[src*="cib-p-ovz"]) #vp-menu a.panel-menu__drobnyOdkaz[href$="/development/lichoceves/"],
-body:has(a[href*="esstables.com"]) #vp-menu a.panel-menu__drobnyOdkaz[href$="/staje/emma-sophia-stables/"]{color:var(--m-bronz)!important}
+body.pg-balabenka #vp-menu a.panel-menu__drobnyOdkaz[href$="/balabenka/"],
+body.pg-vodickova-33 #vp-menu a.panel-menu__drobnyOdkaz[href$="/vodickova-33/"],
+body.pg-sprava-bytu-liberec #vp-menu a.panel-menu__drobnyOdkaz[href$="/sprava-bytu-liberec/"],
+body.pg-vodickova-luxury-suites #vp-menu a.panel-menu__drobnyOdkaz[href$="/vodickova-luxury-suites/"],
+body.pg-sprava-bytu-praha #vp-menu a.panel-menu__drobnyOdkaz[href$="/sprava-bytu-praha/"],
+body.pg-lichoceves #vp-menu a.panel-menu__drobnyOdkaz[href$="/development/lichoceves/"],
+body.pg-emma-sophia-stables #vp-menu a.panel-menu__drobnyOdkaz[href$="/staje/emma-sophia-stables/"]{color:var(--m-bronz)!important}
 
 /* ── DUPLICITNÍ ČÍSLA: kde „v číslech“ opakuje hero fakta, jednu ze sekcí vypustit ── */
-/* liberec (405/2/2006 = totéž), stáje (2023/20 min = totéž), Vodičkova 33 (1899/2024 = totéž): sekce content-stats pryč */
-body:has(#content-lokalita-2) #content-stats,body:has(a[href*="esstables.com"]) #content-stats,body:has(#content-slider video[data-mobil*="hero-v33"]) #content-stats{display:none!important}
-/* balabenka: 4 hero fakta jsou podmnožinou šesti čísel níže → v heru fakta schovat (jako O nás) */
-body:has(#content-slider video[data-mobil*="balabenka"]) .cib-sub .cib-hero-facts,body:has(#content-slider video[data-mobil*="balabenka"]) .cib-hero-facts{display:none!important}
+/* liberec (406/2006 = totéž), stáje (2023 = totéž), Vodičkova 33 (1899/2024 = totéž): sekce content-stats pryč (Balabenka už čísla nemá, jen ikony → hero fakta zůstávají) */
+body.pg-sprava-bytu-liberec #content-stats,body.pg-emma-sophia-stables #content-stats,body.pg-vodickova-33 #content-stats{display:none!important}
 /* content-stats obecně: štítek bronzově (ne bílý .is-white), 3-položkový seznam těsnější (číslo 100 px, popisek světlejší) */
 .proven-performance-area .pp-head .global-site-title span,.proven-performance-area .pp-head .global-site-title.is-white span{color:var(--m-bronz)!important}
 .proven-performance-area .pp-list-holder--3 .pp-stats-number,.proven-performance-area .pp-list-holder:has(>.pp-list:nth-child(3):last-child) .pp-stats-number{flex:0 0 88px}
