@@ -700,3 +700,10 @@ video.cib-secvid--bg.is-on{opacity:1}
   .cib-ba .cib-ba__stage{grid-area:stage}
   .cib-ba .cib-ba__foot{grid-area:foot;flex-direction:column;gap:10px;margin-top:28px;padding-top:18px;border-top:1px solid rgba(0,0,0,.12);line-height:1.8}
 }
+
+/* 18. 10. večer: pás ikon Vodičkovy 33 (8 ikon) – stejná šířka a velikost ikon jako Balabenka, jen jedna řada */
+.pp--ico-n8 .pp-list-holder.pp-ico{grid-template-columns:repeat(8,minmax(0,1fr))}
+@media (max-width:1280px){.pp--ico-n8 .pp-list-holder.pp-ico{grid-template-columns:repeat(4,minmax(0,1fr))}}
+/* fotka Vodičkovy ulice je světlejší než u Balabenky → víc ztmavit, ať ikony a popisky čtou stejně */
+#content-okoli .global-canvas-bg{opacity:.62!important}
+#content-okoli:after{opacity:.5!important}
