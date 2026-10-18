@@ -46,8 +46,11 @@
     else if(!e.shiftKey&&(!uvnitr||ted===posledni)){e.preventDefault();prvni.focus();}
   });
 })();
-/* 18. 10. večer: Ke stažení v menu – přepínání skupin PENB */
-(function(){var b=document.querySelector('.panel-menu__stazeni');if(!b)return;var t=[].slice.call(b.querySelectorAll('.mst__tab'));
-  t.forEach(function(x){x.addEventListener('click',function(){t.forEach(function(y){var on=y===x;y.setAttribute('aria-selected',on?'true':'false');document.getElementById(y.getAttribute('aria-controls')).hidden=!on;});});});
+/* 18. 10. večer: Ke stažení v menu – rozjíždění (Ke stažení → lokality → soubory), jedna lokalita otevřená */
+(function(){var b=document.querySelector('.panel-menu__stazeni');if(!b)return;
+  function prepni(t,on){t.setAttribute('aria-expanded',on?'true':'false');document.getElementById(t.getAttribute('aria-controls')).classList.toggle('is-open',on);}
+  var hl=b.querySelector('.mst__hlavni'),sk=[].slice.call(b.querySelectorAll('.mst__sk'));
+  hl.addEventListener('click',function(){var on=hl.getAttribute('aria-expanded')!=='true';prepni(hl,on);if(!on)sk.forEach(function(x){prepni(x,false)});});
+  sk.forEach(function(x){x.addEventListener('click',function(){var on=x.getAttribute('aria-expanded')!=='true';sk.forEach(function(y){prepni(y,y===x&&on)});});});
 })();
 /*/mst*/

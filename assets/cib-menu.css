@@ -80,26 +80,31 @@
 body.cib-menu-open{overflow:hidden}
 /* Bootstrap předlohy má vlastní .panel (bílé pozadí, rámeček) — vypnout, jinak je závoj za menu šedý místo průhledného */
 .panel{background:transparent!important;border:0!important;border-radius:0!important;box-shadow:none!important;margin:0!important}
-/* 18. 10. večer: Ke stažení v menu (místo sekce na Kontaktu) */
-.panel-menu__stazeni{display:grid;gap:12px}
-.mst__hlava{display:flex;align-items:baseline;justify-content:space-between;gap:16px;flex-wrap:wrap}
-.mst__nadpis{color:var(--bronz)}
-.mst__logo{display:inline-flex;align-items:baseline;gap:8px;color:var(--krem);font-family:var(--ui);font-size:.75rem;letter-spacing:.16em;text-transform:uppercase;text-decoration:none;transition:color var(--d-rychle) var(--e-ven)}
-.mst__logo::before,.mst__soubory span::before{content:"";flex:none;align-self:center;width:9px;height:9px;margin-right:2px;border-right:1px solid var(--bronz);border-bottom:1px solid var(--bronz);transform:translateY(-3px) rotate(45deg)}
-.mst__logo:hover,.mst__soubory a:hover{color:var(--bronz)}
-.mst__logo small,.mst__soubory small{color:var(--tlum);font-size:.625rem;letter-spacing:.12em;text-transform:uppercase}
-.mst__pozn{margin:0;color:var(--tlum);font-family:var(--body);font-size:.8125rem;line-height:1.4}
-.mst__taby{display:flex;flex-wrap:wrap;gap:8px}
-.mst__tab{appearance:none;display:inline-flex;align-items:center;gap:8px;min-height:34px;margin:0;padding:0 14px;border:1px solid var(--linka);border-radius:999px;background:transparent;color:var(--krem);font-family:var(--ui);font-size:.75rem;font-weight:500;letter-spacing:.14em;text-transform:uppercase;cursor:pointer;transition:border-color var(--d-rychle) var(--e-ven),color var(--d-rychle) var(--e-ven),background var(--d-rychle) var(--e-ven)}
-.mst__tab i{font-style:normal;font-size:.625rem;color:var(--tlum)}
-.mst__tab:hover{border-color:var(--bronz);color:var(--bronz)}
-.mst__tab[aria-selected="true"]{border-color:var(--bronz);background:var(--bronz);color:var(--noc)}
-.mst__tab[aria-selected="true"] i{color:var(--noc)}
-.mst__tab:focus-visible,.mst__soubory a:focus-visible,.mst__logo:focus-visible{outline:1px solid var(--bronz);outline-offset:3px}
-.mst__panel[hidden]{display:none}
-.mst__soubory{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:24px;margin:0;padding:0;list-style:none}
-.mst__soubory a{display:grid;grid-template-columns:auto 1fr;column-gap:8px;padding:8px 0;border-bottom:1px solid rgba(255,255,255,.08);color:var(--krem);font-family:var(--ui);font-size:.8125rem;letter-spacing:.12em;text-transform:uppercase;text-decoration:none;transition:color var(--d-rychle) var(--e-ven)}
-.mst__soubory span{display:contents}
+/* 18. 10. večer: Ke stažení v menu (místo sekce na Kontaktu) – pod kontakty, rozjížděcí na dvě úrovně */
+.panel-menu__stazeni{display:grid;border-top:1px solid var(--linka);padding-top:12px}
+.mst__hlavni,.mst__sk{appearance:none;display:flex;align-items:center;gap:10px;width:100%;margin:0;padding:8px 0;border:0;background:transparent;color:var(--krem);font-family:var(--ui);text-align:start;cursor:pointer;transition:color var(--d-rychle) var(--e-ven)}
+.mst__hlavni .stitek{color:var(--bronz)}
+.mst__hlavni:hover,.mst__sk:hover,.mst__hlavni:hover .stitek{color:var(--krem)}
+.mst__sk{border-top:1px solid rgba(255,255,255,.08);font-size:.8125rem;font-weight:400;letter-spacing:.22em;text-transform:uppercase}
+.mst__sk:hover{color:var(--bronz)}
+.mst__sk i{font-style:normal;font-size:.625rem;letter-spacing:.12em;color:var(--tlum)}
+.mst__sipka{flex:none;width:8px;height:8px;margin-left:auto;margin-right:4px;border-right:1px solid currentColor;border-bottom:1px solid currentColor;transform:translateY(-2px) rotate(45deg);transition:transform var(--d-stred) var(--e-ven)}
+.mst__hlavni .mst__sipka{color:var(--bronz)}
+[aria-expanded="true"]>.mst__sipka{transform:translateY(2px) rotate(-135deg)}
+.mst__rozjezd{display:grid;grid-template-rows:0fr;transition:grid-template-rows var(--d-stred) var(--e-ven)}
+.mst__rozjezd.is-open{grid-template-rows:1fr}
+.mst__vnitrek{min-height:0;overflow:hidden;visibility:hidden;transition:visibility 0s var(--d-stred)}
+.mst__rozjezd.is-open>.mst__vnitrek{visibility:visible;transition:visibility 0s}
+.mst__logo{display:flex;align-items:center;gap:10px;padding:9px 0;border-top:1px solid rgba(255,255,255,.08);color:var(--krem);font-family:var(--ui);font-size:.8125rem;letter-spacing:.22em;text-transform:uppercase;text-decoration:none;transition:color var(--d-rychle) var(--e-ven)}  /* 18. 10. Ivo: logo vidět, ne odstrčené vpravo */
+.mst__pozn{margin:10px 0 2px;color:var(--tlum);font-family:var(--body);font-size:.8125rem;line-height:1.4}
+.mst__soubory{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:24px;margin:0;padding:2px 0 10px;list-style:none}
+.mst__soubory a{display:grid;grid-template-columns:auto 1fr;column-gap:8px;padding:7px 0;border-bottom:1px solid rgba(255,255,255,.06);color:var(--krem);font-family:var(--ui);font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;text-decoration:none;transition:color var(--d-rychle) var(--e-ven)}
 .mst__soubory small{grid-column:2}
-@media (max-width:991px){#vp-menu .panel-menu__stazeni{padding-top:16px;border-top:1px solid rgba(255,255,255,.14)}.mst__soubory{column-gap:16px}}
+.mst__logo small,.mst__soubory small{color:var(--tlum);font-size:.625rem;letter-spacing:.12em}
+.mst__ik{flex:none;width:12px;height:12px;fill:none;stroke:var(--bronz);stroke-width:1.1;stroke-linecap:round;stroke-linejoin:round}
+.mst__soubory .mst__ik{grid-row:1/3;align-self:start;margin-top:1px}
+.mst__logo:hover,.mst__soubory a:hover{color:var(--bronz)}
+.mst__hlavni:focus-visible,.mst__sk:focus-visible,.mst__soubory a:focus-visible,.mst__logo:focus-visible{outline:1px solid var(--bronz);outline-offset:3px}
+@media (prefers-reduced-motion:reduce){.mst__rozjezd,.mst__sipka{transition:none}}
+@media (max-width:991px){#vp-menu .panel-menu__stazeni{padding-top:12px;border-top:1px solid rgba(255,255,255,.14)}.mst__soubory{column-gap:16px}}
 /*/mst*/
