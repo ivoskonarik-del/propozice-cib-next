@@ -687,4 +687,4 @@ video.cib-secvid{display:block;width:100%;height:auto;object-fit:cover;backgroun
 video.cib-secvid--bg{position:absolute;inset:0;width:100%;height:100%;opacity:0;transition:opacity 1s ease}
 video.cib-secvid--bg.is-on{opacity:1}
 .cib-hero-slides video.khero__v{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
-.pp-bg video.cib-secvid--bg{filter:brightness(.55)}
+.global-canvas-bg video.cib-secvid--bg{filter:brightness(.55)}
