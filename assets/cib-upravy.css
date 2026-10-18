@@ -638,3 +638,46 @@ section.dl-sec{position:relative;z-index:5;background:var(--gray,#f3f3f3);color:
 .dl__g li a:hover{color:var(--bronz,#a17652);padding-left:6px}
 @media (max-width:1200px){.dl{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media (max-width:991px){section.dl-sec{padding:64px var(--mp,20px)}.dl{grid-template-columns:1fr;gap:32px}}
+
+/* ── O nás 18. 10.: historie bez fotek, stejně široké boxy; velká mapa .m3sec (tmavá, aktuální i historie) ── */
+.tl2__panel-in{display:block;max-width:none}
+.tl2__pic{display:none!important}
+.m3sec{position:relative;background:#000;color:#fff;padding:var(--sec-y,7vw) 0;z-index:5}
+.m3sec__head{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:16px 48px;align-items:end;margin-bottom:32px}
+.m3sec__head .global-site-title{font-size:clamp(40px,4.6vw,74px);left:0;margin:0!important}
+.m3sec__head p{margin:0;max-width:52ch;font-family:var(--fs);font-size:16px;line-height:1.75;color:rgba(255,255,255,.72)}
+.m3__kinds{grid-column:1/-1;display:flex;gap:8px;flex-wrap:wrap}
+.m3__kinds button{appearance:none;border:1px solid rgba(255,255,255,.22);background:none;color:rgba(255,255,255,.7);padding:11px 18px;font-family:var(--ft);font-size:12px;letter-spacing:.24em;text-transform:uppercase;cursor:pointer;transition:color .25s,border-color .25s,background .25s}
+.m3__kinds button:hover{color:#fff;border-color:rgba(255,255,255,.5)}
+.m3__kinds button.is-on{color:#000;background:#fff;border-color:#fff}
+.m3sec .m3__frame{aspect-ratio:16/8.4;background:#0e0e0e;box-shadow:none;border:1px solid rgba(255,255,255,.08)}
+.m3sec .m3:not(.is-ready) .m3__frame::after{background:linear-gradient(100deg,transparent 30%,rgba(255,255,255,.06) 50%,transparent 70%) #0e0e0e;background-size:220% 100%}
+.m3.m2--dark .m3__pin b{color:#fff;text-shadow:0 0 6px #000,0 0 10px #000,0 0 14px #000}
+.m3.m2--dark .m3__pin i{background:#111}
+.m3__pin--hist{width:18px;height:18px}
+.m3__pin--hist i{border-width:2px;background:#111;box-shadow:0 0 0 3px rgba(0,0,0,.35)}
+.m3__pin--hist::before{display:none}
+.m3__pin--hist b{font-size:11.5px;letter-spacing:.16em;opacity:.8}
+.m3__pin--hist.is-on i{background:var(--bronz,#a17652);border-color:#fff}
+.m3--far .m3__pin--hist b{opacity:0}
+.m3--far .m3__pin--hist:hover b,.m3--far .m3__pin--hist.is-hot b{opacity:1}
+.m3__pin.is-off{opacity:0!important;visibility:hidden;pointer-events:none}
+.m3sec .m3__strip{grid-template-columns:repeat(5,minmax(0,1fr))}
+.m3sec .m3__strip li.is-off{display:none}
+.m3sec .m3__strip button{background:rgba(255,255,255,.03);border-color:rgba(255,255,255,.1)}
+.m3sec .m3__strip button:hover,.m3sec .m3__strip button.is-hot,.m3sec .m3__strip button.is-on{background:rgba(255,255,255,.08);border-color:rgba(161,118,82,.6)}
+.m3sec .m3__strip b{color:#fff}.m3sec .m3__strip small{color:rgba(255,255,255,.55)}
+.m3sec .m3__strip li[data-kind="hist"] i{border-color:rgba(255,255,255,.3);border-width:1.5px;background:radial-gradient(circle,var(--bronz,#a17652) 0 4px,transparent 5px)}
+@media (max-width:1280px){.m3sec .m3__strip{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media (max-width:991px){
+  .m3sec{padding:56px 0}
+  .m3sec__head{grid-template-columns:1fr;margin-bottom:20px}
+  .m3sec .m3__frame{aspect-ratio:4/5}
+  .m3__kinds button{padding:10px 12px;font-size:11px;letter-spacing:.16em}
+}
+.m3__pin--t b,.m3__pin--b b{left:50%;top:auto;transform:translateX(-50%)}
+.m3__pin--t b{bottom:calc(100% + 6px)}.m3__pin--b b{top:calc(100% + 6px)}
+.m3--far .m3__pin--hist{width:12px;height:12px}
+/* v Praze se historické popisky pletou s aktuálními: jména až po najetí, při filtru Historie vždy */
+.m3--mid:not(.m3--onlyhist) .m3__pin--hist b{opacity:0}
+.m3--mid .m3__pin--hist:hover b,.m3--mid .m3__pin--hist.is-hot b,.m3--mid .m3__pin--hist.is-on b{opacity:1}

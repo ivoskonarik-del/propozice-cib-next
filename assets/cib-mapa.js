@@ -6,7 +6,7 @@
   var root=document.querySelector('.m3');if(!root)return;
   var LIB='https://cdn.jsdelivr.net/npm/maplibre-gl@4.7.1/dist/maplibre-gl';
   var STYLE='https://tiles.openfreemap.org/styles/'+(root.classList.contains('m2--dark')?'dark':'positron');
-  var CZ=[[12.09,48.55],[18.86,51.06]],PRAHA=[[14.2,49.99],[14.58,50.2]];
+  var CZ=[[12.09,48.55],[18.86,51.06]],PRAHA=[[14.2,49.97],[14.58,50.2]];
   var started=false;
   function load(){
     if(started)return;started=true;
@@ -14,13 +14,16 @@
     var s=document.createElement('script');s.src=LIB+'.js';s.onload=init;s.onerror=function(){};document.head.appendChild(s);
   }
   if('IntersectionObserver' in window){var io=new IntersectionObserver(function(e){if(e[0].isIntersecting){io.disconnect();load()}},{rootMargin:'900px 0px'});io.observe(root)}else load();
+  // 18. 10.: knihovnu (≈ 800 kB) načíst v klidu po načtení stránky, ne až uprostřed scrollu – jinak se stránka na ~200 ms zasekne
+  function idle(){(window.requestIdleCallback||function(f){setTimeout(f,1)})(load,{timeout:4000})}
+  if(document.readyState==='complete')setTimeout(idle,1200);else window.addEventListener('load',function(){setTimeout(idle,1200)});
 
   function init(){
     if(!window.maplibregl)return;
     try{var t=document.createElement('canvas');if(!(t.getContext('webgl2')||t.getContext('webgl')))return}catch(e){return}
     var P=[].map.call(root.querySelectorAll('.m2__item'),function(li){
       var ll=li.dataset.ll.split(',').map(Number),co=(li.dataset.co||'0,0').split(',').map(Number),img=li.querySelector('img');
-      return {id:li.dataset.id,ll:[ll[1],ll[0]],co:co,side:li.dataset.side||'r',label:li.dataset.label,cat:li.dataset.cat||'',note:li.dataset.note||'',zoom:+(li.dataset.zoom||15),px:(li.dataset.px||'0,0').split(',').map(Number),
+      return {id:li.dataset.id,kind:li.dataset.kind||'now',ll:[ll[1],ll[0]],co:co,side:li.dataset.side||'r',side2:li.dataset.side2||'',label:li.dataset.label,cat:li.dataset.cat||'',note:li.dataset.note||'',zoom:+(li.dataset.zoom||15),px:(li.dataset.px||'0,0').split(',').map(Number),
         name:li.querySelector('b').childNodes[0].textContent.trim(),place:li.querySelector('small').textContent,years:li.querySelector('span').textContent,
         href:li.dataset.href||'',thumb:img?(img.getAttribute('data-lz')||img.getAttribute('src')):''};
     });
@@ -38,7 +41,7 @@
     map.touchZoomRotate.disableRotation();
     map.addControl(new maplibregl.AttributionControl({compact:true}),'bottom-right');
     var failed=setTimeout(function(){if(!map.loaded())root.classList.remove('is-live')},12000);
-    function pad(){var w=box.clientWidth||700;return w<640?{top:w*.16,bottom:w*.04,left:w*.06,right:w*.04}:{top:w*.1,bottom:w*.06,left:w*.2,right:w*.07}}
+    function pad(){var w=box.clientWidth||700;if(root.closest('.m3sec'))return w<640?{top:w*.16,bottom:w*.06,left:w*.05,right:w*.05}:{top:w*.07,bottom:w*.05,left:w*.12,right:w*.12};return w<640?{top:w*.16,bottom:w*.04,left:w*.06,right:w*.04}:{top:w*.1,bottom:w*.06,left:w*.2,right:w*.07}}
 
     map.on('load',function(){
       clearTimeout(failed);root.classList.add('is-ready');
@@ -70,7 +73,7 @@
     function spread(){var z=map.getZoom();return Math.max(0,Math.min(1,(8.5-z)/1.3))}
     var markers={};
     P.forEach(function(p){
-      var el=document.createElement('button');el.type='button';el.className='m3__pin m3__pin--'+p.side;el.setAttribute('aria-label',p.name);
+      var el=document.createElement('button');el.type='button';el.className='m3__pin m3__pin--'+p.side+(p.kind==='hist'?' m3__pin--hist':'');el.setAttribute('aria-label',p.name);
       el.innerHTML='<i>'+(p.thumb?'<img src="'+p.thumb+'" alt="">':'')+'</i><b>'+p.label+'</b>';
       el.addEventListener('click',function(e){e.stopPropagation();select(p.id,true)});
       el.addEventListener('mouseenter',function(){hot(p.id,true)});el.addEventListener('mouseleave',function(){hot(p.id,false)});
@@ -79,11 +82,11 @@
     function update(){
       var f=spread(),L=[],S=[],g=(1-f)*Math.max(0,Math.min(1,(15-map.getZoom())/1.5));  // g: odsunutí sousedů (stejná budova / stejná obec), při detailu zmizí
       P.forEach(function(p){
-        var pos=[p.ll[0]+p.co[0]*f,p.ll[1]+p.co[1]*f];markers[p.id].setLngLat(pos);markers[p.id].setOffset([p.px[0]*g,p.px[1]*g]);
+        var pos=[p.ll[0]+p.co[0]*f,p.ll[1]+p.co[1]*f];if(p.side2){var e=markers[p.id].getElement(),sd=f>.5?p.side:p.side2;e.classList.toggle('m3__pin--l',sd==='l');e.classList.toggle('m3__pin--r',sd==='r')}markers[p.id].setLngLat(pos);markers[p.id].setOffset([p.px[0]*g,p.px[1]*g]);
         if(f>.03&&(p.co[0]||p.co[1])){L.push({type:'Feature',properties:{o:f},geometry:{type:'LineString',coordinates:[p.ll,pos]}});S.push({type:'Feature',properties:{o:f},geometry:{type:'Point',coordinates:p.ll}})}
       });
       if(map.getSource('leads')){map.getSource('leads').setData(fc(L));map.getSource('spots').setData(fc(S))}
-      root.classList.toggle('m3--far',map.getZoom()<8.2);
+      root.classList.toggle('m3--far',map.getZoom()<8.2);root.classList.toggle('m3--mid',map.getZoom()<12.8);
       views.forEach(function(b){b.classList.toggle('is-on',b.dataset.v===(map.getZoom()<8.2?'cz':(map.getZoom()<12?'praha':'')))});
     }
     map.on('move',update);
@@ -111,6 +114,14 @@
     function cardPad(){var w=box.clientWidth;return w>640?{left:Math.min(330,w*.42),top:0,right:0,bottom:0}:{bottom:Math.min(260,box.clientHeight*.45),top:0,left:0,right:0}}
     function close(){cur=null;card.classList.remove('is-open');Object.keys(markers).forEach(function(k){markers[k].getElement().classList.remove('is-on')});strip.forEach(function(b){b.classList.remove('is-on')})}
     card.addEventListener('click',function(e){if(e.target.closest('.m3__close'))close()});
+    // přepínač Vše / Aktuální / Historie (sekce .m3sec na O nás)
+    var sec=root.closest('.m3sec'),kinds=sec?[].slice.call(sec.querySelectorAll('.m3__kinds button')):[];
+    kinds.forEach(function(b){b.addEventListener('click',function(){
+      var k=b.dataset.k;root.classList.toggle('m3--onlyhist',k==='hist');kinds.forEach(function(x){x.classList.toggle('is-on',x===b)});
+      if(cur&&k!=='all'&&P.filter(function(x){return x.id===cur})[0].kind!==k)close();
+      P.forEach(function(p){var off=k!=='all'&&p.kind!==k;markers[p.id].getElement().classList.toggle('is-off',off)});
+      strip.forEach(function(x){x.parentNode.classList.toggle('is-off',k!=='all'&&x.parentNode.dataset.kind!==k)});
+    })});
     window.addEventListener('resize',function(){map.resize()});
   }
 })();
