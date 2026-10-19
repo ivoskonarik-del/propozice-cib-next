@@ -47,10 +47,6 @@ Před a po
 
 Jak vypadala historická vila a statek v Lichocevsi před obnovou a jak vypadají dnes. Předěl posunete tažením myší nebo prstem.
 
-Před
-2018
-Po
-Dnes
 Historická vila v Lichocevsi: 2018 před obnovou, dnes po kompletní obnově fasády, střechy, oken i zahrady.
 Táhněte za předěl
 
