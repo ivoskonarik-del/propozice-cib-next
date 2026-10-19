@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="cs">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; font-src 'self'; img-src 'self' data: blob: https://cib-admin-api.prodej-bytu-3-1-70-m2-172175436.workers.dev; connect-src 'self' https://cib-admin-api.prodej-bytu-3-1-70-m2-172175436.workers.dev; frame-src 'self'; media-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'; manifest-src 'none'; worker-src 'none'">
+<meta name="robots" content="noindex,nofollow,noarchive,nosnippet">
+<meta name="referrer" content="no-referrer">
+<meta name="theme-color" content="#16120f">
+<title>Správa webu · CIB GROUP</title>
+<link rel="stylesheet" href="admin.css">
+<script src="admin.js" defer></script>
+</head>
+<body>
+
+<div class="bg" id="bg" aria-hidden="true">
+  <div class="bg__foto bg__foto--login" id="bg-foto"></div>
+  <iframe class="bg__frame" id="nahled" title="Živý náhled webu" tabindex="-1" referrerpolicy="no-referrer"></iframe>
+  <div class="bg__tint"></div>
+</div>
+
+<!-- ───────── přihlášení ───────── -->
+<main class="login" id="prihlaseni" hidden>
+  <div class="login__tint"></div>
+  <section class="login__card" id="login-karta" aria-labelledby="login-nadpis">
+    <img class="login__logo" src="../assets/cib-logo-main.webp" alt="CIB GROUP HOLDING a.s." width="847" height="180">
+    <p class="login__eyebrow">Administrace webu</p>
+    <h1 class="login__title" id="login-nadpis">Správa <strong>webu</strong></h1>
+    <p class="login__sub">Přihlaste se jménem, heslem a kódem z&nbsp;aplikace Google Authenticator.</p>
+    <p class="login__msg" id="login-zprava" role="status" hidden></p>
+    <form id="login-form" novalidate autocomplete="on">
+      <div class="pole">
+        <label for="l-jmeno">Uživatelské jméno</label>
+        <input id="l-jmeno" name="username" type="text" autocomplete="username" autocapitalize="none" spellcheck="false" maxlength="60" required>
+      </div>
+      <div class="pole pole--heslo">
+        <label for="l-heslo">Heslo</label>
+        <input id="l-heslo" name="password" type="password" autocomplete="current-password" maxlength="200" required>
+        <button class="pole__oko" type="button" id="l-oko" aria-label="Zobrazit heslo" aria-pressed="false"></button>
+      </div>
+      <div class="pole pole--kod">
+        <label for="l-kod">Ověřovací kód (6 číslic)</label>
+        <input id="l-kod" name="otp" type="text" inputmode="numeric" autocomplete="one-time-code" pattern="[0-9]{6}" maxlength="6" placeholder="000000" required>
+      </div>
+      <p class="login__err" id="login-chyba" role="alert" aria-live="assertive"></p>
+      <button class="btn-hl" type="submit" id="login-btn">Přihlásit se</button>
+    </form>
+    <ul class="login__trust" id="login-trust"></ul>
+  </section>
+</main>
+
+<!-- ───────── aplikace ───────── -->
+<div class="app" id="app" hidden>
+  <header class="top">
+    <a class="top__logo" id="logo-odkaz" href="../" target="_blank" rel="noopener noreferrer" aria-label="Otevřít web CIB GROUP v novém okně">
+      <img src="../assets/cib-logo-main.webp" alt="CIB GROUP" width="847" height="180">
+      <span class="top__badge">Správa webu</span>
+    </a>
+    <nav class="pills" role="tablist" aria-label="Sekce administrace" id="pills">
+      <button class="pill" role="tab" type="button" data-tab="prehled" id="tab-prehled" aria-controls="panel" aria-selected="true">Přehled</button>
+      <button class="pill" role="tab" type="button" data-tab="kontakty" id="tab-kontakty" aria-controls="panel" aria-selected="false">Kontakty</button>
+      <button class="pill" role="tab" type="button" data-tab="texty" id="tab-texty" aria-controls="panel" aria-selected="false">Texty</button>
+      <button class="pill" role="tab" type="button" data-tab="fotky" id="tab-fotky" aria-controls="panel" aria-selected="false">Fotky</button>
+      <button class="pill" role="tab" type="button" data-tab="historie" id="tab-historie" aria-controls="panel" aria-selected="false">Historie</button>
+      <button class="pill" role="tab" type="button" data-tab="zabezpeceni" id="tab-zabezpeceni" aria-controls="panel" aria-selected="false">Zabezpečení</button>
+    </nav>
+    <div class="top__akce">
+      <a class="ibtn" id="btn-web" href="../" target="_blank" rel="noopener noreferrer" aria-label="Otevřít web v novém okně" title="Otevřít web"></a>
+      <button class="ibtn" type="button" id="btn-odhlasit" aria-label="Odhlásit se" title="Odhlásit se"></button>
+      <div class="chip" title="Přihlášený uživatel">
+        <span class="chip__av" id="chip-av" aria-hidden="true">–</span>
+        <span class="chip__t"><b id="chip-jmeno">–</b><small id="chip-cas" aria-live="off">Relace aktivní</small></span>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero" aria-labelledby="hero-nadpis">
+    <div>
+      <p class="hero__eyebrow">CIB GROUP HOLDING a.s.</p>
+      <h1 class="hero__title" id="hero-nadpis">Správa <strong>webu</strong></h1>
+      <p class="hero__sub">Kontakty, texty a fotky na jednom místě. Uložené změny se na webu projeví hned.</p>
+    </div>
+    <div class="hero__stav" id="hero-stav"></div>
+  </section>
+
+  <div class="stranky" id="stranky" role="group" aria-label="Stránky webu – náhled v pozadí"></div>
+
+  <section class="sheet" aria-live="polite">
+    <div class="sheet__in" id="panel" role="tabpanel" tabindex="-1"></div>
+  </section>
+</div>
+
+<!-- lišta režimu úprav -->
+<div class="edit-bar" id="edit-bar" role="region" aria-label="Režim úprav na webu">
+  <span class="edit-bar__t" id="edit-bar-t">Klikněte na text nebo fotku, kterou chcete změnit.</span>
+  <button class="btn btn--b" type="button" id="edit-hotovo">Hotovo</button>
+</div>
+
+<!-- editor textu -->
+<aside class="editor" id="editor" aria-labelledby="editor-nadpis" aria-hidden="true">
+  <div class="editor__h">
+    <h3 id="editor-nadpis">Upravit text</h3>
+    <button class="editor__x" type="button" id="editor-x" aria-label="Zavřít editor"></button>
+  </div>
+  <div class="editor__b">
+    <p class="editor__lbl">Původní text</p>
+    <div class="editor__puv" id="editor-puv"></div>
+    <p class="editor__lbl" id="editor-lbl">Nový text</p>
+    <div class="nastroje" role="toolbar" aria-label="Formátování">
+      <button type="button" class="n-b" data-cmd="bold" aria-label="Tučně (Ctrl+B)" title="Tučně">B</button>
+      <button type="button" class="n-i" data-cmd="italic" aria-label="Kurzíva (Ctrl+I)" title="Kurzíva">I</button>
+      <button type="button" data-cmd="br" aria-label="Nový řádek (Shift+Enter)" title="Nový řádek">↵</button>
+    </div>
+    <div class="pole-txt" id="editor-pole" contenteditable="true" role="textbox" aria-multiline="true" aria-labelledby="editor-lbl" spellcheck="true"></div>
+    <div class="editor__pocet" id="editor-pocet">0 znaků</div>
+  </div>
+  <div class="editor__f">
+    <button class="btn btn--ink btn--blok" type="button" id="editor-ulozit">Uložit a zveřejnit</button>
+    <button class="btn btn--o btn--blok" type="button" id="editor-vratit">Vrátit původní text</button>
+  </div>
+</aside>
+
+<!-- potvrzení -->
+<dialog id="dlg-potvrd" aria-labelledby="dlg-potvrd-t">
+  <div class="dlg">
+    <div class="dlg__ik" id="dlg-potvrd-ik"></div>
+    <h3 id="dlg-potvrd-t"></h3>
+    <p id="dlg-potvrd-p"></p>
+    <div class="btn-r">
+      <button class="btn btn--o" type="button" id="dlg-potvrd-ne">Zrušit</button>
+      <button class="btn btn--ink" type="button" id="dlg-potvrd-ano">Potvrdit</button>
+    </div>
+  </div>
+</dialog>
+
+<!-- výměna fotky -->
+<dialog id="dlg-fotka" aria-labelledby="dlg-fotka-t">
+  <div class="dlg dlg--siroky">
+    <h3 id="dlg-fotka-t">Vyměnit fotku</h3>
+    <p id="dlg-fotka-p">Vyberte novou fotku (JPG, PNG nebo WebP). Před nahráním ji zmenšíme na 2 400 px.</p>
+    <div class="porovnani">
+      <figure><figcaption>Teď na webu</figcaption><div class="ram" id="dlg-fotka-ted"></div></figure>
+      <figure><figcaption>Nová fotka</figcaption><div class="ram ram--prazdny" id="dlg-fotka-nova">Zatím nevybráno</div></figure>
+    </div>
+    <div class="prubeh" id="dlg-fotka-prubeh" hidden><i id="dlg-fotka-prubeh-i"></i></div>
+    <input type="file" id="dlg-fotka-soubor" accept="image/jpeg,image/png,image/webp" class="sr">
+    <div class="btn-r">
+      <button class="btn btn--txt" type="button" id="dlg-fotka-vratit" hidden>Vrátit původní</button>
+      <button class="btn btn--o" type="button" id="dlg-fotka-ukaz">Ukázat na stránce</button>
+      <button class="btn btn--o" type="button" id="dlg-fotka-vybrat">Vybrat fotku</button>
+      <button class="btn btn--ink" type="button" id="dlg-fotka-ulozit" disabled>Nahrát a použít</button>
+      <button class="btn btn--txt" type="button" id="dlg-fotka-zavrit">Zavřít</button>
+    </div>
+  </div>
+</dialog>
+
+<div class="toasty" id="toasty" role="status" aria-live="polite"></div>
+
+<!-- ikony (klonují se, žádné innerHTML) -->
+<template id="i-telefon"><svg viewBox="0 0 24 24"><path d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2z"/></svg></template>
+<template id="i-mail"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3.5 6.5 12 13l8.5-6.5"/></svg></template>
+<template id="i-text"><svg viewBox="0 0 24 24"><path d="M5 6V4.5h14V6M12 4.5v15M9 19.5h6"/></svg></template>
+<template id="i-foto"><svg viewBox="0 0 24 24"><rect x="3" y="4.5" width="18" height="15" rx="2.5"/><circle cx="9" cy="10" r="1.8"/><path d="m21 16-5-5-8.5 8.5"/></svg></template>
+<template id="i-historie"><svg viewBox="0 0 24 24"><path d="M3.5 12a8.5 8.5 0 1 0 2.5-6"/><path d="M3.5 4v4h4"/><path d="M12 7.5V12l3 2"/></svg></template>
+<template id="i-stit"><svg viewBox="0 0 24 24"><path d="M12 3 4.5 6v5.5c0 4.6 3.2 8.4 7.5 9.5 4.3-1.1 7.5-4.9 7.5-9.5V6z"/><path d="m8.8 12 2.2 2.2 4.2-4.4"/></svg></template>
+<template id="i-sipka"><svg viewBox="0 0 24 24"><path d="M7 17 17 7M8.5 7H17v8.5"/></svg></template>
+<template id="i-web"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.6 2.8 3.9 5.8 3.9 9S14.6 18.2 12 21c-2.6-2.8-3.9-5.8-3.9-9S9.4 5.8 12 3z"/></svg></template>
+<template id="i-odhlasit"><svg viewBox="0 0 24 24"><path d="M14 4h4.5A1.5 1.5 0 0 1 20 5.5v13a1.5 1.5 0 0 1-1.5 1.5H14"/><path d="M10 8 6 12l4 4M6 12h10"/></svg></template>
+<template id="i-oko"><svg viewBox="0 0 24 24"><path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12z"/><circle cx="12" cy="12" r="2.8"/></svg></template>
+<template id="i-oko-ne"><svg viewBox="0 0 24 24"><path d="M3 3l18 18M10.6 5.6A9.9 9.9 0 0 1 12 5.5C18 5.5 21.5 12 21.5 12a17 17 0 0 1-3.1 3.9M6.3 6.9C3.9 8.6 2.5 12 2.5 12S6 18.5 12 18.5c1.6 0 3-.4 4.2-1"/><path d="M9.9 9.9a2.8 2.8 0 0 0 4 4"/></svg></template>
+<template id="i-hledat"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="6.5"/><path d="m20 20-4.4-4.4"/></svg></template>
+<template id="i-check"><svg viewBox="0 0 24 24"><path d="m5 12.5 4.5 4.5L19 7.5"/></svg></template>
+<template id="i-zamek"><svg viewBox="0 0 24 24"><rect x="4.5" y="10.5" width="15" height="10" rx="2.5"/><path d="M8 10.5V8a4 4 0 0 1 8 0v2.5"/><path d="M12 14.5v2.5"/></svg></template>
+<template id="i-klic"><svg viewBox="0 0 24 24"><circle cx="8" cy="15" r="4"/><path d="m11 12 8.5-8.5M16 7l2.5 2.5M14 9l2 2"/></svg></template>
+<template id="i-info"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v5.5M12 7.6v.2"/></svg></template>
+<template id="i-chyba"><svg viewBox="0 0 24 24"><path d="M12 3.5 2.5 20h19z"/><path d="M12 10v4.5M12 17.2v.2"/></svg></template>
+<template id="i-obnovit"><svg viewBox="0 0 24 24"><path d="M20 12a8 8 0 1 1-2.4-5.7"/><path d="M20 4v4.5h-4.5"/></svg></template>
+<template id="i-pero"><svg viewBox="0 0 24 24"><path d="M4 20h4L19 9a2.8 2.8 0 0 0-4-4L4 16z"/><path d="m13.5 6.5 4 4"/></svg></template>
+<template id="i-budova"><svg viewBox="0 0 24 24"><path d="M4 21V5.5L12 3v18M12 8.5l8 2.5v10M2.5 21h19M7 8h1.5M7 11.5h1.5M7 15h1.5M15.5 13.5H17M15.5 17H17"/></svg></template>
+<template id="i-zpet"><svg viewBox="0 0 24 24"><path d="M9 14 4 9l5-5"/><path d="M4 9h10.5a5.5 5.5 0 0 1 0 11H11"/></svg></template>
+<template id="i-x"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6 6 18"/></svg></template>
+<template id="i-nahrat"><svg viewBox="0 0 24 24"><path d="M12 15.5V4M7.5 8.5 12 4l4.5 4.5"/><path d="M4 15v3.5A1.5 1.5 0 0 0 5.5 20h13a1.5 1.5 0 0 0 1.5-1.5V15"/></svg></template>
+<template id="i-mista"><svg viewBox="0 0 24 24"><path d="M12 21s7-6.2 7-11.5a7 7 0 0 0-14 0C5 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg></template>
+<template id="i-zarizeni"><svg viewBox="0 0 24 24"><rect x="3" y="4.5" width="18" height="12" rx="2"/><path d="M8.5 20h7M12 16.5V20"/></svg></template>
+<template id="i-kurzor"><svg viewBox="0 0 24 24"><path d="M5 3.5 18.5 10l-6 1.8-2.3 6.2z"/></svg></template>
+</body>
+</html>
