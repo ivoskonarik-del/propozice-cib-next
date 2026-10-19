@@ -853,7 +853,7 @@
     pole.addEventListener("keydown", (e) => {
       if (e.key === "Enter" && !e.shiftKey && (e.metaKey || e.ctrlKey)) { e.preventDefault(); ulozText(); return; }
       if (e.key === "Enter") { e.preventDefault(); document.execCommand("insertLineBreak"); }
-      if (e.key === "Escape") zavriEditor();
+      if (e.key === "Escape") { e.stopPropagation(); zavriEditor(); } // jedno Esc zavře jen editor, režim úprav zůstane
     });
     document.querySelectorAll(".nastroje button").forEach((b) => b.addEventListener("mousedown", (e) => e.preventDefault()));
     document.querySelectorAll(".nastroje button").forEach((b) => b.addEventListener("click", () => {
