@@ -322,23 +322,23 @@ section[id],footer[id],div[id]{scroll-margin-top:72px!important}
 #vp-menu .panel__pozadi,#vp-menu.panel--prichod .panel__pozadi,#vp-menu.panel--odchod .panel__pozadi{transition-duration:.4s!important}
 /* 18. 10.: stránka se pozná podle třídy na <body> (pages5 page(): pg-<stránka>, pg-sek-<oddíl>), ne podle obsahu – dřív odkaz na esstables.com
    v patičce schovával čísla na homepage a v menu svítily Stáje všude; přejmenované video Balabenky a nová fotka Prahy pravidla vypnuly */
-body.pg-sek-nemovitosti #vp-menu a.panel-menu__odkaz[href$="/nemovitosti/"],
-body.pg-sek-development #vp-menu a.panel-menu__odkaz[href$="/development/lichoceves/"],
-body.pg-sek-staje #vp-menu a.panel-menu__odkaz[href$="/staje/emma-sophia-stables/"],
-body.pg-o-nas #vp-menu a.panel-menu__odkaz[href$="/o-nas/"],
-body.pg-kontakt #vp-menu a.panel-menu__odkaz[href$="/kontakt/"]{color:var(--m-bronz)!important;font-weight:400!important}
+body.strana-sek-nemovitosti #vp-menu a.panel-menu__odkaz[href$="/nemovitosti/"],
+body.strana-sek-development #vp-menu a.panel-menu__odkaz[href$="/development/lichoceves/"],
+body.strana-sek-staje #vp-menu a.panel-menu__odkaz[href$="/staje/emma-sophia-stables/"],
+body.strana-o-nas #vp-menu a.panel-menu__odkaz[href$="/o-nas/"],
+body.strana-kontakt #vp-menu a.panel-menu__odkaz[href$="/kontakt/"]{color:var(--m-bronz)!important;font-weight:400!important}
 /* rozcestník projektů: aktuální projekt bronzově */
-body.pg-balabenka #vp-menu a.panel-menu__drobnyOdkaz[href$="/balabenka/"],
-body.pg-vodickova-33 #vp-menu a.panel-menu__drobnyOdkaz[href$="/vodickova-33/"],
-body.pg-sprava-bytu-liberec #vp-menu a.panel-menu__drobnyOdkaz[href$="/sprava-bytu-liberec/"],
-body.pg-vodickova-luxury-suites #vp-menu a.panel-menu__drobnyOdkaz[href$="/vodickova-luxury-suites/"],
-body.pg-sprava-bytu-praha #vp-menu a.panel-menu__drobnyOdkaz[href$="/sprava-bytu-praha/"],
-body.pg-lichoceves #vp-menu a.panel-menu__drobnyOdkaz[href$="/development/lichoceves/"],
-body.pg-emma-sophia-stables #vp-menu a.panel-menu__drobnyOdkaz[href$="/staje/emma-sophia-stables/"]{color:var(--m-bronz)!important}
+body.strana-balabenka #vp-menu a.panel-menu__drobnyOdkaz[href$="/balabenka/"],
+body.strana-vodickova-33 #vp-menu a.panel-menu__drobnyOdkaz[href$="/vodickova-33/"],
+body.strana-sprava-bytu-liberec #vp-menu a.panel-menu__drobnyOdkaz[href$="/sprava-bytu-liberec/"],
+body.strana-vodickova-luxury-suites #vp-menu a.panel-menu__drobnyOdkaz[href$="/vodickova-luxury-suites/"],
+body.strana-sprava-bytu-praha #vp-menu a.panel-menu__drobnyOdkaz[href$="/sprava-bytu-praha/"],
+body.strana-lichoceves #vp-menu a.panel-menu__drobnyOdkaz[href$="/development/lichoceves/"],
+body.strana-emma-sophia-stables #vp-menu a.panel-menu__drobnyOdkaz[href$="/staje/emma-sophia-stables/"]{color:var(--m-bronz)!important}
 
 /* ── DUPLICITNÍ ČÍSLA: kde „v číslech“ opakuje hero fakta, jednu ze sekcí vypustit ── */
 /* liberec (406/2006 = totéž), stáje (2023 = totéž), Vodičkova 33 (1899/2024 = totéž): sekce content-stats pryč (Balabenka už čísla nemá, jen ikony → hero fakta zůstávají) */
-body.pg-sprava-bytu-liberec #content-stats,body.pg-emma-sophia-stables #content-stats,body.pg-vodickova-33 #content-stats{display:none!important}
+body.strana-sprava-bytu-liberec #content-stats,body.strana-emma-sophia-stables #content-stats,body.strana-vodickova-33 #content-stats{display:none!important}
 /* content-stats obecně: štítek bronzově (ne bílý .is-white), 3-položkový seznam těsnější (číslo 100 px, popisek světlejší) */
 .proven-performance-area .pp-head .global-site-title span,.proven-performance-area .pp-head .global-site-title.is-white span{color:var(--m-bronz)!important}
 .proven-performance-area .pp-list-holder--3 .pp-stats-number,.proven-performance-area .pp-list-holder:has(>.pp-list:nth-child(3):last-child) .pp-stats-number{flex:0 0 88px}
