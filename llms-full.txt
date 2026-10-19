@@ -26,6 +26,18 @@ Klíčové údaje:
 - Co je Obec v zahradě? Dlouhodobý urbanistický a developerský projekt CIB GROUP v Lichocevsi, asi 20 minut od centra Prahy, podle principů zahradního města (https://www.obecvzahrade.cz/).
 - Co je Emma Sophia Stables? Jezdecký areál v obnoveném historickém statku v Lichocevsi, od roku 2023 domovská stáj parkurové jezdkyně Emmy Sophie Španko (https://www.esstables.com/).
 
+In English (the website is in Czech):
+
+CIB GROUP (CIB GROUP HOLDING a.s.) is a private Czech family holding headquartered at Vodičkova 709/33, 110 00 Prague 1, focused on real estate investment, development and long-term property management. It was founded in 2004 as Canadian Investment Bridge and has focused on real estate since 2009.
+
+- Balabenka Office Building: Českomoravská 2408/1a, Prague 9; seven floors, approx. 12,000 m² of offices and 2,000 m² of retail; BREEAM In-Use "Very Good"; in the portfolio since 2014. Leasing: vasutova@cib.cz, eva.spanko@cib.cz.
+- Residence Vodičkova 33: historic building from 1899 in Prague 1, acquired in 2017 and fully renovated (works from 2022, completed May 2024); group headquarters, offices for lease and Vodičkova Luxury Suites.
+- Vodičkova Luxury Suites: luxury short-stay apartments on the upper floors of Vodičkova 33, near Wenceslas Square, 24-hour reception; booking at https://www.vodickovaluxurysuites.cz/.
+- Residential management in Liberec and Hrádek nad Nisou (406 units) and the Benkova apartments in Prague-Chodov.
+- Obec v zahradě ("village in a garden"): long-term urban development project in Lichoceves, about 20 minutes from central Prague.
+- Emma Sophia Stables: equestrian centre in a restored historic farmstead in Lichoceves.
+- Contact: +420 296 249 311, info@cib.cz.
+
 # CIB GROUP
 
 Zdroj: https://ivoskonarik-del.github.io/propozice-cib-next/
@@ -1319,10 +1331,6 @@ Vila
 Statek
 Před
 2018
-Po
-Dnes
-Před
-2017
 Po
 Dnes
 Historická vila v Lichocevsi: 2018 před obnovou, dnes po kompletní obnově fasády, střechy, oken i zahrady.

@@ -58,10 +58,6 @@ Před
 2018
 Po
 Dnes
-Před
-2017
-Po
-Dnes
 Historická vila v Lichocevsi: 2018 před obnovou, dnes po kompletní obnově fasády, střechy, oken i zahrady.
 Táhněte za předěl
 
