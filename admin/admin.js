@@ -3,10 +3,19 @@
    odhlášení po 30 min nečinnosti, ochrana proti vložení do rámu, CSP v index.html. */
 "use strict";
 (function () {
-  /* ochrana proti clickjackingu: v cizím rámu nic nevykreslit */
+  /* ochrana proti clickjackingu: v cizím rámu nic nevykreslit. Výjimka (19. 10.): obal webhunter.cz/navrhy, a to jen
+     jako jediný rám přímo v horním okně (obal sám jde vložit do cizí stránky, proto i kontrola parent === top) */
+  const OBAL = /^https:\/\/(www\.)?webhunter\.cz$/;
+  const WEB_ODKAZ = "https://webhunter.cz/navrhy/6aad3182cd34ecedc8566ee3";
+  let vObalu = false;
   if (window.top !== window.self) {
-    try { window.top.location.replace(window.self.location.href); } catch (e) { /* cizí rám: zůstane prázdné */ }
-    return;
+    const pred = location.ancestorOrigins; // Chrome, Safari; Firefox nemá → referrer přímého rodiče
+    const rodic = pred ? (pred.length === 1 ? pred[0] : "") : (document.referrer ? new URL(document.referrer).origin : "");
+    vObalu = window.parent === window.top && OBAL.test(rodic);
+    if (!vObalu) {
+      try { window.top.location.replace(window.self.location.href); } catch (e) { /* cizí rám: zůstane prázdné */ }
+      return;
+    }
   }
   document.documentElement.classList.add("ok");
 
@@ -857,6 +866,7 @@
   function init() {
     try { document.execCommand("styleWithCSS", false, false); } catch (e) { /* nic */ }
     naplnDuveru();
+    if (vObalu) { $("logo-odkaz").href = WEB_ODKAZ; $("btn-web").href = WEB_ODKAZ; } // klient nemá vidět github.io
     $("btn-web").append(ik("web"));
     $("btn-odhlasit").append(ik("odhlasit"));
     $("editor-x").append(ik("x"));
