@@ -333,7 +333,7 @@
     doc.addEventListener("mousemove", najetiVRamci, true);
     doc.addEventListener("scroll", () => skryjZvyrazneni(), true);
     if (S.uprava) pripravRamecProUpravy();
-    if (S.tab === "fotky") vykresli();
+    if (S.tab === "fotky" || S.tab === "prehled") vykresli();
   }
 
   /* ───────── stránky (tmavé skleněné karty) ───────── */
@@ -382,51 +382,84 @@
     return h("div", { class: "panel__h" }, h("div", null, h("h2", { class: "panel__t", text: t }), p ? h("p", { class: "panel__p", text: p }) : null), prava || null);
   }
 
-  /* PŘEHLED */
-  function pPrehled() {
-    const o = S.obsah || prazdnyObsah(), k = S.katalog.kontakty;
-    const nK = Object.keys(o.kontakty).length, nT = Object.keys(o.texty).length, nF = Object.keys(o.fotky).length;
-    const karta = (tab, ikona, t, s, cislo, mala, znak, znakTrida, sl) => h("div", {
-      class: "karta karta--klik", role: "button", tabindex: "0", "aria-label": t + ": " + s,
-      onclick: () => prepniTab(tab, true), onkeydown: (e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); prepniTab(tab, true); } },
-    },
-      h("div", { class: "karta__h" }, h("span", { class: "karta__ik" }, ik(ikona)), h("div", null, h("h3", { class: "karta__t", text: t }), h("p", { class: "karta__s", text: s })), h("span", { class: "karta__ob" }, ik("sipka"))),
-      h("div", { class: "karta__cislo" }, String(cislo), mala ? h("small", { text: mala }) : null),
-      h("div", { class: "karta__pata" }, h("span", { text: tab === "zabezpeceni" ? "Ochrany webu" : "Upraveno" }), h("span", { class: "znak " + znakTrida, text: znak })),
-      sl || null);
-    const sloupky = (n, celkem) => { const box = h("div", { class: "sloupky", "aria-hidden": "true" }); for (let i = 0; i < 28; i++) { const zap = celkem ? i < Math.round((n / celkem) * 28) : false; box.append(h("i", { class: zap ? "on" : "" })); box.lastChild.style.height = (30 + ((i * 37) % 70)) + "%"; } return box; };
-    const hist = Array.isArray(S.historie) ? S.historie : [];
-    return [
-      hlavicka("Přehled", "Vše podstatné o webu na jednom místě. Klikněte na kartu a pusťte se do úprav."),
-      h("div", { class: "g4" },
-        karta("kontakty", "telefon", "Kontakty", "Telefony a e-maily", nK, k.length ? "z " + k.length : "", nK ? "Upraveno" : "Původní", nK ? "znak--b" : "znak--mut", sloupky(nK, k.length || 1)),
-        karta("texty", "text", "Texty", "Nadpisy a odstavce", nT, "", nT ? "Upraveno" : "Původní", nT ? "znak--b" : "znak--mut", sloupky(Math.min(nT, 28), 28)),
-        karta("fotky", "foto", "Fotky", "Vyměněné obrázky", nF, "", nF ? "Vyměněno" : "Původní", nF ? "znak--b" : "znak--mut", sloupky(Math.min(nF, 28), 28)),
-        karta("zabezpeceni", "stit", "Zabezpečení", "Dvoufázové ověření", "2FA", "", "Aktivní", "znak--ok", sloupky(28, 28))),
-      h("div", { class: "g-hl" },
-        h("div", { class: "karta" },
-          h("div", { class: "karta__h" }, h("span", { class: "karta__ik" }, ik("historie")), h("div", null, h("h3", { class: "karta__t", text: "Aktivita na webu" }), h("p", { class: "karta__s", text: "Uložené změny za posledních 14 dní" }))),
-          graf(hist)),
-        h("div", { class: "karta" },
-          h("div", { class: "karta__h" }, h("span", { class: "karta__ik" }, ik("pero")), h("div", null, h("h3", { class: "karta__t", text: "Poslední změny" }), h("p", { class: "karta__s", text: S.historie ? (hist.length ? "Kdo a co upravil" : "Zatím žádné změny") : "Načítám…" }))),
-          hist.length ? h("ul", { class: "feed" }, hist.slice(0, 4).map((v) => h("li", null, h("span", { class: "feed__ik" }, ik("pero")), h("span", { class: "feed__t" }, h("b", { text: (v.popis && v.popis[0]) || "Úprava obsahu" }), h("small", { text: (v.jmeno || "–") + " · " + pred(v.cas) }))))) : h("div", { class: "prazdne" }, ik("historie"), h("b", { text: "Historie je prázdná" }), "Každá uložená změna se tu objeví i s autorem."),
-          h("div", { class: "btn-r" }, h("button", { class: "btn btn--b btn--blok", type: "button", onclick: () => prepniTab("historie", true) }, ik("historie"), "Zobrazit celou historii")))),
-    ];
+  /* PŘEHLED (19. 10. večer: místo ozdobných sloupků skutečný obsah – kontakty, fotky stránky, přihlášení, změny) */
+  function odkaz(text, fn) {
+    return h("button", { class: "odkaz", type: "button", onclick: fn }, text, ik("sipka"));
   }
-  function graf(hist) {
-    const dny = [], dnes = new Date(); dnes.setHours(0, 0, 0, 0);
-    for (let i = 13; i >= 0; i--) { const d = new Date(dnes); d.setDate(d.getDate() - i); dny.push({ d, n: 0 }); }
-    for (const v of hist) { const d = new Date(v.cas); d.setHours(0, 0, 0, 0); const x = dny.find((y) => +y.d === +d); if (x) x.n++; }
-    const max = Math.max(1, ...dny.map((x) => x.n));
-    const g = h("div", { class: "graf", role: "img", "aria-label": "Počet uložených změn za posledních 14 dní: " + dny.reduce((a, x) => a + x.n, 0) });
-    const osa = h("div", { class: "graf__x", "aria-hidden": "true" });
-    dny.forEach((x, i) => {
-      const b = h("div", { class: "graf__b" + (x.n ? (i === 13 ? " dnes" : "") : " nula") });
-      b.style.height = (x.n ? 12 + (x.n / max) * 88 : 3) + "%";
-      g.append(h("div", { class: "graf__d" }, x.n ? h("span", { class: "graf__n", text: String(x.n) }) : null, b));
-      osa.append(h("span", { text: i === 13 ? "dnes" : x.d.getDate() + ". " + (x.d.getMonth() + 1) + "." }));
+  function blok(trida, titul, pravy, ...obsah) {
+    return h("section", { class: "blok " + (trida || "") }, h("header", { class: "blok__h" }, h("h3", { class: "blok__t", text: titul }), pravy || null), ...obsah);
+  }
+  function popisZmeny(t) {
+    t = String(t || "Úprava obsahu");
+    return t
+      .replace(/^kontakt (\d{3})(\d{3})(\d{3})(\d{3})\b/, (m, a, b, c, d) => "Telefon +" + a + " " + b + " " + c + " " + d)
+      .replace(/^kontakt ([^\s]+@[^\s]+)/, "E-mail $1")
+      .replace(/^fotka ([a-z0-9-]+)$/, "Vyměněná fotka ($1)")
+      .replace(/^text: /, "Text ")
+      .replace(/ vrácen na původní$/, " vrácen na původní");
+  }
+  function pPrehled() {
+    const o = S.obsah || prazdnyObsah(), kat = S.katalog.kontakty;
+    const nK = Object.keys(o.kontakty).length, nT = Object.keys(o.texty).length, nF = Object.keys(o.fotky).length;
+    const hist = Array.isArray(S.historie) ? S.historie : [];
+
+    /* kontakty: nejdůležitější rovnou s aktuální hodnotou */
+    const radky = kat.slice(0, 5).map((k) => {
+      const zm = o.kontakty[k.id] != null;
+      return h("li", { class: "kr" + (zm ? " kr--zm" : "") },
+        h("span", { class: "kr__l", text: (k.popisky && k.popisky[0]) || (k.typ === "tel" ? "Telefon" : "E-mail") }),
+        h("span", { class: "kr__v", text: zm ? o.kontakty[k.id] : puvodniHodnota(k) }),
+        h("button", { class: "kr__u", type: "button", "aria-label": "Upravit " + ((k.popisky && k.popisky[0]) || k.hodnota), onclick: () => { prepniTab("kontakty", true); setTimeout(() => zvyrazniKontakt(k.id), 60); } }, "Upravit"));
     });
-    return h("div", null, g, osa);
+    const kontakty = blok("blok--kontakty", "Kontakty", odkaz("Všech " + kat.length + " " + cisloKontaktu(kat.length), () => prepniTab("kontakty", true)),
+      h("p", { class: "blok__p", text: nK ? "Upraveno " + nK + " z " + kat.length + ". Změna se projeví na všech stránkách najednou." : "Telefony a e-maily z celého webu. Změna se projeví na všech stránkách najednou." }),
+      h("ul", { class: "kr-list" }, radky));
+
+    /* zabezpečení: skutečný stav relace */
+    const ja = S.ja || {}, rel = ja.relace || {}, pr = ja.predchozi;
+    const zab = blok("blok--zab", "Zabezpečení", odkaz("Podrobnosti", () => prepniTab("zabezpeceni", true)),
+      h("dl", { class: "fakta" },
+        h("div", null, h("dt", { text: "Dvoufázové ověření" }), h("dd", null, h("span", { class: "znak znak--ok", text: "Zapnuto" }))),
+        h("div", null, h("dt", { text: "Toto přihlášení" }), h("dd", { text: rel.vytvoreno ? cas(rel.vytvoreno) + " · " + vlajka(rel.zeme) : "–" })),
+        h("div", null, h("dt", { text: "Předchozí přihlášení" }), h("dd", { text: pr ? cas(pr.cas) + " · " + vlajka(pr.zeme) : "Žádné" })),
+        h("div", null, h("dt", { text: "Zařízení" }), h("dd", { text: prohlizec(navigator.userAgent) })),
+        h("div", null, h("dt", { text: "Automatické odhlášení" }), h("dd", { text: "po " + Math.round(NECINNOST / 60000) + " min nečinnosti" })),
+        h("div", null, h("dt", { text: "Zámek účtu" }), h("dd", { text: "po 5 chybných pokusech" }))));
+
+    /* fotky: skutečné fotky právě zobrazené stránky */
+    const c = cib();
+    let fotky = [];
+    try { fotky = c ? c.fotkyNaStrance().filter((f) => !/logo|brand|monogram|ico|ikon/.test(f.klic)).slice(0, 4) : []; } catch (e) { fotky = []; }
+    const nazevSt = S.stranka ? S.stranka.nazev : "Domů";
+    const foto = blok("blok--foto", "Fotky", odkaz("Vyměnit fotky", () => prepniTab("fotky", true)),
+      h("p", { class: "blok__p", text: (nF ? "Vyměněno " + nF + ". " : "") + "Na stránce " + nazevSt + ":" }),
+      fotky.length ? h("div", { class: "mini" }, fotky.map((f) => h("button", { class: "mini__f", type: "button", "aria-label": "Vyměnit fotku " + f.klic, onclick: () => { prepniTab("fotky", true); setTimeout(() => otevriFotku(f), 60); } },
+        h("img", { src: f.url, alt: "", decoding: "async" }))))
+        : h("p", { class: "ticho", text: "Náhled stránky se načítá…" }));
+
+    /* texty */
+    const upr = Object.keys(o.texty).slice(-2).map((kl) => jenText(o.texty[kl])).filter(Boolean);
+    const texty = blok("blok--texty", "Texty", null,
+      h("p", { class: "blok__p", text: nT ? "Upraveno " + nT + (nT === 1 ? " text." : nT <= 4 ? " texty." : " textů.") : "Klikněte na libovolný nadpis nebo odstavec přímo v náhledu webu a přepište ho." }),
+      upr.length ? h("ul", { class: "citace" }, upr.map((t) => h("li", { text: "„" + (t.length > 90 ? t.slice(0, 88) + "…" : t) + "“" }))) : null,
+      upr.length ? null : h("ol", { class: "kroky" },
+        h("li", null, h("b", { text: "Upravit texty na stránce" }), h("span", { text: "Náhled webu se zarámuje a texty půjdou vybrat." })),
+        h("li", null, h("b", { text: "Klik na text" }), h("span", { text: "Otevře se editor s původním zněním." })),
+        h("li", null, h("b", { text: "Uložit a zveřejnit" }), h("span", { text: "Na webu je změna za pár sekund, jde kdykoli vrátit." }))),
+      h("button", { class: "btn btn--ink", type: "button", onclick: () => { prepniTab("texty", true); setTimeout(zacniUpravy, 60); } }, ik("kurzor"), "Upravit texty na stránce"));
+
+    /* poslední změny */
+    const zmeny = blok("blok--zmeny", "Poslední změny", hist.length ? odkaz("Celá historie", () => prepniTab("historie", true)) : null,
+      S.historie == null ? h("p", { class: "ticho", text: "Načítám…" })
+        : hist.length ? h("ol", { class: "zm" }, hist.slice(0, 5).map((v) => h("li", null,
+            h("span", { class: "zm__t", text: popisZmeny(v.popis && v.popis[0]) }),
+            h("span", { class: "zm__k", text: (v.jmeno || "–") + " · " + pred(v.cas) }))))
+        : h("p", { class: "ticho", text: "Zatím žádné změny. Každá uložená úprava se tu objeví i s autorem a časem a půjde vrátit." }));
+
+    return [
+      hlavicka("Přehled", null),
+      h("div", { class: "pr" }, kontakty, zab, foto, texty, zmeny),
+    ];
   }
 
   /* KONTAKTY */
@@ -759,7 +792,7 @@
           h("div", null,
             h("div", { class: "verze__h" }, h("b", { text: "Verze " + v.verze }), v.verze === akt ? h("span", { class: "typ typ--ok", text: "Právě na webu" }) : null),
             h("p", { class: "verze__m" }, h("span", null, ik("historie"), cas(v.cas)), h("span", null, ik("klic"), v.jmeno || "–"), h("span", null, ik("mista"), (v.ip || "–") + " · " + vlajka(v.zeme))),
-            Array.isArray(v.popis) && v.popis.length ? h("ul", null, v.popis.slice(0, 8).map((p) => h("li", { text: String(p) }))) : null),
+            Array.isArray(v.popis) && v.popis.length ? h("ul", null, v.popis.slice(0, 8).map((p) => h("li", { text: popisZmeny(p) }))) : null),
           v.verze !== akt ? h("button", { class: "btn btn--o", type: "button", onclick: () => obnov(v) }, ik("zpet"), "Obnovit tuto verzi") : null)))) :
         h("div", { class: "prazdne" }, ik("historie"), h("b", { text: "Zatím žádné změny" }), "Po prvním uložení se tu objeví záznam."),
     ];

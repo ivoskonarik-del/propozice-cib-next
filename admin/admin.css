@@ -408,3 +408,72 @@ body.uprava .toasty{bottom:96px}
   *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}
   .bg__foto{animation:none}
 }
+
+/* ───────────── přehled v2 (19. 10. večer): skutečný obsah místo ozdobných sloupků, bez ikon ve čtverečcích ───────────── */
+.pr{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:16px}
+.blok{grid-column:span 6;background:var(--card);border:1px solid var(--line);border-radius:var(--r-lg);padding:26px 28px 28px;box-shadow:var(--stin);min-width:0;display:flex;flex-direction:column}
+.blok--kontakty,.blok--foto{grid-column:span 7}
+.blok--zab,.blok--texty{grid-column:span 5}
+.blok--zmeny{grid-column:1/-1}
+.blok__h{display:flex;align-items:baseline;justify-content:space-between;gap:16px;margin:0 0 4px}
+.blok__t{margin:0;font:500 20px/1.2 var(--font);letter-spacing:-.005em}
+.blok__p{margin:0 0 18px;color:var(--mut);font-size:14px;max-width:560px}
+.odkaz{display:inline-flex;align-items:center;gap:6px;font-size:13.5px;font-weight:500;color:var(--ink);white-space:nowrap;padding:4px 0;border-bottom:1px solid transparent;transition:color .2s,border-color .2s}
+.odkaz svg{width:15px;height:15px;transition:transform .25s var(--ease)}
+.odkaz:hover{color:var(--bronz);border-bottom-color:currentColor}
+.odkaz:hover svg{transform:translate(2px,-2px)}
+.ticho{margin:4px 0 0;color:var(--mut);font-size:14px}
+
+/* kontakty jako adresář */
+.kr-list{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.kr{display:grid;grid-template-columns:minmax(0,1fr) auto auto;align-items:center;gap:18px;padding:13px 0;border-bottom:1px solid var(--line)}
+.kr__l{font-size:14px;color:var(--mut);min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.kr__v{font:500 19px/1.2 var(--font-c);letter-spacing:.03em;font-variant-numeric:tabular-nums;color:var(--ink);white-space:nowrap}
+.kr--zm .kr__v::before{content:"";display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--bronz);margin-right:9px;vertical-align:middle}
+.kr__u{font-size:13px;color:var(--mut);padding:6px 12px;border-radius:999px;transition:background .2s,color .2s}
+.kr__u:hover,.kr__u:focus-visible{background:var(--card-2);color:var(--ink)}
+
+/* zabezpečení jako fakta */
+.fakta{margin:12px 0 0;border-top:1px solid var(--line)}
+.fakta>div{display:flex;justify-content:space-between;align-items:baseline;gap:16px;padding:13px 0;border-bottom:1px solid var(--line)}
+.fakta dt{color:var(--mut);font-size:14px}
+.fakta dd{margin:0;font-size:14px;text-align:right;font-variant-numeric:tabular-nums}
+
+/* fotky právě zobrazené stránky */
+.mini{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-top:auto}
+.mini__f{position:relative;aspect-ratio:4/3;border-radius:14px;overflow:hidden;background:var(--card-2)}
+.mini__f img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s var(--ease)}
+.mini__f:hover img{transform:scale(1.04)}
+
+/* texty */
+.citace{list-style:none;margin:0 0 20px;padding:0;display:grid;gap:8px}
+.citace li{padding-left:14px;border-left:2px solid var(--bronz-3);color:var(--ink-2);font-size:14px}
+.blok--texty .btn{align-self:flex-start;margin-top:auto}
+
+/* poslední změny */
+.zm{list-style:none;margin:10px 0 0;padding:0;border-top:1px solid var(--line)}
+.zm li{display:flex;justify-content:space-between;align-items:baseline;gap:20px;padding:13px 0;border-bottom:1px solid var(--line)}
+.zm__t{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:14.5px}
+.zm__k{flex:none;color:var(--mut);font-size:13px}
+
+/* klidnější prázdné stavy a ikony karet ve všech panelech */
+.prazdne{border:0;background:var(--card-2);padding:30px 22px}
+.prazdne svg{display:none}
+.karta__ik{width:auto;height:auto;background:none;border-radius:0;color:var(--bronz);padding-top:2px}
+.karta .btn-r{margin-top:18px}
+
+@media (max-width:1180px){.blok,.blok--kontakty,.blok--foto,.blok--zab,.blok--texty{grid-column:span 6}}
+@media (max-width:900px){.pr{grid-template-columns:minmax(0,1fr)}.blok,.blok--kontakty,.blok--foto,.blok--zab,.blok--texty,.blok--zmeny{grid-column:1/-1}.blok{padding:22px 20px 22px}
+  .kr{grid-template-columns:minmax(0,1fr) auto;gap:4px 12px}.kr__l{grid-column:1/-1}.mini{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .zm li{flex-direction:column;gap:2px}.zm__t{white-space:normal}}
+.kroky{list-style:none;counter-reset:k;margin:0 0 22px;padding:0;border-top:1px solid var(--line)}
+.kroky li{counter-increment:k;display:grid;grid-template-columns:34px minmax(0,1fr);column-gap:8px;padding:12px 0;border-bottom:1px solid var(--line)}
+.kroky li::before{content:counter(k);grid-row:span 2;font:500 22px/1 var(--font-c);color:var(--bronz);padding-top:2px}
+.kroky b{font-weight:500;font-size:14.5px}
+.kroky span{color:var(--mut);font-size:13.5px}
+/* fotky v přehledu jako koláž přes celou výšku karty (1 velká + 3) */
+.blok--foto .mini{flex:1;min-height:280px;margin-top:0;grid-template-columns:1.6fr 1fr 1fr;grid-template-rows:1fr 1fr}
+.blok--foto .mini__f{aspect-ratio:auto;min-height:0}
+.blok--foto .mini__f:first-child{grid-row:1/3}
+.blok--foto .mini__f:nth-child(4){grid-column:2/4}
+@media (max-width:900px){.blok--foto .mini{min-height:0;grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:none}.blok--foto .mini__f{aspect-ratio:4/3}.blok--foto .mini__f:first-child,.blok--foto .mini__f:nth-child(4){grid-row:auto;grid-column:auto}}
