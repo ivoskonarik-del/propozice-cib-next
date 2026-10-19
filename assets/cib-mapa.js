@@ -4,7 +4,7 @@
    Když se knihovna nebo podklad nenačte, zůstane statická mapa (.m2__stage) se starou logikou z cib-pages2.js. */
 (function(){
   var root=document.querySelector('.m3');if(!root)return;
-  var LIB='https://cdn.jsdelivr.net/npm/maplibre-gl@4.7.1/dist/maplibre-gl';
+  var LIB='/propozice-cib-next/assets/vendor/maplibre-gl-4.7.1'; // 19. 10.: vlastní kopie, žádná třetí strana (GDPR)
   var STYLE='https://tiles.openfreemap.org/styles/'+(root.classList.contains('m2--dark')?'dark':'positron');
   var CZ=[[12.09,48.55],[18.86,51.06]],PRAHA=[[14.2,49.97],[14.58,50.2]];
   var started=false;
