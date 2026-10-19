@@ -4,13 +4,19 @@
 User-agent: *
 Allow: /
 
+# Klasické vyhledávače: stránky ano, textové kopie pro AI ne (ať ve výsledcích nesoutěží s originálem)
 User-agent: Googlebot
-User-agent: Google-Extended
 User-agent: bingbot
 User-agent: SeznamBot
-User-agent: Applebot
-User-agent: Applebot-Extended
 User-agent: DuckDuckBot
+User-agent: Applebot
+Allow: /
+Disallow: /*.md$
+Disallow: /llms-full.txt
+
+# AI asistenti a jejich vyhledávání: vše včetně textových verzí (llms.txt, llms-full.txt, index.html.md)
+User-agent: Google-Extended
+User-agent: Applebot-Extended
 User-agent: DuckAssistBot
 User-agent: GPTBot
 User-agent: OAI-SearchBot
