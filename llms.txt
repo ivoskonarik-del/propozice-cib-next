@@ -1,0 +1,46 @@
+# CIB GROUP
+
+> CIB GROUP (CIB GROUP HOLDING a.s.) je soukromý rodinný holding se sídlem ve Vodičkově 709/33 v Praze 1, zaměřený na investice do nemovitostí, development a dlouhodobou správu majetku. Skupina vznikla v roce 2004, původně pod názvem Canadian Investment Bridge, a od roku 2009 se soustředí na realitní investice, rozvoj a správu nemovitostí.
+
+Portfolio tvoří Balabenka Office Building v Praze 9, Residence Vodičkova 33 s Vodičkova Luxury Suites v centru Prahy 1, rezidenční portfolio v Liberci a Hrádku nad Nisou, byty Benkova na pražském Chodově, developerský projekt Obec v zahradě v Lichocevsi a jezdecký areál Emma Sophia Stables.
+
+Klíčové údaje:
+
+- Sídlo: Vodičkova 709/33, 110 00 Praha 1 (Residence Vodičkova 33, vchod z Vodičkovy ulice, metro Můstek a Muzeum)
+- Centrála: +420 296 249 311, info@cib.cz, pracovní dny
+- Pronájem kanceláří a retailu (Balabenka, Vodičkova 33): vasutova@cib.cz, eva.spanko@cib.cz
+- Akvizice a partnerství: eva.spanko@cib.cz
+- Fakturace: faktury@cib.cz; CIB GROUP, a.s., IČ 27211185, DIČ CZ27211185, OR u Městského soudu v Praze, oddíl B, vložka 9748
+- Správa bytů Liberec: Kontaktní centrum Byty Liberec, Dobiášova 862, 460 06 Liberec 6, tel. 607 085 515, liberec@cib.cz
+- Správa bytů Hrádek nad Nisou: Kontaktní centrum Byty Hrádek nad Nisou, 1. máje 718, 463 34 Hrádek nad Nisou, tel. 724 009 533, kminkova@cib.cz
+- Vedení: Pavel Španko (majitel), Dušan Koňařík (výkonný ředitel), Hana Formánková (členka představenstva)
+- Společnosti skupiny: CIB GROUP, a.s.; Vodičkova Luxury Suites s.r.o.; Balabenka Office Building, s.r.o.; Flats Liberecko s.r.o.; Flats Benkova s.r.o.; Obec v zahradě, s. r. o.
+
+Časté dotazy:
+
+- Komu patří Balabenka Office Building? Budova je v portfoliu CIB GROUP od roku 2014; o volných kancelářích a retailu informuje pronájem komerčních prostor (vasutova@cib.cz, eva.spanko@cib.cz) nebo centrála +420 296 249 311.
+- Kde je Balabenka? Českomoravská 2408/1a, 190 00 Praha 9, na nároží Sokolovské a Českomoravské; přibližně 12 000 m² kanceláří a 2 000 m² retailu, BREEAM In-Use „Very Good“.
+- Co je Residence Vodičkova 33? Historický dům z roku 1899 v Praze 1, který CIB GROUP získala v roce 2017 a kompletně zrekonstruovala (kolaudace v květnu 2024). Je v něm centrála skupiny, kanceláře k pronájmu a apartmány Vodičkova Luxury Suites.
+- Jak rezervovat Vodičkova Luxury Suites? Online na https://www.vodickovaluxurysuites.cz/ (provozovatel Vodičkova Luxury Suites s.r.o.).
+- Na koho se obrátit jako nájemník bytu v Liberci nebo Hrádku nad Nisou? Na kontaktní centra správy (údaje výše); úřední hodiny jsou na stránce Kontakt.
+- Co je Obec v zahradě? Dlouhodobý urbanistický a developerský projekt CIB GROUP v Lichocevsi, asi 20 minut od centra Prahy, podle principů zahradního města (https://www.obecvzahrade.cz/).
+- Co je Emma Sophia Stables? Jezdecký areál v obnoveném historickém statku v Lichocevsi, od roku 2023 domovská stáj parkurové jezdkyně Emmy Sophie Španko (https://www.esstables.com/).
+
+## Stránky
+
+- [CIB GROUP](https://ivoskonarik-del.github.io/propozice-cib-next/): přehled skupiny, portfolia a kontaktů
+- [O nás – rodinný holding od roku 2004](https://ivoskonarik-del.github.io/propozice-cib-next/o-nas/): přístup skupiny, vedení, historie a milníky od roku 2004, mapa projektů
+- [Nemovitosti – kanceláře, rezidence a správa bytů](https://ivoskonarik-del.github.io/propozice-cib-next/nemovitosti/): přehled všech nemovitostí a projektů
+- [Balabenka Office Building – kanceláře v Praze 9](https://ivoskonarik-del.github.io/propozice-cib-next/nemovitosti/balabenka/): administrativní budova v Praze 9, parametry, vybavení, pronájem
+- [Residence Vodičkova 33 – historický dům v Praze 1](https://ivoskonarik-del.github.io/propozice-cib-next/nemovitosti/vodickova-33/): historický dům z roku 1899, rekonstrukce, kanceláře k pronájmu
+- [Vodičkova Luxury Suites – apartmány v Praze 1](https://ivoskonarik-del.github.io/propozice-cib-next/nemovitosti/vodickova-luxury-suites/): luxusní apartmány v Praze 1
+- [Správa bytů Liberec a Hrádek nad Nisou](https://ivoskonarik-del.github.io/propozice-cib-next/nemovitosti/sprava-bytu-liberec/): správa 406 bytů v Liberci a Hrádku nad Nisou, kontaktní centra
+- [Správa bytů Praha – Byty Benkova, Chodov](https://ivoskonarik-del.github.io/propozice-cib-next/nemovitosti/sprava-bytu-praha/): Byty Benkova na Chodově
+- [Obec v zahradě – development v Lichocevsi](https://ivoskonarik-del.github.io/propozice-cib-next/development/lichoceves/): developerský projekt Obec v zahradě v Lichocevsi
+- [Emma Sophia Stables – jezdecký areál Lichoceves](https://ivoskonarik-del.github.io/propozice-cib-next/staje/emma-sophia-stables/): jezdecký areál v Lichocevsi
+- [Kontakt – Vodičkova 709/33, Praha 1](https://ivoskonarik-del.github.io/propozice-cib-next/kontakt/): všechny kontakty, úřední hodiny, fakturační údaje společností skupiny
+
+## Optional
+
+- [Ochrana osobních údajů a cookies](https://ivoskonarik-del.github.io/propozice-cib-next/ochrana-osobnich-udaju/): zásady ochrany osobních údajů, cookies, GDPR pro nájemce
+- [Celý obsah webu v jednom souboru](https://ivoskonarik-del.github.io/propozice-cib-next/llms-full.txt): texty všech stránek v Markdownu

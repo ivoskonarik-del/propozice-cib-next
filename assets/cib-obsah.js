@@ -125,6 +125,16 @@
       if (v !== puv && !origUzel.has(n)) origUzel.set(n, puv);
       if (n.nodeValue !== v) n.nodeValue = v;
     }
+    // strukturovaná data pro vyhledávače (JSON-LD v hlavičce): stejná záměna, jen bezpečné hodnoty, ať JSON zůstane platný
+    var bezpecne = vzory.filter(function (x) { return /^\+?[0-9 ]{6,22}$/.test(x[1]) || /^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,24}$/.test(x[1]); });
+    doc.querySelectorAll("script[type='application/ld+json']").forEach(function (s) {
+      var t = s.firstChild;
+      if (!t || t.nodeType !== 3) return;
+      var puv = origUzel.has(t) ? origUzel.get(t) : t.nodeValue, v = puv;
+      bezpecne.forEach(function (x) { v = v.replace(x[0], x[1]); });
+      if (v !== puv && !origUzel.has(t)) origUzel.set(t, puv);
+      if (t.nodeValue !== v) t.nodeValue = v;
+    });
   }
 
   /* ---------- fotky ---------- */
