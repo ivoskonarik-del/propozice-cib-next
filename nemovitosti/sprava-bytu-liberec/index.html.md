@@ -28,12 +28,6 @@ Všech 18 fotografií
 
 Liberec a Hrádek nad Nisou
 Domy ve správě
-Vše 18
-Liberec 11
-Hrádek nad Nisou 7
-Liberec
-1 / 18
-Celá obrazovka
 
 ## Náš přístup Dlouhodobá a lokální správa
 

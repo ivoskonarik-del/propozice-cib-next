@@ -50,17 +50,6 @@ Všech 20 fotografií
 
 Balabenka Office Building
 Budova ve fotografiích
-Vše 20
-Exteriér 5
-Recepce a vstupní hala 4
-Kanceláře 7
-Terasa a výhledy 1
-Showroom a retail 1
-Garáže a dobíjení 1
-Střecha 1
-Exteriér
-1 / 20
-Celá obrazovka
 
 Udržitelnost
 BREEAM In-Use Very Good
@@ -104,10 +93,6 @@ Adresa
 Českomoravská 2408/1a, 190 00 Praha 9
 Pronájem
 vasutova@cib.cz
-Balabenka Office Building
-Palmovka
-Českomoravská
-Otevřít v Google Maps
 
 ## Pronájem komerčních prostor Zájem o prostory?
 

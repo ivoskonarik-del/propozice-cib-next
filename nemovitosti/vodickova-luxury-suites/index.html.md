@@ -16,14 +16,6 @@ Rezervovat pobyt
 
 Vodičkova Luxury Suites
 Interiéry apartmánů
-Vše 24
-Salony 8
-Ložnice 9
-Koupelny 3
-Kuchyně 4
-Salony
-1 / 24
-Celá obrazovka
 
 Lokalita
 V samém centru Prahy
@@ -36,11 +28,6 @@ Rezervace
 Rezervovat pobyt
 Web
 vodickovaluxurysuites.cz
-Vodičkova Luxury Suites
-Můstek
-Muzeum
-Václavské náměstí
-Otevřít v Google Maps
 
 ## Kontakty objektů Naše adresy
 

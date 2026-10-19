@@ -25,15 +25,6 @@ Všech 26 fotografií
 
 Emma Sophia Stables
 Oáza klidu a sportu
-Vše 26
-Areál 9
-Jízdárny 5
-Stáje 5
-Klubovna 5
-Vila 2
-Areál
-1 / 26
-Celá obrazovka
 
 ## Vila a zahrada Historická vila v Lichocevsi
 
@@ -52,8 +43,6 @@ Před a po
 
 Jak vypadala historická vila a statek v Lichocevsi před obnovou a jak vypadají dnes. Předěl posunete tažením myší nebo prstem.
 
-Vila
-Statek
 Před
 2018
 Po
@@ -79,9 +68,6 @@ Místo
 Lichoceves, Praha-západ
 Web
 esstables.com
-Emma Sophia Stables
-Obec v zahradě
-Otevřít v Google Maps
 
 ## Emma Sophia Stables Stáje a kontakt
 

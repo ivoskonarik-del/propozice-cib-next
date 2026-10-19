@@ -101,11 +101,6 @@ Adresa
 Vodičkova 709/33, 110 00 Praha 1
 Úřední hodiny
 pracovní dny, po domluvě
-CIB GROUP, Vodičkova 709/33
-Můstek
-Muzeum
-Václavské náměstí
-Otevřít v Google Maps
 
 Fakturační údaje
 Společnosti skupiny

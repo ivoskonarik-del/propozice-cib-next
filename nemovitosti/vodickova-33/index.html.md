@@ -42,15 +42,6 @@ Všech 39 fotografií
 
 Residence Vodičkova 33
 Dům zvenku i zevnitř
-Vše 39
-Dům 7
-Dvůr a průjezd 5
-Kanceláře 17
-Střešní terasa 3
-Detaily 7
-Dům
-1 / 39
-Celá obrazovka
 
 ## Dům a dvůr Průčelí, průjezd a vnitroblok
 
@@ -97,12 +88,6 @@ Adresa
 Vodičkova 709/33, 110 00 Praha 1
 Pronájem kanceláří
 vasutova@cib.cz
-Residence Vodičkova 33
-Můstek
-Muzeum
-Václavské náměstí
-Karlovo náměstí
-Otevřít v Google Maps
 
 ## Pronájem komerčních prostor Hledáte kanceláře v centru?
 

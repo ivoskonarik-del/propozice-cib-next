@@ -36,14 +36,6 @@ Historický statek
 
 Vizualizace
 Obec v zahradě
-Vše 29
-Nadhledy 4
-Náves a vybavenost 8
-Bydlení 12
-Plánování s obcí 5
-Nadhledy
-1 / 29
-Celá obrazovka
 
 ## Vize Venkovský charakter, současná infrastruktura
 
@@ -76,9 +68,6 @@ Místo
 Lichoceves, Praha-západ
 Web projektu
 obecvzahrade.cz
-Obec v zahradě
-Emma Sophia Stables
-Otevřít v Google Maps
 
 ## Development Zájem o projekt?
 
