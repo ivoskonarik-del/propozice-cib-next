@@ -23,6 +23,8 @@ Emma Sophia Stables dnes funguje jako samostatná značka v rámci rodinného ho
 Navštívit esstables.com
 Všech 26 fotografií
 
+## Emma Sophia Stables Oáza klidu a sportu
+
 Emma Sophia Stables
 Oáza klidu a sportu
 
@@ -38,6 +40,8 @@ Emma Sophia Stables je součástí širšího rozvoje Lichocevsi v rámci projek
 
 Obec v zahradě
 
+## Vila a statek Před a po
+
 Vila a statek
 Před a po
 
@@ -47,12 +51,10 @@ Před
 2018
 Po
 Dnes
-Před
-2017
-Po
-Dnes
 Historická vila v Lichocevsi: 2018 před obnovou, dnes po kompletní obnově fasády, střechy, oken i zahrady.
 Táhněte za předěl
+
+## Obec v zahradě Součást širší vize Lichocevsi
 
 Obec v zahradě
 Součást širší vize Lichocevsi

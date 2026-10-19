@@ -48,8 +48,12 @@ Budova je přímo napojená na tramvajovou síť, v docházkové vzdálenosti me
 Zjistit dostupnost prostor
 Všech 20 fotografií
 
+## Balabenka Office Building Budova ve fotografiích
+
 Balabenka Office Building
 Budova ve fotografiích
+
+## Udržitelnost BREEAM In-Use Very Good
 
 Udržitelnost
 BREEAM In-Use Very Good

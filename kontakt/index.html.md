@@ -4,6 +4,8 @@ Zdroj: https://ivoskonarik-del.github.io/propozice-cib-next/kontakt/
 
 > Kontakty CIB GROUP: centrála +420 296 249 311, info@cib.cz, Vodičkova 709/33, Praha 1. Kanceláře správy v Liberci a Hrádku nad Nisou.
 
+## Napište nám Kontaktujte nás
+
 Napište nám
 Kontaktujte nás
 
@@ -14,6 +16,8 @@ Ať už hledáte kancelářské prostory, řešíte rezidenční nájem, nebo zv
 - info@cib.cz Obecné dotazy
 
 - Vodičkova 709/33, Praha 1 Sídlo skupiny
+
+## Kontakty Na koho se obrátit
 
 Kontakty
 Na koho se obrátit
@@ -47,6 +51,8 @@ liberec@cib.cz
 724 009 533
 kminkova@cib.cz
 Kanceláře správy Liberec a Hrádek nad Nisou
+
+## Správa rezidenčního portfolia Kontaktní centra pro nájemce
 
 Správa rezidenčního portfolia
 Kontaktní centra pro nájemce
@@ -101,6 +107,8 @@ Adresa
 Vodičkova 709/33, 110 00 Praha 1
 Úřední hodiny
 pracovní dny, po domluvě
+
+## Fakturační údaje Společnosti skupiny
 
 Fakturační údaje
 Společnosti skupiny

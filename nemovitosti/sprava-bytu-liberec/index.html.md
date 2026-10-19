@@ -26,6 +26,8 @@ Portfolio tvoří 406 bytových jednotek ve dvou lokalitách. Kancelář správy
 Kontakty pro nájemce
 Všech 18 fotografií
 
+## Liberec a Hrádek nad Nisou Domy ve správě
+
 Liberec a Hrádek nad Nisou
 Domy ve správě
 
@@ -40,6 +42,8 @@ Domy průběžně udržujeme a modernizujeme s ohledem na jejich technický stav
 Správu nastavujeme s dlouhodobým horizontem a důrazem na technický stav domů, stabilní provoz a srozumitelnou komunikaci s nájemníky. Změna vlastníka v roce 2024 na tom nic nezměnila, správu nadále zajišťuje CIB GROUP.
 
 Fotografie domů
+
+## Správa rezidenčního portfolia Kontaktní centra pro nájemce
 
 Správa rezidenčního portfolia
 Kontaktní centra pro nájemce

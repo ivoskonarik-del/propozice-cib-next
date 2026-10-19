@@ -23,6 +23,8 @@ Cílem je rozvíjet obec postupně a v přirozené návaznosti na její stávaj�
 Navštívit web Obec v zahradě
 Vizualizace a plánování
 
+## Dosavadní kroky První kroky v území
+
 Dosavadní kroky
 První kroky v území
 
@@ -33,6 +35,8 @@ První investice se zaměřily na obnovu stávajících míst a objektů v Licho
 Emma Sophia Stables
 Obnovená vila
 Historický statek
+
+## Vizualizace Obec v zahradě
 
 Vizualizace
 Obec v zahradě

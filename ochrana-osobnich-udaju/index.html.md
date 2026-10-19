@@ -4,6 +4,8 @@ Zdroj: https://ivoskonarik-del.github.io/propozice-cib-next/ochrana-osobnich-uda
 
 > Zásady ochrany osobních údajů a informace o cookies webu CIB GROUP. Web nepoužívá cookies ani analytiku.
 
+## Právní informace Ochrana osobních údajů
+
 Právní informace
 Ochrana osobních údajů
 

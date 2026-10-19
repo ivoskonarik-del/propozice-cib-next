@@ -138,6 +138,8 @@ Lichoceves
 Emma Sophia Stables
 Stáje
 
+## Development Lichoceves Obec v zahradě
+
 Development Lichoceves
 Obec v zahradě
 
@@ -263,6 +265,8 @@ U vlastních aktiv uvažujeme v dlouhodobém horizontu a soustředíme se na vyt
 Naše projekty
 Historie a milníky
 
+## Čím se zabýváme Investujeme, rozvíjíme, spravujeme
+
 Čím se zabýváme
 Investujeme, rozvíjíme, spravujeme
 01
@@ -287,6 +291,8 @@ Rezidenční portfolio s lokálním týmem, důrazem na technický stav a srozum
 
 Byty Liberec a Hrádek
 
+## Vedení V čele skupiny stojí
+
 Vedení
 V čele skupiny stojí
 PŠ
@@ -310,6 +316,8 @@ Skupina dům získala v roce 2017, stavební práce na kompletní rekonstrukci z
 Parkety v rybí kosti, štukové profilace a vysoká okna zůstaly zachovány. Nové vrstvy jsou vedeny tak, aby původní dispozici doplňovaly, ne přepisovaly.
 
 Residence Vodičkova 33
+
+## Historie a milníky Vybrané milníky
 
 Historie a milníky
 Vybrané milníky
@@ -373,6 +381,8 @@ Kliknutím na rok zobrazíte vybrané milníky, které formovaly dnešní podobu
 - Akvizice rezidenčního portfolia v Hrádku nad Nisou.
 
 - Vznik skupiny CIB GROUP, původně pod názvem Canadian Investment Bridge.
+
+## Kde působíme Mapa projektů
 
 Kde působíme
 Mapa projektů
@@ -595,8 +605,12 @@ Budova je přímo napojená na tramvajovou síť, v docházkové vzdálenosti me
 Zjistit dostupnost prostor
 Všech 20 fotografií
 
+## Balabenka Office Building Budova ve fotografiích
+
 Balabenka Office Building
 Budova ve fotografiích
+
+## Udržitelnost BREEAM In-Use Very Good
 
 Udržitelnost
 BREEAM In-Use Very Good
@@ -725,6 +739,8 @@ Reprezentativní kancelářské prostory v citlivě zrekonstruovaném historick�
 Zjistit dostupnost kanceláří
 Všech 39 fotografií
 
+## Residence Vodičkova 33 Dům zvenku i zevnitř
+
 Residence Vodičkova 33
 Dům zvenku i zevnitř
 
@@ -832,6 +848,8 @@ Apartmány · Praha 1
 Vodičkova Luxury Suites
 Rezervovat pobyt
 
+## Vodičkova Luxury Suites Interiéry apartmánů
+
 Vodičkova Luxury Suites
 Interiéry apartmánů
 
@@ -902,6 +920,8 @@ Portfolio tvoří 406 bytových jednotek ve dvou lokalitách. Kancelář správy
 Kontakty pro nájemce
 Všech 18 fotografií
 
+## Liberec a Hrádek nad Nisou Domy ve správě
+
 Liberec a Hrádek nad Nisou
 Domy ve správě
 
@@ -916,6 +936,8 @@ Domy průběžně udržujeme a modernizujeme s ohledem na jejich technický stav
 Správu nastavujeme s dlouhodobým horizontem a důrazem na technický stav domů, stabilní provoz a srozumitelnou komunikaci s nájemníky. Změna vlastníka v roce 2024 na tom nic nezměnila, správu nadále zajišťuje CIB GROUP.
 
 Fotografie domů
+
+## Správa rezidenčního portfolia Kontaktní centra pro nájemce
 
 Správa rezidenčního portfolia
 Kontaktní centra pro nájemce
@@ -1086,6 +1108,8 @@ Cílem je rozvíjet obec postupně a v přirozené návaznosti na její stávaj�
 Navštívit web Obec v zahradě
 Vizualizace a plánování
 
+## Dosavadní kroky První kroky v území
+
 Dosavadní kroky
 První kroky v území
 
@@ -1096,6 +1120,8 @@ První investice se zaměřily na obnovu stávajících míst a objektů v Licho
 Emma Sophia Stables
 Obnovená vila
 Historický statek
+
+## Vizualizace Obec v zahradě
 
 Vizualizace
 Obec v zahradě
@@ -1199,6 +1225,8 @@ Emma Sophia Stables dnes funguje jako samostatná značka v rámci rodinného ho
 Navštívit esstables.com
 Všech 26 fotografií
 
+## Emma Sophia Stables Oáza klidu a sportu
+
 Emma Sophia Stables
 Oáza klidu a sportu
 
@@ -1214,6 +1242,8 @@ Emma Sophia Stables je součástí širšího rozvoje Lichocevsi v rámci projek
 
 Obec v zahradě
 
+## Vila a statek Před a po
+
 Vila a statek
 Před a po
 
@@ -1223,12 +1253,10 @@ Před
 2018
 Po
 Dnes
-Před
-2017
-Po
-Dnes
 Historická vila v Lichocevsi: 2018 před obnovou, dnes po kompletní obnově fasády, střechy, oken i zahrady.
 Táhněte za předěl
+
+## Obec v zahradě Součást širší vize Lichocevsi
 
 Obec v zahradě
 Součást širší vize Lichocevsi
@@ -1297,6 +1325,8 @@ Zdroj: https://ivoskonarik-del.github.io/propozice-cib-next/kontakt/
 
 > Kontakty CIB GROUP: centrála +420 296 249 311, info@cib.cz, Vodičkova 709/33, Praha 1. Kanceláře správy v Liberci a Hrádku nad Nisou.
 
+## Napište nám Kontaktujte nás
+
 Napište nám
 Kontaktujte nás
 
@@ -1307,6 +1337,8 @@ Ať už hledáte kancelářské prostory, řešíte rezidenční nájem, nebo zv
 - info@cib.cz Obecné dotazy
 
 - Vodičkova 709/33, Praha 1 Sídlo skupiny
+
+## Kontakty Na koho se obrátit
 
 Kontakty
 Na koho se obrátit
@@ -1340,6 +1372,8 @@ liberec@cib.cz
 724 009 533
 kminkova@cib.cz
 Kanceláře správy Liberec a Hrádek nad Nisou
+
+## Správa rezidenčního portfolia Kontaktní centra pro nájemce
 
 Správa rezidenčního portfolia
 Kontaktní centra pro nájemce
@@ -1394,6 +1428,8 @@ Adresa
 Vodičkova 709/33, 110 00 Praha 1
 Úřední hodiny
 pracovní dny, po domluvě
+
+## Fakturační údaje Společnosti skupiny
 
 Fakturační údaje
 Společnosti skupiny
@@ -1461,6 +1497,8 @@ Lichoceves
 Zdroj: https://ivoskonarik-del.github.io/propozice-cib-next/ochrana-osobnich-udaju/
 
 > Zásady ochrany osobních údajů a informace o cookies webu CIB GROUP. Web nepoužívá cookies ani analytiku.
+
+## Právní informace Ochrana osobních údajů
 
 Právní informace
 Ochrana osobních údajů

@@ -26,6 +26,8 @@ U vlastních aktiv uvažujeme v dlouhodobém horizontu a soustředíme se na vyt
 Naše projekty
 Historie a milníky
 
+## Čím se zabýváme Investujeme, rozvíjíme, spravujeme
+
 Čím se zabýváme
 Investujeme, rozvíjíme, spravujeme
 01
@@ -50,6 +52,8 @@ Rezidenční portfolio s lokálním týmem, důrazem na technický stav a srozum
 
 Byty Liberec a Hrádek
 
+## Vedení V čele skupiny stojí
+
 Vedení
 V čele skupiny stojí
 PŠ
@@ -73,6 +77,8 @@ Skupina dům získala v roce 2017, stavební práce na kompletní rekonstrukci z
 Parkety v rybí kosti, štukové profilace a vysoká okna zůstaly zachovány. Nové vrstvy jsou vedeny tak, aby původní dispozici doplňovaly, ne přepisovaly.
 
 Residence Vodičkova 33
+
+## Historie a milníky Vybrané milníky
 
 Historie a milníky
 Vybrané milníky
@@ -136,6 +142,8 @@ Kliknutím na rok zobrazíte vybrané milníky, které formovaly dnešní podobu
 - Akvizice rezidenčního portfolia v Hrádku nad Nisou.
 
 - Vznik skupiny CIB GROUP, původně pod názvem Canadian Investment Bridge.
+
+## Kde působíme Mapa projektů
 
 Kde působíme
 Mapa projektů
