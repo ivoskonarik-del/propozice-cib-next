@@ -6,6 +6,11 @@
   var SVGNS='http://www.w3.org/2000/svg';
 
   /* ── formulář ─────────────────────────────────────────── */
+  /* 20. 10. 2026: zpráva jde na server administrace (cib-admin-api), uloží se a odejde e-mailem.
+     Proti robotům: skryté pole „web“ a doba od načtení stránky (server zprávu odeslanou do 3 s zahodí).
+     text/plain = jednoduchý CORS požadavek bez předletového OPTIONS. */
+  var FORM_API='https://cib-admin-api.prodej-bytu-3-1-70-m2-172175436.workers.dev/formular';
+  var T0=Date.now();
   function initForm(f){
     $$('select',f).forEach(function(s){
       var up=function(){s.classList.toggle('is-set',!!s.value)}; s.addEventListener('change',up); up();
@@ -16,8 +21,22 @@
       var e=wrap.querySelector('.cib-field__err'); if(e) e.textContent=msg||'';
     };
     $$('input,textarea,select',f).forEach(function(el){el.addEventListener('input',function(){setErr(el,'')})});
+    var hp=document.createElement('div'); hp.setAttribute('aria-hidden','true');
+    hp.style.cssText='position:absolute;left:-9999px;top:0;width:1px;height:1px;overflow:hidden';
+    hp.innerHTML='<label>Web <input type="text" name="web" tabindex="-1" autocomplete="off"></label>';
+    f.appendChild(hp);
+    var btn=$('button[type="submit"]',f), btnText=btn&&$('span',btn), puvodni=btnText?btnText.textContent:'', fail=null;
+    var ukazChybu=function(msg){
+      if(!fail){var foot=$('.cib-form__foot',f); if(!foot) return; fail=document.createElement('p'); fail.className='cib-form__fail'; fail.setAttribute('role','alert'); foot.parentNode.insertBefore(fail,foot.nextSibling);}
+      fail.textContent=msg||''; fail.hidden=!msg;
+    };
+    var obecna=function(){
+      var d=$('.cib-form__done p',f), tel=d&&(d.textContent.match(/\+?\d[\d\s]{7,}\d/)||[])[0];
+      return 'Zprávu se nepodařilo odeslat. Zkuste to prosím znovu'+(tel?', nebo nám zavolejte na '+tel+'.':'.');
+    };
+    var val=function(n){var el=f.elements[n]; return el?String(el.value||''):''};
     f.addEventListener('submit',function(ev){
-      ev.preventDefault(); var ok=true;
+      ev.preventDefault(); if(f.classList.contains('is-sending')) return; var ok=true;
       $$('[required]',f).forEach(function(el){
         var v=el.type==='checkbox'?el.checked:el.value.trim();
         var msg='';
@@ -26,8 +45,20 @@
         if(msg) ok=false; setErr(el,msg);
       });
       if(!ok){var first=$('.is-error',f); if(first){var inp=first.querySelector('input,textarea,select'); inp&&inp.focus();} return;}
-      f.classList.add('is-done');
-      var done=$('.cib-form__done',f); if(done){done.setAttribute('tabindex','-1'); done.focus({preventScroll:true});}
+      ukazChybu('');
+      f.classList.add('is-sending'); if(btn){btn.disabled=true; btn.setAttribute('aria-busy','true');} if(btnText) btnText.textContent='Odesílám…';
+      var konec=function(){f.classList.remove('is-sending'); if(btn){btn.disabled=false; btn.removeAttribute('aria-busy');} if(btnText) btnText.textContent=puvodni;};
+      var ctl=window.AbortController?new AbortController():null, tm=setTimeout(function(){ctl&&ctl.abort()},15000);
+      fetch(FORM_API,{method:'POST',headers:{'Content-Type':'text/plain;charset=UTF-8'},credentials:'omit',referrerPolicy:'no-referrer',signal:ctl?ctl.signal:undefined,
+        body:JSON.stringify({jmeno:val('jmeno'),email:val('email'),telefon:val('telefon'),tema:val('tema'),zprava:val('zprava'),stranka:location.pathname,web:val('web'),trvani:Date.now()-T0})})
+        .then(function(r){return r.json().catch(function(){return {}}).then(function(d){return {ok:r.ok&&d&&d.ok,d:d}})})
+        .then(function(x){
+          clearTimeout(tm); konec();
+          if(!x.ok){ukazChybu((x.d&&x.d.chyba)||obecna()); return;}
+          f.classList.add('is-done');
+          var done=$('.cib-form__done',f); if(done){done.setAttribute('tabindex','-1'); done.focus({preventScroll:true});}
+        })
+        .catch(function(){clearTimeout(tm); konec(); ukazChybu(obecna());});
     });
   }
   $$('form.cib-form').forEach(initForm);

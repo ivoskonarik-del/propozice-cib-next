@@ -526,7 +526,7 @@ footer.main-footer{border-top:1px solid rgba(255,255,255,.16)!important;backgrou
 #content-newsletter .cib-write__form{padding:0!important}
 #content-newsletter .cib-form{--fg:#111;--line:rgba(0,0,0,.26);--mut:#6b6b6b;color:#111!important}
 #content-newsletter .cib-form__grid{grid-template-columns:minmax(0,1fr)!important;gap:0!important}
-#content-newsletter .cib-field__err{color:#c4503f!important}
+#content-newsletter .cib-field__err,#content-newsletter .cib-form__fail{color:#c4503f!important}
 #content-newsletter .cib-field textarea{min-height:96px!important}
 #content-newsletter .cib-field select{color:#111!important}
 #content-newsletter .cib-check{margin:18px 0 22px!important;max-width:100%!important;font-size:13px!important;color:#555!important}
@@ -876,7 +876,7 @@ footer.main-footer{border-top:1px solid rgba(255,255,255,.16)!important;backgrou
 #content-kontakt .cib-write__contacts small{color:#6f6f6f!important;font-size:10.5px!important;letter-spacing:.22em!important}
 #content-kontakt .cib-write__form{margin-top:32px!important;padding:22px 20px 26px!important;background:#fff;border-top:3px solid var(--m-bronz);border-radius:0 20px 0 0}
 #content-kontakt .cib-form{--fg:#111;--line:rgba(0,0,0,.28);--mut:#6b6b6b}
-#content-kontakt .cib-field__err{color:#c4503f!important}
+#content-kontakt .cib-field__err,#content-kontakt .cib-form__fail{color:#c4503f!important}
 #content-kontakt .cib-form__grid{grid-template-columns:1fr!important;gap:0!important}
 #content-kontakt .cib-check{margin:18px 0 22px!important;font-size:13px!important}
 #content-kontakt .cib-form__foot .pg-btn{width:100%;justify-content:center}

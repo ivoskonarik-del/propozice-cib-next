@@ -34,13 +34,19 @@ Tyto zásady popisují, jak zpracováváme osobní údaje v souvislosti s tímto
 
 ### Kontaktní formulář, e-mail a telefon
 
-- Údaje: jméno a příjmení, e-mail, telefon, zvolené téma a text zprávy, případně další údaje, které nám ve zprávě sami sdělíte.
+- Údaje: jméno a příjmení, e-mail, telefon (nepovinný), zvolené téma a text zprávy, případně další údaje, které nám ve zprávě sami sdělíte.
 
 - Účel: vyřízení vašeho dotazu a navazující komunikace, například nabídka prostor k pronájmu, správa bytů nebo spolupráce.
 
 - Právní základ: jednání o smlouvě na vaši žádost (čl. 6 odst. 1 písm. b) GDPR), v ostatních případech náš oprávněný zájem odpovědět na dotaz (čl. 6 odst. 1 písm. f) GDPR).
 
-- Doba uložení: po dobu vyřízení dotazu a navazující komunikace. Pokud z ní nevznikne smluvní vztah, údaje vymažeme nejpozději 3 roky od posledního kontaktu.
+- Jak zpráva putuje: zpráva z formuláře se uloží do zabezpečené databáze webu v datovém centru v EU a zároveň ji e-mailem dostanou pracovníci CIB GROUP, kterých se dotaz týká. Číst ji mohou jen pověření pracovníci v administraci webu.
+
+- Doba uložení v databázi webu: 12 měsíců od odeslání, poté se zpráva automaticky smaže.
+
+- Doba uložení v e-mailu a další komunikaci: po dobu vyřízení dotazu a navazující komunikace. Pokud z ní nevznikne smluvní vztah, údaje vymažeme nejpozději 1 rok od poslední komunikace. Pokud smluvní vztah vznikne, řídí se uchování smlouvou a zákonnými lhůtami (například účetními a daňovými).
+
+- Ochrana proti spamu: IP adresu a čas odeslání uchováváme nejvýše 24 hodin, jen abychom zabránili hromadnému rozesílání zpráv. Ochrana nepoužívá cookies ani nástroje třetích stran.
 
 Uvedení údajů je dobrovolné. Bez kontaktního údaje vám ale nemůžeme odpovědět.
 
@@ -58,7 +64,7 @@ Osobní údaje neprodáváme a nepředáváme nikomu k marketingovým účelům.
 
 - poskytovatelé hostingu webu a e-mailových služeb,
 
-- dodavatel, který pro nás web technicky spravuje,
+- dodavatel, který pro nás web technicky spravuje a provozuje (hosting a databáze),
 
 - orgány veřejné moci, pokud nám to ukládá zákon.
 
@@ -66,7 +72,7 @@ Zpracovatelé pracují jen podle našich pokynů a jsou vázáni mlčenlivostí.
 
 ### Předávání mimo EU
 
-Server administrace webu provozuje společnost Cloudflare, Inc. (USA), která je certifikována v rámci EU-US Data Privacy Framework. Předání technických údajů požadavku (IP adresy) proto probíhá na základě rozhodnutí Evropské komise o odpovídající ochraně (čl. 45 GDPR). Pokud by údaje mimo EU zpracovával jiný poskytovatel, děje se tak jen za podmínek kapitoly V GDPR.
+Server administrace webu provozuje společnost Cloudflare, Inc. (USA), která je certifikována v rámci EU-US Data Privacy Framework. Předání technických údajů požadavku (IP adresy) proto probíhá na základě rozhodnutí Evropské komise o odpovídající ochraně (čl. 45 GDPR). Pokud by údaje mimo EU zpracovával jiný poskytovatel, děje se tak jen za podmínek kapitoly V GDPR. Databáze se zprávami z kontaktního formuláře je uložena v datovém centru v EU.
 
 ## 04 · Cookies Cookies a ukládání do zařízení
 
@@ -76,7 +82,7 @@ Web při načtení využívá několik technických služeb. Dostanou jen IP adr
 
 Cloudflare Workers (cib-admin-api…workers.dev)
 
-Server naší administrace. Při načtení každé stránky z něj web získá aktuální texty, kontakty a fotografie. Provozovatel Cloudflare, Inc. je náš zpracovatel.
+Server naší administrace. Při načtení každé stránky z něj web získá aktuální texty, kontakty a fotografie a přes něj se odesílá kontaktní formulář. Provozovatel Cloudflare, Inc. je náš zpracovatel.
 
 Na stránkách s interaktivní mapou (Nemovitosti, O nás) navíc:
 
@@ -162,4 +168,4 @@ Pokud máte za to, že s vašimi údaji nezacházíme správně, můžete podat 
 
 Zásady můžeme aktualizovat, například když web získá novou funkci. Aktuální znění najdete vždy na této stránce.
 
-Účinné od 19. 10. 2026
+Účinné od 20. 10. 2026

@@ -343,6 +343,12 @@ body.cib-pg #inner-page-wrapper{margin:0}
 .cib-form__note a{color:var(--fg);text-decoration:none;border-bottom:1px solid var(--pg-bronz)}
 .cib-form__done{display:none;padding:2vw 0 0}
 .cib-form.is-done .cib-form__grid,.cib-form.is-done .cib-check,.cib-form.is-done .cib-form__foot{display:none}
+/* 20. 10. 2026: odeslání na server – věta místo souhlasu, stav odesílání, chyba pod tlačítkem */
+.cib-check--info{display:block;cursor:auto}
+.cib-form.is-sending .pg-btn{opacity:.6;cursor:progress}
+.cib-form__fail{margin:16px 0 0;font-size:13.5px;line-height:1.55;color:#e08a7b;max-width:62ch}
+.cib-form--light .cib-form__fail{color:#c4503f}
+.cib-form.is-done .cib-form__fail{display:none}
 .cib-form.is-done .cib-form__done{display:flex;gap:22px;align-items:flex-start;animation:pgIn .6s ease both}
 .cib-form__done i{flex:0 0 auto;width:56px;height:56px;border-radius:50%;border:1px solid var(--pg-bronz);display:flex;align-items:center;justify-content:center;color:var(--pg-bronz)}
 .cib-form__done i svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.8}

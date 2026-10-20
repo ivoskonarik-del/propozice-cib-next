@@ -35,7 +35,7 @@
   const S = {
     token: null, jmeno: "", platiDo: null, obsah: null, katalog: null, stranka: null, tab: "prehled",
     historie: null, aktivita: null, ja: null, posledni: Date.now(), uprava: false, vybrany: null,
-    fotka: null, novaFotka: null, zamekDo: 0,
+    fotka: null, novaFotka: null, zamekDo: 0, zpravy: null, zpravyKomu: "",
   };
 
   /* ───────── pomocníci ───────── */
@@ -254,7 +254,7 @@
   }
   function odhlasMistne(zprava) {
     try { sessionStorage.removeItem(KLIC); } catch (e) { /* nic */ }
-    S.token = null; S.obsah = null; S.historie = null; S.aktivita = null; S.ja = null;
+    S.token = null; S.obsah = null; S.historie = null; S.aktivita = null; S.ja = null; S.zpravy = null;
     zavriEditor(); document.body.classList.remove("uprava"); S.uprava = false;
     clearInterval(S.casovac);
     ukazPrihlaseni(zprava);
@@ -308,6 +308,7 @@
     nactiStranku(S.katalog.stranky[0]);
     vykresli();
     nactiHistorii(true);
+    nactiZpravy(true);
   }
 
   /* ───────── náhled webu (iframe, stejný origin) ───────── */
@@ -371,7 +372,7 @@
   function vykresli() {
     vykresliStav();
     const p = $("panel");
-    const fn = { prehled: pPrehled, kontakty: pKontakty, texty: pTexty, fotky: pFotky, historie: pHistorie, zabezpeceni: pZabezpeceni }[S.tab];
+    const fn = { prehled: pPrehled, zpravy: pZpravy, kontakty: pKontakty, texty: pTexty, fotky: pFotky, historie: pHistorie, zabezpeceni: pZabezpeceni }[S.tab];
     p.replaceChildren(h("div", { class: "panel" }, fn()));
   }
   function vykresliStav() {
@@ -380,10 +381,10 @@
       h("span", { class: "stav" }, h("i"), "Web je online"),
       h("span", { class: "stav" }, ik("historie"), o.upraveno ? "Naposledy uloženo " + pred(o.upraveno) : "Zatím beze změn"),
       h("span", { class: "stav" }, ik("stit"), "Dvoufázové ověření aktivní"));
-    const pocty = { kontakty: Object.keys(o.kontakty).length, texty: Object.keys(o.texty).length, fotky: Object.keys(o.fotky).length };
+    const pocty = { kontakty: Object.keys(o.kontakty).length, texty: Object.keys(o.texty).length, fotky: Object.keys(o.fotky).length, zpravy: noveZpravy().length };
     document.querySelectorAll(".pill").forEach((p) => {
       const n = pocty[p.dataset.tab]; let b = p.querySelector(".pill__n");
-      if (n) { if (!b) { b = h("span", { class: "pill__n" }); p.append(b); } b.textContent = n; b.setAttribute("aria-label", n + " upraveno"); }
+      if (n) { if (!b) { b = h("span", { class: "pill__n" }); p.append(b); } b.textContent = n; b.setAttribute("aria-label", p.dataset.tab === "zpravy" ? n + " " + (n === 1 ? "nová" : n <= 4 ? "nové" : "nových") : n + " upraveno"); }
       else if (b) b.remove();
     });
   }
@@ -465,9 +466,77 @@
             h("span", { class: "zm__k", text: (v.jmeno || "–") + " · " + pred(v.cas) }))))
         : h("p", { class: "ticho", text: "Zatím žádné změny. Každá uložená úprava se tu objeví i s autorem a časem a půjde vrátit." }));
 
+    /* zprávy z formulářů: jen když nějaké jsou, ať přehled nezabírá prázdný blok */
+    const zpr = (S.zpravy || []).filter((z) => !z.spam);
+    const nov = noveZpravy();
+    const zpravy = zpr.length ? blok("blok--zpravy", "Zprávy z webu", odkaz(nov.length ? "Nové: " + nov.length : "Všechny zprávy", () => prepniTab("zpravy", true)),
+      h("ol", { class: "zm" }, zpr.slice(0, 3).map((z) => h("li", null,
+        h("span", { class: "zm__t", text: z.jmeno + (z.tema ? " · " + z.tema : "") }),
+        h("span", { class: "zm__k", text: (z.stav === "nova" ? "Nová · " : "") + pred(z.cas) }))))) : null;
+
     return [
       hlavicka("Přehled", null),
-      h("div", { class: "pr" }, kontakty, zab, foto, texty, zmeny),
+      h("div", { class: "pr" }, zpravy, kontakty, zab, foto, texty, zmeny),
+    ];
+  }
+
+  /* ZPRÁVY z kontaktních formulářů (20. 10. 2026). Text zprávy jen jako textContent (h → createTextNode), nikdy HTML. */
+  function noveZpravy() { return (S.zpravy || []).filter((z) => z.stav === "nova" && !z.spam); }
+  async function nactiZpravy(tiche) {
+    try { const d = await api("/zpravy"); S.zpravy = d && Array.isArray(d.polozky) ? d.polozky : []; S.zpravyKomu = (d && d.komu) || ""; }
+    catch (e) { if (!tiche && e.status !== 401) toast(e.message, "err"); S.zpravy = S.zpravy || []; }
+    if (S.tab === "zpravy" || S.tab === "prehled") vykresli(); else vykresliStav();
+  }
+  async function zmenZpravu(z, zmena) {
+    try {
+      await api("/zpravy/stav", { metoda: "POST", telo: Object.assign({ id: z.id, stav: z.stav }, zmena) });
+      Object.assign(z, zmena); vykresli();
+    } catch (e) { if (e.status !== 401) toast(e.message, "err"); }
+  }
+  async function smazZpravu(z) {
+    const ok = await potvrd({ nadpis: "Smazat zprávu od " + z.jmeno + "?", text: "Zpráva zmizí z administrace natrvalo. Kopie v e-mailové schránce zůstane.", ok: "Smazat zprávu", nebezpecne: true, ikona: "kos" });
+    if (!ok) return;
+    try {
+      await api("/zpravy/smazat", { metoda: "POST", telo: { id: z.id } });
+      S.zpravy = S.zpravy.filter((x) => x.id !== z.id); toast("Zpráva smazána.", "ok"); vykresli();
+    } catch (e) { if (e.status !== 401) toast(e.message, "err"); }
+  }
+  function kartaZpravy(z) {
+    const nova = z.stav === "nova" && !z.spam;
+    const predmet = "Re: " + (z.tema || "Váš dotaz z webu CIB GROUP");
+    return h("li", { class: "zpr" + (nova ? " zpr--nova" : "") },
+      h("div", { class: "zpr__h" },
+        h("b", { text: z.jmeno }),
+        nova ? h("span", { class: "typ typ--b", text: "Nová" }) : null,
+        z.spam ? h("span", { class: "typ typ--mut", text: "Spam" }) : null,
+        z.mail === "chyba" ? h("span", { class: "typ typ--err", text: "E-mail se neodeslal" }) : null),
+      h("p", { class: "zpr__m" },
+        h("span", { text: cas(z.cas) }),
+        z.tema ? h("span", { text: z.tema }) : null,
+        z.stranka ? h("span", { text: "Stránka: " + nazevStranky(z.stranka) }) : null),
+      h("p", { class: "zpr__k" },
+        h("a", { href: "mailto:" + z.email + "?subject=" + encodeURIComponent(predmet) }, ik("mail"), z.email),
+        z.telefon ? h("a", { href: "tel:" + z.telefon.replace(/[^\d+]/g, "") }, ik("telefon"), z.telefon) : null),
+      h("p", { class: "zpr__t", text: z.zprava }),
+      h("div", { class: "zpr__a" },
+        h("a", { class: "btn btn--ink", href: "mailto:" + z.email + "?subject=" + encodeURIComponent(predmet), onclick: () => { if (nova) zmenZpravu(z, { stav: "prectena" }); } }, ik("mail"), "Odpovědět e-mailem"),
+        z.spam ? h("button", { class: "btn btn--o", type: "button", onclick: () => zmenZpravu(z, { spam: 0, stav: "nova" }) }, ik("check"), "Není to spam")
+          : h("button", { class: "btn btn--o", type: "button", onclick: () => zmenZpravu(z, { stav: nova ? "prectena" : "nova" }) }, ik("check"), nova ? "Označit jako vyřízenou" : "Označit jako novou"),
+        h("button", { class: "btn btn--o", type: "button", onclick: () => smazZpravu(z) }, ik("kos"), "Smazat")));
+  }
+  function pZpravy() {
+    const kam = S.zpravyKomu ? "Každá zpráva zároveň přišla e-mailem na " + S.zpravyKomu + ". " : "";
+    const hl = hlavicka("Zprávy z webu", kam + "Po 12 měsících se zprávy samy smažou.",
+      h("button", { class: "btn btn--o", type: "button", onclick: () => { S.zpravy = null; vykresli(); } }, ik("obnovit"), "Načíst znovu"));
+    if (!S.zpravy) { nactiZpravy(); return [hl, h("div", { class: "nacitam" }, h("span", { class: "tocka" }), "Načítám zprávy…")]; }
+    const ok = S.zpravy.filter((z) => !z.spam), spam = S.zpravy.filter((z) => z.spam);
+    return [
+      hl,
+      ok.length ? h("ol", { class: "zpr-list" }, ok.map(kartaZpravy))
+        : h("div", { class: "prazdne" }, ik("mail"), h("b", { text: "Zatím žádné zprávy" }), "Zprávy z kontaktních formulářů na webu se objeví tady."),
+      spam.length ? h("details", { class: "zpr-spam" }, h("summary", { text: "Zachycený spam (" + spam.length + ")" }),
+        h("p", { class: "ticho", text: "Zprávy s mnoha odkazy. E-mailem se neposílají, zkontrolujte je občas a smažte." }),
+        h("ol", { class: "zpr-list" }, spam.map(kartaZpravy))) : null,
     ];
   }
 
@@ -836,7 +905,7 @@
       ["Historie všech změn", "Každá úprava je dohledatelná a jde vrátit."],
       ["Ochrana stránky", "Administraci nejde vložit do cizí stránky, vyhledávače ji nevidí."],
     ];
-    const TYPY = { prihlaseni: ["Přihlášení", "typ--ok"], neuspech: ["Neúspěšný pokus", "typ--err"], zamceno: ["Zamčeno", "typ--err"], odhlaseni: ["Odhlášení", "typ--mut"], zmena: ["Změna obsahu", "typ--b"], obnoveni: ["Obnovení verze", "typ--b"] };
+    const TYPY = { prihlaseni: ["Přihlášení", "typ--ok"], neuspech: ["Neúspěšný pokus", "typ--err"], zamceno: ["Zamčeno", "typ--err"], odhlaseni: ["Odhlášení", "typ--mut"], zmena: ["Změna obsahu", "typ--b"], obnoveni: ["Obnovení verze", "typ--b"], smazani_zpravy: ["Smazaná zpráva", "typ--mut"] };
     return [
       hlavicka("Zabezpečení", "Kdo a odkud se přihlašuje a jak je administrace chráněná.",
         h("button", { class: "btn btn--err", type: "button", onclick: odhlasVsude }, ik("odhlasit"), "Odhlásit všude")),

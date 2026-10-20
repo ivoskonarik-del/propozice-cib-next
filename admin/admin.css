@@ -68,7 +68,7 @@ svg{width:20px;height:20px;flex:none;fill:none;stroke:currentColor;stroke-width:
 .login__err:empty{min-height:0;margin:0 0 6px}
 .login__err.zamek{color:#ffd9a0}
 .btn-hl{width:100%;height:54px;border-radius:999px;background:var(--bronz);color:#fff;font:500 14px/1 var(--font);letter-spacing:.24em;text-transform:uppercase;display:flex;align-items:center;justify-content:center;gap:12px;box-shadow:0 10px 24px rgba(0,0,0,.28);transition:background .2s,transform .2s,box-shadow .2s}
-.btn-hl:hover{background:#b0835d;transform:translateY(-1px)}
+.btn-hl:hover{background:#8f6646;transform:translateY(-1px)}
 .btn-hl:disabled{opacity:.55;cursor:default;transform:none}
 .login__trust{list-style:none;margin:24px 0 0;padding:20px 0 0;border-top:1px solid rgba(255,255,255,.14);display:grid;gap:9px;font-size:13px;color:rgba(255,255,255,.7)}
 .login__trust li{display:flex;gap:10px;align-items:center}
@@ -178,7 +178,7 @@ svg{width:20px;height:20px;flex:none;fill:none;stroke:currentColor;stroke-width:
 .btn{height:46px;padding:0 22px;border-radius:999px;display:inline-flex;align-items:center;justify-content:center;gap:10px;font-size:14px;font-weight:500;transition:background .2s,color .2s,border-color .2s,transform .2s,opacity .2s;white-space:nowrap;text-decoration:none}
 .btn svg{width:18px;height:18px}
 .btn--b{background:var(--bronz);color:#fff;box-shadow:0 6px 16px rgba(22,18,15,.16)}
-.btn--b:hover{background:#b0835d}
+.btn--b:hover{background:#8f6646}
 .btn--ink{background:var(--ink);color:#fff}
 .btn--ink:hover{background:#000}
 .btn--o{border:1px solid var(--line-2);color:var(--ink);background:#fff}
@@ -468,3 +468,20 @@ body.uprava .toasty{bottom:96px}
 .blok--foto .mini__f:first-child{grid-row:1/3}
 .blok--foto .mini__f:nth-child(4){grid-column:2/4}
 @media (max-width:900px){.blok--foto .mini{min-height:0;grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:none}.blok--foto .mini__f{aspect-ratio:4/3}.blok--foto .mini__f:first-child,.blok--foto .mini__f:nth-child(4){grid-row:auto;grid-column:auto}}
+
+/* 20. 10. 2026: zprávy z kontaktních formulářů */
+.zpr-list{list-style:none;margin:0;padding:0;display:grid;gap:12px}
+.zpr{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:18px 20px;box-shadow:var(--stin)}
+.zpr--nova{border-color:var(--bronz)}
+.zpr__h{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.zpr__h b{font-weight:500;font-size:16px}
+.zpr__m{margin:4px 0 0;color:var(--mut);font-size:13px;display:flex;gap:4px 14px;flex-wrap:wrap}
+.zpr__k{margin:10px 0 0;display:flex;gap:6px 18px;flex-wrap:wrap;font-size:14px}
+.zpr__k a{display:inline-flex;gap:6px;align-items:center;color:var(--ink);text-decoration:none;border-bottom:1px solid var(--bronz-2)}
+.zpr__k svg{width:15px;height:15px;color:var(--mut)}
+.zpr__t{margin:12px 0 0;white-space:pre-wrap;overflow-wrap:anywhere;font-size:14.5px;line-height:1.6;color:var(--ink);max-width:75ch}
+.zpr__a{margin-top:16px;display:flex;gap:8px;flex-wrap:wrap}
+.zpr-spam{margin-top:24px}
+.zpr-spam summary{cursor:pointer;color:var(--mut);font-size:14px;padding:6px 0}
+.zpr-spam .zpr-list{margin-top:10px}
+.blok--zpravy{grid-column:1/-1}
