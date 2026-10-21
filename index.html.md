@@ -132,7 +132,7 @@ s námi
 Skupina v číslech
 2004
 Založení skupiny
-14 100
+15 100
 m² kanceláří
 2 450
 m² retailu
