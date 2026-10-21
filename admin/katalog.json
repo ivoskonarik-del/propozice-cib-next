@@ -129,21 +129,6 @@
    ]
   },
   {
-   "id": "mail:eva.spanko@cib.cz",
-   "typ": "mail",
-   "hodnota": "eva.spanko@cib.cz",
-   "popisky": [
-    "Akvizice a partnerství"
-   ],
-   "stranky": [
-    "/propozice-cib-next/development/lichoceves/",
-    "/propozice-cib-next/kontakt/",
-    "/propozice-cib-next/nemovitosti/balabenka/",
-    "/propozice-cib-next/nemovitosti/vodickova-33/",
-    "/propozice-cib-next/o-nas/"
-   ]
-  },
-  {
    "id": "mail:vasutova@cib.cz",
    "typ": "mail",
    "hodnota": "vasutova@cib.cz",
@@ -155,6 +140,19 @@
     "/propozice-cib-next/kontakt/",
     "/propozice-cib-next/nemovitosti/balabenka/",
     "/propozice-cib-next/nemovitosti/vodickova-33/",
+    "/propozice-cib-next/o-nas/"
+   ]
+  },
+  {
+   "id": "mail:eva.spanko@cib.cz",
+   "typ": "mail",
+   "hodnota": "eva.spanko@cib.cz",
+   "popisky": [
+    "Akvizice a partnerství"
+   ],
+   "stranky": [
+    "/propozice-cib-next/development/lichoceves/",
+    "/propozice-cib-next/kontakt/",
     "/propozice-cib-next/o-nas/"
    ]
   },

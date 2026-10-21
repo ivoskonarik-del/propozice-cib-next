@@ -706,3 +706,15 @@ video.cib-secvid--bg.is-on{opacity:1}
 /* fotka Vodičkovy ulice je světlejší než u Balabenky → víc ztmavit, ať ikony a popisky čtou stejně */
 #content-okoli .global-canvas-bg{opacity:.62!important}
 #content-okoli:after{opacity:.5!important}
+
+/* 21. 10. 2026 (Hana, CIB): diakritika v nadpisech. Přechodové nadpisy (background-clip:text) mají line-height .8,
+   takže háčky a čárky nad horní hranou řádku leží mimo pozadí a nevykreslí se (PODLAŽÍ, DLOUHODOBÁ, NÁM);
+   druhý řádek háčkem zasahoval do prvního (VODIČKOVA × RESIDENCE). Víc místa nahoře + vyšší řádkování. */
+.aj-name,.aj-name span,.netflix-name,.concierge-name,.testi-name,.magazine-name,.git-content .git-title-wrap .git-title,
+.ip-listings__content .ip-listings-head .ip-listings-name,.ip-agent-details__bio--inner .ip-agent-details-head .ip-agent-details-name,
+.ip-about__top-title .global-site-title strong,.ip-about__history-title .global-site-title strong{line-height:.98!important}
+.aj-name,.netflix-name,.concierge-name,.testi-name,.magazine-name,.git-content .git-title-wrap .git-title,
+.ip-listings__content .ip-listings-head .ip-listings-name,.ip-agent-details__bio--inner .ip-agent-details-head .ip-agent-details-name,
+.ip-about__top-title .global-site-title strong,.ip-about__history-title .global-site-title strong,
+.ip-commercial__title .global-site-title strong,.ip-contact__main-title .global-site-title strong,
+.media-content-inner .global-site-title strong,.app-head .global-site-title strong,.social-title-wrap .social-title span{padding-top:.24em!important;margin-top:-.24em!important}

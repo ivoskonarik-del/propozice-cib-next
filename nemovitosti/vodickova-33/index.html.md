@@ -33,9 +33,9 @@ Rok výstavby 1899
 Residence
 Vodičkova
 
-Vítkův dům z roku 1899 prošel kompletní rekonstrukcí a kolaudací dokončenou v květnu 2024. Dnes v jednom celku propojuje reprezentativní kancelářské prostory a Vodičkova Luxury Suites, pár kroků od Václavského náměstí.
+Vítkův dům z roku 1899 prošel kompletní rekonstrukcí a v květnu 2024 byl objekt zkolaudován. Dnes v jednom celku propojuje reprezentativní kancelářské prostory a Vodičkova Luxury Suites, pár kroků od Václavského náměstí.
 
-Reprezentativní kancelářské prostory v citlivě zrekonstruovaném historickém domě v centru Prahy, pár kroků od Václavského náměstí, kde se původní architektonický charakter přirozeně propojuje se současným technickým standardem.
+V citlivě zrekonstruovaném historickém domě v centru Prahy, pár kroků od Václavského náměstí, se nacházejí reprezentativní kancelářské prostory, ve kterých se architektonický charakter přirozeně propojuje se současným technickým standardem.
 
 Zjistit dostupnost kanceláří
 Všech 39 fotografií
@@ -100,11 +100,9 @@ Pro aktuální dostupnost kancelářských podlaží a prohlídku domu napište 
 
 - vasutova@cib.cz Pronájem komerčních prostor
 
-- eva.spanko@cib.cz Akvizice a partnerství
+- +420 296 249 311 Centrála CIB GROUP
 
-- +420 296 249 311 Centrála CIB GROUP, Vodičkova 709/33
-
-- info@cib.cz Obecné dotazy
+- Všechny kontakty Kontakty skupiny
 
 ## Kontakty objektů Naše adresy
 

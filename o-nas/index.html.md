@@ -109,11 +109,11 @@ Kliknutím na rok zobrazíte vybrané milníky, které formovaly dnešní podobu
 
 - Prodej administrativního objektu v Praze na Kačerově
 
-- Nákup Obchodního centra v Praze-Písnici
+- Nákup Obchodního centra v Praze v Písnici
 
 - Akvizice objektu Vodičkova 33 v centru Prahy.
 
-- Akvizice rezidenčního portfolia o 740 bytech v Praze-Písnici.
+- Akvizice rezidenčního portfolia o 740 bytech v Praze v Písnici.
 
 - Po dokončení stavebních úprav byla Balabenka Office Building plně pronajata.
 
@@ -133,7 +133,7 @@ Kliknutím na rok zobrazíte vybrané milníky, které formovaly dnešní podobu
 
 - Rozšíření rezidenčního portfolia o přibližně 300 bytů v Liberci.
 
-- Akvizice administrativního objektu v Praze – Kačerov
+- Akvizice administrativního objektu v Praze na Kačerově
 
 - Akvizice portfolia sedmi administrativních budov od Komerční banky.
 
@@ -171,7 +171,7 @@ Praha a okolí · detail
 Kontakt
 Ozvěte se nám
 
-Ať už hledáte kancelářské prostory, řešíte rezidenční nájem, nebo zvažujete partnerství se skupinou, ozveme se vám.
+Ať už hledáte kancelářské prostory, řešíte rezidenční nájem, nebo zvažujete partnerství s naší skupinou, ozveme se vám.
 
 - vasutova@cib.cz Pronájem komerčních prostor
 

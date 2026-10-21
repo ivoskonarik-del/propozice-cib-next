@@ -5,8 +5,8 @@ Zdroj: https://ivoskonarik-del.github.io/propozice-cib-next/development/lichocev
 > Obec v zahradě: dlouhodobý urbanistický a developerský projekt v Lichocevsi, 20 minut od centra Prahy, podle principů zahradního města, připravovaný po etapách.
 
 Zahradní město
-Kladné EIA
-Po etapách
+Kladné stanovisko EIA
+Výstavba po etapách
 Development · Praha-západ
 Obec v zahradě
 

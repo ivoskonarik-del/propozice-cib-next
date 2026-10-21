@@ -107,11 +107,9 @@ Pro aktuální dostupnost kancelářských a retailových ploch a prohlídku bud
 
 - vasutova@cib.cz Pronájem komerčních prostor
 
-- eva.spanko@cib.cz Akvizice a partnerství
+- +420 296 249 311 Centrála CIB GROUP
 
-- +420 296 249 311 Centrála CIB GROUP, Vodičkova 709/33
-
-- info@cib.cz Obecné dotazy
+- Všechny kontakty Kontakty skupiny
 
 ## Kontakty objektů Naše adresy
 

@@ -79,9 +79,9 @@ Lichoceves, 20 minut od Prahy
 
 - – Zahradní město
 
-- – Kladné EIA
+- – Kladné stanovisko EIA
 
-- – Po etapách
+- – Výstavba po etapách
 
 Obec v zahradě
 Development
@@ -97,20 +97,6 @@ Lichoceves
 
 Emma Sophia Stables
 Stáje
-
-## Development Lichoceves Obec v zahradě
-
-Development Lichoceves
-Obec v zahradě
-
-Nejdřív porozumět místu. Potom teprve stavět.
-
-Dlouhodobý urbanistický a developerský projekt v Lichocevsi, přibližně 20 minut od centra Prahy. Vychází z principů zahradního města a propojuje kvalitní bydlení, veřejný prostor, krajinu, infrastrukturu a občanskou vybavenost. Připravován po etapách, s kladným stanoviskem EIA pro další fáze.
-
-Prohlédnout projekt
-Obnova vily
-Nová náves
-1 / 2
 
 ## CIB Group
 
@@ -160,7 +146,7 @@ Od roku 2004
 Pronájem, akvizice a partnerství
 Napište nám
 
-Ať už hledáte kancelářské prostory, řešíte rezidenční nájem, nebo zvažujete partnerství se skupinou, ozveme se vám.
+Ať už hledáte kancelářské prostory, řešíte rezidenční nájem, nebo zvažujete partnerství s naší skupinou, ozveme se vám.
 
 - +420 296 249 311 Centrála, pracovní dny
 

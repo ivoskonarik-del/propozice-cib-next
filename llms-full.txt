@@ -119,9 +119,9 @@ Lichoceves, 20 minut od Prahy
 
 - – Zahradní město
 
-- – Kladné EIA
+- – Kladné stanovisko EIA
 
-- – Po etapách
+- – Výstavba po etapách
 
 Obec v zahradě
 Development
@@ -137,20 +137,6 @@ Lichoceves
 
 Emma Sophia Stables
 Stáje
-
-## Development Lichoceves Obec v zahradě
-
-Development Lichoceves
-Obec v zahradě
-
-Nejdřív porozumět místu. Potom teprve stavět.
-
-Dlouhodobý urbanistický a developerský projekt v Lichocevsi, přibližně 20 minut od centra Prahy. Vychází z principů zahradního města a propojuje kvalitní bydlení, veřejný prostor, krajinu, infrastrukturu a občanskou vybavenost. Připravován po etapách, s kladným stanoviskem EIA pro další fáze.
-
-Prohlédnout projekt
-Obnova vily
-Nová náves
-1 / 2
 
 ## CIB Group
 
@@ -200,7 +186,7 @@ Od roku 2004
 Pronájem, akvizice a partnerství
 Napište nám
 
-Ať už hledáte kancelářské prostory, řešíte rezidenční nájem, nebo zvažujete partnerství se skupinou, ozveme se vám.
+Ať už hledáte kancelářské prostory, řešíte rezidenční nájem, nebo zvažujete partnerství s naší skupinou, ozveme se vám.
 
 - +420 296 249 311 Centrála, pracovní dny
 
@@ -348,11 +334,11 @@ Kliknutím na rok zobrazíte vybrané milníky, které formovaly dnešní podobu
 
 - Prodej administrativního objektu v Praze na Kačerově
 
-- Nákup Obchodního centra v Praze-Písnici
+- Nákup Obchodního centra v Praze v Písnici
 
 - Akvizice objektu Vodičkova 33 v centru Prahy.
 
-- Akvizice rezidenčního portfolia o 740 bytech v Praze-Písnici.
+- Akvizice rezidenčního portfolia o 740 bytech v Praze v Písnici.
 
 - Po dokončení stavebních úprav byla Balabenka Office Building plně pronajata.
 
@@ -372,7 +358,7 @@ Kliknutím na rok zobrazíte vybrané milníky, které formovaly dnešní podobu
 
 - Rozšíření rezidenčního portfolia o přibližně 300 bytů v Liberci.
 
-- Akvizice administrativního objektu v Praze – Kačerov
+- Akvizice administrativního objektu v Praze na Kačerově
 
 - Akvizice portfolia sedmi administrativních budov od Komerční banky.
 
@@ -410,7 +396,7 @@ Praha a okolí · detail
 Kontakt
 Ozvěte se nám
 
-Ať už hledáte kancelářské prostory, řešíte rezidenční nájem, nebo zvažujete partnerství se skupinou, ozveme se vám.
+Ať už hledáte kancelářské prostory, řešíte rezidenční nájem, nebo zvažujete partnerství s naší skupinou, ozveme se vám.
 
 - vasutova@cib.cz Pronájem komerčních prostor
 
@@ -664,11 +650,9 @@ Pro aktuální dostupnost kancelářských a retailových ploch a prohlídku bud
 
 - vasutova@cib.cz Pronájem komerčních prostor
 
-- eva.spanko@cib.cz Akvizice a partnerství
+- +420 296 249 311 Centrála CIB GROUP
 
-- +420 296 249 311 Centrála CIB GROUP, Vodičkova 709/33
-
-- info@cib.cz Obecné dotazy
+- Všechny kontakty Kontakty skupiny
 
 ## Kontakty objektů Naše adresy
 
@@ -732,9 +716,9 @@ Rok výstavby 1899
 Residence
 Vodičkova
 
-Vítkův dům z roku 1899 prošel kompletní rekonstrukcí a kolaudací dokončenou v květnu 2024. Dnes v jednom celku propojuje reprezentativní kancelářské prostory a Vodičkova Luxury Suites, pár kroků od Václavského náměstí.
+Vítkův dům z roku 1899 prošel kompletní rekonstrukcí a v květnu 2024 byl objekt zkolaudován. Dnes v jednom celku propojuje reprezentativní kancelářské prostory a Vodičkova Luxury Suites, pár kroků od Václavského náměstí.
 
-Reprezentativní kancelářské prostory v citlivě zrekonstruovaném historickém domě v centru Prahy, pár kroků od Václavského náměstí, kde se původní architektonický charakter přirozeně propojuje se současným technickým standardem.
+V citlivě zrekonstruovaném historickém domě v centru Prahy, pár kroků od Václavského náměstí, se nacházejí reprezentativní kancelářské prostory, ve kterých se architektonický charakter přirozeně propojuje se současným technickým standardem.
 
 Zjistit dostupnost kanceláří
 Všech 39 fotografií
@@ -799,11 +783,9 @@ Pro aktuální dostupnost kancelářských podlaží a prohlídku domu napište 
 
 - vasutova@cib.cz Pronájem komerčních prostor
 
-- eva.spanko@cib.cz Akvizice a partnerství
+- +420 296 249 311 Centrála CIB GROUP
 
-- +420 296 249 311 Centrála CIB GROUP, Vodičkova 709/33
-
-- info@cib.cz Obecné dotazy
+- Všechny kontakty Kontakty skupiny
 
 ## Kontakty objektů Naše adresy
 
@@ -1090,8 +1072,8 @@ Zdroj: https://ivoskonarik-del.github.io/propozice-cib-next/development/lichocev
 > Obec v zahradě: dlouhodobý urbanistický a developerský projekt v Lichocevsi, 20 minut od centra Prahy, podle principů zahradního města, připravovaný po etapách.
 
 Zahradní město
-Kladné EIA
-Po etapách
+Kladné stanovisko EIA
+Výstavba po etapách
 Development · Praha-západ
 Obec v zahradě
 
@@ -1326,7 +1308,7 @@ Zdroj: https://ivoskonarik-del.github.io/propozice-cib-next/kontakt/
 Napište nám
 Kontaktujte nás
 
-Ať už hledáte kancelářské prostory, řešíte rezidenční nájem, nebo zvažujete partnerství se skupinou, ozveme se vám.
+Ať už hledáte kancelářské prostory, řešíte rezidenční nájem, nebo zvažujete partnerství s naší skupinou, ozveme se vám.
 
 - +420 296 249 311 Centrála, pracovní dny
 

@@ -9,7 +9,7 @@ Zdroj: https://ivoskonarik-del.github.io/propozice-cib-next/kontakt/
 Napište nám
 Kontaktujte nás
 
-Ať už hledáte kancelářské prostory, řešíte rezidenční nájem, nebo zvažujete partnerství se skupinou, ozveme se vám.
+Ať už hledáte kancelářské prostory, řešíte rezidenční nájem, nebo zvažujete partnerství s naší skupinou, ozveme se vám.
 
 - +420 296 249 311 Centrála, pracovní dny
 
