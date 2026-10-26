@@ -941,3 +941,6 @@ footer.main-footer{border-top:1px solid rgba(255,255,255,.16)!important;backgrou
 #content-kontakt .cib-form__foot .pg-btn{width:auto}
 }
 }
+
+/* 26. 10. Lichoceves (DK): delší štítky v heru pod sebou, INFRASTRUKTURA se do třetiny šířky nevejde */
+.strana-lichoceves #content-slider .cib-hero-facts .cib-hero-brands__row:has(>.cib-hero-fact:nth-child(3):last-child){grid-template-columns:1fr!important;gap:10px!important}

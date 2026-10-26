@@ -2,11 +2,11 @@
 
 Zdroj: https://ivoskonarik-del.github.io/propozice-cib-next/development/lichoceves/
 
-> Obec v zahradě: dlouhodobý urbanistický a developerský projekt v Lichocevsi, 20 minut od centra Prahy, podle principů zahradního města, připravovaný po etapách.
+> Obec v zahradě: dlouhodobý urbanistický a developerský projekt v Lichocevsi, 20 minut od centra Prahy, s promyšleným urbanismem a plnou občanskou vybaveností.
 
-Zahradní město
-Kladné stanovisko EIA
-Výstavba po etapách
+Promyšlený urbanismus
+Kvalitní infrastruktura
+Plná občanská vybavenost
 Development · Praha-západ
 Obec v zahradě
 
@@ -16,7 +16,7 @@ Development Lichoceves
 Dlouhodobá vize
 rozvoje Lichocevsi
 
-Obec v zahradě je dlouhodobý urbanistický a developerský projekt v Lichocevsi, přibližně 20 minut od centra Prahy. Vychází z principů zahradního města a propojuje kvalitní bydlení, veřejný prostor, krajinu, infrastrukturu a občanskou vybavenost.
+Obec v zahradě je dlouhodobý urbanistický a developerský projekt v Lichocevsi, přibližně 20 minut od centra Prahy. Vychází z promyšleného urbanismu a propojuje kvalitní bydlení, veřejný prostor, krajinu, infrastrukturu a občanskou vybavenost.
 
 Cílem je rozvíjet obec postupně a v přirozené návaznosti na její stávající charakter. Projekt je připravován po jednotlivých etapách a pro další fáze rozvoje již získal kladné stanovisko EIA.
 
@@ -66,7 +66,7 @@ Kroky v území
 Lokalita
 Lichoceves, 20 minut od Prahy
 
-Obec severozápadně od Prahy, v dosahu města a přitom v krajině. Součástí širšího rozvoje Lichocevsi je i jezdecký areál Emma Sophia Stables.
+Obec severozápadně od Prahy, na dosah metropole a přitom v krajině. Součástí širšího rozvoje Lichocevsi je i jezdecký areál Emma Sophia Stables.
 
 Místo
 Lichoceves, Praha-západ

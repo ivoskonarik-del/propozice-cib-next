@@ -57,7 +57,7 @@ Součást širší vize Lichocevsi
 
 Obnova statku byla jedním z prvních kroků v území.
 
-Emma Sophia Stables je součástí širšího rozvoje Lichocevsi v rámci projektu Obec v zahradě. Projekt vychází z principů zahradního města a propojuje kvalitní bydlení, veřejný prostor, krajinu, infrastrukturu a občanskou vybavenost.
+Emma Sophia Stables je součástí širšího rozvoje Lichocevsi v rámci projektu Obec v zahradě. Projekt vychází z promyšleného urbanismu a propojuje kvalitní bydlení, veřejný prostor, krajinu, infrastrukturu a občanskou vybavenost.
 
 Prohlédnout Obec v zahradě
 

@@ -77,11 +77,11 @@ Obec v zahradě
 Development
 Lichoceves, 20 minut od Prahy
 
-- – Zahradní město
+- – Promyšlený urbanismus
 
-- – Kladné stanovisko EIA
+- – Kvalitní infrastruktura
 
-- – Výstavba po etapách
+- – Plná občanská vybavenost
 
 Obec v zahradě
 Development

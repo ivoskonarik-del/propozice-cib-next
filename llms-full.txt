@@ -23,7 +23,7 @@ Klíčové údaje:
 - Co je Residence Vodičkova 33? Historický dům z roku 1899 v Praze 1, který CIB GROUP získala v roce 2017 a kompletně zrekonstruovala (kolaudace v květnu 2024). Je v něm centrála skupiny, kanceláře k pronájmu a apartmány Vodičkova Luxury Suites.
 - Jak rezervovat Vodičkova Luxury Suites? Online na https://www.vodickovaluxurysuites.cz/ (provozovatel Vodičkova Luxury Suites s.r.o.).
 - Na koho se obrátit jako nájemník bytu v Liberci nebo Hrádku nad Nisou? Na kontaktní centra správy (údaje výše); úřední hodiny jsou na stránce Kontakt.
-- Co je Obec v zahradě? Dlouhodobý urbanistický a developerský projekt CIB GROUP v Lichocevsi, asi 20 minut od centra Prahy, podle principů zahradního města (https://www.obecvzahrade.cz/).
+- Co je Obec v zahradě? Dlouhodobý urbanistický a developerský projekt CIB GROUP v Lichocevsi, asi 20 minut od centra Prahy, s promyšleným urbanismem a plnou občanskou vybaveností (https://www.obecvzahrade.cz/).
 - Co je Emma Sophia Stables? Jezdecký areál v obnoveném historickém statku v Lichocevsi, od roku 2023 domovská stáj parkurové jezdkyně Emmy Sophie Španko (https://www.esstables.com/).
 
 In English (the website is in Czech):
@@ -117,11 +117,11 @@ Obec v zahradě
 Development
 Lichoceves, 20 minut od Prahy
 
-- – Zahradní město
+- – Promyšlený urbanismus
 
-- – Kladné stanovisko EIA
+- – Kvalitní infrastruktura
 
-- – Výstavba po etapách
+- – Plná občanská vybavenost
 
 Obec v zahradě
 Development
@@ -1069,11 +1069,11 @@ Lichoceves
 
 Zdroj: https://ivoskonarik-del.github.io/propozice-cib-next/development/lichoceves/
 
-> Obec v zahradě: dlouhodobý urbanistický a developerský projekt v Lichocevsi, 20 minut od centra Prahy, podle principů zahradního města, připravovaný po etapách.
+> Obec v zahradě: dlouhodobý urbanistický a developerský projekt v Lichocevsi, 20 minut od centra Prahy, s promyšleným urbanismem a plnou občanskou vybaveností.
 
-Zahradní město
-Kladné stanovisko EIA
-Výstavba po etapách
+Promyšlený urbanismus
+Kvalitní infrastruktura
+Plná občanská vybavenost
 Development · Praha-západ
 Obec v zahradě
 
@@ -1083,7 +1083,7 @@ Development Lichoceves
 Dlouhodobá vize
 rozvoje Lichocevsi
 
-Obec v zahradě je dlouhodobý urbanistický a developerský projekt v Lichocevsi, přibližně 20 minut od centra Prahy. Vychází z principů zahradního města a propojuje kvalitní bydlení, veřejný prostor, krajinu, infrastrukturu a občanskou vybavenost.
+Obec v zahradě je dlouhodobý urbanistický a developerský projekt v Lichocevsi, přibližně 20 minut od centra Prahy. Vychází z promyšleného urbanismu a propojuje kvalitní bydlení, veřejný prostor, krajinu, infrastrukturu a občanskou vybavenost.
 
 Cílem je rozvíjet obec postupně a v přirozené návaznosti na její stávající charakter. Projekt je připravován po jednotlivých etapách a pro další fáze rozvoje již získal kladné stanovisko EIA.
 
@@ -1133,7 +1133,7 @@ Kroky v území
 Lokalita
 Lichoceves, 20 minut od Prahy
 
-Obec severozápadně od Prahy, v dosahu města a přitom v krajině. Součástí širšího rozvoje Lichocevsi je i jezdecký areál Emma Sophia Stables.
+Obec severozápadně od Prahy, na dosah metropole a přitom v krajině. Součástí širšího rozvoje Lichocevsi je i jezdecký areál Emma Sophia Stables.
 
 Místo
 Lichoceves, Praha-západ
@@ -1241,7 +1241,7 @@ Součást širší vize Lichocevsi
 
 Obnova statku byla jedním z prvních kroků v území.
 
-Emma Sophia Stables je součástí širšího rozvoje Lichocevsi v rámci projektu Obec v zahradě. Projekt vychází z principů zahradního města a propojuje kvalitní bydlení, veřejný prostor, krajinu, infrastrukturu a občanskou vybavenost.
+Emma Sophia Stables je součástí širšího rozvoje Lichocevsi v rámci projektu Obec v zahradě. Projekt vychází z promyšleného urbanismu a propojuje kvalitní bydlení, veřejný prostor, krajinu, infrastrukturu a občanskou vybavenost.
 
 Prohlédnout Obec v zahradě
 

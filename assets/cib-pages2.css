@@ -540,3 +540,6 @@
 /* zavírací tlačítko karty detailu na mapě */
 .m2__card .m2__close{position:absolute;top:4px;right:6px;z-index:3;width:32px;height:32px;padding:0;border:0;background:rgba(0,0,0,.45);color:#fff;font-size:22px;line-height:32px;border-radius:50%;cursor:pointer}
 .m2__card .m2__close:hover{background:var(--bronz)}
+
+/* 26. 10. Lichoceves (DK): delší štítky v heru na dva řádky, ať nenajedou do nadpisu Obec v zahradě */
+@media (min-width:992px){.strana-lichoceves .cib-hero-fact b{max-width:7.8em;white-space:normal;line-height:1.08}}
