@@ -711,3 +711,15 @@ video.cib-secvid--bg.is-on{opacity:1}
    takže háčky a čárky nad horní hranou leží mimo pozadí a nevykreslí se (PODLAŽÍ, DLOUHODOBÁ). Pozadí se nahoru zvětší o .24em
    a záporný okraj ho vrátí: text, řádkování ani rozložení se nehnou (háček VODIČKOVA do RESIDENCE zasahuje záměrně, Ivo 21. 10.). */
 @media (min-width:992px){.aj-name,.magazine-name{padding-top:.24em!important;margin-top:-.24em!important}}
+
+/* 27. 10. (Ivo): na telefonu žádné rámečky. Zbytek ogroup.com (pojo a11y) v inline stylu i global-*.css kreslí kolem odkazu nebo tlačítka
+   s fokusem 5px červený rámeček (button:focus-visible,a:focus-visible …red!important); na iPhonu třeba kolem „Domů“ hned po otevření menu.
+   Dotyková zařízení: bez rámečků fokusu a bez šedého záblesku po ťuknutí. Počítač: jen při ovládání klávesnicí tenký bronzový rámeček. */
+html body a:focus-visible,html body button:focus-visible{outline:1px solid #a17652!important;outline-offset:3px!important}
+@media (hover:none),(pointer:coarse){
+  html{-webkit-tap-highlight-color:transparent}
+  :root body :focus,:root body :focus-visible{outline:none!important}
+  :root body .splide__slide:focus,:root body .splide__slide:focus-visible{border:0!important}
+  :root body .cib-ba__stage:focus-within .cib-ba__knob{outline:none!important}
+  :root body .cib-hx__track:focus-visible .cib-hx__knob{box-shadow:none!important}
+}
