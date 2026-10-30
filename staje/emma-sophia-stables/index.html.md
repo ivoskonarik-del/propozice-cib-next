@@ -1,4 +1,4 @@
-# Emma Sophia Stables – jezdecký areál Lichoceves
+# Emma Sophia Stables
 
 Zdroj: https://ivoskonarik-del.github.io/propozice-cib-next/staje/emma-sophia-stables/
 
@@ -10,11 +10,11 @@ Historický statek
 Stáje · Lichoceves
 Emma Sophia Stables
 
-## Kde se nemovitosti setkávají se sportem
+## Obnovený statek s novým využitím
 
-Emma Sophia Stables
-Kde se nemovitosti
-setkávají se sportem
+Součást rodinného holdingu
+Obnovený statek
+s novým využitím
 
 V rámci širšího rozvoje Lichocevsi prošel historický statek kompletní rekonstrukcí a vznikl zde Emma Sophia Stables, moderní jezdecký areál se zázemím pro sportovní koně i jezdce. Od roku 2023 je domovskou stájí parkurové jezdkyně Emmy Sophie Španko.
 
@@ -23,7 +23,7 @@ Emma Sophia Stables dnes funguje jako samostatná značka v rámci rodinného ho
 Navštívit esstables.com
 Všech 26 fotografií
 
-## Emma Sophia Stables Oáza klidu a sportu
+## Emma Sophia Stables Jezdecký areál v Lichocevsi
 
 ## Vila a zahrada Historická vila v Lichocevsi
 

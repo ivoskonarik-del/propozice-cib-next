@@ -1,8 +1,8 @@
-# Správa bytů Praha – Byty Benkova, Chodov
+# Byty Benkova, Chodov
 
 Zdroj: https://ivoskonarik-del.github.io/propozice-cib-next/nemovitosti/sprava-bytu-praha/
 
-> Byty Benkova na pražském Chodově: 12 bytových jednotek ve správě CIB GROUP ve spolupráci s Flats Benkova s.r.o.
+> Rezidenční nemovitosti v ulici Benkova na pražském Chodově spravuje CIB GROUP ve spolupráci se společností Flats Benkova s.r.o.
 
 Praha 11
 Chodov
@@ -16,9 +16,9 @@ Správa bytů · Praha 11
 Byty Benkova
 Foto: Hynek Moravec, Wikimedia Commons, CC BY 3.0
 
-## Správa bytů Praha Dotazy nájemců a zájemců
+## Správa bytů Praha Kontakt pro nájemníky a zájemce
 
-Provozní a administrativní agendu bytů Benkova řeší centrála skupiny ve Vodičkově 33 ve spolupráci se společností Flats Benkova s.r.o. Napište nebo zavolejte v pracovních dnech.
+S dotazy k údržbě, administrativě, nájemním vztahům nebo dostupným bytům se obracejte na centrálu CIB GROUP.
 
 - +420 296 249 311 Centrála, pracovní dny
 

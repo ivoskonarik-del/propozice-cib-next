@@ -2,12 +2,12 @@
 
 Zdroj: https://ivoskonarik-del.github.io/propozice-cib-next/
 
-> CIB GROUP je soukromý rodinný holding z Prahy: investice do komerčních nemovitostí, vlastní development a dlouhodobá správa bytů v Praze a Liberci.
+> CIB GROUP je soukromý rodinný holding zaměřený na komerční nemovitosti, development a správu rezidenčních aktiv. Od roku 2004 rozvíjí projekty s dlouhodobým potenciálem.
 
 Sídlo firmy
 Vodičkova 709/33
 
-## Portfolio skupiny Naše projekty
+## Portfolio skupiny Naše nemovitosti a aktivity
 Zobrazit vše
 Balabenka Office Building
 Kanceláře
@@ -95,15 +95,15 @@ Lichoceves
 Emma Sophia Stables
 Stáje
 
-## CIB Group
+## CIB GROUP
 
 Soukromý rodinný holding
 CIB
-Group
+GROUP
 
 CIB GROUP je soukromý rodinný holding zaměřený na nemovitosti, development a správu. Projekty posuzujeme podle jejich dlouhodobého potenciálu, kvality a přínosu pro své okolí. Investujeme do komerčních aktiv, rozvíjíme vlastní developerské projekty a zajišťujeme dlouhodobou správu nemovitostí.
 
-Nemovitosti pro nás nekončí jejich koupí. Postupně je poznáváme, investujeme do nich a hledáme způsoby, jak je dál zlepšovat. Právě tento dlouhodobý vztah k jednotlivým domům je podstatou našeho přístupu. Skupina vznikla v roce 2004, původně pod názvem Canadian Investment Bridge, a dnes sídlí ve Vodičkově 33 v centru Prahy.
+Nemovitosti pro nás nekončí jejich koupí. Postupně je poznáváme, investujeme do nich a hledáme způsoby, jak je dále zlepšovat. Právě dlouhodobý vztah k jednotlivým domům je podstatou našeho přístupu. Skupina vznikla v roce 2004, původně pod názvem Canadian Investment Bridge, a dnes sídlí ve Vodičkově 33 v centru Prahy.
 
 Více o skupině
 Naše sídlo Vodičkova 33
@@ -137,7 +137,7 @@ Od roku 2004
 
 ## Pronájem, akvizice a partnerství Napište nám
 
-Ať už hledáte kancelářské prostory, řešíte rezidenční nájem, nebo zvažujete partnerství s naší skupinou, ozveme se vám.
+Pokračujeme v rozvoji stávajících projektů a aktivně vyhledáváme nové investiční příležitosti. Zajímají nás především kancelářské a retailové nemovitosti, projekty se smíšeným využitím a development, u kterých můžeme vytvářet dlouhodobou hodnotu.
 
 - +420 296 249 311 Centrála, pracovní dny
 

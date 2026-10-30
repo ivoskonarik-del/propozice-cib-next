@@ -1,8 +1,8 @@
-# O nás – rodinný holding od roku 2004
+# O nás
 
 Zdroj: https://ivoskonarik-del.github.io/propozice-cib-next/o-nas/
 
-> CIB GROUP vznikla v roce 2004 jako Canadian Investment Bridge. Rodinný holding se sídlem ve Vodičkově 33: přístup, vedení skupiny, historie a milníky.
+> CIB GROUP je soukromý rodinný holding zaměřený na nemovitosti, development a správu. Součástí jeho příběhu je také dlouhodobá podpora Nadačního fondu Hippokrates.
 
 2004
 vznik skupiny
@@ -21,7 +21,7 @@ hodnotu v čase
 
 CIB GROUP je rodinný holding, který propojuje investice do nemovitostí, development a správu. Investujeme do komerčních aktiv, rozvíjíme vlastní developerské projekty a zajišťujeme dlouhodobou správu nemovitostí.
 
-U vlastních aktiv uvažujeme v dlouhodobém horizontu a soustředíme se na vytváření trvalé hodnoty prostřednictvím kvality provedení, správného využití, promyšlených rekonstrukcí a aktivní správy. U spravovaných nemovitostí klademe důraz na stabilní provoz, dobrý technický stav a srozumitelnou komunikaci s nájemníky.
+Nemovitosti pro nás nekončí jejich koupí. Postupně je poznáváme, investujeme do nich a hledáme způsoby, jak je dále zlepšovat. Právě dlouhodobý vztah k jednotlivým domům je podstatou našeho přístupu.
 
 Naše projekty
 Historie a milníky
@@ -49,16 +49,45 @@ Rezidenční portfolio s lokálním týmem, důrazem na technický stav a srozum
 
 Byty Liberec a Hrádek
 
-## Vedení V čele skupiny stojí
-PŠ
-Pavel Španko
-Majitel
-DK
-Dušan Koňařík
-Výkonný ředitel
-HF
-Hana Formánková
-Členka představenstva
+## Dlouhodobá podpora Hudba, která pomáhá
+
+Podpora Nadačního fondu Hippokrates je dlouholetou součástí CIB GROUP. Každoročně pořádáme benefiční koncert, na kterém vystupují Radka, Eva a Emma Španko společně s EvRam Band. K podpoře fondu se během večera připojují také naši obchodní partneři a přátelé.
+
+Nadační fond Hippokrates podporuje péči o pacientky Onkogynekologického centra Všeobecné fakultní nemocnice v Praze, vzdělávání lékařů a sester a zlepšování prostředí, ve kterém léčba probíhá.
+
+Nejde pro nás o jednorázový dar. Koncert se stal každoroční tradicí, která začala roku 2014 v kapli svatého Kříže u Apolináře. Podpora fondu je pro nás dlouhodobým závazkem a tradicí, kterou chceme dále rozvíjet.
+
+Více o naší podpoře Nadačního fondu Hippokrates
+Koncertní momenty
+
+Výběr videí přibližuje atmosféru večerů, které se staly pevnou součástí naší každoroční podpory.
+
+Záznam koncertu
+6. 12. 2025
+
+Video se z YouTube načte až po kliknutí.
+
+Benefiční koncerty EvRam Band
+
+Fotografie z jednotlivých ročníků zachycují vystoupení EvRam Band i setkání hostů, kteří se k podpoře fondu pravidelně připojují.
+
+Foto: Tereza Španko
+
+## Jak pracujeme Vlastníme s odpovědností, spravujeme s péčí
+01
+Vlastní aktiva
+
+U vlastních aktiv uvažujeme v dlouhodobém horizontu. Hodnotu vytváříme kvalitním provedením, správným využitím, promyšlenými rekonstrukcemi a aktivní správou.
+
+02
+Development
+
+Development připravujeme po etapách a v návaznosti na konkrétní místo. Důležitá je pro nás dlouhodobá funkčnost, infrastruktura a přínos pro okolí.
+
+03
+Spravované nemovitosti
+
+U spravovaných nemovitostí klademe důraz na stabilní provoz, dobrý technický stav a srozumitelnou komunikaci s nájemníky.
 
 ## Dům z roku 1899
 
@@ -72,9 +101,9 @@ Parkety v rybí kosti, štukové profilace a vysoká okna zůstaly zachovány. N
 
 Residence Vodičkova 33
 
-## Historie a milníky Vybrané milníky
+## Historie a milníky Milníky, které formovaly skupinu
 
-Kliknutím na rok zobrazíte vybrané milníky, které formovaly dnešní podobu CIB GROUP.
+Vyberte rok a zobrazte jednotlivé milníky.
 
 ### Současnost
 
@@ -84,110 +113,155 @@ Kliknutím na rok zobrazíte vybrané milníky, které formovaly dnešní podobu
 
 - Dokončen prodej rezidenčního portfolia Písnice zahrnujícího 16 bytových domů a 760 bytů fondu WOOD & Company City – OPF. CIB GROUP tím uzavřela investiční cyklus aktiva, které vlastnila a rozvíjela od roku 2017.
 
-- Prodej bytového portfolia ve Strašnicích a Hostivaři.
+- Dokončení prodeje bytového portfolia ve Strašnicích a Hostivaři.
 
 ### 2024
 
+- Pavel Španko se stává jediným vlastníkem skupiny.
+
+- Restrukturalizace skupiny a propojení s dalšími aktivitami rodinného holdingu.
+
 - Projekt Obec v zahradě a Emma Sophia Stables se stávají součástí širšího rodinného holdingu.
 
-- Dokončena kompletní rekonstrukce a kolaudace Residence Vodičkova 33 (květen 2024).
+- Dokončení rekonstrukce a kolaudace Residence Vodičkova 33 v květnu 2024.
 
-- Změna vlastníka rezidenčního portfolia Liberecko a bytového portfolia Benkova; CIB GROUP nadále zajišťuje jejich správu.
+- Změna vlastníka rezidenčního portfolia Liberecko a bytových domů Benkova. CIB GROUP nadále zajišťuje jejich správu.
+
+### 2023
+
+- Pokračování rekonstrukce Residence Vodičkova 33.
 
 ### 2022
 
-- Zahájeny stavební práce na kompletní rekonstrukci Residence Vodičkova 33.
+- Zahájení stavebních prací na Residence Vodičkova 33.
+
+- Pokračování projektové přípravy lokality Písnice.
+
+- Rekonstrukce části rezidenčního portfolia v Hrádku nad Nisou.
+
+- Rekonstrukce bytových domů na Proseku.
 
 ### 2021
+
+- Stabilizace portfolií v období pandemie Covid 19.
+
+- Příprava rozsáhlé rekonstrukce Residence Vodičkova 33.
 
 - Rozvoj urbanistické koncepce lokality Písnice a příprava revitalizace vybraných bytových domů.
 
 ### 2020
 
-- Balabenka Office Building získala certifikaci BREEAM In-Use „Very Good“.
+- Získání certifikace BREEAM In Use Very Good pro Balabenka Office Building.
 
-- Dokončen prodej bytového portfolia v Klatovech.
+- Prodej bytového portfolia v Klatovech.
 
-- Dokončen prodej administrativní budovy Delta Haus.
+- Prodej administrativní budovy Delta Haus.
+
+- Veřejné představení dokončené urbanistické studie lokality Praha Písnice.
+
+### 2019
+
+- Dokončení restrukturalizace bytového portfolia a jeho začlenění do společnosti CIB Rental, s.r.o.
+
+- Refinancování bytového portfolia po dokončené restrukturalizaci.
 
 ### 2018
 
-- Prodej administrativního objektu v Praze na Kačerově
+- Spuštění informačního portálu pisnice.com.
 
-- Nákup Obchodního centra v Praze v Písnici
+- Otevření klientského místa pro nájemce Písnice a zázemí pro místní správu.
+
+- Přesun sídla CIB GROUP do budovy Edison v Jeruzalémské ulici.
+
+- Prodej administrativního objektu v Praze na Kačerově.
+
+- Akvizice obchodního centra v Praze Písnici.
 
 ### 2017
 
 - Akvizice objektu Vodičkova 33 v centru Prahy.
 
-- Akvizice rezidenčního portfolia o 740 bytech v Praze v Písnici.
+- Revitalizace bytového portfolia v Klatovech.
+
+- Akvizice rezidenčního portfolia o 740 bytech v Praze Písnici.
 
 ### 2016
 
-- Po dokončení stavebních úprav byla Balabenka Office Building plně pronajata.
+- Dokončení stavebních úprav Balabenka Office Building a plné obsazení budovy.
+
+- Dokončení rekonstrukce Delta Haus a plné obsazení budovy.
 
 ### 2015
 
-- Dokončení výstavby kancelářských prostor administrativní budovy Balabenka a vyhledávání nových nájemců
+- Dokončení kancelářských prostor Balabenka Office Building a zahájení jejich pronájmu.
 
-- Kompletní rekonstrukce administrativní budovy Delta Haus a vyhledávání nových nájemců
+- Kompletní rekonstrukce administrativní budovy Delta Haus a zahájení jejího pronájmu.
 
 ### 2014
 
-- Postupný prodej opravených a plně obsazených komerčních objektů v regionech, původně ve vlastnictví Komerční banky, lokálním investorům.
+- Postupný prodej stabilizovaných a plně obsazených regionálních komerčních objektů, původně ve vlastnictví Komerční banky, lokálním investorům.
 
-- Akvizice Balabenka Office Building v Praze.
+- Akvizice administrativní budovy Balabenka v Praze.
 
 ### 2013
 
-- Převzetí neobsazené administrativní budovy Delta Haus v Praze na Vinohradech
+- Akvizice neobsazené administrativní budovy Delta Haus v Praze na Vinohradech.
+
+- Zahájení rekonstrukce bytových domů na Chodově a Proseku.
 
 ### 2012
 
-- Nákup 100 bytů v Praze na Chodově a na Proseku
+- Kompletní rekonstrukce bytových domů ve Strašnicích a Hostivaři.
+
+- Akvizice 100 bytů na Chodově a Proseku.
 
 ### 2011
 
-- Nákup bytového domu Klatovy, 50 bytů
+- Akvizice bytového domu v Klatovech s 50 byty.
+
+- Kompletní rekonstrukce bytových domů v Liberci, částečně financovaná z operačního programu Evropské unie.
+
+- Rekonstrukce administrativních objektů získaných od Komerční banky a jejich postupné obsazování novými nájemci.
 
 ### 2010
 
-- Rozšíření rezidenčního portfolia o přibližně 300 bytů v Liberci.
+- Ukončení podnikání ve stavebnictví.
 
-- Akvizice administrativního objektu v Praze na Kačerově
+- Akvizice 300 bytových jednotek v Liberci.
 
-- Akvizice portfolia sedmi administrativních budov od Komerční banky.
+- Akvizice administrativního objektu v Praze na Kačerově.
+
+- Akvizice sedmi administrativních budov od Komerční banky a jejich částečný zpětný pronájem.
 
 ### 2009
 
-- Strategické zaměření skupiny na realitní investice, rozvoj a správu nemovitostí.
+- Po odchodu zahraničních investorů přebírá skupinu její management.
+
+- Zaměření strategie na realitní trh a rozšíření portfolia rezidenčních a komerčních nemovitostí.
+
+### 2008
+
+- Zavedení nového informačního systému pro správu rezidenčního a administrativního portfolia.
+
+- Vstup do společnosti INTEGRA Stavby, a.s., dříve Integra Liberec, a.s.
+
+### 2007
+
+- Příprava rekonstrukce bytových domů v Hrádku nad Nisou.
 
 ### 2006
 
-- Akvizice rezidenčního portfolia v Hrádku nad Nisou.
+- Akvizice bytového fondu v Hrádku nad Nisou ve veřejné dražbě, celkem 270 bytů.
+
+### 2005
+
+- Akvizice prvního bytového portfolia v Hostivaři a Strašnicích, celkem 150 bytových jednotek.
+
+- Zahájení působení ve stavebnictví prostřednictvím akvizice výrobce stavebních materiálů.
 
 ### 2004
 
-- Vznik skupiny CIB GROUP, původně pod názvem Canadian Investment Bridge.
-
-## Podporujeme Nadační fond Hippokrates
-
-Už 12 let podporujeme Nadační fond HIPPOKRATES každoročním předvánočním charitativním koncertem. Fond pomáhá Onkogynekologickému centru Všeobecné fakultní nemocnice v Praze.
-
-Na koncertě zpívá Radka Španko s dcerami Evou a Emmou za doprovodu EVRAM band. Poslední ročník se konal 6. prosince 2025 v Kaiserštejnském paláci.
-
-Nadační fond Hippokrates
-Záznam koncertu
-6. 12. 2025 · YouTube
-
-Video se přehraje na YouTube v novém okně.
-
-Koncert 6. 12. 2025
-Kaiserštejnský palác
-
-Fotografie z předvánočního koncertu pro Nadační fond HIPPOKRATES. Kliknutím fotografii zvětšíte.
-
-Foto: Tereza Španko
+- Založení skupiny CIB GROUP, původně Canadian Investment Bridge.
 
 ## Kde působíme Mapa projektů
 

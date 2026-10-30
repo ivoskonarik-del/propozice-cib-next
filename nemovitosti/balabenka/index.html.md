@@ -1,4 +1,4 @@
-# Balabenka Office Building – kanceláře v Praze 9
+# Balabenka Office Building
 
 Zdroj: https://ivoskonarik-del.github.io/propozice-cib-next/nemovitosti/balabenka/
 
@@ -32,11 +32,12 @@ Bankomat
 Čerpací stanice
 Park
 
-## Sedm podlaží nad Sokolovskou
+## Administrativní budova s dlouhodobým potenciálem
 
 Balabenka Office Building
-Sedm podlaží
-nad Sokolovskou
+Administrativní budova
+s dlouhodobým
+potenciálem
 
 Balabenka Office Building je moderní administrativní budova na nároží Sokolovské a Českomoravské v Praze 9. Sedm nadzemních podlaží nabízí přibližně 12 000 m² kancelářských ploch doplněných zhruba 2 000 m² retailu v přízemí. Charakter budovy určuje výrazná prosklená fasáda, terasy a upravené venkovní prostory.
 
@@ -47,7 +48,7 @@ Všech 20 fotografií
 
 ## Balabenka Office Building Budova ve fotografiích
 
-## Udržitelnost BREEAM In-Use Very Good
+## Certifikace BREEAM In Use Very Good
 
 Energie ze střechy, dobíjení v garážích, zázemí pro cyklisty.
 
@@ -57,11 +58,11 @@ Fotografie budovy
 
 ## Kanceláře a zázemí Promyšlené pracovní prostředí
 
-Promyšlené pracovní prostředí navržené pro každodenní provoz. Flexibilní podlaží vhodná pro open-space i členěné kanceláře, centrální recepce s obsluhou a sdílené prostory pro jednání.
+Promyšlené pracovní prostředí navržené pro každodenní provoz. Flexibilní kancelářská podlaží vhodná pro open space i členěné uspořádání. Vlastní cateringové zázemí přímo v budově.
 
-Podzemní parkování, dobíjení elektromobilů a zázemí pro cyklisty. Správa budovy na místě a nepřetržitá ostraha. Mezi klíčové nájemce patří společnosti Zásilkovna, KB, Geberit a Alensa.
+Podzemní parkování, dobíjení elektromobilů a zázemí pro cyklisty. Centrální recepce, správa budovy a nepřetržitá ostraha. Mezi klíčové nájemce patří společnosti Zásilkovna, KB, Geberit a Alensa.
 
-Dostupnost prostor
+Poptat kancelářské prostory
 
 ## Od roku 2014 v portfoliu
 

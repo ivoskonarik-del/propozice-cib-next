@@ -1,15 +1,15 @@
-# Residence Vodičkova 33 – historický dům v Praze 1
+# Residence Vodičkova 33
 
 Zdroj: https://ivoskonarik-del.github.io/propozice-cib-next/nemovitosti/vodickova-33/
 
-> Residence Vodičkova 33: historický dům z roku 1899 v centru Prahy, po kompletní rekonstrukci propojuje kanceláře a Vodičkova Luxury Suites.
+> Residence Vodičkova 33 je kompletně zrekonstruovaný historický dům v centru Prahy. Propojuje reprezentativní kanceláře a Vodičkova Luxury Suites.
 
-1899
-rok výstavby
 2024
-kolaudace po rekonstrukci
-Kanceláře
-a Luxury Suites
+dokončení kompletní rekonstrukce
+3 500 m²
+kancelářských a komerčních ploch
+1899
+rok dokončení secesní budovy
 Komerční nemovitosti · Praha 1
 Residence Vodičkova 33
 
@@ -30,9 +30,9 @@ Rok výstavby 1899
 Residence
 Vodičkova
 
-Vítkův dům z roku 1899 prošel kompletní rekonstrukcí a v květnu 2024 byl objekt zkolaudován. Dnes v jednom celku propojuje reprezentativní kancelářské prostory a Vodičkova Luxury Suites, pár kroků od Václavského náměstí.
+Historický Vítkův dům prošel kompletní rekonstrukcí dokončenou v květnu 2024. Dnes propojuje reprezentativní kancelářské prostory, Vodičkova Luxury Suites a sídlo CIB GROUP.
 
-V citlivě zrekonstruovaném historickém domě v centru Prahy, pár kroků od Václavského náměstí, se nacházejí reprezentativní kancelářské prostory, ve kterých se architektonický charakter přirozeně propojuje se současným technickým standardem.
+Reprezentativní kancelářské prostory v citlivě zrekonstruovaném historickém domě v centru Prahy, pár kroků od Václavského náměstí. Původní architektonický charakter se zde přirozeně propojuje se současným technickým standardem.
 
 Zjistit dostupnost kanceláří
 Všech 39 fotografií
@@ -43,7 +43,7 @@ Všech 39 fotografií
 
 Parkety v rybí kosti, štukové profilace a vysoká okna zůstaly zachovány. Nové vrstvy, tedy prosklené příčky s černými rámy, technologie a zázemí, jsou vedeny tak, aby původní dispozici doplňovaly, ne přepisovaly.
 
-Dům stojí ve Vodičkově ulici pár kroků od Václavského náměstí, s pěší dostupností stanic metra Můstek a Muzeum. Recepce 24/7, gastronomie a služby přímo v domě.
+Dům stojí ve Vodičkově ulici pár kroků od Václavského náměstí, s pěší dostupností stanic metra Můstek a Muzeum. Reprezentativní společné prostory a nepřetržitá ostraha. Gastronomie a služby přímo v domě a jeho okolí.
 
 Fotografie domu
 
@@ -62,7 +62,7 @@ Apartmány
 Luxury
 Suites
 
-Luxusní krátkodobé ubytování v horních patrech domu, navržené s důrazem na detail, materiály a charakter historického domu. Vodičkova Luxury Suites jsou samostatnou značkou v rámci Residence Vodičkova 33.
+Designové apartmány v horních podlažích historického domu nabízejí krátkodobé ubytování v centru Prahy s výhledy do Františkánské zahrady a dvora Vítkova domu. Vodičkova Luxury Suites jsou samostatnou značkou v rámci Residence Vodičkova 33.
 
 Rezervace a aktuální dostupnost najdete přímo na webu vodickovaluxurysuites.cz.
 

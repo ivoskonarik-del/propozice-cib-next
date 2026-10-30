@@ -1,13 +1,13 @@
-# Správa bytů Liberec a Hrádek nad Nisou
+# Rezidenční portfolio Liberecko
 
 Zdroj: https://ivoskonarik-del.github.io/propozice-cib-next/nemovitosti/sprava-bytu-liberec/
 
-> Správa 406 bytových jednotek v Liberci a Hrádku nad Nisou: lokální tým, provozní, technická a nájemní správa.
+> CIB GROUP zajišťuje provozní, technickou a administrativní správu rezidenčního portfolia v Liberci a Hrádku nad Nisou.
 
 406
 bytových jednotek
-2006
-v portfoliu od
+2024
+správa pokračuje po změně vlastníka
 Lokální
 tým na místě
 Správa bytů · Liberecko
@@ -23,22 +23,22 @@ Pro 406 bytových jednotek v Liberci a Hrádku nad Nisou zajišťujeme dlouhodob
 
 Portfolio tvoří 406 bytových jednotek ve dvou lokalitách. Kancelář správy sídlí v Dobiášově ulici v Liberci a v ulici 1. máje v Hrádku nad Nisou; obě mají vlastní úřední hodiny a kontakty pro nájemce.
 
-Kontakty pro nájemce
+Kontakty pro Liberecko
 Všech 18 fotografií
 
 ## Liberec a Hrádek nad Nisou Domy ve správě
 
-## Náš přístup Dlouhodobá a lokální správa
+## Náš přístup Správa s místní znalostí
 
-Domy průběžně udržujeme a modernizujeme s ohledem na jejich technický stav a potřeby nájemníků. Lokální tým řeší běžnou administrativu i požadavky na údržbu přímo v regionu.
+Technický stav domů průběžně sledujeme a potřebné opravy plánujeme podle jejich naléhavosti a provozních potřeb. Požadavky nájemníků řeší regionální tým přímo v Liberci a Hrádku nad Nisou.
 
-Správu nastavujeme s dlouhodobým horizontem a důrazem na technický stav domů, stabilní provoz a srozumitelnou komunikaci s nájemníky. Změna vlastníka v roce 2024 na tom nic nezměnila, správu nadále zajišťuje CIB GROUP.
+Po změně vlastníka v roce 2024 zůstala provozní, technická a administrativní správa portfolia v CIB GROUP.
 
 Fotografie domů
 
 ## Správa rezidenčního portfolia Kontaktní centra pro nájemce
 
-Pro provozní a administrativní dotazy, hlášení týkající se správy nebo informace o dostupném bydlení využijte kontakty pro Liberec a Hrádek nad Nisou.
+Současní nájemníci se mohou na regionální tým obracet s dotazy k údržbě, administrativě a nájemním vztahům. Zájemci o bydlení zde najdou kontakty pro obě lokality.
 
 Kontaktní centrum
 
