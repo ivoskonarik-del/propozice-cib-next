@@ -25,9 +25,6 @@ Vizualizace a plánování
 
 ## Dosavadní kroky První kroky v území
 
-Dosavadní kroky
-První kroky v území
-
 Obnova vily, nová náves a rekonstrukce statku ještě před novou výstavbou.
 
 První investice se zaměřily na obnovu stávajících míst a objektů v Lichocevsi. Historická vila v centru obce prošla obnovou a dnes slouží místním spolkovým a komunitním aktivitám, zanedbaný prostor v centru byl proměněn v novou náves a historický statek slouží jako Emma Sophia Stables.
@@ -38,14 +35,7 @@ Historický statek
 
 ## Vizualizace Obec v zahradě
 
-Vizualizace
-Obec v zahradě
-
 ## Vize Venkovský charakter, současná infrastruktura
-
-Vize
-Venkovský charakter,
-současná infrastruktura
 
 Další fáze projektu počítají s rozvojem technické infrastruktury, občanské vybavenosti, veřejného prostoru a nového bydlení. Jednotlivé etapy jsou navrhovány tak, aby přirozeně navazovaly na měřítko obce a okolní krajinu.
 
@@ -75,9 +65,6 @@ obecvzahrade.cz
 
 ## Development Zájem o projekt?
 
-Development
-Zájem o projekt?
-
 Informace o projektu Obec v zahradě najdete na webu obecvzahrade.cz. Pro partnerství a akvizice napište přímo na centrálu skupiny.
 
 - obecvzahrade.cz Web projektu
@@ -89,9 +76,6 @@ Informace o projektu Obec v zahradě najdete na webu obecvzahrade.cz. Pro partne
 - Lichoceves Praha-západ
 
 ## Kontakty objektů Naše adresy
-
-Kontakty objektů
-Naše adresy
 +420 296 249 311
 Vodičkova 709/33
 110 00 Praha 1

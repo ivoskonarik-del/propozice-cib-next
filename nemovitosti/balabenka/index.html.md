@@ -16,9 +16,6 @@ Komerční nemovitosti · Praha 9
 Balabenka Office Building
 
 ## Budova a okolí
-
-Budova
-a okolí
 Balabenka Office Building
 Nabíjení elektromobilů
 Solární elektrárna
@@ -50,13 +47,7 @@ Všech 20 fotografií
 
 ## Balabenka Office Building Budova ve fotografiích
 
-Balabenka Office Building
-Budova ve fotografiích
-
 ## Udržitelnost BREEAM In-Use Very Good
-
-Udržitelnost
-BREEAM In-Use Very Good
 
 Energie ze střechy, dobíjení v garážích, zázemí pro cyklisty.
 
@@ -65,10 +56,6 @@ Balabenka je držitelem certifikace BREEAM In-Use „Very Good“. Součástí p
 Fotografie budovy
 
 ## Kanceláře a zázemí Promyšlené pracovní prostředí
-
-Kanceláře a zázemí
-Promyšlené pracovní
-prostředí
 
 Promyšlené pracovní prostředí navržené pro každodenní provoz. Flexibilní podlaží vhodná pro open-space i členěné kanceláře, centrální recepce s obsluhou a sdílené prostory pro jednání.
 
@@ -100,9 +87,6 @@ vasutova@cib.cz
 
 ## Pronájem komerčních prostor Zájem o prostory?
 
-Pronájem komerčních prostor
-Zájem o prostory?
-
 Pro aktuální dostupnost kancelářských a retailových ploch a prohlídku budovy napište přímo na pronájem komerčních prostor, nebo zavolejte na centrálu skupiny.
 
 - vasutova@cib.cz Pronájem komerčních prostor
@@ -112,9 +96,6 @@ Pro aktuální dostupnost kancelářských a retailových ploch a prohlídku bud
 - Všechny kontakty Kontakty skupiny
 
 ## Kontakty objektů Naše adresy
-
-Kontakty objektů
-Naše adresy
 +420 296 249 311
 Vodičkova 709/33
 110 00 Praha 1

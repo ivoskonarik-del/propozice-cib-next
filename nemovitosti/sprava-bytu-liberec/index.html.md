@@ -28,14 +28,7 @@ Všech 18 fotografií
 
 ## Liberec a Hrádek nad Nisou Domy ve správě
 
-Liberec a Hrádek nad Nisou
-Domy ve správě
-
 ## Náš přístup Dlouhodobá a lokální správa
-
-Náš přístup
-Dlouhodobá
-a lokální správa
 
 Domy průběžně udržujeme a modernizujeme s ohledem na jejich technický stav a potřeby nájemníků. Lokální tým řeší běžnou administrativu i požadavky na údržbu přímo v regionu.
 
@@ -44,9 +37,6 @@ Správu nastavujeme s dlouhodobým horizontem a důrazem na technický stav dom�
 Fotografie domů
 
 ## Správa rezidenčního portfolia Kontaktní centra pro nájemce
-
-Správa rezidenčního portfolia
-Kontaktní centra pro nájemce
 
 Pro provozní a administrativní dotazy, hlášení týkající se správy nebo informace o dostupném bydlení využijte kontakty pro Liberec a Hrádek nad Nisou.
 
@@ -91,9 +81,6 @@ Pá
 
 ## Správa bytů Dotazy nájemců
 
-Správa bytů
-Dotazy nájemců
-
 Provozní a administrativní dotazy, hlášení týkající se správy nebo informace o dostupném bydlení řeší kanceláře správy v Liberci a Hrádku nad Nisou.
 
 - 607 085 515 Byty Liberec, Martina Kmínková ml.
@@ -105,9 +92,6 @@ Provozní a administrativní dotazy, hlášení týkající se správy nebo info
 - kminkova@cib.cz Kancelář správy Hrádek nad Nisou
 
 ## Kontakty objektů Naše adresy
-
-Kontakty objektů
-Naše adresy
 +420 296 249 311
 Vodičkova 709/33
 110 00 Praha 1

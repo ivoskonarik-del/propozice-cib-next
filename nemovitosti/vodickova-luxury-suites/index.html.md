@@ -16,9 +16,6 @@ Rezervovat pobyt
 
 ## Vodičkova Luxury Suites Interiéry apartmánů
 
-Vodičkova Luxury Suites
-Interiéry apartmánů
-
 Lokalita
 V samém centru Prahy
 
@@ -32,9 +29,6 @@ Web
 vodickovaluxurysuites.cz
 
 ## Kontakty objektů Naše adresy
-
-Kontakty objektů
-Naše adresy
 +420 296 249 311
 Vodičkova 709/33
 110 00 Praha 1

@@ -8,9 +8,6 @@ Sídlo firmy
 Vodičkova 709/33
 
 ## Portfolio skupiny Naše projekty
-
-Portfolio skupiny
-Naše projekty
 Zobrazit vše
 Balabenka Office Building
 Kanceláře
@@ -112,9 +109,6 @@ Více o skupině
 Naše sídlo Vodičkova 33
 
 ## Proč s námi
-
-Proč
-s námi
 Skupina v číslech
 2004
 Založení skupiny
@@ -143,9 +137,6 @@ Od roku 2004
 
 ## Pronájem, akvizice a partnerství Napište nám
 
-Pronájem, akvizice a partnerství
-Napište nám
-
 Ať už hledáte kancelářské prostory, řešíte rezidenční nájem, nebo zvažujete partnerství s naší skupinou, ozveme se vám.
 
 - +420 296 249 311 Centrála, pracovní dny
@@ -157,9 +148,6 @@ Ať už hledáte kancelářské prostory, řešíte rezidenční nájem, nebo zv
 - Vodičkova 709/33, Praha 1 Sídlo skupiny
 
 ## Kontakty objektů Naše adresy
-
-Kontakty objektů
-Naše adresy
 +420 296 249 311
 Vodičkova 709/33
 110 00 Praha 1

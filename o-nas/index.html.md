@@ -27,9 +27,6 @@ Naše projekty
 Historie a milníky
 
 ## Čím se zabýváme Investujeme, rozvíjíme, spravujeme
-
-Čím se zabýváme
-Investujeme, rozvíjíme, spravujeme
 01
 
 ### Investujeme
@@ -53,9 +50,6 @@ Rezidenční portfolio s lokálním týmem, důrazem na technický stav a srozum
 Byty Liberec a Hrádek
 
 ## Vedení V čele skupiny stojí
-
-Vedení
-V čele skupiny stojí
 PŠ
 Pavel Španko
 Majitel
@@ -80,16 +74,19 @@ Residence Vodičkova 33
 
 ## Historie a milníky Vybrané milníky
 
-Historie a milníky
-Vybrané milníky
-
 Kliknutím na rok zobrazíte vybrané milníky, které formovaly dnešní podobu CIB GROUP.
 
+### Současnost
+
 - Pokračujeme v dlouhodobém rozvoji projektu Obec v zahradě v Lichocevsi a aktivně vyhledáváme nové příležitosti v kancelářských, retailových a mixed-use nemovitostech.
+
+### 2026
 
 - Dokončen prodej rezidenčního portfolia Písnice zahrnujícího 16 bytových domů a 760 bytů fondu WOOD & Company City – OPF. CIB GROUP tím uzavřela investiční cyklus aktiva, které vlastnila a rozvíjela od roku 2017.
 
 - Prodej bytového portfolia ve Strašnicích a Hostivaři.
+
+### 2024
 
 - Projekt Obec v zahradě a Emma Sophia Stables se stávají součástí širšího rodinného holdingu.
 
@@ -97,9 +94,15 @@ Kliknutím na rok zobrazíte vybrané milníky, které formovaly dnešní podobu
 
 - Změna vlastníka rezidenčního portfolia Liberecko a bytového portfolia Benkova; CIB GROUP nadále zajišťuje jejich správu.
 
+### 2022
+
 - Zahájeny stavební práce na kompletní rekonstrukci Residence Vodičkova 33.
 
+### 2021
+
 - Rozvoj urbanistické koncepce lokality Písnice a příprava revitalizace vybraných bytových domů.
+
+### 2020
 
 - Balabenka Office Building získala certifikaci BREEAM In-Use „Very Good“.
 
@@ -107,29 +110,47 @@ Kliknutím na rok zobrazíte vybrané milníky, které formovaly dnešní podobu
 
 - Dokončen prodej administrativní budovy Delta Haus.
 
+### 2018
+
 - Prodej administrativního objektu v Praze na Kačerově
 
 - Nákup Obchodního centra v Praze v Písnici
+
+### 2017
 
 - Akvizice objektu Vodičkova 33 v centru Prahy.
 
 - Akvizice rezidenčního portfolia o 740 bytech v Praze v Písnici.
 
+### 2016
+
 - Po dokončení stavebních úprav byla Balabenka Office Building plně pronajata.
+
+### 2015
 
 - Dokončení výstavby kancelářských prostor administrativní budovy Balabenka a vyhledávání nových nájemců
 
 - Kompletní rekonstrukce administrativní budovy Delta Haus a vyhledávání nových nájemců
 
+### 2014
+
 - Postupný prodej opravených a plně obsazených komerčních objektů v regionech, původně ve vlastnictví Komerční banky, lokálním investorům.
 
 - Akvizice Balabenka Office Building v Praze.
 
+### 2013
+
 - Převzetí neobsazené administrativní budovy Delta Haus v Praze na Vinohradech
+
+### 2012
 
 - Nákup 100 bytů v Praze na Chodově a na Proseku
 
+### 2011
+
 - Nákup bytového domu Klatovy, 50 bytů
+
+### 2010
 
 - Rozšíření rezidenčního portfolia o přibližně 300 bytů v Liberci.
 
@@ -137,16 +158,19 @@ Kliknutím na rok zobrazíte vybrané milníky, které formovaly dnešní podobu
 
 - Akvizice portfolia sedmi administrativních budov od Komerční banky.
 
+### 2009
+
 - Strategické zaměření skupiny na realitní investice, rozvoj a správu nemovitostí.
 
+### 2006
+
 - Akvizice rezidenčního portfolia v Hrádku nad Nisou.
+
+### 2004
 
 - Vznik skupiny CIB GROUP, původně pod názvem Canadian Investment Bridge.
 
 ## Kde působíme Mapa projektů
-
-Kde působíme
-Mapa projektů
 
 Aktuální portfolio i projekty, které skupinu formovaly od roku 2004. Kliknutím na bod nebo na projekt pod mapou se mapa přiblíží a ukáže detail.
 
@@ -168,9 +192,6 @@ Praha a okolí · detail
 
 ## Kontakt Ozvěte se nám
 
-Kontakt
-Ozvěte se nám
-
 Ať už hledáte kancelářské prostory, řešíte rezidenční nájem, nebo zvažujete partnerství s naší skupinou, ozveme se vám.
 
 - vasutova@cib.cz Pronájem komerčních prostor
@@ -182,9 +203,6 @@ Ať už hledáte kancelářské prostory, řešíte rezidenční nájem, nebo zv
 - info@cib.cz Obecné dotazy
 
 ## Kontakty objektů Naše adresy
-
-Kontakty objektů
-Naše adresy
 +420 296 249 311
 Vodičkova 709/33
 110 00 Praha 1

@@ -18,9 +18,6 @@ Foto: Hynek Moravec, Wikimedia Commons, CC BY 3.0
 
 ## Správa bytů Praha Dotazy nájemců a zájemců
 
-Správa bytů Praha
-Dotazy nájemců a zájemců
-
 Provozní a administrativní agendu bytů Benkova řeší centrála skupiny ve Vodičkově 33 ve spolupráci se společností Flats Benkova s.r.o. Napište nebo zavolejte v pracovních dnech.
 
 - +420 296 249 311 Centrála, pracovní dny
@@ -30,9 +27,6 @@ Provozní a administrativní agendu bytů Benkova řeší centrála skupiny ve V
 - Vodičkova 709/33, Praha 1 Sídlo skupiny
 
 ## Kontakty objektů Naše adresy
-
-Kontakty objektů
-Naše adresy
 +420 296 249 311
 Vodičkova 709/33
 110 00 Praha 1

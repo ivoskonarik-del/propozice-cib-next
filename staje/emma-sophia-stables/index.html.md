@@ -25,14 +25,7 @@ Všech 26 fotografií
 
 ## Emma Sophia Stables Oáza klidu a sportu
 
-Emma Sophia Stables
-Oáza klidu a sportu
-
 ## Vila a zahrada Historická vila v Lichocevsi
-
-Vila a zahrada
-Historická vila
-v Lichocevsi
 
 Historická vila v centru obce prošla obnovou a dnes slouží místním spolkovým a komunitním aktivitám. Nevyužívaný a zanedbaný prostor v centru obce byl proměněn v novou náves a veřejné místo pro každodenní život.
 
@@ -42,18 +35,12 @@ Obec v zahradě
 
 ## Vila a statek Před a po
 
-Vila a statek
-Před a po
-
 Jak vypadala historická vila a statek v Lichocevsi před obnovou a jak vypadají dnes. Předěl posunete tažením myší nebo prstem.
 
 Historická vila v Lichocevsi: 2018 před obnovou, dnes po kompletní obnově fasády, střechy, oken i zahrady.
 Táhněte za předěl
 
 ## Obec v zahradě Součást širší vize Lichocevsi
-
-Obec v zahradě
-Součást širší vize Lichocevsi
 
 Obnova statku byla jedním z prvních kroků v území.
 
@@ -73,9 +60,6 @@ esstables.com
 
 ## Emma Sophia Stables Stáje a kontakt
 
-Emma Sophia Stables
-Stáje a kontakt
-
 Emma Sophia Stables funguje jako samostatná značka. Aktuality najdete na webu esstables.com a na Instagramu, obecné dotazy směřujte na centrálu skupiny.
 
 - esstables.com Web stájí
@@ -87,9 +71,6 @@ Emma Sophia Stables funguje jako samostatná značka. Aktuality najdete na webu 
 - info@cib.cz Obecné dotazy
 
 ## Kontakty objektů Naše adresy
-
-Kontakty objektů
-Naše adresy
 +420 296 249 311
 Vodičkova 709/33
 110 00 Praha 1

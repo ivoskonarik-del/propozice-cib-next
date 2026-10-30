@@ -14,9 +14,6 @@ Komerční nemovitosti · Praha 1
 Residence Vodičkova 33
 
 ## Dům a okolí
-
-Dům
-a okolí
 Residence Vodičkova 33
 Stanice metra
 Tramvajová zastávka
@@ -42,14 +39,7 @@ Všech 39 fotografií
 
 ## Residence Vodičkova 33 Dům zvenku i zevnitř
 
-Residence Vodičkova 33
-Dům zvenku i zevnitř
-
 ## Dům a dvůr Průčelí, průjezd a vnitroblok
-
-Dům a dvůr
-Průčelí, průjezd
-a vnitroblok
 
 Parkety v rybí kosti, štukové profilace a vysoká okna zůstaly zachovány. Nové vrstvy, tedy prosklené příčky s černými rámy, technologie a zázemí, jsou vedeny tak, aby původní dispozici doplňovaly, ne přepisovaly.
 
@@ -58,9 +48,6 @@ Dům stojí ve Vodičkově ulici pár kroků od Václavského náměstí, s pě�
 Fotografie domu
 
 ## Dům v datech
-
-Dům
-v datech
 Residence Vodičkova 33
 1899
 rok výstavby
@@ -93,9 +80,6 @@ vasutova@cib.cz
 
 ## Pronájem komerčních prostor Hledáte kanceláře v centru?
 
-Pronájem komerčních prostor
-Hledáte kanceláře v centru?
-
 Pro aktuální dostupnost kancelářských podlaží a prohlídku domu napište přímo na pronájem komerčních prostor, nebo zavolejte na centrálu skupiny.
 
 - vasutova@cib.cz Pronájem komerčních prostor
@@ -105,9 +89,6 @@ Pro aktuální dostupnost kancelářských podlaží a prohlídku domu napište 
 - Všechny kontakty Kontakty skupiny
 
 ## Kontakty objektů Naše adresy
-
-Kontakty objektů
-Naše adresy
 +420 296 249 311
 Vodičkova 709/33
 110 00 Praha 1

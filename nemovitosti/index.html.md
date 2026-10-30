@@ -89,9 +89,6 @@ Byty Benkova
 
 ## Kontakt Hledáte prostory nebo partnera?
 
-Kontakt
-Hledáte prostory nebo partnera?
-
 Pronájem kanceláří a retailu, rezidenční nájem i akvizice a partnerství. Ozveme se vám.
 
 Liberec
