@@ -12,11 +12,7 @@ Praha 9, Českomoravská
 
 - 12 000 m² kanceláří
 
-- /
-
 - 2 000 m² retail
-
-- /
 
 - 153 stání
 
@@ -28,11 +24,7 @@ Praha 1, Nové Město
 
 - Rok 1899
 
-- /
-
 - Rekonstrukce 2024
-
-- /
 
 - Sídlo skupiny
 
@@ -44,11 +36,7 @@ Praha 1, Vodičkova 33
 
 - Apartmány
 
-- /
-
 - Krátkodobé ubytování
-
-- /
 
 - Rezervace online
 
@@ -60,11 +48,7 @@ Liberec, Hrádek nad Nisou
 
 - 406 bytů
 
-- /
-
 - 2 lokality
-
-- /
 
 - Lokální tým
 
@@ -76,11 +60,7 @@ Praha 11, Chodov
 
 - 12 bytů
 
-- /
-
 - Chodov
-
-- /
 
 - Flats Benkova
 

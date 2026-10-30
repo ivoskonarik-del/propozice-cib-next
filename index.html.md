@@ -13,11 +13,11 @@ Balabenka Office Building
 Kanceláře
 Praha 9, Českomoravská
 
-- – 12 000 m² kanceláří
+- 12 000 m² kanceláří
 
-- – 2 000 m² retail
+- 2 000 m² retail
 
-- – 153 stání
+- 153 stání
 
 Balabenka Office Building
 Kanceláře
@@ -25,11 +25,11 @@ Vodičkova 33
 Kanceláře
 Praha 1, Nové Město
 
-- – Rok 1899
+- Rok 1899
 
-- – Rekonstrukce 2024
+- Rekonstrukce 2024
 
-- – Kanceláře
+- Kanceláře
 
 Vodičkova 33
 Kanceláře
@@ -37,11 +37,11 @@ Vodičkova Luxury Suites
 Apartmány
 Praha 1, Vodičkova 33
 
-- – Apartmány
+- Apartmány
 
-- – Krátkodobé ubytování
+- Krátkodobé ubytování
 
-- – Centrum Prahy
+- Centrum Prahy
 
 Vodičkova Luxury Suites
 Apartmány
@@ -49,11 +49,11 @@ Správa bytů Liberecko
 Správa bytů
 Liberec a Hrádek nad Nisou
 
-- – 406 bytů
+- 406 bytů
 
-- – 2 lokality
+- 2 lokality
 
-- – Lokální tým
+- Lokální tým
 
 Správa bytů Liberecko
 Správa bytů
@@ -62,11 +62,11 @@ Správa bytů Praha
 Správa bytů
 Praha 11, Benkova
 
-- – 12 bytů
+- 12 bytů
 
-- – Chodov
+- Chodov
 
-- – Flats Benkova
+- Flats Benkova
 
 Správa bytů Praha
 Správa bytů
@@ -74,11 +74,11 @@ Obec v zahradě
 Development
 Lichoceves, 20 minut od Prahy
 
-- – Promyšlený urbanismus
+- Promyšlený urbanismus
 
-- – Kvalitní infrastruktura
+- Kvalitní infrastruktura
 
-- – Plná občanská vybavenost
+- Plná občanská vybavenost
 
 Obec v zahradě
 Development
@@ -86,11 +86,11 @@ Emma Sophia Stables
 Stáje
 Lichoceves
 
-- – Jezdecký areál
+- Jezdecký areál
 
-- – Od roku 2023
+- Od roku 2023
 
-- – Historický statek
+- Historický statek
 
 Emma Sophia Stables
 Stáje
