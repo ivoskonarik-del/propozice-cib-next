@@ -170,6 +170,25 @@ Kliknutím na rok zobrazíte vybrané milníky, které formovaly dnešní podobu
 
 - Vznik skupiny CIB GROUP, původně pod názvem Canadian Investment Bridge.
 
+## Podporujeme Nadační fond Hippokrates
+
+Už 12 let podporujeme Nadační fond HIPPOKRATES každoročním předvánočním charitativním koncertem. Fond pomáhá Onkogynekologickému centru Všeobecné fakultní nemocnice v Praze.
+
+Na koncertě zpívá Radka Španko s dcerami Evou a Emmou za doprovodu EVRAM band. Poslední ročník se konal 6. prosince 2025 v Kaiserštejnském paláci.
+
+Nadační fond Hippokrates
+Záznam koncertu
+6. 12. 2025 · YouTube
+
+Video se přehraje na YouTube v novém okně.
+
+Koncert 6. 12. 2025
+Kaiserštejnský palác
+
+Fotografie z předvánočního koncertu pro Nadační fond HIPPOKRATES. Kliknutím fotografii zvětšíte.
+
+Foto: Tereza Španko
+
 ## Kde působíme Mapa projektů
 
 Aktuální portfolio i projekty, které skupinu formovaly od roku 2004. Kliknutím na bod nebo na projekt pod mapou se mapa přiblíží a ukáže detail.
