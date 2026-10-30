@@ -72,13 +72,17 @@ Zpracovatelé pracují jen podle našich pokynů a jsou vázáni mlčenlivostí.
 
 ### Předávání mimo EU
 
-Server administrace webu provozuje společnost Cloudflare, Inc. (USA), která je certifikována v rámci EU-US Data Privacy Framework. Předání technických údajů požadavku (IP adresy) proto probíhá na základě rozhodnutí Evropské komise o odpovídající ochraně (čl. 45 GDPR). Pokud by údaje mimo EU zpracovával jiný poskytovatel, děje se tak jen za podmínek kapitoly V GDPR. Databáze se zprávami z kontaktního formuláře je uložena v datovém centru v EU.
+Web běží na službě GitHub Pages společnosti GitHub, Inc. (USA), server administrace webu na službě společnosti Cloudflare, Inc. (USA). Obě společnosti jsou certifikovány v rámci EU-US Data Privacy Framework. Předání technických údajů požadavku (IP adresy) proto probíhá na základě rozhodnutí Evropské komise o odpovídající ochraně (čl. 45 GDPR). Pokud by údaje mimo EU zpracovával jiný poskytovatel, děje se tak jen za podmínek kapitoly V GDPR. Databáze se zprávami z kontaktního formuláře je uložena v datovém centru v EU.
 
 ## 04 · Cookies Cookies a ukládání do zařízení
 
 Tento web nepoužívá žádné cookies a do vašeho zařízení neukládá žádné informace (ani přes localStorage či sessionStorage). Nepoužíváme analytiku, reklamní ani sledovací nástroje. Proto se vás na souhlas s cookies neptáme: souhlas je podle § 89 odst. 3 zákona č. 127/2005 Sb., o elektronických komunikacích, potřeba jen pro ukládání, které není pro provoz webu nezbytné.
 
 Web při načtení využívá několik technických služeb. Dostanou jen IP adresu a údaje potřebné k doručení souboru. Cookies neukládají a do prohlížeče nic nezapisují.
+
+GitHub Pages (www.cib.cz)
+
+Hosting webu, ze kterého se načítají stránky, obrázky a videa. Provozovatel je GitHub, Inc.
 
 Cloudflare Workers (cib-admin-api…workers.dev)
 
