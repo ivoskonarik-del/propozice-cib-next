@@ -51,6 +51,10 @@ Byty Liberec a Hrádek
 
 ## Dlouhodobá podpora Hudba, která pomáhá
 
+Každoročně
+od roku
+2014
+
 Podpora Nadačního fondu Hippokrates je dlouholetou součástí CIB GROUP. Každoročně pořádáme benefiční koncert, na kterém vystupují Radka, Eva a Emma Španko společně s EvRam Band. K podpoře fondu se během večera připojují také naši obchodní partneři a přátelé.
 
 Nadační fond Hippokrates podporuje péči o pacientky Onkogynekologického centra Všeobecné fakultní nemocnice v Praze, vzdělávání lékařů a sester a zlepšování prostředí, ve kterém léčba probíhá.
@@ -58,16 +62,17 @@ Nadační fond Hippokrates podporuje péči o pacientky Onkogynekologického cen
 Nejde pro nás o jednorázový dar. Koncert se stal každoroční tradicí, která začala roku 2014 v kapli svatého Kříže u Apolináře. Podpora fondu je pro nás dlouhodobým závazkem a tradicí, kterou chceme dále rozvíjet.
 
 Více o naší podpoře Nadačního fondu Hippokrates
+Záznam koncertu
 Koncertní momenty
 
 Výběr videí přibližuje atmosféru večerů, které se staly pevnou součástí naší každoroční podpory.
 
-Záznam koncertu
-6. 12. 2025
+6. 12. 2025 · Kaiserštejnský palác
 
 Video se z YouTube načte až po kliknutí.
 
 Benefiční koncerty EvRam Band
+Foto: Tereza Španko
 
 Fotografie z jednotlivých ročníků zachycují vystoupení EvRam Band i setkání hostů, kteří se k podpoře fondu pravidelně připojují.
 
