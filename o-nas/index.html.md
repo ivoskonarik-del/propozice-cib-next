@@ -61,7 +61,6 @@ Nadační fond Hippokrates podporuje péči o pacientky Onkogynekologického cen
 
 Nejde pro nás o jednorázový dar. Koncert se stal každoroční tradicí, která začala roku 2014 v kapli svatého Kříže u Apolináře. Podpora fondu je pro nás dlouhodobým závazkem a tradicí, kterou chceme dále rozvíjet.
 
-Více o naší podpoře Nadačního fondu Hippokrates
 Záznam koncertu
 Koncertní momenty
 
@@ -71,6 +70,7 @@ Výběr videí přibližuje atmosféru večerů, které se staly pevnou součás
 
 Video se z YouTube načte až po kliknutí.
 
+Více o naší podpoře Nadačního fondu Hippokrates
 Benefiční koncerty EvRam Band
 Foto: Tereza Španko
 
