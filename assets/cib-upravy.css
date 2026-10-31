@@ -723,3 +723,10 @@ html body a:focus-visible,html body button:focus-visible{outline:1px solid #a176
   :root body .cib-ba__stage:focus-within .cib-ba__knob{outline:none!important}
   :root body .cib-hx__track:focus-visible .cib-hx__knob{box-shadow:none!important}
 }
+
+/* 31. 10. 2026 (Ivo): O nás, sekce Dům z roku 1899. Kroužek nad Ů narážel do nadtitulku → nadpis o .32em níž;
+   anglické „THE BUILDING“ přetékalo do videa (−9 až −14 px) → v angličtině o 10 % menší, mezera k videu 27–44 px */
+@media (min-width:992px){
+  .strana-o-nas #content-magazine .magazine-name{margin-top:.08em!important}
+  html[lang=en] .strana-o-nas #content-magazine .magazine-name{font-size:min(6.75vw,108px)!important}
+}
