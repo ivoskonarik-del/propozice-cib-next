@@ -116,8 +116,12 @@ body.cib-menu-open{overflow:hidden}
 .cib-lang a.is-on{opacity:1}
 .cib-lang a:focus-visible{opacity:1;outline:1px solid currentColor;outline-offset:4px}
 .cib-lang span{opacity:.35;margin:0 0 0 .1em}
-.cib-lang--hlavicka{position:relative;z-index:5;margin-left:15px;color:#fff;font-family:var(--font-family-title);font-size:15px;letter-spacing:.34em}
-@media (min-width:992px) and (max-width:1600px){.cib-lang--hlavicka{font-size:.94vw;margin-left:.94vw}}
+/* 31. 10. dopoledne (Ivo: „naplácané na menu“): vlastní skupina oddělená tenkou linkou, o stupeň menší než navigace, mezery jako mezi položkami menu */
+.cib-lang--hlavicka{position:relative;z-index:5;margin-left:32px;padding-left:32px;margin-right:28px;color:#fff;font-family:var(--font-family-title);font-size:13px;letter-spacing:.26em}
+.cib-lang--hlavicka::before{content:"";position:absolute;left:0;top:50%;width:1px;height:18px;margin-top:-9px;background:currentColor;opacity:.35}
+.cib-lang--hlavicka span{margin:0 .14em}
+.cib-lang--hlavicka a:last-child{margin-right:-.26em}   /* bez prostrkání za posledním písmenem, mezera k hamburgeru je přesná */
+@media (min-width:992px) and (max-width:1600px){.cib-lang--hlavicka{font-size:.82vw;margin-left:2.2vw;padding-left:2.2vw;margin-right:1.95vw}.cib-lang--hlavicka::before{height:1.25vw;margin-top:-.625vw}}
 @media (max-width:991px){.cib-lang--hlavicka{display:none}}
 .cib-lang--panel{order:-1;margin-inline-end:auto;color:var(--krem);font-family:var(--ui);font-size:.75rem;letter-spacing:.16em}
 @media (max-width:991px){#vp-menu .cib-lang--panel{order:0;margin-inline:auto 0}}   /* mobil: vlevo logo (odkaz Domů), přepínač vpravo před zavíracím kolečkem */
