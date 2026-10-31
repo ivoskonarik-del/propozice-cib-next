@@ -2,51 +2,123 @@
  "stranky": [
   {
    "url": "/propozice-cib-next/",
-   "nazev": "Domů"
+   "nazev": "Domů",
+   "jazyk": "cs"
   },
   {
    "url": "/propozice-cib-next/kontakt/",
-   "nazev": "Kontakt"
+   "nazev": "Kontakt",
+   "jazyk": "cs"
   },
   {
    "url": "/propozice-cib-next/nemovitosti/",
-   "nazev": "Nemovitosti"
+   "nazev": "Nemovitosti",
+   "jazyk": "cs"
   },
   {
    "url": "/propozice-cib-next/o-nas/",
-   "nazev": "O nás"
+   "nazev": "O nás",
+   "jazyk": "cs"
   },
   {
    "url": "/propozice-cib-next/ochrana-osobnich-udaju/",
-   "nazev": "Ochrana osobních údajů a cookies"
+   "nazev": "Ochrana osobních údajů a cookies",
+   "jazyk": "cs"
   },
   {
    "url": "/propozice-cib-next/development/lichoceves/",
-   "nazev": "Obec v zahradě"
+   "nazev": "Obec v zahradě",
+   "jazyk": "cs"
   },
   {
    "url": "/propozice-cib-next/nemovitosti/balabenka/",
-   "nazev": "Balabenka Office Building"
+   "nazev": "Balabenka Office Building",
+   "jazyk": "cs"
   },
   {
    "url": "/propozice-cib-next/nemovitosti/sprava-bytu-liberec/",
-   "nazev": "Rezidenční portfolio Liberecko"
+   "nazev": "Rezidenční portfolio Liberecko",
+   "jazyk": "cs"
   },
   {
    "url": "/propozice-cib-next/nemovitosti/sprava-bytu-praha/",
-   "nazev": "Byty Benkova, Chodov"
+   "nazev": "Byty Benkova, Chodov",
+   "jazyk": "cs"
   },
   {
    "url": "/propozice-cib-next/nemovitosti/vodickova-33/",
-   "nazev": "Residence Vodičkova 33"
+   "nazev": "Residence Vodičkova 33",
+   "jazyk": "cs"
   },
   {
    "url": "/propozice-cib-next/nemovitosti/vodickova-luxury-suites/",
-   "nazev": "Vodičkova Luxury Suites"
+   "nazev": "Vodičkova Luxury Suites",
+   "jazyk": "cs"
   },
   {
    "url": "/propozice-cib-next/staje/emma-sophia-stables/",
-   "nazev": "Emma Sophia Stables"
+   "nazev": "Emma Sophia Stables",
+   "jazyk": "cs"
+  },
+  {
+   "url": "/propozice-cib-next/en/",
+   "nazev": "EN · Home",
+   "jazyk": "en"
+  },
+  {
+   "url": "/propozice-cib-next/en/about-us/",
+   "nazev": "EN · About us",
+   "jazyk": "en"
+  },
+  {
+   "url": "/propozice-cib-next/en/contact/",
+   "nazev": "EN · Contact",
+   "jazyk": "en"
+  },
+  {
+   "url": "/propozice-cib-next/en/privacy-policy/",
+   "nazev": "EN · Privacy and cookies policy",
+   "jazyk": "en"
+  },
+  {
+   "url": "/propozice-cib-next/en/properties/",
+   "nazev": "EN · Properties",
+   "jazyk": "en"
+  },
+  {
+   "url": "/propozice-cib-next/en/development/lichoceves/",
+   "nazev": "EN · Obec v zahradě",
+   "jazyk": "en"
+  },
+  {
+   "url": "/propozice-cib-next/en/properties/apartment-management-liberec/",
+   "nazev": "EN · Residential portfolio, Liberec region",
+   "jazyk": "en"
+  },
+  {
+   "url": "/propozice-cib-next/en/properties/apartment-management-prague/",
+   "nazev": "EN · Benkova apartments, Chodov",
+   "jazyk": "en"
+  },
+  {
+   "url": "/propozice-cib-next/en/properties/balabenka/",
+   "nazev": "EN · Balabenka Office Building",
+   "jazyk": "en"
+  },
+  {
+   "url": "/propozice-cib-next/en/properties/vodickova-33/",
+   "nazev": "EN · Residence Vodičkova 33",
+   "jazyk": "en"
+  },
+  {
+   "url": "/propozice-cib-next/en/properties/vodickova-luxury-suites/",
+   "nazev": "EN · Vodičkova Luxury Suites",
+   "jazyk": "en"
+  },
+  {
+   "url": "/propozice-cib-next/en/stables/emma-sophia-stables/",
+   "nazev": "EN · Emma Sophia Stables",
+   "jazyk": "en"
   }
  ],
  "kontakty": [
@@ -56,11 +128,26 @@
    "hodnota": "+420 296 249 311",
    "popisky": [
     "Centrála CIB GROUP",
+    "CIB GROUP head office, Vodičkova 709/33",
+    "Head office, working days",
+    "CIB GROUP head office",
     "Centrála, pracovní dny",
     "Centrála CIB GROUP, Vodičkova 709/33"
    ],
    "stranky": [
     "/propozice-cib-next/development/lichoceves/",
+    "/propozice-cib-next/en/about-us/",
+    "/propozice-cib-next/en/contact/",
+    "/propozice-cib-next/en/development/lichoceves/",
+    "/propozice-cib-next/en/",
+    "/propozice-cib-next/en/privacy-policy/",
+    "/propozice-cib-next/en/properties/apartment-management-liberec/",
+    "/propozice-cib-next/en/properties/apartment-management-prague/",
+    "/propozice-cib-next/en/properties/balabenka/",
+    "/propozice-cib-next/en/properties/",
+    "/propozice-cib-next/en/properties/vodickova-33/",
+    "/propozice-cib-next/en/properties/vodickova-luxury-suites/",
+    "/propozice-cib-next/en/stables/emma-sophia-stables/",
     "/propozice-cib-next/",
     "/propozice-cib-next/kontakt/",
     "/propozice-cib-next/nemovitosti/balabenka/",
@@ -79,10 +166,21 @@
    "typ": "tel",
    "hodnota": "+420 607 085 515",
    "popisky": [
+    "Liberec apartments, Martina Kmínková ml.",
     "Byty Liberec, Martina Kmínková ml."
    ],
    "stranky": [
     "/propozice-cib-next/development/lichoceves/",
+    "/propozice-cib-next/en/about-us/",
+    "/propozice-cib-next/en/contact/",
+    "/propozice-cib-next/en/development/lichoceves/",
+    "/propozice-cib-next/en/",
+    "/propozice-cib-next/en/properties/apartment-management-liberec/",
+    "/propozice-cib-next/en/properties/apartment-management-prague/",
+    "/propozice-cib-next/en/properties/balabenka/",
+    "/propozice-cib-next/en/properties/vodickova-33/",
+    "/propozice-cib-next/en/properties/vodickova-luxury-suites/",
+    "/propozice-cib-next/en/stables/emma-sophia-stables/",
     "/propozice-cib-next/",
     "/propozice-cib-next/kontakt/",
     "/propozice-cib-next/nemovitosti/balabenka/",
@@ -99,9 +197,12 @@
    "typ": "tel",
    "hodnota": "724 009 533",
    "popisky": [
+    "Hrádek nad Nisou apartments, Ing. Martina Kmínková",
     "Byty Hrádek nad Nisou, Ing. Martina Kmínková"
    ],
    "stranky": [
+    "/propozice-cib-next/en/contact/",
+    "/propozice-cib-next/en/properties/apartment-management-liberec/",
     "/propozice-cib-next/kontakt/",
     "/propozice-cib-next/nemovitosti/sprava-bytu-liberec/"
    ]
@@ -111,10 +212,23 @@
    "typ": "mail",
    "hodnota": "info@cib.cz",
    "popisky": [
+    "General enquiries",
     "Obecné dotazy"
    ],
    "stranky": [
     "/propozice-cib-next/development/lichoceves/",
+    "/propozice-cib-next/en/about-us/",
+    "/propozice-cib-next/en/contact/",
+    "/propozice-cib-next/en/development/lichoceves/",
+    "/propozice-cib-next/en/",
+    "/propozice-cib-next/en/privacy-policy/",
+    "/propozice-cib-next/en/properties/apartment-management-liberec/",
+    "/propozice-cib-next/en/properties/apartment-management-prague/",
+    "/propozice-cib-next/en/properties/balabenka/",
+    "/propozice-cib-next/en/properties/",
+    "/propozice-cib-next/en/properties/vodickova-33/",
+    "/propozice-cib-next/en/properties/vodickova-luxury-suites/",
+    "/propozice-cib-next/en/stables/emma-sophia-stables/",
     "/propozice-cib-next/",
     "/propozice-cib-next/kontakt/",
     "/propozice-cib-next/nemovitosti/balabenka/",
@@ -133,9 +247,15 @@
    "typ": "mail",
    "hodnota": "vasutova@cib.cz",
    "popisky": [
+    "Commercial leasing",
     "Pronájem komerčních prostor"
    ],
    "stranky": [
+    "/propozice-cib-next/en/about-us/",
+    "/propozice-cib-next/en/contact/",
+    "/propozice-cib-next/en/",
+    "/propozice-cib-next/en/properties/balabenka/",
+    "/propozice-cib-next/en/properties/vodickova-33/",
     "/propozice-cib-next/",
     "/propozice-cib-next/kontakt/",
     "/propozice-cib-next/nemovitosti/balabenka/",
@@ -148,10 +268,14 @@
    "typ": "mail",
    "hodnota": "eva.spanko@cib.cz",
    "popisky": [
-    "Akvizice a partnerství"
+    "Akvizice a partnerství",
+    "Acquisitions and partnerships"
    ],
    "stranky": [
     "/propozice-cib-next/development/lichoceves/",
+    "/propozice-cib-next/en/about-us/",
+    "/propozice-cib-next/en/contact/",
+    "/propozice-cib-next/en/development/lichoceves/",
     "/propozice-cib-next/kontakt/",
     "/propozice-cib-next/o-nas/"
    ]
@@ -161,9 +285,12 @@
    "typ": "mail",
    "hodnota": "liberec@cib.cz",
    "popisky": [
+    "Liberec management office",
     "Kancelář správy Liberec"
    ],
    "stranky": [
+    "/propozice-cib-next/en/contact/",
+    "/propozice-cib-next/en/properties/apartment-management-liberec/",
     "/propozice-cib-next/kontakt/",
     "/propozice-cib-next/nemovitosti/sprava-bytu-liberec/"
    ]
@@ -173,9 +300,12 @@
    "typ": "mail",
    "hodnota": "kminkova@cib.cz",
    "popisky": [
+    "Hrádek nad Nisou management office",
     "Kancelář správy Hrádek nad Nisou"
    ],
    "stranky": [
+    "/propozice-cib-next/en/contact/",
+    "/propozice-cib-next/en/properties/apartment-management-liberec/",
     "/propozice-cib-next/kontakt/",
     "/propozice-cib-next/nemovitosti/sprava-bytu-liberec/"
    ]
@@ -186,6 +316,7 @@
    "hodnota": "faktury@cib.cz",
    "popisky": [],
    "stranky": [
+    "/propozice-cib-next/en/contact/",
     "/propozice-cib-next/kontakt/"
    ]
   }

@@ -1,3 +1,4 @@
+var CIB_EN=document.documentElement.lang==='en';/* 31. 10. 2026: anglická verze /en/, texty podle jazyka stránky */
 /* CIB – interaktivní mapa projektů (Nemovitosti, 17. 10. 2026)
    MapLibre GL + OpenFreeMap (bez klíče). Na celé ČR jsou pražské projekty „rozložené“ kolem Prahy jako fotky
    s linkou na přesné místo; při přiblížení se stáhnou na skutečné souřadnice. Klik = přelet k projektu + karta.
@@ -34,9 +35,9 @@
     try{
       map=new maplibregl.Map({container:box,style:STYLE,bounds:CZ,fitBoundsOptions:{padding:pad()},attributionControl:false,
         cooperativeGestures:true,dragRotate:false,pitchWithRotate:false,touchPitch:false,maxZoom:17,minZoom:5.5,locale:{
-        'CooperativeGesturesHandler.WindowsHelpText':'Mapu přiblížíte kolečkem se stisknutým Ctrl',
-        'CooperativeGesturesHandler.MacHelpText':'Mapu přiblížíte kolečkem se stisknutým ⌘',
-        'CooperativeGesturesHandler.MobileHelpText':'Mapou posunete dvěma prsty'}});
+        'CooperativeGesturesHandler.WindowsHelpText':(CIB_EN?'Use Ctrl + scroll to zoom the map':'Mapu přiblížíte kolečkem se stisknutým Ctrl'),
+        'CooperativeGesturesHandler.MacHelpText':(CIB_EN?'Use ⌘ + scroll to zoom the map':'Mapu přiblížíte kolečkem se stisknutým ⌘'),
+        'CooperativeGesturesHandler.MobileHelpText':(CIB_EN?'Use two fingers to move the map':'Mapou posunete dvěma prsty')}});
     }catch(e){root.classList.remove('is-live');return}
     map.touchZoomRotate.disableRotation();
     map.addControl(new maplibregl.AttributionControl({compact:true}),'bottom-right');
@@ -105,9 +106,9 @@
       var p=P.filter(function(x){return x.id===id})[0];if(!p)return;cur=id;
       Object.keys(markers).forEach(function(k){markers[k].getElement().classList.toggle('is-on',k===id)});
       strip.forEach(function(b){b.classList.toggle('is-on',b.dataset.id===id)});
-      card.innerHTML='<button type="button" class="m3__close" aria-label="Zavřít">×</button>'+(p.thumb?'<img src="'+p.thumb+'" alt="">':'')+
+      card.innerHTML=(CIB_EN?'<button type="button" class="m3__close" aria-label="Close">×</button>':'<button type="button" class="m3__close" aria-label="Zavřít">×</button>')+(p.thumb?'<img src="'+p.thumb+'" alt="">':'')+
         '<div><small>'+(p.cat?p.cat+' · ':'')+p.years+'</small><b>'+p.name+'</b><p>'+p.place+'</p>'+(p.note?'<p class="m3__note">'+p.note+'</p>':'')+
-        '<div class="m3__btns"><a class="m3__nav" href="'+nav(p.ll)+'" target="_blank" rel="noopener">Navigovat</a>'+(p.href?'<a href="'+p.href+'">Číst více</a>':'')+'</div></div>';
+        '<div class="m3__btns"><a class="m3__nav" href="'+nav(p.ll)+'" target="_blank" rel="noopener">'+(CIB_EN?'Directions':'Navigovat')+'</a>'+(p.href?'<a href="'+p.href+'">'+(CIB_EN?'Read more':'Číst více')+'</a>':'')+'</div></div>';
       card.classList.add('is-open');
       if(fly)map.flyTo({center:p.ll,zoom:p.zoom,speed:1.1,curve:1.5,essential:true,padding:cardPad()});
     }

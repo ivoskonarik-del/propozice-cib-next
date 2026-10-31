@@ -108,3 +108,18 @@ body.cib-menu-open{overflow:hidden}
 @media (prefers-reduced-motion:reduce){.mst__rozjezd,.mst__sipka{transition:none}}
 @media (max-width:991px){#vp-menu .panel-menu__stazeni{padding-top:12px;border-top:1px solid rgba(255,255,255,.14)}.mst__soubory{column-gap:16px}}
 /*/mst*/
+
+/* 31. 10. 2026: přepínač jazyka CZ / EN (vkládá _tools-clone/en_2026_10_31.py). Hlavička na počítači stejným písmem jako navigace, boční menu jako „Domů“. */
+.cib-lang{display:flex;align-items:center;white-space:nowrap;font-weight:500;text-transform:uppercase;line-height:1}
+.cib-lang a{color:inherit;text-decoration:none;opacity:.5;transition:opacity .3s ease-in-out,color .3s ease-in-out}
+.cib-lang a:hover{opacity:1;color:#a17652}
+.cib-lang a.is-on{opacity:1}
+.cib-lang a:focus-visible{opacity:1;outline:1px solid currentColor;outline-offset:4px}
+.cib-lang span{opacity:.35;margin:0 0 0 .1em}
+.cib-lang--hlavicka{position:relative;z-index:5;margin-left:15px;color:#fff;font-family:var(--font-family-title);font-size:15px;letter-spacing:.34em}
+@media (min-width:992px) and (max-width:1600px){.cib-lang--hlavicka{font-size:.94vw;margin-left:.94vw}}
+@media (max-width:991px){.cib-lang--hlavicka{display:none}}
+.cib-lang--panel{order:-1;margin-inline-end:auto;color:var(--krem);font-family:var(--ui);font-size:.75rem;letter-spacing:.16em}
+@media (max-width:991px){#vp-menu .cib-lang--panel{order:0;margin-inline:auto 0}}   /* mobil: vlevo logo (odkaz Domů), přepínač vpravo před zavíracím kolečkem */
+.cib-lang--panel a.is-on{color:var(--bronz)}
+.cib-lang--panel a:hover{color:var(--krem)}

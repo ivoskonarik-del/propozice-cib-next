@@ -1,3 +1,4 @@
+var CIB_EN=document.documentElement.lang==='en';/* 31. 10. 2026: anglická verze /en/, texty podle jazyka stránky */
 /* CIB – drobné interakce (7. 10. 2026): Portfolio v číslech, Before/After slider, dlaždice → kategorie galerie.
    Nezávislé na jQuery a na řetězci initů tématu (ten na domovské padá na statisticsCounter). */
 (function(){
@@ -40,7 +41,7 @@
   function beforeAfter(){
     [].forEach.call(document.querySelectorAll(".cib-ba"),function(box){
       var stage=box.querySelector(".cib-ba__stage"), range=box.querySelector(".cib-ba__range");
-      function set(v){v=Math.max(0,Math.min(100,v));stage.style.setProperty("--pos",v+"%");range.value=v;range.setAttribute("aria-valuetext",Math.round(v)+" % před");stage.classList.toggle("is-pred-hidden",v<22);stage.classList.toggle("is-po-hidden",v>78)}
+      function set(v){v=Math.max(0,Math.min(100,v));stage.style.setProperty("--pos",v+"%");range.value=v;range.setAttribute("aria-valuetext",Math.round(v)+(CIB_EN?" % before":" % před"));stage.classList.toggle("is-pred-hidden",v<22);stage.classList.toggle("is-po-hidden",v>78)}
       function fromX(x){var r=stage.getBoundingClientRect();set((x-r.left)/r.width*100)}
       var drag=false;
       stage.addEventListener("pointerdown",function(e){drag=true;stage.setPointerCapture&&stage.setPointerCapture(e.pointerId);fromX(e.clientX);stage.classList.add("is-drag")});
@@ -183,7 +184,7 @@
     function nearest(p){var y=p2y(p),b=0,d=1e9;for(var i=0;i<n;i++){var dd=Math.abs(data[i].t-y);if(dd<=d){d=dd;b=i}}return b}
     function pad(k){return (k<10?"0":"")+k}
     /* počítadlo: 4 sloupce 0–9 + písmeno slova „Dnes“ */
-    var LET="Dnes",cols=[];
+    var LET=CIB_EN?"Now":"Dnes",cols=[];
     for(var c=0;c<4;c++){var col=document.createElement("span"),st=document.createElement("span");col.className="cib-hx__col";st.className="cib-hx__stack";st.style.transitionDelay=(c*55)+"ms";
       for(var d=0;d<=10;d++){var cell=document.createElement("span");cell.textContent=d<10?d:LET.charAt(c);st.appendChild(cell)}
       col.appendChild(st);yearEl.appendChild(col);cols.push(st)}
@@ -217,13 +218,13 @@
       setText(i,drag);
       data.forEach(function(x,k){x.el.classList.toggle("is-on",k===i);x.el.classList.toggle("is-past",k<i)});
       cnt.innerHTML="<b>"+pad(i+1)+"</b> / "+pad(n);
-      track.setAttribute("aria-valuenow",d.t);track.setAttribute("aria-valuetext",(d.y==="Dnes"?"Současnost":d.y)+": "+d.items.join(" "));
+      track.setAttribute("aria-valuenow",d.t);track.setAttribute("aria-valuetext",(d.y==="Dnes"?(CIB_EN?"Today":"Současnost"):d.y)+": "+d.items.join(" "));
       bPrev.disabled=i===0;bNext.disabled=i===n-1;
     }
     function setPos(p,rolling){
       pos=Math.max(0,Math.min(1,p));var pc=(pos*100)+"%";knob.style.left=pc;fill.style.width=pc;sec.style.setProperty("--hx",pos.toFixed(4));
       var i=nearest(pos),ry=Math.round(p2y(pos)),lbl=rolling?(ry>=Y1?"Dnes":String(ry)):data[i].y;
-      chip.textContent=lbl;showYear(lbl);render(i);
+      chip.textContent=CIB_EN&&lbl==="Dnes"?"Now":lbl;showYear(lbl);render(i);
     }
     function stopAnim(){if(anim){cancelAnimationFrame(anim);anim=null}}
     function animTo(target,dur){
@@ -235,8 +236,8 @@
     function goTo(i,a){i=Math.max(0,Math.min(n-1,i));var t=y2p(data[i].t);if(a)animTo(t,Math.min(1100,380+Math.abs(t-pos)*1600));else setPos(t)}
     /* automatická jízda */
     function tick(){clearTimeout(auto);auto=setTimeout(function(){if(!autoOn)return;if(cur>=n-1){stopAuto();return}goTo(cur+1,true);tick()},3200)}
-    function startAuto(){if(reduce||autoOn)return;autoOn=true;box.classList.add("is-auto");bPlay.setAttribute("aria-label","Pozastavit");tick()}
-    function stopAuto(){autoOn=false;clearTimeout(auto);box.classList.remove("is-auto");bPlay.setAttribute("aria-label","Přehrát")}
+    function startAuto(){if(reduce||autoOn)return;autoOn=true;box.classList.add("is-auto");bPlay.setAttribute("aria-label",(CIB_EN?"Pause":"Pozastavit"));tick()}
+    function stopAuto(){autoOn=false;clearTimeout(auto);box.classList.remove("is-auto");bPlay.setAttribute("aria-label",(CIB_EN?"Play":"Přehrát"))}
     function user(){touched=true;stopAuto()}
     /* tažení po ose */
     /* stisk na ose: krátké klepnutí = skok na nejbližší milník, tažení (> 4 px) = plynulé „přetáčení“ let */

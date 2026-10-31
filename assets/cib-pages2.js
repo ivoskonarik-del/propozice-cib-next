@@ -1,3 +1,4 @@
+var CIB_EN=document.documentElement.lang==='en';/* 31. 10. 2026: anglická verze /en/, texty podle jazyka stránky */
 /* CIB GROUP – podstránky v2: fotogalerie (lightbox), mapa projektů, filtr karet, hero videa */
 (function(){
   'use strict';
@@ -8,8 +9,8 @@
   var lb=null,items=[],idx=0;
   function ensure(){
     if(lb) return lb;
-    lb=document.createElement('div'); lb.className='gl-lb'; lb.setAttribute('role','dialog'); lb.setAttribute('aria-label','Fotografie');
-    lb.innerHTML='<button class="gl-lb__prev" aria-label="Předchozí">‹ Předchozí</button><button class="gl-lb__next" aria-label="Další">Další ›</button><button class="gl-lb__close" aria-label="Zavřít">Zavřít ×</button><span class="gl-lb__cnt"></span>';
+    lb=document.createElement('div'); lb.className='gl-lb'; lb.setAttribute('role','dialog'); lb.setAttribute('aria-label',(CIB_EN?'Photographs':'Fotografie'));
+    lb.innerHTML=(CIB_EN?'<button class="gl-lb__prev" aria-label="Previous">‹ Previous</button><button class="gl-lb__next" aria-label="Next">Next ›</button><button class="gl-lb__close" aria-label="Close">Close ×</button><span class="gl-lb__cnt"></span>':'<button class="gl-lb__prev" aria-label="Předchozí">‹ Předchozí</button><button class="gl-lb__next" aria-label="Další">Další ›</button><button class="gl-lb__close" aria-label="Zavřít">Zavřít ×</button><span class="gl-lb__cnt"></span>');
     var big=document.createElement('img'); big.alt=''; lb.insertBefore(big,lb.firstChild);
     document.body.appendChild(lb);
     var show=function(i){idx=(i+items.length)%items.length;var a=items[idx];var im=$('img',lb);im.src=a.href;var s=a.querySelector('img');im.alt=s?s.alt:'';$('.gl-lb__cnt',lb).textContent=(idx+1)+' / '+items.length;};
@@ -40,7 +41,7 @@
     function hot(id,on){$$('.m2__pin',map).forEach(function(p){p.classList.toggle('is-hot',on&&p.dataset.id===id)});if(list)$$('.m2__item',list).forEach(function(li){li.classList.toggle('is-hot',on&&li.dataset.id===id)})}
     function open(id){
       var d=data[id],pin=$('.m2__pin[data-id="'+id+'"]',map);if(!d||!pin)return;
-      card.innerHTML='<button type="button" class="m2__close" aria-label="Zavřít">×</button>'+(d.thumb?'<img src="'+d.thumb+'" alt="">':'')+'<div><small>'+(d.kind==='now'?'Aktuální portfolio':'Historie skupiny')+' · '+d.years+'</small><b>'+d.name+'</b><p>'+d.place+'</p>'+((d.ll||d.href)?'<div class="m2__btns">'+(d.ll?'<a class="m2__nav" href="'+(/iPhone|iPad|Macintosh/.test(navigator.userAgent)&&'ontouchend' in document?'https://maps.apple.com/?daddr='+d.ll+'&dirflg=d':'https://www.google.com/maps/dir/?api=1&destination='+d.ll)+'" target="_blank" rel="noopener">Navigovat</a>':'')+(d.href?'<a href="'+d.href+'">Číst více</a>':'')+'</div>':'')+'</div>';
+      card.innerHTML=(CIB_EN?'<button type="button" class="m2__close" aria-label="Close">×</button>':'<button type="button" class="m2__close" aria-label="Zavřít">×</button>')+(d.thumb?'<img src="'+d.thumb+'" alt="">':'')+'<div><small>'+(d.kind==='now'?(CIB_EN?'Current portfolio':'Aktuální portfolio'):(CIB_EN?'Group history':'Historie skupiny'))+' · '+d.years+'</small><b>'+d.name+'</b><p>'+d.place+'</p>'+((d.ll||d.href)?'<div class="m2__btns">'+(d.ll?'<a class="m2__nav" href="'+(/iPhone|iPad|Macintosh/.test(navigator.userAgent)&&'ontouchend' in document?'https://maps.apple.com/?daddr='+d.ll+'&dirflg=d':'https://www.google.com/maps/dir/?api=1&destination='+d.ll)+'" target="_blank" rel="noopener">'+(CIB_EN?'Directions':'Navigovat')+'</a>':'')+(d.href?'<a href="'+d.href+'">'+(CIB_EN?'Read more':'Číst více')+'</a>':'')+'</div>':'')+'</div>';
       var mr=map.getBoundingClientRect(),pr=pin.getBoundingClientRect();
       var x=pr.left-mr.left+pr.width/2,y=pr.top-mr.top;
       var left=Math.min(Math.max(x-140,0),mr.width-280);var top=y-card.offsetHeight-16;if(top<0)top=y+pr.height+14;
@@ -123,7 +124,7 @@
       /* lightbox: klik na fotku nebo tlačítko „Celá obrazovka“ */
       function openLb(){
         var sl=current(); var idx=$sl.slick('slickCurrentSlide');
-        var lb=$('.gl-lb')||(function(){var d=document.createElement('div');d.className='gl-lb';d.setAttribute('role','dialog');d.innerHTML='<button class="gl-lb__prev" aria-label="Předchozí">‹ Předchozí</button><button class="gl-lb__next" aria-label="Další">Další ›</button><button class="gl-lb__close" aria-label="Zavřít">Zavřít ×</button><span class="gl-lb__cnt"></span>';var im=document.createElement('img');im.alt='';d.insertBefore(im,d.firstChild);document.body.appendChild(d);
+        var lb=$('.gl-lb')||(function(){var d=document.createElement('div');d.className='gl-lb';d.setAttribute('role','dialog');d.innerHTML=(CIB_EN?'<button class="gl-lb__prev" aria-label="Previous">‹ Previous</button><button class="gl-lb__next" aria-label="Next">Next ›</button><button class="gl-lb__close" aria-label="Close">Close ×</button><span class="gl-lb__cnt"></span>':'<button class="gl-lb__prev" aria-label="Předchozí">‹ Předchozí</button><button class="gl-lb__next" aria-label="Další">Další ›</button><button class="gl-lb__close" aria-label="Zavřít">Zavřít ×</button><span class="gl-lb__cnt"></span>');var im=document.createElement('img');im.alt='';d.insertBefore(im,d.firstChild);document.body.appendChild(d);
           d.addEventListener('click',function(e){if(e.target===d||e.target.classList.contains('gl-lb__close')){d.classList.remove('is-open');document.body.style.overflow=''}});
           document.addEventListener('keydown',function(e){if(!d.classList.contains('is-open'))return;if(e.key==='Escape'){d.classList.remove('is-open');document.body.style.overflow=''}if(e.key==='ArrowRight'&&d._next)d._next();if(e.key==='ArrowLeft'&&d._prev)d._prev()});
           return d})();

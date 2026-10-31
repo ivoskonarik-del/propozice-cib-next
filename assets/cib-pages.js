@@ -1,3 +1,4 @@
+var CIB_EN=document.documentElement.lang==='en';/* 31. 10. 2026: anglická verze /en/, texty podle jazyka stránky */
 /* CIB GROUP – podstránky: formulář, mapa projektů, mozaika/lightbox, filtr karet */
 (function(){
   'use strict';
@@ -32,7 +33,7 @@
     };
     var obecna=function(){
       var d=$('.cib-form__done p',f), tel=d&&(d.textContent.match(/\+?\d[\d\s]{7,}\d/)||[])[0];
-      return 'Zprávu se nepodařilo odeslat. Zkuste to prosím znovu'+(tel?', nebo nám zavolejte na '+tel+'.':'.');
+      return (CIB_EN?'Your message could not be sent. Please try again'+(tel?' or call us on '+tel+'.':'.'):'Zprávu se nepodařilo odeslat. Zkuste to prosím znovu'+(tel?', nebo nám zavolejte na '+tel+'.':'.'));
     };
     var val=function(n){var el=f.elements[n]; return el?String(el.value||''):''};
     f.addEventListener('submit',function(ev){
@@ -40,13 +41,13 @@
       $$('[required]',f).forEach(function(el){
         var v=el.type==='checkbox'?el.checked:el.value.trim();
         var msg='';
-        if(!v) msg=el.type==='checkbox'?'Bez souhlasu nemůžeme zprávu zpracovat.':(el.dataset.err||'Toto pole je povinné.');
-        else if(el.type==='email'&&!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v)) msg='Zadejte platný e-mail.';
+        if(!v) msg=el.type==='checkbox'?(CIB_EN?'We cannot process your message without your consent.':'Bez souhlasu nemůžeme zprávu zpracovat.'):(el.dataset.err||(CIB_EN?'This field is required.':'Toto pole je povinné.'));
+        else if(el.type==='email'&&!/^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/.test(v)) msg=(CIB_EN?'Please enter a valid email address.':'Zadejte platný e-mail.');
         if(msg) ok=false; setErr(el,msg);
       });
       if(!ok){var first=$('.is-error',f); if(first){var inp=first.querySelector('input,textarea,select'); inp&&inp.focus();} return;}
       ukazChybu('');
-      f.classList.add('is-sending'); if(btn){btn.disabled=true; btn.setAttribute('aria-busy','true');} if(btnText) btnText.textContent='Odesílám…';
+      f.classList.add('is-sending'); if(btn){btn.disabled=true; btn.setAttribute('aria-busy','true');} if(btnText) btnText.textContent=(CIB_EN?'Sending…':'Odesílám…');
       var konec=function(){f.classList.remove('is-sending'); if(btn){btn.disabled=false; btn.removeAttribute('aria-busy');} if(btnText) btnText.textContent=puvodni;};
       var ctl=window.AbortController?new AbortController():null, tm=setTimeout(function(){ctl&&ctl.abort()},15000);
       fetch(FORM_API,{method:'POST',headers:{'Content-Type':'text/plain;charset=UTF-8'},credentials:'omit',referrerPolicy:'no-referrer',signal:ctl?ctl.signal:undefined,
@@ -54,7 +55,7 @@
         .then(function(r){return r.json().catch(function(){return {}}).then(function(d){return {ok:r.ok&&d&&d.ok,d:d}})})
         .then(function(x){
           clearTimeout(tm); konec();
-          if(!x.ok){ukazChybu((x.d&&x.d.chyba)||obecna()); return;}
+          if(!x.ok){ukazChybu((!CIB_EN&&x.d&&x.d.chyba)||obecna()); return;}
           f.classList.add('is-done');
           var done=$('.cib-form__done',f); if(done){done.setAttribute('tabindex','-1'); done.focus({preventScroll:true});}
         })
@@ -78,8 +79,8 @@
   var lb=null, lbItems=[], lbIdx=0;
   function ensureLb(){
     if(lb) return lb;
-    lb=document.createElement('div'); lb.className='pg-lb'; lb.setAttribute('role','dialog'); lb.setAttribute('aria-label','Fotografie');
-    lb.innerHTML='<img alt=""><button class="pg-lb__prev" aria-label="Předchozí">‹ Předchozí</button><button class="pg-lb__next" aria-label="Další">Další ›</button><button class="pg-lb__close" aria-label="Zavřít">Zavřít ×</button><span class="pg-lb__cnt"></span>';
+    lb=document.createElement('div'); lb.className='pg-lb'; lb.setAttribute('role','dialog'); lb.setAttribute('aria-label',(CIB_EN?'Photographs':'Fotografie'));
+    lb.innerHTML=(CIB_EN?'<img alt=""><button class="pg-lb__prev" aria-label="Previous">‹ Previous</button><button class="pg-lb__next" aria-label="Next">Next ›</button><button class="pg-lb__close" aria-label="Close">Close ×</button><span class="pg-lb__cnt"></span>':'<img alt=""><button class="pg-lb__prev" aria-label="Předchozí">‹ Předchozí</button><button class="pg-lb__next" aria-label="Další">Další ›</button><button class="pg-lb__close" aria-label="Zavřít">Zavřít ×</button><span class="pg-lb__cnt"></span>');
     document.body.appendChild(lb);
     var show=function(i){lbIdx=(i+lbItems.length)%lbItems.length; var a=lbItems[lbIdx]; var im=$('img',lb); im.src=a.href; im.alt=a.querySelector('img')?a.querySelector('img').alt:''; $('.pg-lb__cnt',lb).textContent=(lbIdx+1)+' / '+lbItems.length;};
     lb.show=show;
@@ -115,7 +116,7 @@
     svg.appendChild(gK);
     // popisky vybraných krajů (jemně)
     var gl=document.createElementNS(SVGNS,'g');
-    if(mode!=='praha') [['Čechy',380,470],['Morava',1000,560]].forEach(function(t){var x=document.createElementNS(SVGNS,'text'); x.setAttribute('x',t[1]); x.setAttribute('y',t[2]); x.setAttribute('class','region-label'); x.setAttribute('font-size','26'); x.textContent=t[0]; gl.appendChild(x);});
+    if(mode!=='praha') [[(CIB_EN?'Bohemia':'Čechy'),380,470],[(CIB_EN?'Moravia':'Morava'),1000,560]].forEach(function(t){var x=document.createElementNS(SVGNS,'text'); x.setAttribute('x',t[1]); x.setAttribute('y',t[2]); x.setAttribute('class','region-label'); x.setAttribute('font-size','26'); x.textContent=t[0]; gl.appendChild(x);});
     svg.appendChild(gl);
     var onlyIds=only?only.split(','):null; var items=P.filter(function(p){return mode==='praha'?!!p.praha:(onlyIds?onlyIds.indexOf(p.id)>=0:true)});
     var gM=document.createElementNS(SVGNS,'g');
@@ -161,7 +162,7 @@
     }
     function openTip(id){
       var p=P.filter(function(x){return x.id===id})[0]; var m=$('.mk[data-id="'+id+'"]',svg); if(!p||!m) return;
-      tip.innerHTML='<small>'+(p.kind==='now'?'Aktuální portfolio':'Historie skupiny')+' · '+p.years+'</small><b>'+p.name+'</b><p>'+p.place+(p.note?' · '+p.note:'')+'</p>'+(p.href?'<a href="'+p.href+'">Otevřít projekt</a>':'');
+      tip.innerHTML='<small>'+(p.kind==='now'?(CIB_EN?'Current portfolio':'Aktuální portfolio'):(CIB_EN?'Group history':'Historie skupiny'))+' · '+p.years+'</small><b>'+p.name+'</b><p>'+p.place+(p.note?' · '+p.note:'')+'</p>'+(p.href?'<a href="'+p.href+'">'+(CIB_EN?'View project':'Otevřít projekt')+'</a>':'');
       var sr=stage.getBoundingClientRect(), mr=m.getBoundingClientRect();
       var x=mr.left-sr.left+mr.width/2, y=mr.top-sr.top;
       tip.style.left=Math.min(Math.max(x-110,0),sr.width-290)+'px'; tip.style.top=Math.max(y-tip.offsetHeight-18,0)+'px';
