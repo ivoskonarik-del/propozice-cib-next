@@ -2,14 +2,14 @@
 
 Source: https://ivoskonarik-del.github.io/propozice-cib-next/en/about-us/
 
-> CIB GROUP is a private family holding focused on real estate, development and management, and a long-standing supporter of the Hippokrates Foundation.
+> CIB GROUP is a private family holding focused on real estate, development and management, with long-standing support for the Hippokrates Foundation.
 
 2004
 group founded
 459
 apartments under management
 Prague 1
-place of origin
+where we started
 Private family holding
 CIB GROUP
 
@@ -45,7 +45,7 @@ Obec v zahradě
 
 ### We manage
 
-A residential portfolio with a local team and a focus on technical condition and clear communication.
+A residential portfolio run by a local team, with a focus on technical condition and clear communication.
 
 Liberec and Hrádek apartments
 
@@ -55,14 +55,14 @@ Every year
 since
 2014
 
-Supporting the Hippokrates Foundation (Nadační fond Hippokrates) has long been part of CIB GROUP. Every year we hold a benefit concert at which Radka, Eva and Emma Španko perform together with EvRam Band. Our business partners and friends join us during the evening in supporting the foundation.
+CIB GROUP has long supported the Hippokrates Foundation (Nadační fond Hippokrates). Every year we hold a benefit concert at which Radka, Eva and Emma Španko perform with EvRam Band. During the evening, our business partners and friends also join us in supporting the foundation.
 
-The Hippokrates Foundation supports the care of patients at the Oncogynaecology Centre of the General University Hospital in Prague, the training of doctors and nurses, and improvements to the environment in which treatment takes place.
+The Hippokrates Foundation supports the care of patients at the Gynaecological Oncology Centre of the General University Hospital in Prague, the training of doctors and nurses, and improvements to the environment in which treatment takes place.
 
 For us, this is not a one-off donation. The concert has become an annual tradition that began in 2014 in the Chapel of the Holy Cross at Apolinář. Supporting the foundation is a long-term commitment for us and a tradition we want to keep building on.
 
 Concert recording
-Concert moments
+Concert highlights
 
 This selection of videos captures the atmosphere of the evenings that have become a fixed part of our annual support.
 
@@ -74,7 +74,7 @@ More about our support for the Hippokrates Foundation
 Benefit concerts EvRam Band
 Photo: Tereza Španko
 
-Photos from the individual years capture EvRam Band on stage and the guests who regularly join us in supporting the foundation.
+Photos from each year's concert capture EvRam Band on stage and the guests who regularly join us in supporting the foundation.
 
 Photo: Tereza Španko
 
@@ -87,7 +87,7 @@ With our own assets, we think long term. We create value through quality workman
 02
 Development
 
-We prepare development in phases, always shaped by the specific place. What matters to us is long-term functionality, infrastructure and a real benefit for the surrounding area.
+We plan development in phases and in response to the specific site. What matters to us is long-term functionality, infrastructure and the benefit to the surrounding area.
 
 03
 Managed properties
@@ -102,7 +102,7 @@ from 1899
 
 The group acquired the building in 2017. Construction work on its complete refurbishment began in 2022 and occupancy approval was granted in May 2024. Alongside the group's head office, the building houses prestigious offices for lease and the Vodičkova Luxury Suites apartments.
 
-The herringbone parquet floors, stucco mouldings and tall windows have been preserved. The new layers are designed to complement the original layout, not to overwrite it.
+The herringbone parquet floors, stucco mouldings and tall windows have been preserved. New elements are designed to complement the original layout rather than overwrite it.
 
 Residence Vodičkova 33
 
@@ -116,9 +116,9 @@ Select a year to see its milestones.
 
 ### 2026
 
-- Completed the sale of the Písnice residential portfolio, comprising 16 apartment buildings and 760 apartments, to the WOOD & Company City fund. This closed the investment cycle of an asset CIB GROUP had owned and developed since 2017.
+- CIB GROUP completes the sale of the Písnice residential portfolio, comprising 16 apartment buildings and 760 apartments, to the WOOD & Company City fund, closing the investment cycle of an asset it had owned and developed since 2017.
 
-- Completed the sale of the residential portfolio in Strašnice and Hostivař.
+- The sale of the residential portfolio in Strašnice and Hostivař is completed.
 
 ### 2024
 
@@ -148,7 +148,7 @@ Select a year to see its milestones.
 
 ### 2021
 
-- All portfolios are stabilised during the Covid-19 pandemic.
+- The group's portfolios are stabilised during the Covid-19 pandemic.
 
 - Preparation for the extensive refurbishment of Residence Vodičkova 33.
 
@@ -242,13 +242,13 @@ Select a year to see its milestones.
 
 - After the foreign investors leave, the group is taken over by its management.
 
-- The strategy turns to the real estate market and the residential and commercial portfolio is expanded.
+- The group refocuses its strategy on the real estate market and expands its residential and commercial portfolio.
 
 ### 2008
 
 - A new information system is introduced to manage the residential and office portfolio.
 
-- Entry into INTEGRA Stavby, a.s., formerly Integra Liberec, a.s.
+- The group becomes a shareholder in INTEGRA Stavby, a.s., formerly Integra Liberec, a.s.
 
 ### 2007
 
@@ -290,7 +290,7 @@ Prague area · detail
 
 ## Contact Get in touch
 
-Whether you are looking for office space, dealing with a residential lease or considering a partnership with our group, we will get back to you.
+Whether you are looking for office space, have a residential tenancy enquiry or are considering a partnership with our group, we will get back to you.
 
 - vasutova@cib.cz Commercial leasing
 

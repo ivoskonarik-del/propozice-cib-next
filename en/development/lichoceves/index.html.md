@@ -16,18 +16,18 @@ Lichoceves development
 A long-term vision
 for developing Lichoceves
 
-Obec v zahradě is a long-term urban planning and development project in Lichoceves, about 20 minutes from the centre of Prague. It is based on carefully considered urban planning and brings together quality housing, public space, landscape, infrastructure and civic amenities.
+Obec v zahradě is a long-term planning and development project in Lichoceves, about 20 minutes from the centre of Prague. It is based on carefully considered urban planning and brings together quality housing, public space, landscape, infrastructure and civic amenities.
 
-The aim is to develop the village gradually, in natural continuity with its existing character. The project is being prepared in individual phases and has already received a positive EIA opinion for the next phases of development.
+The aim is to develop the village gradually, building naturally on its existing character. The project is being prepared in stages and has already received a positive EIA opinion for its next phases of development.
 
 Visit the Obec v zahradě website
 Visualisations and planning
 
 ## Progress so far First steps on site
 
-Restoring the villa, a new village green and refurbishing the farmstead, even before any new construction.
+Restoring the villa, creating a new village green and refurbishing the farmstead, all before any new construction.
 
-The first investments focused on restoring existing places and buildings in Lichoceves. The historic villa in the centre of the village has been restored and now serves local associations and community activities, a neglected space in the centre has been transformed into a new village green, and the historic farmstead now serves as Emma Sophia Stables.
+The first investments focused on restoring existing places and buildings in Lichoceves. The historic villa in the centre of the village has been restored and now hosts local associations and community activities; a neglected space in the centre has been transformed into a new village green; and the historic farmstead is now home to Emma Sophia Stables.
 
 Emma Sophia Stables
 Restored villa

@@ -19,9 +19,9 @@ Apartment management, Liberec region
 Residential
 portfolio in the Liberec region
 
-We provide long-term operational, technical and tenancy management for 406 residential units in Liberec and Hrádek nad Nisou. We continuously maintain and modernise the buildings with regard to their technical condition and the needs of our tenants.
+We provide long-term operational, technical and tenancy management for 406 residential units in Liberec and Hrádek nad Nisou. We maintain and modernise the buildings on an ongoing basis, in line with their technical condition and the needs of our tenants.
 
-The portfolio comprises 406 residential units in two locations. The management offices are on Dobiášova street in Liberec and on 1. máje street in Hrádek nad Nisou; each has its own office hours and tenant contacts.
+The portfolio comprises 406 residential units in two locations. The management offices are on Dobiášova Street in Liberec and 1. máje Street in Hrádek nad Nisou; each has its own office hours and tenant contacts.
 
 Liberec region contacts
 All 18 photos
@@ -30,7 +30,7 @@ All 18 photos
 
 ## Our approach Management with local knowledge
 
-We continuously monitor the technical condition of the buildings and plan the necessary repairs according to their urgency and operational needs. Tenant requests are handled by our regional team directly in Liberec and Hrádek nad Nisou.
+We regularly monitor the technical condition of the buildings and plan the necessary repairs according to urgency and operational needs. Tenant requests are handled locally by our regional team in Liberec and Hrádek nad Nisou.
 
 Following the change of ownership in 2024, the operational, technical and administrative management of the portfolio has remained with CIB GROUP.
 
@@ -81,7 +81,7 @@ Fri
 
 ## Apartment management Tenant enquiries
 
-Operational and administrative queries, reports concerning property management and information on available housing are handled by the management offices in Liberec and Hrádek nad Nisou.
+Operational and administrative queries, issues to report to property management and information on available housing are handled by the management offices in Liberec and Hrádek nad Nisou.
 
 - 607 085 515 Liberec apartments, Martina Kmínková ml.
 

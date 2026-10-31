@@ -26,7 +26,7 @@ Prague 1, Nové Město
 
 - Renovated in 2024
 
-- Group headquarters
+- Group head office
 
 Offices
 Residence Vodičkova 33

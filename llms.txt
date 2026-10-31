@@ -54,8 +54,8 @@ CIB GROUP (CIB GROUP HOLDING a.s.) is a private Czech family holding headquarter
 
 ## English version
 
-- [CIB GROUP](https://ivoskonarik-del.github.io/propozice-cib-next/en/): CIB GROUP is a private family holding focused on commercial real estate, development and residential asset management. Building long-term value since 2004.
-- [About us](https://ivoskonarik-del.github.io/propozice-cib-next/en/about-us/): CIB GROUP is a private family holding focused on real estate, development and management, and a long-standing supporter of the Hippokrates Foundation.
+- [CIB GROUP](https://ivoskonarik-del.github.io/propozice-cib-next/en/): CIB GROUP, a private family holding focused on commercial real estate, development and residential asset management, has developed long-term projects since 2004.
+- [About us](https://ivoskonarik-del.github.io/propozice-cib-next/en/about-us/): CIB GROUP is a private family holding focused on real estate, development and management, with long-standing support for the Hippokrates Foundation.
 - [Properties: offices, residences and management](https://ivoskonarik-del.github.io/propozice-cib-next/en/properties/): CIB GROUP projects: Balabenka Office Building, Residence Vodičkova 33, Vodičkova Luxury Suites and apartment management in Liberec, Hrádek nad Nisou and Prague.
 - [Balabenka Office Building](https://ivoskonarik-del.github.io/propozice-cib-next/en/properties/balabenka/): Balabenka Office Building in Prague 9: seven storeys, approx. 12,000 m² of offices and 2,000 m² of retail, BREEAM In-Use Very Good. Offices for lease.
 - [Residence Vodičkova 33](https://ivoskonarik-del.github.io/propozice-cib-next/en/properties/vodickova-33/): Residence Vodičkova 33 is a fully refurbished historic building in the centre of Prague, combining prestigious offices and Vodičkova Luxury Suites.
@@ -64,7 +64,7 @@ CIB GROUP (CIB GROUP HOLDING a.s.) is a private Czech family holding headquarter
 - [Benkova apartments, Chodov](https://ivoskonarik-del.github.io/propozice-cib-next/en/properties/apartment-management-prague/): CIB GROUP manages the residential buildings on Benkova Street in Prague's Chodov district in cooperation with Flats Benkova s.r.o.
 - [Obec v zahradě: development in Lichoceves](https://ivoskonarik-del.github.io/propozice-cib-next/en/development/lichoceves/): Obec v zahradě: a long-term urban and development project in Lichoceves, 20 minutes from central Prague, with considered urban planning and full civic amenities.
 - [Emma Sophia Stables](https://ivoskonarik-del.github.io/propozice-cib-next/en/stables/emma-sophia-stables/): Emma Sophia Stables: an equestrian centre in a restored historic farmstead in Lichoceves, home stable of show jumper Emma Sophia Španko.
-- [Contact](https://ivoskonarik-del.github.io/propozice-cib-next/en/contact/): Contact CIB GROUP: headquarters, acquisitions and partnerships, commercial leasing and residential portfolio management.
+- [Contact](https://ivoskonarik-del.github.io/propozice-cib-next/en/contact/): Contact CIB GROUP: head office, acquisitions and partnerships, commercial leasing and residential portfolio management.
 
 ## Optional
 

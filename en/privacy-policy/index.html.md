@@ -33,11 +33,11 @@ This policy describes how we process personal data in connection with this websi
 
 ### Contact form, email and telephone
 
-- Data: name and surname, email, telephone (optional), the selected topic and the text of the message, and any other data you provide to us in the message yourself.
+- Data: name and surname, email, telephone (optional), the selected topic and the text of the message, and any other data you choose to provide in your message.
 
 - Purpose: handling your enquiry and the subsequent communication, for example an offer of premises for lease, apartment management or cooperation.
 
-- Legal basis: pre-contractual negotiations at your request (Article 6(1)(b) GDPR); in other cases, our legitimate interest in responding to the enquiry (Article 6(1)(f) GDPR).
+- Legal basis: steps taken at your request prior to entering into a contract (Article 6(1)(b) GDPR); in other cases, our legitimate interest in responding to the enquiry (Article 6(1)(f) GDPR).
 
 - How a message travels: a message sent via the form is stored in the website's secure database in a data centre in the EU and, at the same time, is sent by email to the CIB GROUP staff whom the enquiry concerns. It can be read only by authorised staff in the website administration.
 
@@ -51,7 +51,7 @@ Providing your data is voluntary. Without contact details, however, we cannot re
 
 ### Visiting the website
 
-On every visit, the hosting provider processes technical data about the request (IP address, time, requested page, browser type) in server logs. This serves to ensure the operation and security of the website on the basis of legitimate interest (Article 6(1)(f) GDPR).
+On every visit, the hosting provider processes technical data about the request (IP address, time, requested page, browser type) in server logs. This processing serves to ensure the operation and security of the website and is based on our legitimate interest (Article 6(1)(f) GDPR).
 
 The website does not measure traffic, does not use analytics or advertising tools and does not profile anyone. No automated decision-making takes place.
 
@@ -65,7 +65,7 @@ We do not sell personal data or pass it on to anyone for marketing purposes. Onl
 
 - the supplier who technically manages and operates the website for us (hosting and database),
 
-- public authorities, where we are required to do so by law.
+- public authorities, where required by law.
 
 Processors act only on our instructions and are bound by confidentiality.
 
@@ -77,7 +77,7 @@ The website runs on the GitHub Pages service of GitHub, Inc. (USA), and the webs
 
 This website does not use any cookies and does not store any information on your device (not even via localStorage or sessionStorage). We do not use analytics, advertising or tracking tools. That is why we do not ask for your consent to cookies: under Section 89(3) of Act No. 127/2005 Coll., on Electronic Communications, consent is required only for storage that is not necessary for the operation of the website.
 
-When loading, the website uses several technical services. They receive only the IP address and the data needed to deliver the file. They do not store cookies and do not write anything to the browser.
+When a page loads, the website uses several technical services. They receive only the IP address and the data needed to deliver the file. They do not set cookies or write anything to the browser.
 
 GitHub Pages (www.cib.cz)
 
@@ -85,7 +85,7 @@ Website hosting from which pages, images and videos are loaded. Operated by GitH
 
 Cloudflare Workers (cib-admin-api…workers.dev)
 
-Our administration server. Each time a page loads, the website retrieves current texts, contacts and photographs from it, and the contact form is sent through it. The operator, Cloudflare, Inc., is our processor.
+Our administration server. Each time a page loads, the website retrieves the current texts, contacts and photographs from it, and the contact form is submitted through it. The operator, Cloudflare, Inc., is our processor.
 
 On pages with an interactive map (Properties, About us), additionally:
 
@@ -97,17 +97,17 @@ Links to Google Maps, social networks and the websites of our projects open only
 
 The recording of the benefit concert on the About us page loads from youtube-nocookie.com (YouTube, Google) only after you click the video preview. Until then our website does not communicate with YouTube and the preview image is stored on our own website. Once the video starts, Google's policies apply.
 
-If in the future we wish to use cookies that are not necessary (for example for traffic measurement), we will ask for your consent in advance. Refusing will be as easy as consenting, and consent may be withdrawn at any time.
+If in the future we wish to use non-essential cookies (for example for traffic measurement), we will ask for your consent in advance. Refusing will be as easy as consenting, and you will be able to withdraw your consent at any time.
 
 ## 05 · Administration Website administration
 
-The website content is edited by authorised administrators in a secure administration area. They sign in with a username, a password and a one-time code from an authenticator app (two-factor authentication). An administrator's session is stored only in their browser's session storage (sessionStorage) and ends when the window is closed. The administration does not use cookies. This does not concern website visitors.
+The website content is edited by authorised administrators in a secure administration area. They sign in with a username, a password and a one-time code from an authenticator app (two-factor authentication). An administrator's session is stored only in their browser's session storage (sessionStorage) and ends when the window is closed. The administration does not use cookies. This does not apply to website visitors.
 
 For security reasons, we record the administrator's name, time, IP address, country and browser type for sign-ins and changes in the administration. The legal basis is our legitimate interest in protecting the website (Article 6(1)(f) GDPR). We keep the last 100 records; older ones are deleted on a rolling basis.
 
 ## 06 · Apartment tenants GDPR: notice to tenants
 
-As landlords of apartments, our companies have a statutory right and obligation to process certain personal data of persons living in our apartments. It is therefore not strictly necessary to obtain the consent of individual persons to the processing of their data. Personal data are used for the proper management of apartment buildings, for billing the costs of services connected with the use of the apartment and for recovering receivables from tenants.
+As landlords of apartments, our companies have a statutory right and obligation to process certain personal data of persons living in our apartments. It is therefore not strictly necessary to obtain the consent of individual persons to the processing of their data. Personal data are used for the proper management of apartment buildings, for billing the costs of services connected with the use of the apartment and for recovering debts owed by tenants.
 
 ### For the duration of the tenancy
 
@@ -131,9 +131,9 @@ Personal data of former tenants are kept on record for at least 5 years, calcula
 
 ### Access to the personal data processed
 
-- Employees of CIB GROUP, a.s., the corporation that manages all our apartments, according to their job roles.
+- Employees of CIB GROUP, a.s. (the company that manages all our apartments), according to their job roles.
 
-- Employees of an external accounting firm and audit firm to the extent necessary for processing the accounts and billing.
+- Employees of an external accounting firm and an audit firm, to the extent necessary for accounting and billing.
 
 - Lawyers and staff of law firms in cases where a legal dispute is in progress between the tenant and us.
 
@@ -143,7 +143,7 @@ Personal data of former tenants are kept on record for at least 5 years, calcula
 
 The personal data collected, recorded and processed are not used for marketing activities or passed on to third parties for any purpose other than those listed above.
 
-Prepared for the companies forming part of the CIB GROUP corporation (CIB Rental, s.r.o., CIB VODIČKOVA CENTRE s.r.o., CIB Property, s.r.o., Balabenka Office Building, s.r.o., and all owners' associations belonging to the CIB GROUP). Updated 21 March 2022.
+Prepared for the companies forming part of CIB GROUP (CIB Rental, s.r.o., CIB VODIČKOVA CENTRE s.r.o., CIB Property, s.r.o., Balabenka Office Building, s.r.o., and all owners' associations belonging to CIB GROUP). Updated 21 March 2022.
 
 Download notice to tenants (PDF, in Czech)
 

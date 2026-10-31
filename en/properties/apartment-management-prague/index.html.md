@@ -9,7 +9,7 @@ Chodov
 12
 residential units
 2012
-in the portfolio since
+added to the portfolio
 Flats Benkova s.r.o.
 manager
 Apartment management · Prague 11
@@ -24,7 +24,7 @@ For questions about maintenance, administration, tenancy matters or available ap
 
 - info@cib.cz General enquiries
 
-- Vodičkova 709/33, Praha 1 Group headquarters
+- Vodičkova 709/33, Praha 1 Group head office
 
 ## Property contacts Our addresses
 +420 296 249 311

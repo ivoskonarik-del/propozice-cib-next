@@ -2,17 +2,17 @@
 
 Source: https://ivoskonarik-del.github.io/propozice-cib-next/en/contact/
 
-> Contact CIB GROUP: headquarters, acquisitions and partnerships, commercial leasing and residential portfolio management.
+> Contact CIB GROUP: head office, acquisitions and partnerships, commercial leasing and residential portfolio management.
 
 ## Write to us Contact us
 
-Whether you are looking for office space, dealing with a residential lease or considering a partnership with our group, we will get back to you.
+Whether you are looking for office space, have a residential tenancy enquiry or are considering a partnership with our group, we will get back to you.
 
 - +420 296 249 311 Head office, working days
 
 - info@cib.cz General enquiries
 
-- Vodičkova 709/33, Praha 1 Group headquarters
+- Vodičkova 709/33, Praha 1 Group head office
 
 ## Contacts Who to contact
 
@@ -32,7 +32,7 @@ New opportunities and cooperation
 Invoicing
 faktury@cib.cz
 CIB GROUP, a.s., Company ID 272 11 185
-Benkova Apartments, Chodov
+Benkova apartments, Chodov
 +420 296 249 311
 info@cib.cz
 Management: Flats Benkova s.r.o.
@@ -48,7 +48,7 @@ Management offices in Liberec and Hrádek nad Nisou
 
 ## Residential portfolio management Contact centres for tenants
 
-For operational and administrative questions, property management reports or information on available housing, please use the contacts for Liberec and Hrádek nad Nisou.
+For operational and administrative questions, to report an issue to property management or for information on available housing, please use the contacts for Liberec and Hrádek nad Nisou.
 
 General enquiries: +420 296 249 311 | info@cib.cz
 
@@ -92,7 +92,7 @@ Fri
 9:00–12:00
 
 Where to find us
-Headquarters at Vodičkova 33
+Head office at Vodičkova 33
 
 Entrance from Vodičkova Street, a tram stop outside the building, and Můstek and Muzeum metro stations within a five-minute walk.
 

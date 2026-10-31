@@ -2,9 +2,9 @@
 
 Source: https://ivoskonarik-del.github.io/propozice-cib-next/en/
 
-> CIB GROUP is a private family holding focused on commercial real estate, development and residential asset management. Building long-term value since 2004.
+> CIB GROUP, a private family holding focused on commercial real estate, development and residential asset management, has developed long-term projects since 2004.
 
-Headquarters
+Head office
 Vodičkova 709/33
 
 ## Group portfolio Our properties and activities
@@ -101,12 +101,12 @@ Private family holding
 CIB
 GROUP
 
-CIB GROUP is a private family holding focused on real estate, development and property management. We assess projects by their long-term potential, quality and benefit to their surroundings. We invest in commercial assets, develop our own projects and provide long-term property management.
+CIB GROUP is a private family holding focused on real estate, development and property management. We judge projects by their long-term potential, their quality and the benefit they bring to the surrounding area. We invest in commercial assets, develop our own projects and provide long-term property management.
 
 For us, buying a property is only the beginning. Over time we get to know each building, invest in it and look for ways to keep improving it. This long-term relationship with every building is at the heart of our approach.
 
 More about the group
-Our headquarters Vodičkova 33
+Our head office Vodičkova 33
 
 ## Why us
 The group in numbers
@@ -145,7 +145,7 @@ We continue to develop our existing projects and actively seek new investment op
 
 - vasutova@cib.cz Commercial leasing
 
-- Vodičkova 709/33, Praha 1 Group headquarters
+- Vodičkova 709/33, Praha 1 Group head office
 
 ## Property contacts Our addresses
 +420 296 249 311

@@ -15,7 +15,7 @@ In-Use Very Good
 Commercial real estate · Prague 9
 Balabenka Office Building
 
-## The building and surroundings
+## The building and its surroundings
 Balabenka Office Building
 EV charging
 Solar power plant
@@ -48,17 +48,17 @@ All 20 photos
 
 ## Balabenka Office Building The building in photos
 
-## Certification BREEAM In Use Very Good
+## Certification BREEAM In-Use Very Good
 
 Energy from the roof, charging in the garages, facilities for cyclists.
 
-Balabenka holds BREEAM In-Use “Very Good” certification. The building's operation includes EV charging, facilities for cyclists and solar energy generation on the roof. Building management is on site and the building is protected by 24/7 security.
+Balabenka holds BREEAM In-Use “Very Good” certification. The building offers EV charging, facilities for cyclists and rooftop solar power generation. Building management is on site and the building is protected by 24/7 security.
 
 Building photos
 
 ## Offices and facilities A thoughtfully designed workplace
 
-A thoughtfully designed working environment built for everyday use. Flexible office floors suited to both open plan and partitioned layouts. Dedicated catering facilities within the building.
+A thoughtfully designed working environment built for everyday use. Flexible office floors suited to both open-plan and partitioned layouts. Dedicated catering facilities within the building.
 
 Underground parking, EV charging and facilities for cyclists. Central reception, on-site building management and 24/7 security. Key tenants include Zásilkovna, KB, Geberit and Alensa.
 
@@ -88,7 +88,7 @@ vasutova@cib.cz
 
 ## Commercial leasing Interested in the premises?
 
-For current availability of office and retail space or to arrange a viewing of the building, write directly to commercial leasing or call the group's head office.
+For current availability of office and retail space, or to arrange a viewing of the building, email our commercial leasing team directly or call the group's head office.
 
 - vasutova@cib.cz Commercial leasing
 

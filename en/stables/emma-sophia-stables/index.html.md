@@ -18,7 +18,7 @@ with a new purpose
 
 As part of the wider development of Lichoceves, the historic farmstead underwent a complete refurbishment and became Emma Sophia Stables, a modern equestrian centre with facilities for sport horses and riders. Since 2023 it has been the home stable of show jumper Emma Sophia Španko.
 
-Today Emma Sophia Stables operates as a separate brand within the family holding. The project combines the sensitive restoration of a historic property with a long-term functional use that respects the original character of the place.
+Today Emma Sophia Stables operates as a separate brand within the family holding. The project combines the sensitive restoration of a historic property with a practical long-term use that respects the original character of the place.
 
 Visit esstables.com
 All 26 photos
@@ -27,7 +27,7 @@ All 26 photos
 
 ## Villa and garden Historic villa in Lichoceves
 
-The historic villa in the centre of the village has been restored and now serves local associations and community activities. An unused and neglected space in the centre of the village has been transformed into a new village green and a public place for everyday life.
+The historic villa in the centre of the village has been restored and now hosts local associations and community activities. An unused and neglected space in the centre of the village has been transformed into a new village green and a public space for everyday life.
 
 Emma Sophia Stables is part of the wider development of Lichoceves within the Obec v zahradě project.
 
@@ -37,7 +37,7 @@ Obec v zahradě
 
 How the historic villa and farmstead in Lichoceves looked before restoration and how they look today. Drag the divider with your mouse or finger.
 
-The historic villa in Lichoceves: in 2018 before restoration, and today after complete restoration of the facade, roof, windows and garden.
+The historic villa in Lichoceves: in 2018 before restoration, and today, with its facade, roof, windows and garden fully restored.
 Drag the divider
 
 ## Obec v zahradě Part of the wider vision for Lichoceves
@@ -51,7 +51,7 @@ Explore Obec v zahradě
 Location
 Lichoceves, Prague-West
 
-The site lies in Lichoceves, about 20 minutes from the centre of Prague, next to the Obec v zahradě village now under development.
+The site lies in Lichoceves, about 20 minutes from the centre of Prague, next to the Obec v zahradě development.
 
 Location
 Lichoceves, Prague-West
