@@ -730,3 +730,27 @@ html body a:focus-visible,html body button:focus-visible{outline:1px solid #a176
   .strana-o-nas #content-magazine .magazine-name{margin-top:.08em!important}
   html[lang=en] .strana-o-nas #content-magazine .magazine-name{font-size:min(6.75vw,108px)!important}
 }
+
+/* 1. 11. 2026 (Evina tabulka, HIPPOKRATES ř. 20, MASTER ř. 173): patička, menší samostatný řádek „Podporujeme: Nadační fond Hippokrates“
+   pod popisem skupiny, vizuálně oddělený od log projektů. Na telefonu je popis skupiny skrytý, řádek zůstává nad copyrightem. */
+.main-footer .ftr-podpora{margin:12px auto 0;text-align:center;font-family:var(--font-family-title);font-weight:300;font-size:14px;line-height:1.6;letter-spacing:.025em;color:rgba(255,255,255,.6)}
+.main-footer .ftr-podpora a{color:#fff;text-decoration:none;border-bottom:1px solid rgba(255,255,255,.35);transition:border-color .2s}
+.main-footer .ftr-podpora a:hover{border-bottom-color:#fff}
+@media (min-width:992px) and (max-width:1600px){.main-footer .ftr-podpora{font-size:max(12px,.95vw)}}
+@media (max-width:991px){.main-footer .ftr-podpora{margin:28px 0 0;text-align:left;font-family:var(--fs);font-size:13px;letter-spacing:.01em}}
+
+/* 1. 11. 2026: Byty Benkova, blok Správa bytů Praha má nově dva odstavce (úvod podle Eviny tabulky, MASTER ř. 114 + kontakt).
+   Odstavce mají margin:0 (cib-pages.css), na počítači by splynuly → mezera jako mezi odstavci jinde (mobil už má 24 px). */
+@media (min-width:992px){.cib-write__side>p+p{margin-top:14px}}
+
+/* 1. 11. 2026: O nás, Historie a milníky: odstavec o Aloisi Přibylovi (Evina tabulka, MASTER ř. 150) má stát před časovou osou
+   a před pokynem „Vyberte rok…“. V HTML je za pokynem (skript onas_texty_2026_10_31 hlídá nadpis a pokyn vcelku), pořadí jen vizuálně. */
+.tl2__head{display:flex;flex-direction:column}
+.tl2__head>.global-site-title{order:0}
+.tl2__head>.tl2__pribyl{order:1}
+.tl2__head>p:not(.tl2__pribyl){order:2}
+@media (min-width:992px){
+  .tl2__head .tl2__pribyl{margin-top:24px!important}
+  .tl2__head .global-site-title+p{margin-top:14px!important}
+}
+@media (max-width:991px){#historie .tl2__head p.tl2__pribyl{margin:0 0 12px!important}}

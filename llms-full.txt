@@ -19,7 +19,7 @@ Klíčové údaje:
 Časté dotazy:
 
 - Komu patří Balabenka Office Building? Budova je v portfoliu CIB GROUP od roku 2014; o volných kancelářích a retailu informuje pronájem komerčních prostor (vasutova@cib.cz, eva.spanko@cib.cz) nebo centrála +420 296 249 311.
-- Kde je Balabenka? Českomoravská 2408/1a, 190 00 Praha 9, na nároží Sokolovské a Českomoravské; přibližně 12 000 m² kanceláří a 2 000 m² retailu, BREEAM In-Use „Very Good“.
+- Kde je Balabenka? Českomoravská 2408/1a, 190 00 Praha 9, na nároží Sokolovské a Českomoravské; přibližně 12 000 m² kanceláří a 2 000 m² retailu, BREEAM In Use Very Good.
 - Co je Residence Vodičkova 33? Historický dům z roku 1899 v Praze 1, který CIB GROUP získala v roce 2017 a kompletně zrekonstruovala (kolaudace v květnu 2024). Je v něm centrála skupiny, kanceláře k pronájmu a apartmány Vodičkova Luxury Suites.
 - Jak rezervovat Vodičkova Luxury Suites? Online na https://www.vodickovaluxurysuites.cz/ (provozovatel Vodičkova Luxury Suites s.r.o.).
 - Na koho se obrátit jako nájemník bytu v Liberci nebo Hrádku nad Nisou? Na kontaktní centra správy (údaje výše); úřední hodiny jsou na stránce Kontakt.
@@ -30,7 +30,7 @@ In English (full English version of the website: https://ivoskonarik-del.github.
 
 CIB GROUP (CIB GROUP HOLDING a.s.) is a private Czech family holding headquartered at Vodičkova 709/33, 110 00 Prague 1, focused on real estate investment, development and long-term property management. It was founded in 2004 as Canadian Investment Bridge and has focused on real estate since 2009.
 
-- Balabenka Office Building: Českomoravská 2408/1a, Prague 9; seven floors, approx. 12,000 m² of offices and 2,000 m² of retail; BREEAM In-Use "Very Good"; in the portfolio since 2014. Leasing: vasutova@cib.cz, eva.spanko@cib.cz.
+- Balabenka Office Building: Českomoravská 2408/1a, Prague 9; approx. 12,000 m² of offices and 2,000 m² of retail; BREEAM In-Use "Very Good"; in the portfolio since 2014. Leasing: vasutova@cib.cz, eva.spanko@cib.cz.
 - Residence Vodičkova 33: historic building from 1899 in Prague 1, acquired in 2017 and fully renovated (works from 2022, completed May 2024); group headquarters, offices for lease and Vodičkova Luxury Suites.
 - Vodičkova Luxury Suites: luxury short-stay apartments on the upper floors of Vodičkova 33, near Wenceslas Square, 24-hour reception; booking at https://www.vodickovaluxurysuites.cz/.
 - Residential management in Liberec and Hrádek nad Nisou (406 units) and the Benkova apartments in Prague-Chodov.
@@ -144,6 +144,8 @@ GROUP
 CIB GROUP je soukromý rodinný holding zaměřený na nemovitosti, development a správu. Projekty posuzujeme podle jejich dlouhodobého potenciálu, kvality a přínosu pro své okolí. Investujeme do komerčních aktiv, rozvíjíme vlastní developerské projekty a zajišťujeme dlouhodobou správu nemovitostí.
 
 Nemovitosti pro nás nekončí jejich koupí. Postupně je poznáváme, investujeme do nich a hledáme způsoby, jak je dále zlepšovat. Právě dlouhodobý vztah k jednotlivým domům je podstatou našeho přístupu. Skupina vznikla v roce 2004, původně pod názvem Canadian Investment Bridge, a dnes sídlí ve Vodičkově 33 v centru Prahy.
+
+Díváme se za horizont jedné transakce. Hodnotu vytváříme dlouhodobým vlastnictvím, promyšleným rozvojem a aktivní správou.
 
 Více o skupině
 Naše sídlo Vodičkova 33
@@ -323,6 +325,8 @@ Residence Vodičkova 33
 
 Vyberte rok a zobrazte jednotlivé milníky.
 
+Na budování CIB GROUP se od jejího počátku významně podílel Alois Přibyl. Jako zakládající partner a spoluvlastník 50 % společnosti ovlivňoval její směřování až do svého úmrtí v roce 2023.
+
 ### Současnost
 
 - Pokračujeme v dlouhodobém rozvoji projektu Obec v zahradě v Lichocevsi a aktivně vyhledáváme nové příležitosti v kancelářských, retailových a mixed-use nemovitostech.
@@ -346,6 +350,8 @@ Vyberte rok a zobrazte jednotlivé milníky.
 - Změna vlastníka rezidenčního portfolia Liberecko a bytových domů Benkova. CIB GROUP nadále zajišťuje jejich správu.
 
 ### 2023
+
+- Úmrtí Aloise Přibyla, zakládajícího partnera a spoluvlastníka 50 % společnosti.
 
 - Pokračování rekonstrukce Residence Vodičkova 33.
 
@@ -626,7 +632,7 @@ Praha a okolí · detail
 
 Zdroj: https://ivoskonarik-del.github.io/propozice-cib-next/nemovitosti/balabenka/
 
-> Balabenka Office Building v Praze 9: sedm podlaží, přibližně 12 000 m² kanceláří a 2 000 m² retailu, certifikace BREEAM In-Use Very Good. Pronájem kanceláří.
+> Balabenka Office Building v Praze 9: přibližně 12 000 m² kanceláří a 2 000 m² retailu, certifikace BREEAM In Use Very Good. Pronájem kanceláří.
 
 12 000 m²
 kanceláří
@@ -635,7 +641,7 @@ retailu
 153
 stání, z toho 12 s nabíjením
 BREEAM
-In-Use Very Good
+In Use Very Good
 Komerční nemovitosti · Praha 9
 Balabenka Office Building
 
@@ -663,7 +669,7 @@ Administrativní budova
 s dlouhodobým
 potenciálem
 
-Balabenka Office Building je moderní administrativní budova na nároží Sokolovské a Českomoravské v Praze 9. Sedm nadzemních podlaží nabízí přibližně 12 000 m² kancelářských ploch doplněných zhruba 2 000 m² retailu v přízemí. Charakter budovy určuje výrazná prosklená fasáda, terasy a upravené venkovní prostory.
+Balabenka Office Building stojí na nároží ulic Sokolovská a Českomoravská v Praze 9. Nabízí přibližně 12 000 m² kancelářských ploch kategorie A a 2 000 m² obchodních prostor v přízemí. Charakter budovy určují zvlněná prosklená fasáda, ustupující terasy a vnitřní zahrada.
 
 Budova je přímo napojená na tramvajovou síť, v docházkové vzdálenosti metra a s rychlým automobilovým spojením na městský okruh a tunelový komplex Blanka.
 
@@ -676,7 +682,7 @@ Všech 20 fotografií
 
 Energie ze střechy, dobíjení v garážích, zázemí pro cyklisty.
 
-Balabenka je držitelem certifikace BREEAM In-Use „Very Good“. Součástí provozu budovy je dobíjení elektromobilů, zázemí pro cyklisty a výroba solární energie na střeše. Správa budovy je na místě, provoz zajišťuje nepřetržitá ostraha.
+Balabenka je držitelem certifikace BREEAM In Use Very Good. Součástí provozu budovy je dobíjení elektromobilů, zázemí pro cyklisty a výroba solární energie na střeše. Správa budovy je na místě, provoz zajišťuje nepřetržitá ostraha.
 
 Fotografie budovy
 
@@ -684,7 +690,7 @@ Fotografie budovy
 
 Promyšlené pracovní prostředí navržené pro každodenní provoz. Flexibilní kancelářská podlaží vhodná pro open space i členěné uspořádání. Vlastní cateringové zázemí přímo v budově.
 
-Podzemní parkování, dobíjení elektromobilů a zázemí pro cyklisty. Centrální recepce, správa budovy a nepřetržitá ostraha. Mezi klíčové nájemce patří společnosti Zásilkovna, KB, Geberit a Alensa.
+Podzemní parkování, dobíjení elektromobilů a zázemí pro cyklisty. Centrální recepce, správa budovy a nepřetržitá ostraha. Mezi klíčové nájemce patří Zásilkovna, KB, Geberit nebo FLOW.
 
 Poptat kancelářské prostory
 
@@ -1049,6 +1055,8 @@ Foto: Hynek Moravec, Wikimedia Commons, CC BY 3.0
 
 ## Správa bytů Praha Kontakt pro nájemníky a zájemce
 
+Rezidenční nemovitosti v ulici Benkova na pražském Chodově spravuje CIB GROUP ve spolupráci se společností Flats Benkova s.r.o. CIB GROUP zajišťuje také související provozní a administrativní agendu.
+
 S dotazy k údržbě, administrativě, nájemním vztahům nebo dostupným bytům se obracejte na centrálu CIB GROUP.
 
 - +420 296 249 311 Centrála, pracovní dny
@@ -1186,7 +1194,7 @@ Lichoceves
 
 Zdroj: https://ivoskonarik-del.github.io/propozice-cib-next/staje/emma-sophia-stables/
 
-> Emma Sophia Stables: jezdecký areál v obnoveném historickém statku v Lichocevsi, domovská stáj Emmy Sophie Španko.
+> Emma Sophia Stables je moderní jezdecký areál v obnoveném historickém statku v Lichocevsi. Další rozvoj počítá s hříbárnou a službami spojenými s hipoterapií.
 
 Jezdecký areál
 Od roku 2023
@@ -1202,7 +1210,7 @@ s novým využitím
 
 V rámci širšího rozvoje Lichocevsi prošel historický statek kompletní rekonstrukcí a vznikl zde Emma Sophia Stables, moderní jezdecký areál se zázemím pro sportovní koně i jezdce. Od roku 2023 je domovskou stájí parkurové jezdkyně Emmy Sophie Španko.
 
-Emma Sophia Stables dnes funguje jako samostatná značka v rámci rodinného holdingu. Projekt propojuje citlivou obnovu historické nemovitosti s dlouhodobým funkčním využitím, které respektuje původní charakter místa.
+Emma Sophia Stables dnes funguje jako samostatná značka v rámci rodinného holdingu. Projekt propojuje citlivou obnovu historické nemovitosti s dlouhodobým funkčním využitím, které respektuje původní charakter místa. Další rozvoj počítá s hříbárnou a službami spojenými s hipoterapií.
 
 Navštívit esstables.com
 Všech 26 fotografií
@@ -1454,7 +1462,7 @@ Jaké údaje zpracováváme a proč
 Komu údaje předáváme
 Cookies a ukládání do zařízení
 Administrace webu
-GDPR – sdělení nájemcům
+GDPR: sdělení nájemcům
 Jak údaje chráníme
 Jaká máte práva
 Změny těchto zásad
@@ -1465,7 +1473,7 @@ Správcem osobních údajů je společnost CIB GROUP, a.s., IČ 272 11 185, se s
 
 Kontakt pro otázky k ochraně osobních údajů: info@cib.cz, telefon +420 296 249 311, nebo písemně na adrese sídla.
 
-Tyto zásady popisují, jak zpracováváme osobní údaje v souvislosti s tímto webem a komunikací, která z něj vzejde. Zpracování osobních údajů nájemců našich bytů popisuje samostatná část GDPR – sdělení nájemcům. Zpracování v rámci jiných smluv se řídí příslušnou smlouvou a informacemi, které dostanete při jejím uzavření.
+Tyto zásady popisují, jak zpracováváme osobní údaje v souvislosti s tímto webem a komunikací, která z něj vzejde. Zpracování osobních údajů nájemců našich bytů popisuje samostatná část GDPR: sdělení nájemcům. Zpracování v rámci jiných smluv se řídí příslušnou smlouvou a informacemi, které dostanete při jejím uzavření.
 
 ## 02 · Údaje a účely Jaké údaje zpracováváme a proč
 
@@ -1543,7 +1551,7 @@ Obsah webu upravují pověření správci v zabezpečené administraci. Přihla�
 
 Kvůli zabezpečení evidujeme u přihlášení a změn v administraci jméno správce, čas, IP adresu, zemi a typ prohlížeče. Právním základem je náš oprávněný zájem na ochraně webu (čl. 6 odst. 1 písm. f) GDPR). Uchováváme posledních 100 záznamů, starší se průběžně mažou.
 
-## 06 · Nájemci bytů GDPR – sdělení nájemcům
+## 06 · Nájemci bytů GDPR: sdělení nájemcům
 
 Naše společnosti jako pronajímatelé bytů mají právo a povinnost zpracovávat některé osobní údaje osob bydlících v našich bytech danou ze zákona. Není tedy nezbytně nutné získávat souhlas jednotlivých osob se zpracováním jejich údajů. Osobní údaje jsou využívány pro výkon řádné správy bytových domů, vyúčtování nákladů na služby spojené s užíváním bytu a pro vymáhání pohledávek za nájemci.
 
@@ -1720,7 +1728,9 @@ GROUP
 
 CIB GROUP is a private family holding focused on real estate, development and property management. We judge projects by their long-term potential, their quality and the benefit they bring to the surrounding area. We invest in commercial assets, develop our own projects and provide long-term property management.
 
-For us, buying a property is only the beginning. Over time we get to know each building, invest in it and look for ways to keep improving it. This long-term relationship with every building is at the heart of our approach.
+For us, buying a property is only the beginning. Over time we get to know each building, invest in it and look for ways to keep improving it. This long-term relationship with every building is at the heart of our approach. The group was founded in 2004, originally as Canadian Investment Bridge, and is now headquartered at Vodičkova 33 in the centre of Prague.
+
+We look beyond the horizon of a single transaction. We create value through long-term ownership, considered development and active management.
 
 More about the group
 Our head office Vodičkova 33
@@ -1900,6 +1910,8 @@ Residence Vodičkova 33
 
 Select a year to see its milestones.
 
+Alois Přibyl played a significant part in building CIB GROUP from its very beginning. As a founding partner and 50% co-owner of the company, he helped shape its direction until his death in 2023.
+
 ### Today
 
 - We continue the long-term development of the Obec v zahradě project in Lichoceves and actively look for new opportunities in office, retail and mixed-use properties.
@@ -1923,6 +1935,8 @@ Select a year to see its milestones.
 - The Liberec region residential portfolio and the Benkova apartment buildings change ownership. CIB GROUP continues to manage them.
 
 ### 2023
+
+- Alois Přibyl, founding partner and 50% co-owner of the company, passes away.
 
 - Refurbishment of Residence Vodičkova 33 continues.
 
@@ -2203,7 +2217,7 @@ Prague area · detail
 
 Source: https://ivoskonarik-del.github.io/propozice-cib-next/en/properties/balabenka/
 
-> Balabenka Office Building in Prague 9: seven storeys, approx. 12,000 m² of offices and 2,000 m² of retail, BREEAM In-Use Very Good. Offices for lease.
+> Balabenka Office Building in Prague 9: approx. 12,000 m² of offices and 2,000 m² of retail, BREEAM In-Use Very Good. Offices for lease.
 
 12,000 m²
 of offices
@@ -2240,7 +2254,7 @@ An office building
 with long-term
 potential
 
-Balabenka Office Building is a modern office building on the corner of Sokolovská and Českomoravská in Prague 9. Its seven above-ground storeys offer approximately 12,000 m² of office space, complemented by around 2,000 m² of retail on the ground floor. The building is defined by its striking glazed facade, terraces and landscaped outdoor areas.
+Balabenka Office Building stands on the corner of Sokolovská and Českomoravská streets in Prague 9. It offers approximately 12,000 m² of Grade A office space and 2,000 m² of retail space on the ground floor. The building is defined by its undulating glazed facade, stepped terraces and an inner garden.
 
 The building is directly connected to the tram network, within walking distance of the metro and with quick road access to the City Ring Road and the Blanka tunnel complex.
 
@@ -2253,7 +2267,7 @@ All 20 photos
 
 Energy from the roof, charging in the garages, facilities for cyclists.
 
-Balabenka holds BREEAM In-Use “Very Good” certification. The building offers EV charging, facilities for cyclists and rooftop solar power generation. Building management is on site and the building is protected by 24/7 security.
+Balabenka holds BREEAM In-Use Very Good certification. The building offers EV charging, facilities for cyclists and rooftop solar power generation. Building management is on site and the building is protected by 24/7 security.
 
 Building photos
 
@@ -2261,7 +2275,7 @@ Building photos
 
 A thoughtfully designed working environment built for everyday use. Flexible office floors suited to both open-plan and partitioned layouts. Dedicated catering facilities within the building.
 
-Underground parking, EV charging and facilities for cyclists. Central reception, on-site building management and 24/7 security. Key tenants include Zásilkovna, KB, Geberit and Alensa.
+Underground parking, EV charging and facilities for cyclists. Central reception, on-site building management and 24/7 security. Key tenants include Zásilkovna, KB, Geberit and FLOW.
 
 Enquire about office space
 
@@ -2626,6 +2640,8 @@ Photo: Hynek Moravec, Wikimedia Commons, CC BY 3.0
 
 ## Apartment management, Prague Contact for tenants and applicants
 
+The residential properties on Benkova Street in Prague's Chodov district are managed by CIB GROUP in cooperation with Flats Benkova s.r.o. CIB GROUP also handles the related operational and administrative matters.
+
 For questions about maintenance, administration, tenancy matters or available apartments, please contact the CIB GROUP head office.
 
 - +420 296 249 311 Head office, working days
@@ -2763,7 +2779,7 @@ Lichoceves
 
 Source: https://ivoskonarik-del.github.io/propozice-cib-next/en/stables/emma-sophia-stables/
 
-> Emma Sophia Stables: an equestrian centre in a restored historic farmstead in Lichoceves, home stable of show jumper Emma Sophia Španko.
+> Emma Sophia Stables is a modern equestrian centre in a restored historic farmstead in Lichoceves. Further plans include a stud farm and hippotherapy services.
 
 Equestrian centre
 Since 2023
@@ -2779,7 +2795,7 @@ with a new purpose
 
 As part of the wider development of Lichoceves, the historic farmstead underwent a complete refurbishment and became Emma Sophia Stables, a modern equestrian centre with facilities for sport horses and riders. Since 2023 it has been the home stable of show jumper Emma Sophia Španko.
 
-Today Emma Sophia Stables operates as a separate brand within the family holding. The project combines the sensitive restoration of a historic property with a practical long-term use that respects the original character of the place.
+Today Emma Sophia Stables operates as a separate brand within the family holding. The project combines the sensitive restoration of a historic property with a practical long-term use that respects the original character of the place. Further plans include a stud farm and services related to hippotherapy.
 
 Visit esstables.com
 All 26 photos

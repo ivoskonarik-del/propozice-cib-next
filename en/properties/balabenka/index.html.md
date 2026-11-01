@@ -2,7 +2,7 @@
 
 Source: https://ivoskonarik-del.github.io/propozice-cib-next/en/properties/balabenka/
 
-> Balabenka Office Building in Prague 9: seven storeys, approx. 12,000 m² of offices and 2,000 m² of retail, BREEAM In-Use Very Good. Offices for lease.
+> Balabenka Office Building in Prague 9: approx. 12,000 m² of offices and 2,000 m² of retail, BREEAM In-Use Very Good. Offices for lease.
 
 12,000 m²
 of offices
@@ -39,7 +39,7 @@ An office building
 with long-term
 potential
 
-Balabenka Office Building is a modern office building on the corner of Sokolovská and Českomoravská in Prague 9. Its seven above-ground storeys offer approximately 12,000 m² of office space, complemented by around 2,000 m² of retail on the ground floor. The building is defined by its striking glazed facade, terraces and landscaped outdoor areas.
+Balabenka Office Building stands on the corner of Sokolovská and Českomoravská streets in Prague 9. It offers approximately 12,000 m² of Grade A office space and 2,000 m² of retail space on the ground floor. The building is defined by its undulating glazed facade, stepped terraces and an inner garden.
 
 The building is directly connected to the tram network, within walking distance of the metro and with quick road access to the City Ring Road and the Blanka tunnel complex.
 
@@ -52,7 +52,7 @@ All 20 photos
 
 Energy from the roof, charging in the garages, facilities for cyclists.
 
-Balabenka holds BREEAM In-Use “Very Good” certification. The building offers EV charging, facilities for cyclists and rooftop solar power generation. Building management is on site and the building is protected by 24/7 security.
+Balabenka holds BREEAM In-Use Very Good certification. The building offers EV charging, facilities for cyclists and rooftop solar power generation. Building management is on site and the building is protected by 24/7 security.
 
 Building photos
 
@@ -60,7 +60,7 @@ Building photos
 
 A thoughtfully designed working environment built for everyday use. Flexible office floors suited to both open-plan and partitioned layouts. Dedicated catering facilities within the building.
 
-Underground parking, EV charging and facilities for cyclists. Central reception, on-site building management and 24/7 security. Key tenants include Zásilkovna, KB, Geberit and Alensa.
+Underground parking, EV charging and facilities for cyclists. Central reception, on-site building management and 24/7 security. Key tenants include Zásilkovna, KB, Geberit and FLOW.
 
 Enquire about office space
 

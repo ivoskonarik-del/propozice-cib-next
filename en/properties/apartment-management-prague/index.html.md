@@ -18,6 +18,8 @@ Photo: Hynek Moravec, Wikimedia Commons, CC BY 3.0
 
 ## Apartment management, Prague Contact for tenants and applicants
 
+The residential properties on Benkova Street in Prague's Chodov district are managed by CIB GROUP in cooperation with Flats Benkova s.r.o. CIB GROUP also handles the related operational and administrative matters.
+
 For questions about maintenance, administration, tenancy matters or available apartments, please contact the CIB GROUP head office.
 
 - +420 296 249 311 Head office, working days

@@ -103,7 +103,9 @@ GROUP
 
 CIB GROUP is a private family holding focused on real estate, development and property management. We judge projects by their long-term potential, their quality and the benefit they bring to the surrounding area. We invest in commercial assets, develop our own projects and provide long-term property management.
 
-For us, buying a property is only the beginning. Over time we get to know each building, invest in it and look for ways to keep improving it. This long-term relationship with every building is at the heart of our approach.
+For us, buying a property is only the beginning. Over time we get to know each building, invest in it and look for ways to keep improving it. This long-term relationship with every building is at the heart of our approach. The group was founded in 2004, originally as Canadian Investment Bridge, and is now headquartered at Vodičkova 33 in the centre of Prague.
+
+We look beyond the horizon of a single transaction. We create value through long-term ownership, considered development and active management.
 
 More about the group
 Our head office Vodičkova 33

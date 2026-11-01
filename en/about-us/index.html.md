@@ -110,6 +110,8 @@ Residence Vodičkova 33
 
 Select a year to see its milestones.
 
+Alois Přibyl played a significant part in building CIB GROUP from its very beginning. As a founding partner and 50% co-owner of the company, he helped shape its direction until his death in 2023.
+
 ### Today
 
 - We continue the long-term development of the Obec v zahradě project in Lichoceves and actively look for new opportunities in office, retail and mixed-use properties.
@@ -133,6 +135,8 @@ Select a year to see its milestones.
 - The Liberec region residential portfolio and the Benkova apartment buildings change ownership. CIB GROUP continues to manage them.
 
 ### 2023
+
+- Alois Přibyl, founding partner and 50% co-owner of the company, passes away.
 
 - Refurbishment of Residence Vodičkova 33 continues.
 

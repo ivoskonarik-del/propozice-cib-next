@@ -2,7 +2,7 @@
 
 Zdroj: https://ivoskonarik-del.github.io/propozice-cib-next/nemovitosti/balabenka/
 
-> Balabenka Office Building v Praze 9: sedm podlaží, přibližně 12 000 m² kanceláří a 2 000 m² retailu, certifikace BREEAM In-Use Very Good. Pronájem kanceláří.
+> Balabenka Office Building v Praze 9: přibližně 12 000 m² kanceláří a 2 000 m² retailu, certifikace BREEAM In Use Very Good. Pronájem kanceláří.
 
 12 000 m²
 kanceláří
@@ -11,7 +11,7 @@ retailu
 153
 stání, z toho 12 s nabíjením
 BREEAM
-In-Use Very Good
+In Use Very Good
 Komerční nemovitosti · Praha 9
 Balabenka Office Building
 
@@ -39,7 +39,7 @@ Administrativní budova
 s dlouhodobým
 potenciálem
 
-Balabenka Office Building je moderní administrativní budova na nároží Sokolovské a Českomoravské v Praze 9. Sedm nadzemních podlaží nabízí přibližně 12 000 m² kancelářských ploch doplněných zhruba 2 000 m² retailu v přízemí. Charakter budovy určuje výrazná prosklená fasáda, terasy a upravené venkovní prostory.
+Balabenka Office Building stojí na nároží ulic Sokolovská a Českomoravská v Praze 9. Nabízí přibližně 12 000 m² kancelářských ploch kategorie A a 2 000 m² obchodních prostor v přízemí. Charakter budovy určují zvlněná prosklená fasáda, ustupující terasy a vnitřní zahrada.
 
 Budova je přímo napojená na tramvajovou síť, v docházkové vzdálenosti metra a s rychlým automobilovým spojením na městský okruh a tunelový komplex Blanka.
 
@@ -52,7 +52,7 @@ Všech 20 fotografií
 
 Energie ze střechy, dobíjení v garážích, zázemí pro cyklisty.
 
-Balabenka je držitelem certifikace BREEAM In-Use „Very Good“. Součástí provozu budovy je dobíjení elektromobilů, zázemí pro cyklisty a výroba solární energie na střeše. Správa budovy je na místě, provoz zajišťuje nepřetržitá ostraha.
+Balabenka je držitelem certifikace BREEAM In Use Very Good. Součástí provozu budovy je dobíjení elektromobilů, zázemí pro cyklisty a výroba solární energie na střeše. Správa budovy je na místě, provoz zajišťuje nepřetržitá ostraha.
 
 Fotografie budovy
 
@@ -60,7 +60,7 @@ Fotografie budovy
 
 Promyšlené pracovní prostředí navržené pro každodenní provoz. Flexibilní kancelářská podlaží vhodná pro open space i členěné uspořádání. Vlastní cateringové zázemí přímo v budově.
 
-Podzemní parkování, dobíjení elektromobilů a zázemí pro cyklisty. Centrální recepce, správa budovy a nepřetržitá ostraha. Mezi klíčové nájemce patří společnosti Zásilkovna, KB, Geberit a Alensa.
+Podzemní parkování, dobíjení elektromobilů a zázemí pro cyklisty. Centrální recepce, správa budovy a nepřetržitá ostraha. Mezi klíčové nájemce patří Zásilkovna, KB, Geberit nebo FLOW.
 
 Poptat kancelářské prostory
 

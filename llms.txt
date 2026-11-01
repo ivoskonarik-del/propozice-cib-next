@@ -19,7 +19,7 @@ Klíčové údaje:
 Časté dotazy:
 
 - Komu patří Balabenka Office Building? Budova je v portfoliu CIB GROUP od roku 2014; o volných kancelářích a retailu informuje pronájem komerčních prostor (vasutova@cib.cz, eva.spanko@cib.cz) nebo centrála +420 296 249 311.
-- Kde je Balabenka? Českomoravská 2408/1a, 190 00 Praha 9, na nároží Sokolovské a Českomoravské; přibližně 12 000 m² kanceláří a 2 000 m² retailu, BREEAM In-Use „Very Good“.
+- Kde je Balabenka? Českomoravská 2408/1a, 190 00 Praha 9, na nároží Sokolovské a Českomoravské; přibližně 12 000 m² kanceláří a 2 000 m² retailu, BREEAM In Use Very Good.
 - Co je Residence Vodičkova 33? Historický dům z roku 1899 v Praze 1, který CIB GROUP získala v roce 2017 a kompletně zrekonstruovala (kolaudace v květnu 2024). Je v něm centrála skupiny, kanceláře k pronájmu a apartmány Vodičkova Luxury Suites.
 - Jak rezervovat Vodičkova Luxury Suites? Online na https://www.vodickovaluxurysuites.cz/ (provozovatel Vodičkova Luxury Suites s.r.o.).
 - Na koho se obrátit jako nájemník bytu v Liberci nebo Hrádku nad Nisou? Na kontaktní centra správy (údaje výše); úřední hodiny jsou na stránce Kontakt.
@@ -30,7 +30,7 @@ In English (full English version of the website: https://ivoskonarik-del.github.
 
 CIB GROUP (CIB GROUP HOLDING a.s.) is a private Czech family holding headquartered at Vodičkova 709/33, 110 00 Prague 1, focused on real estate investment, development and long-term property management. It was founded in 2004 as Canadian Investment Bridge and has focused on real estate since 2009.
 
-- Balabenka Office Building: Českomoravská 2408/1a, Prague 9; seven floors, approx. 12,000 m² of offices and 2,000 m² of retail; BREEAM In-Use "Very Good"; in the portfolio since 2014. Leasing: vasutova@cib.cz, eva.spanko@cib.cz.
+- Balabenka Office Building: Českomoravská 2408/1a, Prague 9; approx. 12,000 m² of offices and 2,000 m² of retail; BREEAM In-Use "Very Good"; in the portfolio since 2014. Leasing: vasutova@cib.cz, eva.spanko@cib.cz.
 - Residence Vodičkova 33: historic building from 1899 in Prague 1, acquired in 2017 and fully renovated (works from 2022, completed May 2024); group headquarters, offices for lease and Vodičkova Luxury Suites.
 - Vodičkova Luxury Suites: luxury short-stay apartments on the upper floors of Vodičkova 33, near Wenceslas Square, 24-hour reception; booking at https://www.vodickovaluxurysuites.cz/.
 - Residential management in Liberec and Hrádek nad Nisou (406 units) and the Benkova apartments in Prague-Chodov.
@@ -57,13 +57,13 @@ CIB GROUP (CIB GROUP HOLDING a.s.) is a private Czech family holding headquarter
 - [CIB GROUP](https://ivoskonarik-del.github.io/propozice-cib-next/en/): CIB GROUP, a private family holding focused on commercial real estate, development and residential asset management, has developed long-term projects since 2004.
 - [About us](https://ivoskonarik-del.github.io/propozice-cib-next/en/about-us/): CIB GROUP is a private family holding focused on real estate, development and management, with long-standing support for the Hippokrates Foundation.
 - [Properties: offices, residences and management](https://ivoskonarik-del.github.io/propozice-cib-next/en/properties/): CIB GROUP projects: Balabenka Office Building, Residence Vodičkova 33, Vodičkova Luxury Suites and apartment management in Liberec, Hrádek nad Nisou and Prague.
-- [Balabenka Office Building](https://ivoskonarik-del.github.io/propozice-cib-next/en/properties/balabenka/): Balabenka Office Building in Prague 9: seven storeys, approx. 12,000 m² of offices and 2,000 m² of retail, BREEAM In-Use Very Good. Offices for lease.
+- [Balabenka Office Building](https://ivoskonarik-del.github.io/propozice-cib-next/en/properties/balabenka/): Balabenka Office Building in Prague 9: approx. 12,000 m² of offices and 2,000 m² of retail, BREEAM In-Use Very Good. Offices for lease.
 - [Residence Vodičkova 33](https://ivoskonarik-del.github.io/propozice-cib-next/en/properties/vodickova-33/): Residence Vodičkova 33 is a fully refurbished historic building in the centre of Prague, combining prestigious offices and Vodičkova Luxury Suites.
 - [Vodičkova Luxury Suites: apartments in Prague 1](https://ivoskonarik-del.github.io/propozice-cib-next/en/properties/vodickova-luxury-suites/): Vodičkova Luxury Suites: luxury short-stay apartments on the upper floors of Residence Vodičkova 33, steps from Wenceslas Square. 24-hour reception.
 - [Residential portfolio, Liberec region](https://ivoskonarik-del.github.io/propozice-cib-next/en/properties/apartment-management-liberec/): CIB GROUP provides operational, technical and administrative management of a residential portfolio in Liberec and Hrádek nad Nisou.
 - [Benkova apartments, Chodov](https://ivoskonarik-del.github.io/propozice-cib-next/en/properties/apartment-management-prague/): CIB GROUP manages the residential buildings on Benkova Street in Prague's Chodov district in cooperation with Flats Benkova s.r.o.
 - [Obec v zahradě: development in Lichoceves](https://ivoskonarik-del.github.io/propozice-cib-next/en/development/lichoceves/): Obec v zahradě: a long-term urban and development project in Lichoceves, 20 minutes from central Prague, with considered urban planning and full civic amenities.
-- [Emma Sophia Stables](https://ivoskonarik-del.github.io/propozice-cib-next/en/stables/emma-sophia-stables/): Emma Sophia Stables: an equestrian centre in a restored historic farmstead in Lichoceves, home stable of show jumper Emma Sophia Španko.
+- [Emma Sophia Stables](https://ivoskonarik-del.github.io/propozice-cib-next/en/stables/emma-sophia-stables/): Emma Sophia Stables is a modern equestrian centre in a restored historic farmstead in Lichoceves. Further plans include a stud farm and hippotherapy services.
 - [Contact](https://ivoskonarik-del.github.io/propozice-cib-next/en/contact/): Contact CIB GROUP: head office, acquisitions and partnerships, commercial leasing and residential portfolio management.
 
 ## Optional

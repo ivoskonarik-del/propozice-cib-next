@@ -14,7 +14,7 @@ Jaké údaje zpracováváme a proč
 Komu údaje předáváme
 Cookies a ukládání do zařízení
 Administrace webu
-GDPR – sdělení nájemcům
+GDPR: sdělení nájemcům
 Jak údaje chráníme
 Jaká máte práva
 Změny těchto zásad
@@ -25,7 +25,7 @@ Správcem osobních údajů je společnost CIB GROUP, a.s., IČ 272 11 185, se s
 
 Kontakt pro otázky k ochraně osobních údajů: info@cib.cz, telefon +420 296 249 311, nebo písemně na adrese sídla.
 
-Tyto zásady popisují, jak zpracováváme osobní údaje v souvislosti s tímto webem a komunikací, která z něj vzejde. Zpracování osobních údajů nájemců našich bytů popisuje samostatná část GDPR – sdělení nájemcům. Zpracování v rámci jiných smluv se řídí příslušnou smlouvou a informacemi, které dostanete při jejím uzavření.
+Tyto zásady popisují, jak zpracováváme osobní údaje v souvislosti s tímto webem a komunikací, která z něj vzejde. Zpracování osobních údajů nájemců našich bytů popisuje samostatná část GDPR: sdělení nájemcům. Zpracování v rámci jiných smluv se řídí příslušnou smlouvou a informacemi, které dostanete při jejím uzavření.
 
 ## 02 · Údaje a účely Jaké údaje zpracováváme a proč
 
@@ -103,7 +103,7 @@ Obsah webu upravují pověření správci v zabezpečené administraci. Přihla�
 
 Kvůli zabezpečení evidujeme u přihlášení a změn v administraci jméno správce, čas, IP adresu, zemi a typ prohlížeče. Právním základem je náš oprávněný zájem na ochraně webu (čl. 6 odst. 1 písm. f) GDPR). Uchováváme posledních 100 záznamů, starší se průběžně mažou.
 
-## 06 · Nájemci bytů GDPR – sdělení nájemcům
+## 06 · Nájemci bytů GDPR: sdělení nájemcům
 
 Naše společnosti jako pronajímatelé bytů mají právo a povinnost zpracovávat některé osobní údaje osob bydlících v našich bytech danou ze zákona. Není tedy nezbytně nutné získávat souhlas jednotlivých osob se zpracováním jejich údajů. Osobní údaje jsou využívány pro výkon řádné správy bytových domů, vyúčtování nákladů na služby spojené s užíváním bytu a pro vymáhání pohledávek za nájemci.
 

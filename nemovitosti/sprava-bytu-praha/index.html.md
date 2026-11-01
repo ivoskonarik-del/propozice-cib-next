@@ -18,6 +18,8 @@ Foto: Hynek Moravec, Wikimedia Commons, CC BY 3.0
 
 ## Správa bytů Praha Kontakt pro nájemníky a zájemce
 
+Rezidenční nemovitosti v ulici Benkova na pražském Chodově spravuje CIB GROUP ve spolupráci se společností Flats Benkova s.r.o. CIB GROUP zajišťuje také související provozní a administrativní agendu.
+
 S dotazy k údržbě, administrativě, nájemním vztahům nebo dostupným bytům se obracejte na centrálu CIB GROUP.
 
 - +420 296 249 311 Centrála, pracovní dny

@@ -105,6 +105,8 @@ CIB GROUP je soukromý rodinný holding zaměřený na nemovitosti, development 
 
 Nemovitosti pro nás nekončí jejich koupí. Postupně je poznáváme, investujeme do nich a hledáme způsoby, jak je dále zlepšovat. Právě dlouhodobý vztah k jednotlivým domům je podstatou našeho přístupu. Skupina vznikla v roce 2004, původně pod názvem Canadian Investment Bridge, a dnes sídlí ve Vodičkově 33 v centru Prahy.
 
+Díváme se za horizont jedné transakce. Hodnotu vytváříme dlouhodobým vlastnictvím, promyšleným rozvojem a aktivní správou.
+
 Více o skupině
 Naše sídlo Vodičkova 33
 

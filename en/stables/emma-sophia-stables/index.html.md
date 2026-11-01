@@ -2,7 +2,7 @@
 
 Source: https://ivoskonarik-del.github.io/propozice-cib-next/en/stables/emma-sophia-stables/
 
-> Emma Sophia Stables: an equestrian centre in a restored historic farmstead in Lichoceves, home stable of show jumper Emma Sophia Španko.
+> Emma Sophia Stables is a modern equestrian centre in a restored historic farmstead in Lichoceves. Further plans include a stud farm and hippotherapy services.
 
 Equestrian centre
 Since 2023
@@ -18,7 +18,7 @@ with a new purpose
 
 As part of the wider development of Lichoceves, the historic farmstead underwent a complete refurbishment and became Emma Sophia Stables, a modern equestrian centre with facilities for sport horses and riders. Since 2023 it has been the home stable of show jumper Emma Sophia Španko.
 
-Today Emma Sophia Stables operates as a separate brand within the family holding. The project combines the sensitive restoration of a historic property with a practical long-term use that respects the original character of the place.
+Today Emma Sophia Stables operates as a separate brand within the family holding. The project combines the sensitive restoration of a historic property with a practical long-term use that respects the original character of the place. Further plans include a stud farm and services related to hippotherapy.
 
 Visit esstables.com
 All 26 photos

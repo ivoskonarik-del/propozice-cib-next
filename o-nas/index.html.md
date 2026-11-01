@@ -110,6 +110,8 @@ Residence Vodičkova 33
 
 Vyberte rok a zobrazte jednotlivé milníky.
 
+Na budování CIB GROUP se od jejího počátku významně podílel Alois Přibyl. Jako zakládající partner a spoluvlastník 50 % společnosti ovlivňoval její směřování až do svého úmrtí v roce 2023.
+
 ### Současnost
 
 - Pokračujeme v dlouhodobém rozvoji projektu Obec v zahradě v Lichocevsi a aktivně vyhledáváme nové příležitosti v kancelářských, retailových a mixed-use nemovitostech.
@@ -133,6 +135,8 @@ Vyberte rok a zobrazte jednotlivé milníky.
 - Změna vlastníka rezidenčního portfolia Liberecko a bytových domů Benkova. CIB GROUP nadále zajišťuje jejich správu.
 
 ### 2023
+
+- Úmrtí Aloise Přibyla, zakládajícího partnera a spoluvlastníka 50 % společnosti.
 
 - Pokračování rekonstrukce Residence Vodičkova 33.
 
