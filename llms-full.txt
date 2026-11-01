@@ -657,7 +657,7 @@ Stanice metra
 Vlakové nádraží
 Nákupy
 Restaurace
-Fitness a sport
+Škola a školka
 Bankomat
 Čerpací stanice
 Park
@@ -2242,7 +2242,7 @@ Metro station
 Railway station
 Shopping
 Restaurants
-Fitness and sport
+School and nursery
 ATM
 Petrol station
 Park

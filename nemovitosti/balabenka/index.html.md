@@ -27,7 +27,7 @@ Stanice metra
 Vlakové nádraží
 Nákupy
 Restaurace
-Fitness a sport
+Škola a školka
 Bankomat
 Čerpací stanice
 Park

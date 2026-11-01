@@ -27,7 +27,7 @@ Metro station
 Railway station
 Shopping
 Restaurants
-Fitness and sport
+School and nursery
 ATM
 Petrol station
 Park
