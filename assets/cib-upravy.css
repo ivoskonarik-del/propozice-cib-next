@@ -759,17 +759,15 @@ html body a:focus-visible,html body button:focus-visible{outline:1px solid #a176
    Jen souvislé odstavce v obsahových blocích (perexy, texty sekcí, karet a časových os, zásady GDPR). Mimo: nadpisy, nadtitulky,
    tlačítka, navigace, čísla a jejich popisky, popisky ikon a fotek, formuláře, patička, fakturační a právní údaje a adresy
    na Kontaktu, texty na střed (odstavec o A. Přibylovi na počítači), velké citáty verzálkami (cib-dev__quote).
-   Proti dírám mezi slovy: dělení slov podle jazyka stránky (lang cs / en), slovo aspoň 5 znaků, aspoň 2 znaky na každém řádku
-   (výchozí hodnota prohlížečů, česká norma); poslední řádek vlevo. Mezery mezi slovy (word-spacing) zůstávají.
-   Platí na počítači i na mobilu: s dělením slov má na 390 px mezeru větší než 1 em jen 2,4 % řádků (polovina na stránce GDPR),
-   na 1280 px 1 % (měření v _upravy-2026-11-01-vecer/ZAVER.md).
+   Bez dělení slov (Eva 2. 11.: rozdělená slova s pomlčkou na konci řádku jí vadí, „šlo by to globálně upravit?“), CZ i EN;
+   poslední řádek vlevo, mezery mezi slovy (word-spacing) zůstávají. Platí na počítači i na mobilu.
    #content-testi v seznamu jen zvedá váhu nad starší text-align:left!important z 9. 10. a z cib-mobile-2.css. */
 html body :is(#content-testi .testi-list p,.aj-text p,.cib-write__side>p,.philantrophy-content-text p,.m2l__p p,.magazine-text p,
   .cib-dev__text p:not(.cib-dev__quote),.pil__in p,.jp>p,.hk__text p,.hk__cap>p:not(.hk__note),.gal__head p,.m3sec__head p,
   .pl__head p:not(.oc__central),.cib-ba__head p,.dir__side p,.cib-hx__text span,.tl2__panel-in li,.lg-intro,.lg__blk>p,.lg__blk li,
-  .lg__card p){text-align:justify!important;text-align-last:left!important;-webkit-hyphens:auto;hyphens:auto;hyphenate-limit-chars:5 2 2}
+  .lg__card p){text-align:justify!important;text-align-last:left!important;-webkit-hyphens:none;hyphens:none}
 /* O nás, Historie a milníky: na počítači jsou roky vlevo od osy zarovnané k ose (vpravo) → poslední řádek také k ose */
 @media (min-width:992px){html body #historie .tl2__item--l .tl2__panel-in li{text-align-last:right!important}}
 /* odstavec o A. Přibylovi: na počítači záměrně na střed (beze změny), na mobilu je vlevo jako ostatní text → do bloku */
-@media (max-width:991px){html body #historie .tl2__head p.tl2__pribyl{text-align:justify!important;text-align-last:left!important;-webkit-hyphens:auto;hyphens:auto;hyphenate-limit-chars:5 2 2}}
+@media (max-width:991px){html body #historie .tl2__head p.tl2__pribyl{text-align:justify!important;text-align-last:left!important;-webkit-hyphens:none;hyphens:none}}
 /* konec: zarovnání do bloku (Eva, 1. 11. večer) */
