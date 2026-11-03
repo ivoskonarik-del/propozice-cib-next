@@ -2,7 +2,7 @@
 
 Source: https://ivoskonarik-del.github.io/propozice-cib-next/en/about-us/
 
-> CIB GROUP, a privately owned family holding company focused on real estate, development and management, has long supported the Hippokrates Endowment Fund.
+> CIB GROUP is a Prague based real estate holding company established in 2004. Explore the Group's history and milestones.
 
 2004
 group founded
@@ -15,7 +15,7 @@ CIB GROUP
 
 ## We build value over time
 
-About the group
+About the Group
 We build
 value over time
 
@@ -62,11 +62,11 @@ The Hippokrates Endowment Fund supports care for patients of the Gynaecological 
 Our support for the fund is a long term commitment and a tradition since 2014 that we intend to continue developing.
 
 Concert recording
-Concert highlights
+From the Charity Concerts
 
 A selection of videos captures the atmosphere of the evenings, which have become an established part of our annual support.
 
-6 December 2025 · Kaiserštejnský palác
+6 December 2025 · Kaiserštejnský Palace
 
 The video loads from YouTube only after you click.
 
@@ -101,13 +101,13 @@ Residence Vodičkova 33
 The building
 from 1899
 
-The group acquired the building in 2017. Construction work on its complete refurbishment began in 2022 and occupancy approval was granted in May 2024. Alongside the group's head office, the building houses prestigious offices for lease and the Vodičkova Luxury Suites apartments.
+The group acquired the building in 2017. Construction work on its complete refurbishment began in 2022 and occupancy approval was granted in May 2024. Alongside the group's headquarters, the building houses prestigious offices for lease and the Vodičkova Luxury Suites apartments.
 
 The herringbone parquet floors, stucco mouldings and tall windows have been preserved. New elements are designed to complement the original layout rather than overwrite it.
 
 Residence Vodičkova 33
 
-## History and milestones Milestones that Shaped the Group
+## History and Milestones Milestones that Shaped the Group
 
 Select a year to explore the individual milestones.
 
@@ -133,7 +133,7 @@ Alois Přibyl played a significant role in building CIB GROUP from the outset. A
 
 - Refurbishment of Residence Vodičkova 33 is completed and the building receives its occupancy approval in May 2024.
 
-- The Liberec region residential portfolio and the Benkova apartment buildings change ownership. CIB GROUP continues to manage them.
+- The Liberecko residential portfolio and the Benkova apartment buildings change ownership. CIB GROUP continues to manage them.
 
 ### 2023
 
@@ -181,7 +181,7 @@ Alois Přibyl played a significant role in building CIB GROUP from the outset. A
 
 - A client centre opens for Písnice tenants, with facilities for the local management team.
 
-- CIB GROUP moves its head office to the Edison building on Jeruzalémská Street.
+- CIB GROUP moves its headquarters to the Edison building on Jeruzalémská Street.
 
 - Sale of an office property in Kačerov, Prague.
 
@@ -301,18 +301,18 @@ Whether you are looking for office space, have a residential tenancy enquiry or 
 
 - eva.spanko@cib.cz Acquisitions and partnerships
 
-- +420 296 249 311 CIB GROUP head office, Vodičkova 709/33
+- +420 296 249 311 CIB GROUP headquarters, Vodičkova 709/33
 
 - info@cib.cz General enquiries
 
 ## Property contacts Our addresses
 +420 296 249 311
 Vodičkova 709/33
-110 00 Praha 1
+110 00 Prague 1
 Vodičkova 33
 +420 296 249 311
 Českomoravská 2408/1a
-190 00 Praha 9
+190 00 Prague 9
 Balabenka
 +420 296 249 311
 Equestrian Facility
@@ -321,7 +321,7 @@ Emma Sophia Stables
 +420 607 085 515
 Dobiášova 862
 460 06 Liberec 6
-Liberec region
+Liberecko
 +420 296 249 311
 Obec v zahradě
 Lichoceves, 20 min from Prague

@@ -4,7 +4,7 @@ Source: https://ivoskonarik-del.github.io/propozice-cib-next/en/
 
 > CIB GROUP is a privately owned family holding company that since 2004 focuses on commercial real estate, development, residential property management and projects with long term potential.
 
-Head office
+Headquarters
 Vodičkova 709/33
 
 ## Group portfolio Portfolio and Group Activities
@@ -13,11 +13,11 @@ Balabenka Office Building
 Offices
 Prague 9, Českomoravská
 
-- 12,000 m² of offices
+- · 12,000 m² of offices
 
-- 2,000 m² of retail
+- · 2,000 m² of retail
 
-- 153 parking spaces
+- · 153 parking spaces
 
 Balabenka Office Building
 Offices
@@ -25,11 +25,11 @@ Vodičkova 33
 Offices
 Prague 1, Nové Město
 
-- Built in 1899
+- · Built in 1899
 
-- Renovated in 2024
+- · Renovated in 2024
 
-- Offices
+- · Offices
 
 Vodičkova 33
 Offices
@@ -37,36 +37,36 @@ Vodičkova Luxury Suites
 Apartments
 Prague 1, Vodičkova 33
 
-- Apartments
+- · Apartments
 
-- Short stay accommodation
+- · Short stay accommodation
 
-- Central Prague
+- · Central Prague
 
 Vodičkova Luxury Suites
 Apartments
-Apartment management, Liberec region
+Apartment management, Liberecko
 Apartment management
 Liberec and Hrádek nad Nisou
 
-- 406 apartments
+- · 406 apartments
 
-- 2 locations
+- · 2 locations
 
-- Local team
+- · Local team
 
-Apartment management, Liberec region
+Apartment management, Liberecko
 Apartment management
 Photo: Hynek Moravec, CC BY 3.0
 Apartment management, Prague
 Apartment management
 Prague 11, Benkova
 
-- 12 apartments
+- · 12 apartments
 
-- Chodov
+- · Chodov
 
-- Flats Benkova
+- · Flats Benkova
 
 Apartment management, Prague
 Apartment management
@@ -74,11 +74,11 @@ Obec v zahradě
 Development
 Lichoceves, 20 minutes from Prague
 
-- Thoughtful urban planning
+- · Thoughtful urban planning
 
-- Quality infrastructure
+- · Quality infrastructure
 
-- Full civic amenities
+- · Full civic amenities
 
 Obec v zahradě
 Development
@@ -86,11 +86,11 @@ Emma Sophia Stables
 Stables
 Lichoceves
 
-- Equestrian Facility
+- · Equestrian Facility
 
-- Since 2023
+- · Since 2023
 
-- Historic farmstead
+- · Historic farmstead
 
 Emma Sophia Stables
 Stables
@@ -108,7 +108,7 @@ We hold properties in our portfolio for many years. This allows us to understand
 We look beyond a single transaction and create value through long term ownership, thoughtful development and active management.
 
 More about the group
-Our head office Vodičkova 33
+Our headquarters Vodičkova 33
 
 ## Why us
 The group in numbers
@@ -141,22 +141,22 @@ Since 2004
 
 Following the completion of major residential portfolio transactions, we continue to develop our existing projects and actively seek new investment opportunities.
 
-- +420 296 249 311 Head office, working days
+- +420 296 249 311 Headquarters, working days
 
 - info@cib.cz General enquiries
 
 - vasutova@cib.cz Commercial leasing
 
-- Vodičkova 709/33, Praha 1 Group head office
+- Vodičkova 709/33, Prague 1 Group headquarters
 
 ## Property contacts Our addresses
 +420 296 249 311
 Vodičkova 709/33
-110 00 Praha 1
+110 00 Prague 1
 Vodičkova 33
 +420 296 249 311
 Českomoravská 2408/1a
-190 00 Praha 9
+190 00 Prague 9
 Balabenka
 +420 296 249 311
 Equestrian Facility
@@ -165,7 +165,7 @@ Emma Sophia Stables
 +420 607 085 515
 Dobiášova 862
 460 06 Liberec 6
-Liberec region
+Liberecko
 +420 296 249 311
 Obec v zahradě
 Lichoceves, 20 min from Prague

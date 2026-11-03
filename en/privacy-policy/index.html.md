@@ -87,7 +87,7 @@ Cloudflare Workers (cib-admin-api…workers.dev)
 
 Our administration server. Each time a page loads, the website retrieves the current texts, contacts and photographs from it, and the contact form is submitted through it. The operator, Cloudflare, Inc., is our processor.
 
-On pages with an interactive map (Properties, About us), additionally:
+On pages with an interactive map (Properties, About Us), additionally:
 
 OpenFreeMap (tiles.openfreemap.org)
 
@@ -95,7 +95,7 @@ Base maps and map font. Map data © OpenStreetMap contributors.
 
 Links to Google Maps, social networks and the websites of our projects open only after you click them. The policies of their operators then apply on their pages.
 
-The recording of the charity concert on the About us page loads from youtube-nocookie.com (YouTube, Google) only after you click the video preview. Until then our website does not communicate with YouTube and the preview image is stored on our own website. Once the video starts, Google's policies apply.
+The recording of the charity concert on the About Us page loads from youtube-nocookie.com (YouTube, Google) only after you click the video preview. Until then our website does not communicate with YouTube and the preview image is stored on our own website. Once the video starts, Google's policies apply.
 
 If in the future we wish to use cookies that are not strictly necessary (for example for traffic measurement), we will ask for your consent in advance. Refusing will be as easy as consenting, and you will be able to withdraw your consent at any time.
 
@@ -167,7 +167,7 @@ The website runs exclusively over an encrypted HTTPS connection. Access to the a
 
 You can exercise your rights by email at info@cib.cz or by letter to the registered office address. We will respond without undue delay and within one month at the latest.
 
-If you believe that we are not handling your data properly, you can lodge a complaint with the Office for Personal Data Protection (ÚOOÚ), Pplk. Sochora 27, 170 00 Praha 7, www.uoou.cz.
+If you believe that we are not handling your data properly, you can lodge a complaint with the Office for Personal Data Protection (ÚOOÚ), Pplk. Sochora 27, 170 00 Prague 7, www.uoou.cz.
 
 ## 09 · Effective date Changes to this policy
 

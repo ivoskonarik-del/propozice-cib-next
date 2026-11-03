@@ -8,17 +8,17 @@ Source: https://ivoskonarik-del.github.io/propozice-cib-next/en/contact/
 
 Whether you are looking for office space, have a residential tenancy enquiry or are considering a partnership with our group, we will get back to you.
 
-- +420 296 249 311 Head office, working days
+- +420 296 249 311 Headquarters, working days
 
 - info@cib.cz General enquiries
 
-- Vodičkova 709/33, Praha 1 Group head office
+- Vodičkova 709/33, Prague 1 Group headquarters
 
 ## Contacts Who to contact
 
 Commercial leasing, acquisitions and partnerships, apartment management and invoicing. The management offices in Liberec and Hrádek nad Nisou have their own office hours.
 
-CIB GROUP head office
+CIB GROUP headquarters
 +420 296 249 311
 info@cib.cz
 CIB GROUP, Vodičkova 709/33, 110 00 Prague 1, Nové Město · working days
@@ -39,7 +39,7 @@ Management: Flats Benkova s.r.o.
 Vodičkova Luxury Suites
 vodickovaluxurysuites.cz
 Online apartment booking
-Apartment management, Liberec region
+Apartment management, Liberecko
 607 085 515
 liberec@cib.cz
 724 009 533
@@ -62,13 +62,13 @@ Martina Kmínková, ml.
 liberec@cib.cz
 Office hours
 Mon
-8:30–12:00, 13:00–17:00
+8:30 to 12:00, 13:00 to 17:00
 Tue
-8:30–12:00, 13:00–15:00
+8:30 to 12:00, 13:00 to 15:00
 Wed
 by telephone appointment
 Thu
-8:30–12:00, 14:00–17:00
+8:30 to 12:00, 14:00 to 17:00
 Fri
 by telephone appointment
 Contact centre
@@ -81,23 +81,23 @@ Ing. Martina Kmínková
 kminkova@cib.cz
 Office hours
 Mon
-8:30–12:00, 13:00–17:00
+8:30 to 12:00, 13:00 to 17:00
 Tue
-8:00–12:00
+8:00 to 12:00
 Wed
-8:00–12:00, 13:00–17:00
+8:00 to 12:00, 13:00 to 17:00
 Thu
 closed
 Fri
-9:00–12:00
+9:00 to 12:00
 
 Where to find us
-Head office at Vodičkova 33
+Headquarters at Vodičkova 33
 
 Entrance from Vodičkova Street, a tram stop outside the building, and Můstek and Muzeum metro stations within five minutes' walk.
 
 Address
-Vodičkova 709/33, 110 00 Praha 1
+Vodičkova 709/33, 110 00 Prague 1
 Office hours
 working days, by appointment
 
@@ -227,11 +227,11 @@ Bank Account
 ## Property contacts Our addresses
 +420 296 249 311
 Vodičkova 709/33
-110 00 Praha 1
+110 00 Prague 1
 Vodičkova 33
 +420 296 249 311
 Českomoravská 2408/1a
-190 00 Praha 9
+190 00 Prague 9
 Balabenka
 +420 296 249 311
 Equestrian Facility
@@ -240,7 +240,7 @@ Emma Sophia Stables
 +420 607 085 515
 Dobiášova 862
 460 06 Liberec 6
-Liberec region
+Liberecko
 +420 296 249 311
 Obec v zahradě
 Lichoceves, 20 min from Prague

@@ -71,31 +71,31 @@ View the apartments
 Location
 A few steps from Wenceslas Square
 
-Vodičkova Street, in the very centre of Prague 1. The Můstek (A, B) and Muzeum (A, C) metro stations are within five minutes' walk, and a tram stop is right outside the building. The building is also home to the CIB GROUP head office.
+Vodičkova Street, in the very centre of Prague 1. The Můstek (A, B) and Muzeum (A, C) metro stations are within five minutes' walk, and a tram stop is right outside the building. The building is also home to the CIB GROUP headquarters.
 
 Address
-Vodičkova 709/33, 110 00 Praha 1
+Vodičkova 709/33, 110 00 Prague 1
 Office leasing
 vasutova@cib.cz
 
 ## Commercial leasing Looking for offices in the centre?
 
-For current availability of office floors, or to arrange a viewing of the building, email our commercial leasing team directly or call the group's head office.
+For current availability of office floors, or to arrange a viewing of the building, email our commercial leasing team directly or call the group's headquarters.
 
 - vasutova@cib.cz Commercial leasing
 
-- +420 296 249 311 CIB GROUP head office
+- +420 296 249 311 CIB GROUP headquarters
 
 - All contacts Group contacts
 
 ## Property contacts Our addresses
 +420 296 249 311
 Vodičkova 709/33
-110 00 Praha 1
+110 00 Prague 1
 Vodičkova 33
 +420 296 249 311
 Českomoravská 2408/1a
-190 00 Praha 9
+190 00 Prague 9
 Balabenka
 +420 296 249 311
 Equestrian Facility
@@ -104,7 +104,7 @@ Emma Sophia Stables
 +420 607 085 515
 Dobiášova 862
 460 06 Liberec 6
-Liberec region
+Liberecko
 +420 296 249 311
 Obec v zahradě
 Lichoceves, 20 min from Prague

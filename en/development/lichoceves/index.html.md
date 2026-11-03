@@ -65,24 +65,24 @@ obecvzahrade.cz
 
 ## Development Interested in the project?
 
-You can find information about the Obec v zahradě project at obecvzahrade.cz. For partnerships and acquisitions, write directly to the group's head office.
+You can find information about the Obec v zahradě project at obecvzahrade.cz. For partnerships and acquisitions, write directly to the group's headquarters.
 
 - obecvzahrade.cz Project website
 
 - eva.spanko@cib.cz Acquisitions and partnerships
 
-- +420 296 249 311 CIB GROUP head office
+- +420 296 249 311 CIB GROUP headquarters
 
 - Lichoceves Prague-West
 
 ## Property contacts Our addresses
 +420 296 249 311
 Vodičkova 709/33
-110 00 Praha 1
+110 00 Prague 1
 Vodičkova 33
 +420 296 249 311
 Českomoravská 2408/1a
-190 00 Praha 9
+190 00 Prague 9
 Balabenka
 +420 296 249 311
 Equestrian Facility
@@ -91,7 +91,7 @@ Emma Sophia Stables
 +420 607 085 515
 Dobiášova 862
 460 06 Liberec 6
-Liberec region
+Liberecko
 +420 296 249 311
 Obec v zahradě
 Lichoceves, 20 min from Prague

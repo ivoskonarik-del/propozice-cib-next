@@ -22,20 +22,20 @@ Residential properties on Benkova Street in Prague's Chodov district are managed
 
 For questions regarding maintenance, administration, tenancy matters or available apartments, please contact CIB GROUP headquarters.
 
-- +420 296 249 311 Head office, working days
+- +420 296 249 311 Headquarters, working days
 
 - info@cib.cz General enquiries
 
-- Vodičkova 709/33, Praha 1 Group head office
+- Vodičkova 709/33, Prague 1 Group headquarters
 
 ## Property contacts Our addresses
 +420 296 249 311
 Vodičkova 709/33
-110 00 Praha 1
+110 00 Prague 1
 Vodičkova 33
 +420 296 249 311
 Českomoravská 2408/1a
-190 00 Praha 9
+190 00 Prague 9
 Balabenka
 +420 296 249 311
 Equestrian Facility
@@ -44,7 +44,7 @@ Emma Sophia Stables
 +420 607 085 515
 Dobiášova 862
 460 06 Liberec 6
-Liberec region
+Liberecko
 +420 296 249 311
 Obec v zahradě
 Lichoceves, 20 min from Prague

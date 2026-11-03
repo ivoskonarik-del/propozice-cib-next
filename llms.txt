@@ -56,7 +56,7 @@ CIB GROUP (CIB GROUP HOLDING a.s.) is a privately owned Czech family holding com
 ## English version
 
 - [CIB GROUP](https://ivoskonarik-del.github.io/propozice-cib-next/en/): CIB GROUP is a privately owned family holding company that since 2004 focuses on commercial real estate, development, residential property management and projects with long term potential.
-- [About Us](https://ivoskonarik-del.github.io/propozice-cib-next/en/about-us/): CIB GROUP, a privately owned family holding company focused on real estate, development and management, has long supported the Hippokrates Endowment Fund.
+- [About Us](https://ivoskonarik-del.github.io/propozice-cib-next/en/about-us/): CIB GROUP is a Prague based real estate holding company established in 2004. Explore the Group's history and milestones.
 - [Properties: offices, residences and management](https://ivoskonarik-del.github.io/propozice-cib-next/en/properties/): CIB GROUP projects: Balabenka Office Building, Residence Vodičkova 33, Vodičkova Luxury Suites and apartment management in Liberec, Hrádek nad Nisou and Prague.
 - [Balabenka Office Building](https://ivoskonarik-del.github.io/propozice-cib-next/en/properties/balabenka/): Balabenka Office Building is a Category A office building in Prague 9 with approximately 12,000 m² of office space and 2,000 m² of retail space. The building is BREEAM In Use certified at the Very Good level.
 - [Residence Vodičkova 33](https://ivoskonarik-del.github.io/propozice-cib-next/en/properties/vodickova-33/): Residence Vodičkova 33 is a fully restored historic building in central Prague. It combines prestigious office space with Vodičkova Luxury Suites.

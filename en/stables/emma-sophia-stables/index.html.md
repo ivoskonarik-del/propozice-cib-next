@@ -23,7 +23,7 @@ Emma Sophia Stables now operates as an independent brand within the family holdi
 Visit esstables.com
 All 26 photos
 
-## Emma Sophia Stables Equestrian Facility in Lichoceves
+## Emma Sophia Stables An Equestrian Facility in Lichoceves
 
 ## Villa and garden Historic villa in Lichoceves
 
@@ -60,24 +60,24 @@ esstables.com
 
 ## Emma Sophia Stables Stables and contact
 
-Emma Sophia Stables operates as a separate brand. News is available at esstables.com and on Instagram, and general enquiries should go to the group's head office.
+Emma Sophia Stables operates as a separate brand. News is available at esstables.com and on Instagram, and general enquiries should go to the group's headquarters.
 
 - esstables.com Stables website
 
 - @emmasophiastables Instagram
 
-- +420 296 249 311 CIB GROUP head office
+- +420 296 249 311 CIB GROUP headquarters
 
 - info@cib.cz General enquiries
 
 ## Property contacts Our addresses
 +420 296 249 311
 Vodičkova 709/33
-110 00 Praha 1
+110 00 Prague 1
 Vodičkova 33
 +420 296 249 311
 Českomoravská 2408/1a
-190 00 Praha 9
+190 00 Prague 9
 Balabenka
 +420 296 249 311
 Equestrian Facility
@@ -86,7 +86,7 @@ Emma Sophia Stables
 +420 607 085 515
 Dobiášova 862
 460 06 Liberec 6
-Liberec region
+Liberecko
 +420 296 249 311
 Obec v zahradě
 Lichoceves, 20 min from Prague

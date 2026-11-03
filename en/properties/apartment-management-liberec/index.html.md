@@ -10,12 +10,12 @@ residential units
 Management Continues After the Change of Ownership
 Local
 team on site
-Apartment management · Liberec region
+Apartment management · Liberecko
 Liberec and Hrádek apartments
 
 ## Liberecko Residential Portfolio
 
-Apartment management, Liberec region
+Apartment management, Liberecko
 Liberecko
 Residential Portfolio
 
@@ -50,13 +50,13 @@ Martina Kmínková, ml.
 liberec@cib.cz
 Office hours
 Mon
-8:30–12:00, 13:00–17:00
+8:30 to 12:00, 13:00 to 17:00
 Tue
-8:30–12:00, 13:00–15:00
+8:30 to 12:00, 13:00 to 15:00
 Wed
 by telephone appointment
 Thu
-8:30–12:00, 14:00–17:00
+8:30 to 12:00, 14:00 to 17:00
 Fri
 by telephone appointment
 Contact centre
@@ -69,15 +69,15 @@ Ing. Martina Kmínková
 kminkova@cib.cz
 Office hours
 Mon
-8:30–12:00, 13:00–17:00
+8:30 to 12:00, 13:00 to 17:00
 Tue
-8:00–12:00
+8:00 to 12:00
 Wed
-8:00–12:00, 13:00–17:00
+8:00 to 12:00, 13:00 to 17:00
 Thu
 closed
 Fri
-9:00–12:00
+9:00 to 12:00
 
 ## Apartment management Tenant enquiries
 
@@ -94,11 +94,11 @@ Operational and administrative queries, issues to report to property management 
 ## Property contacts Our addresses
 +420 296 249 311
 Vodičkova 709/33
-110 00 Praha 1
+110 00 Prague 1
 Vodičkova 33
 +420 296 249 311
 Českomoravská 2408/1a
-190 00 Praha 9
+190 00 Prague 9
 Balabenka
 +420 296 249 311
 Equestrian Facility
@@ -107,7 +107,7 @@ Emma Sophia Stables
 +420 607 085 515
 Dobiášova 862
 460 06 Liberec 6
-Liberec region
+Liberecko
 +420 296 249 311
 Obec v zahradě
 Lichoceves, 20 min from Prague

@@ -82,28 +82,28 @@ Location
 The building stands on the corner of Sokolovská and Českomoravská in Prague 9. It is directly connected to the tram network, within walking distance of the metro and with quick road access to the City Ring Road and the Blanka tunnel complex.
 
 Address
-Českomoravská 2408/1a, 190 00 Praha 9
+Českomoravská 2408/1a, 190 00 Prague 9
 Leasing
 vasutova@cib.cz
 
 ## Commercial leasing Interested in the premises?
 
-For current availability of office and retail space, or to arrange a viewing of the building, email our commercial leasing team directly or call the group's head office.
+For current availability of office and retail space, or to arrange a viewing of the building, email our commercial leasing team directly or call the group's headquarters.
 
 - vasutova@cib.cz Commercial leasing
 
-- +420 296 249 311 CIB GROUP head office
+- +420 296 249 311 CIB GROUP headquarters
 
 - All contacts Group contacts
 
 ## Property contacts Our addresses
 +420 296 249 311
 Vodičkova 709/33
-110 00 Praha 1
+110 00 Prague 1
 Vodičkova 33
 +420 296 249 311
 Českomoravská 2408/1a
-190 00 Praha 9
+190 00 Prague 9
 Balabenka
 +420 296 249 311
 Equestrian Facility
@@ -112,7 +112,7 @@ Emma Sophia Stables
 +420 607 085 515
 Dobiášova 862
 460 06 Liberec 6
-Liberec region
+Liberecko
 +420 296 249 311
 Obec v zahradě
 Lichoceves, 20 min from Prague
