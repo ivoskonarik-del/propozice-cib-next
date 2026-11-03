@@ -773,10 +773,14 @@ html body :is(#content-testi .testi-list p,.aj-text p,.cib-write__side>p,.philan
 /* konec: zarovnání do bloku (Eva, 1. 11. večer) */
 
 /* 3. 11.: loga v sekci Hippokrates a fakturační údaje 8 společností (Eva). Zdroj: _tools-clone/upravy_eva_2026_11_03.py.
-   Pás log nad tlačítkem „Více o naší podpoře…“: stejná výška obou log, tenká dělicí čára, logo nadace odkazem na její web.
+   Pás log nad tlačítkem „Více o naší podpoře…“: logo CIB GROUP červeno-šedé, kulaté logo nadace (3. 11. 15:00, Eva), opticky vyvážené,
+   tenká dělicí čára, logo nadace odkazem na její web.
    Fakturace: 8 společností → od 1200 px čtyři sloupce (2 řady), 992–1199 tři, tablet dva, telefon pod sebou (cib-mobile-3.css). */
 #hippokrates .hk__partneri{display:flex;align-items:center;flex-wrap:wrap;gap:20px 28px;margin:0 0 32px;padding-top:24px;border-top:1px solid rgba(17,17,17,.1)}
 #hippokrates .hk__logo{display:block;width:auto;height:56px;max-width:none}
+/* 3. 11. 15:00: červeno-šedé logo CIB a kulaté logo nadace; optické vyvážení (tmavý kruh je opticky těžší než tenký ovál) */
+#hippokrates .hk__logo--cib{height:60px}
+#hippokrates .hk__logo--hipp{height:48px}
 #hippokrates .hk__x{flex:none;width:1px;height:40px;background:rgba(17,17,17,.16)}
 #hippokrates a.hk__hipp{display:flex;align-items:center;justify-content:flex-start;gap:16px;width:auto;max-width:none;height:auto;margin:0;padding:0;
   background:none;color:#8c6443;font-size:13px;line-height:1.5;letter-spacing:normal;text-transform:none;text-decoration:none;transition:color .3s}
@@ -786,7 +790,8 @@ html body :is(#content-testi .testi-list p,.aj-text p,.cib-write__side>p,.philan
 #hippokrates a.hk__hipp:focus-visible{outline:2px solid var(--bronz,#a17652);outline-offset:4px}
 @media (max-width:991px){
  #hippokrates .hk__partneri{gap:16px 20px;margin-bottom:24px}
- #hippokrates .hk__logo{height:48px}
+ #hippokrates .hk__logo--cib{height:52px}
+ #hippokrates .hk__logo--hipp{height:42px}
  #hippokrates .hk__x{height:34px}
  #hippokrates a.hk__hipp{gap:12px}
  #hippokrates .hk__hipp-n{max-width:160px;font-size:12px;letter-spacing:.24em}
