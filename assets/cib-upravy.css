@@ -771,3 +771,27 @@ html body :is(#content-testi .testi-list p,.aj-text p,.cib-write__side>p,.philan
 /* odstavec o A. Přibylovi: na počítači záměrně na střed (beze změny), na mobilu je vlevo jako ostatní text → do bloku */
 @media (max-width:991px){html body #historie .tl2__head p.tl2__pribyl{text-align:justify!important;text-align-last:left!important;-webkit-hyphens:none;hyphens:none}}
 /* konec: zarovnání do bloku (Eva, 1. 11. večer) */
+
+/* 3. 11.: loga v sekci Hippokrates a fakturační údaje 8 společností (Eva). Zdroj: _tools-clone/upravy_eva_2026_11_03.py.
+   Pás log nad tlačítkem „Více o naší podpoře…“: stejná výška obou log, tenká dělicí čára, logo nadace odkazem na její web.
+   Fakturace: 8 společností → od 1200 px čtyři sloupce (2 řady), 992–1199 tři, tablet dva, telefon pod sebou (cib-mobile-3.css). */
+#hippokrates .hk__partneri{display:flex;align-items:center;flex-wrap:wrap;gap:20px 28px;margin:0 0 32px;padding-top:24px;border-top:1px solid rgba(17,17,17,.1)}
+#hippokrates .hk__logo{display:block;width:auto;height:56px;max-width:none}
+#hippokrates .hk__x{flex:none;width:1px;height:40px;background:rgba(17,17,17,.16)}
+#hippokrates a.hk__hipp{display:flex;align-items:center;justify-content:flex-start;gap:16px;width:auto;max-width:none;height:auto;margin:0;padding:0;
+  background:none;color:#8c6443;font-size:13px;line-height:1.5;letter-spacing:normal;text-transform:none;text-decoration:none;transition:color .3s}
+/* ↑ odkaz je uvnitř .aj-link (styl tlačítka šablony: hnědé pozadí, výška, odsazení), proto výslovně vynulováno */
+#hippokrates .hk__hipp-n{max-width:184px;font-family:var(--ft);font-size:13px;line-height:1.5;letter-spacing:.3em;text-transform:uppercase;text-wrap:balance}
+#hippokrates a.hk__hipp:hover,#hippokrates a.hk__hipp:focus-visible{background:none;color:var(--ink,#111)}
+#hippokrates a.hk__hipp:focus-visible{outline:2px solid var(--bronz,#a17652);outline-offset:4px}
+@media (max-width:991px){
+ #hippokrates .hk__partneri{gap:16px 20px;margin-bottom:24px}
+ #hippokrates .hk__logo{height:48px}
+ #hippokrates .hk__x{height:34px}
+ #hippokrates a.hk__hipp{gap:12px}
+ #hippokrates .hk__hipp-n{max-width:160px;font-size:12px;letter-spacing:.24em}
+}
+#fakturace .pg-bill p.pg-bill__k{margin-top:8px;font-size:11px!important;letter-spacing:.24em!important;text-transform:uppercase;opacity:.8}
+@media (min-width:1200px){#fakturace .pg-bill{grid-template-columns:repeat(4,minmax(0,1fr));gap:2.4vw 2vw}}
+@media (min-width:1200px){#fakturace .pg-bill b{font-size:18px;text-wrap:balance}}
+/* konec: loga Hippokrates a fakturace (Eva, 3. 11.) */

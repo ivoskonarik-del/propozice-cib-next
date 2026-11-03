@@ -2,7 +2,7 @@
 
 Source: https://ivoskonarik-del.github.io/propozice-cib-next/en/development/lichoceves/
 
-> Obec v zahradě: a long-term urban and development project in Lichoceves, 20 minutes from central Prague, with considered urban planning and full civic amenities.
+> Obec v zahradě: a long term urban and development project in Lichoceves, 20 minutes from central Prague, with considered urban planning and full civic amenities.
 
 Thoughtful urban planning
 Quality infrastructure
@@ -10,13 +10,13 @@ Full civic amenities
 Development · Prague-West
 Obec v zahradě
 
-## A long-term vision for developing Lichoceves
+## A long term vision for developing Lichoceves
 
 Lichoceves development
-A long-term vision
+A long term vision
 for developing Lichoceves
 
-Obec v zahradě is a long-term planning and development project in Lichoceves, about 20 minutes from the centre of Prague. It is based on carefully considered urban planning and brings together quality housing, public space, landscape, infrastructure and civic amenities.
+Obec v zahradě is a long term planning and development project in Lichoceves, about 20 minutes from the centre of Prague. It is based on carefully considered urban planning and brings together quality housing, public space, landscape, infrastructure and civic amenities.
 
 The aim is to develop the village gradually, building naturally on its existing character. The project is being prepared in stages and has already received a positive EIA opinion for its next phases of development.
 
@@ -56,7 +56,7 @@ Steps on site
 Location
 Lichoceves, 20 minutes from Prague
 
-A village north-west of Prague, within easy reach of the city and yet in open countryside. The wider development of Lichoceves also includes the Emma Sophia Stables equestrian centre.
+A village northwest of Prague, within easy reach of the city and yet in open countryside. The wider development of Lichoceves also includes the Emma Sophia Stables equestrian facility.
 
 Location
 Lichoceves, Prague-West
@@ -85,7 +85,7 @@ Vodičkova 33
 190 00 Praha 9
 Balabenka
 +420 296 249 311
-Equestrian centre
+Equestrian Facility
 Lichoceves, 20 min from Prague
 Emma Sophia Stables
 +420 607 085 515

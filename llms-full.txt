@@ -10,11 +10,11 @@ Klíčové údaje:
 - Centrála: +420 296 249 311, info@cib.cz, pracovní dny
 - Pronájem kanceláří a retailu (Balabenka, Vodičkova 33): vasutova@cib.cz, eva.spanko@cib.cz
 - Akvizice a partnerství: eva.spanko@cib.cz
-- Fakturace: faktury@cib.cz; CIB GROUP, a.s., IČ 27211185, DIČ CZ27211185, OR u Městského soudu v Praze, oddíl B, vložka 9748
+- Fakturace: faktury@cib.cz; CIB GROUP, a.s., Vodičkova 709/33, 110 00 Praha 1, Nové Město, IČ 272 11 185, DIČ CZ27211185, OR u Městského soudu v Praze, oddíl B, vložka 9748; fakturační údaje a čísla účtů všech společností skupiny jsou na stránce Kontakt
 - Správa bytů Liberec: Kontaktní centrum Byty Liberec, Dobiášova 862, 460 06 Liberec 6, tel. 607 085 515, liberec@cib.cz
 - Správa bytů Hrádek nad Nisou: Kontaktní centrum Byty Hrádek nad Nisou, 1. máje 718, 463 34 Hrádek nad Nisou, tel. 724 009 533, kminkova@cib.cz
 - Podpora: Nadační fond Hippokrates (každoroční benefiční koncert), https://www.nadace-hippokrates.cz/testimonialy/
-- Společnosti skupiny: CIB GROUP, a.s.; Vodičkova Luxury Suites s.r.o.; Balabenka Office Building, s.r.o.; Flats Liberecko s.r.o.; Flats Benkova s.r.o.; Obec v zahradě, s. r. o.
+- Společnosti skupiny (sídlo všech Vodičkova 709/33, 110 00 Praha 1): CIB GROUP, a.s. (IČ 272 11 185); Balabenka Office Building, s.r.o. (IČ 027 62 986); Vodičkova Luxury Suites s.r.o. (IČ 216 29 471); Obec v zahradě, s.r.o. (IČ 275 73 290); Infrastruktura Lichoceves, s.r.o. (IČ 035 16 016); MAISON development, a.s. (IČ 261 18 629); Flats Liberecko s.r.o. (IČ 210 56 455); Flats Benkova s.r.o. (IČ 210 56 447)
 
 Časté dotazy:
 
@@ -28,14 +28,15 @@ Klíčové údaje:
 
 In English (full English version of the website: https://ivoskonarik-del.github.io/propozice-cib-next/en/):
 
-CIB GROUP (CIB GROUP HOLDING a.s.) is a private Czech family holding headquartered at Vodičkova 709/33, 110 00 Prague 1, focused on real estate investment, development and long-term property management. It was founded in 2004 as Canadian Investment Bridge and has focused on real estate since 2009.
+CIB GROUP (CIB GROUP HOLDING a.s.) is a privately owned Czech family holding company headquartered at Vodičkova 709/33, 110 00 Prague 1, focused on real estate investment, development and long term property management. It was founded in 2004 as Canadian Investment Bridge and has focused on real estate since 2009.
 
-- Balabenka Office Building: Českomoravská 2408/1a, Prague 9; approx. 12,000 m² of offices and 2,000 m² of retail; BREEAM In-Use "Very Good"; in the portfolio since 2014. Leasing: vasutova@cib.cz, eva.spanko@cib.cz.
+- Balabenka Office Building: Českomoravská 2408/1a, Prague 9; approx. 12,000 m² of Category A offices and 2,000 m² of retail; BREEAM In Use Very Good; in the portfolio since 2014. Leasing: vasutova@cib.cz, eva.spanko@cib.cz.
 - Residence Vodičkova 33: historic building from 1899 in Prague 1, acquired in 2017 and fully renovated (works from 2022, completed May 2024); group headquarters, offices for lease and Vodičkova Luxury Suites.
-- Vodičkova Luxury Suites: luxury short-stay apartments on the upper floors of Vodičkova 33, near Wenceslas Square, 24-hour reception; booking at https://www.vodickovaluxurysuites.cz/.
-- Residential management in Liberec and Hrádek nad Nisou (406 units) and the Benkova apartments in Prague-Chodov.
-- Obec v zahradě ("village in a garden"): long-term urban development project in Lichoceves, about 20 minutes from central Prague.
-- Emma Sophia Stables: equestrian centre in a restored historic farmstead in Lichoceves.
+- Vodičkova Luxury Suites: luxury short stay apartments on the upper floors of Vodičkova 33, near Wenceslas Square, 24/7 reception; booking at https://www.vodickovaluxurysuites.cz/.
+- Residential management in Liberec and Hrádek nad Nisou (406 units) and the Benkova Apartments in Prague's Chodov district.
+- Obec v zahradě ("village in a garden"): long term urban development project in Lichoceves, about 20 minutes from central Prague.
+- Emma Sophia Stables: equestrian facility in a restored historic farmstead in Lichoceves.
+- Supports the Hippokrates Endowment Fund (Nadační fond Hippokrates) with an annual charity concert.
 - Contact: +420 296 249 311, info@cib.cz.
 
 # CIB GROUP
@@ -285,6 +286,7 @@ Výběr videí přibližuje atmosféru večerů, které se staly pevnou součás
 
 Video se z YouTube načte až po kliknutí.
 
+Nadační fond Hippokrates
 Více o naší podpoře Nadačního fondu Hippokrates
 Benefiční koncerty EvRam Band
 Foto: Tereza Španko
@@ -1392,35 +1394,125 @@ pracovní dny, po domluvě
 ## Fakturační údaje Společnosti skupiny
 CIB GROUP, a.s.
 
-Praha 1, Vodičkova 709/33
+Vodičkova 709/33, 110 00 Praha 1, Nové Město
 
-IČ: 272 11 185, DIČ: CZ27211185
+IČ: 272 11 185
 
-OR vedený Městským soudem v Praze, oddíl B, vložka 9748
+DIČ: CZ27211185
 
-č. ú.: 2001195357/8040 (CZK), 2001205365/8040 (EUR)
+Zapsaná v obchodním rejstříku vedeném Městským soudem v Praze, oddíl B, vložka 9748
 
-Vodičkova Luxury Suites s.r.o.
+Čísla účtů
 
-IČ: 216 29 471, DIČ: CZ21629471
+Oberbank, CZK: 2001205357/8040
 
-OR vedený Městským soudem v Praze, oddíl C, vložka 404138
+Oberbank, EUR: 2001205365/8040
 
 Balabenka Office Building, s.r.o.
 
-Praha 1, Vodičkova 709/33
+Vodičkova 709/33, 110 00 Praha 1, Nové Město
+
+IČ: 027 62 986
+
+DIČ: CZ02762986
+
+Zapsaná v obchodním rejstříku vedeném Městským soudem v Praze, oddíl C, vložka 223559
+
+Čísla účtů
+
+CZK: 2001194141/8040
+
+EUR: 2001194168/8040
+
+Vodičkova Luxury Suites s.r.o.
+
+Vodičkova 709/33, 110 00 Praha 1, Nové Město
+
+IČ: 216 29 471
+
+DIČ: CZ21629471
+
+Zapsaná v obchodním rejstříku vedeném Městským soudem v Praze, oddíl C, vložka 404138
+
+Číslo účtu
+
+CZK: 2001271821/8040
+
+Obec v zahradě, s.r.o.
+
+Vodičkova 709/33, 110 00 Praha 1, Nové Město
+
+IČ: 275 73 290
+
+DIČ: CZ27573290
+
+Zapsaná v obchodním rejstříku vedeném Městským soudem v Praze, oddíl C, vložka 114620
+
+Čísla účtů
+
+CZK: 207993572/0300
+
+EUR: 1017549803/0300
+
+Infrastruktura Lichoceves, s.r.o.
+
+Vodičkova 709/33, 110 00 Praha 1, Nové Město
+
+IČ: 035 16 016
+
+DIČ: CZ03516016
+
+Zapsaná v obchodním rejstříku vedeném Městským soudem v Praze, oddíl C, vložka 243787
+
+Číslo účtu
+
+CZK: 218055741/0600
+
+MAISON development, a.s.
+
+Vodičkova 709/33, 110 00 Praha 1, Nové Město
+
+IČ: 261 18 629
+
+DIČ: CZ26118629
+
+Zapsaná v obchodním rejstříku vedeném Městským soudem v Praze, oddíl B, vložka 6170
+
+Čísla účtů
+
+CZK: 217303563/0300
+
+EUR: 1017506483/0300
 
 Flats Liberecko s.r.o.
 
-Praha 1, Vodičkova 709/33
+Vodičkova 709/33, 110 00 Praha 1, Nové Město
+
+IČ: 210 56 455
+
+DIČ: CZ21056455
+
+Zapsaná v obchodním rejstříku vedeném Městským soudem v Praze, oddíl C, vložka 396335
+
+Čísla účtů
+
+Liberec, CZK: 317271263/0300
+
+Hrádek nad Nisou, CZK: 317271693/0300
 
 Flats Benkova s.r.o.
 
-Praha 1, Vodičkova 709/33
+Vodičkova 709/33, 110 00 Praha 1, Nové Město
 
-Obec v zahradě, s. r. o.
+IČ: 210 56 447
 
-Praha 1, Vodičkova 709/33
+DIČ: CZ21056447
+
+Zapsaná v obchodním rejstříku vedeném Městským soudem v Praze, oddíl C, vložka 396334
+
+Číslo účtu
+
+317270893/0300
 
 ## Kontakty objektů Naše adresy
 +420 296 249 311
@@ -1627,12 +1719,12 @@ Zásady můžeme aktualizovat, například když web získá novou funkci. Aktu�
 
 Source: https://ivoskonarik-del.github.io/propozice-cib-next/en/
 
-> CIB GROUP, a private family holding focused on commercial real estate, development and residential asset management, has developed long-term projects since 2004.
+> CIB GROUP is a privately owned family holding company that since 2004 focuses on commercial real estate, development, residential property management and projects with long term potential.
 
 Head office
 Vodičkova 709/33
 
-## Group portfolio Our properties and activities
+## Group portfolio Portfolio and Group Activities
 View all
 Balabenka Office Building
 Offices
@@ -1664,7 +1756,7 @@ Prague 1, Vodičkova 33
 
 - Apartments
 
-- Short-stay accommodation
+- Short stay accommodation
 
 - Central Prague
 
@@ -1711,7 +1803,7 @@ Emma Sophia Stables
 Stables
 Lichoceves
 
-- Equestrian centre
+- Equestrian Facility
 
 - Since 2023
 
@@ -1726,11 +1818,11 @@ Private family holding
 CIB
 GROUP
 
-CIB GROUP is a private family holding focused on real estate, development and property management. We judge projects by their long-term potential, their quality and the benefit they bring to the surrounding area. We invest in commercial assets, develop our own projects and provide long-term property management.
+CIB GROUP is a private family holding focused on real estate, development and property management. We judge projects by their long term potential, their quality and the benefit they bring to the surrounding area. We invest in commercial assets, develop our own projects and provide long term property management.
 
-For us, buying a property is only the beginning. Over time we get to know each building, invest in it and look for ways to keep improving it. This long-term relationship with every building is at the heart of our approach. The group was founded in 2004, originally as Canadian Investment Bridge, and is now headquartered at Vodičkova 33 in the centre of Prague.
+We hold properties in our portfolio for many years. This allows us to understand what truly works, where investment makes sense and how each property can be developed while preserving its quality and value. The group was founded in 2004, originally as Canadian Investment Bridge, and is now headquartered at Vodičkova 33 in the centre of Prague.
 
-We look beyond the horizon of a single transaction. We create value through long-term ownership, considered development and active management.
+We look beyond a single transaction and create value through long term ownership, thoughtful development and active management.
 
 More about the group
 Our head office Vodičkova 33
@@ -1764,7 +1856,7 @@ Since 2004
 
 ## Leasing, acquisitions and partnerships Get in touch
 
-We continue to develop our existing projects and actively seek new investment opportunities. We are particularly interested in office and retail properties, mixed-use projects and development where we can create long-term value.
+Following the completion of major residential portfolio transactions, we continue to develop our existing projects and actively seek new investment opportunities.
 
 - +420 296 249 311 Head office, working days
 
@@ -1784,7 +1876,7 @@ Vodičkova 33
 190 00 Praha 9
 Balabenka
 +420 296 249 311
-Equestrian centre
+Equestrian Facility
 Lichoceves, 20 min from Prague
 Emma Sophia Stables
 +420 607 085 515
@@ -1798,11 +1890,11 @@ Lichoceves
 
 ---
 
-# About us
+# About Us
 
 Source: https://ivoskonarik-del.github.io/propozice-cib-next/en/about-us/
 
-> CIB GROUP is a private family holding focused on real estate, development and management, with long-standing support for the Hippokrates Foundation.
+> CIB GROUP, a privately owned family holding company focused on real estate, development and management, has long supported the Hippokrates Endowment Fund.
 
 2004
 group founded
@@ -1819,9 +1911,9 @@ About the group
 We build
 value over time
 
-CIB GROUP is a family holding that brings together real estate investment, development and management. We invest in commercial assets, develop our own projects and provide long-term property management.
+CIB GROUP is a family holding that brings together real estate investment, development and management. We invest in commercial assets, develop our own projects and provide long term property management.
 
-For us, buying a property is only the beginning. Over time we get to know each building, invest in it and look for ways to keep improving it. This long-term relationship with every building is at the heart of our approach.
+Our work with a property does not end when we acquire it. We get to know it over time, invest in it and look for ways to improve it. This long term relationship with each building defines our approach.
 
 Our projects
 History and milestones
@@ -1831,7 +1923,7 @@ History and milestones
 
 ### We invest
 
-In commercial real estate with long-term potential, which we hold and develop across market cycles.
+In commercial real estate with long term potential, which we hold and develop across market cycles.
 
 Balabenka Office Building
 02
@@ -1849,50 +1941,51 @@ A residential portfolio run by a local team, with a focus on technical condition
 
 Liberec and Hrádek apartments
 
-## Long-term support Music that helps
+## Longstanding Support Music That Makes a Difference
 
 Every year
 since
 2014
 
-CIB GROUP has long supported the Hippokrates Foundation (Nadační fond Hippokrates). Every year we hold a benefit concert at which Radka, Eva and Emma Španko perform with EvRam Band. During the evening, our business partners and friends also join us in supporting the foundation.
+Supporting the Hippokrates Endowment Fund has been a longstanding commitment of CIB GROUP. Each year, we host a charity concert featuring Radka, Eva and Emma Španko together with EvRam Band. Our business partners and friends also join us in supporting the fund during the evening.
 
-The Hippokrates Foundation supports the care of patients at the Gynaecological Oncology Centre of the General University Hospital in Prague, the training of doctors and nurses, and improvements to the environment in which treatment takes place.
+The Hippokrates Endowment Fund supports care for patients of the Gynaecological Oncology Centre at the General University Hospital in Prague, education for doctors and nurses, and improvements to the environment in which treatment is provided.
 
-For us, this is not a one-off donation. The concert has become an annual tradition that began in 2014 in the Chapel of the Holy Cross at Apolinář. Supporting the foundation is a long-term commitment for us and a tradition we want to keep building on.
+Our support for the fund is a long term commitment and a tradition since 2014 that we intend to continue developing.
 
 Concert recording
 Concert highlights
 
-This selection of videos captures the atmosphere of the evenings that have become a fixed part of our annual support.
+A selection of videos captures the atmosphere of the evenings, which have become an established part of our annual support.
 
 6 December 2025 · Kaiserštejnský palác
 
 The video loads from YouTube only after you click.
 
-More about our support for the Hippokrates Foundation
-Benefit concerts EvRam Band
+Hippokrates Endowment Fund
+Learn More About Our Support for the Hippokrates Endowment Fund
+EvRam Band Charity Concerts
 Photo: Tereza Španko
 
-Photos from each year's concert capture EvRam Band on stage and the guests who regularly join us in supporting the foundation.
+Photographs from each year capture EvRam Band performances and gatherings of guests who regularly join us in supporting the fund.
 
 Photo: Tereza Španko
 
-## How we work We own responsibly and manage with care
+## How We Work We Own Responsibly and Manage with Care
 01
-Owned assets
+Owned Assets
 
-With our own assets, we think long term. We create value through quality workmanship, the right use of each property, well-considered refurbishments and active management.
+We manage every asset with a long term perspective, focusing on quality, thoughtful refurbishment, the right use and active management to build lasting value.
 
 02
 Development
 
-We plan development in phases and in response to the specific site. What matters to us is long-term functionality, infrastructure and the benefit to the surrounding area.
+We prepare development projects in stages and with the specific character of each location in mind. Long term functionality, infrastructure and a positive contribution to the surrounding area are central to our approach.
 
 03
-Managed properties
+Properties Under Management
 
-For the properties we manage, we focus on stable operation, good technical condition and clear communication with tenants.
+For properties under management, we focus on stable operations, sound technical condition and clear communication with tenants.
 
 ## The building from 1899
 
@@ -1906,15 +1999,15 @@ The herringbone parquet floors, stucco mouldings and tall windows have been pres
 
 Residence Vodičkova 33
 
-## History and milestones Milestones that shaped the group
+## History and milestones Milestones that Shaped the Group
 
-Select a year to see its milestones.
+Select a year to explore the individual milestones.
 
-Alois Přibyl played a significant part in building CIB GROUP from its very beginning. As a founding partner and 50% co-owner of the company, he helped shape its direction until his death in 2023.
+Alois Přibyl played a significant role in building CIB GROUP from the outset. As a founding partner who held a 50 per cent ownership interest in the company, he helped shape its direction until his death in 2023.
 
 ### Today
 
-- We continue the long-term development of the Obec v zahradě project in Lichoceves and actively look for new opportunities in office, retail and mixed-use properties.
+- We continue the long term development of the Obec v zahradě project in Lichoceves and actively look for new opportunities in office, retail and mixed use properties.
 
 ### 2026
 
@@ -1936,7 +2029,7 @@ Alois Přibyl played a significant part in building CIB GROUP from its very begi
 
 ### 2023
 
-- Alois Přibyl, founding partner and 50% co-owner of the company, passes away.
+- Alois Přibyl, founding partner who held a 50 per cent ownership interest in the company, passes away.
 
 - Refurbishment of Residence Vodičkova 33 continues.
 
@@ -1960,7 +2053,7 @@ Alois Přibyl played a significant part in building CIB GROUP from its very begi
 
 ### 2020
 
-- Balabenka Office Building obtains BREEAM In-Use Very Good certification.
+- Balabenka Office Building obtains BREEAM In Use Very Good certification.
 
 - Sale of the residential portfolio in Klatovy.
 
@@ -2114,7 +2207,7 @@ Vodičkova 33
 190 00 Praha 9
 Balabenka
 +420 296 249 311
-Equestrian centre
+Equestrian Facility
 Lichoceves, 20 min from Prague
 Emma Sophia Stables
 +420 607 085 515
@@ -2166,7 +2259,7 @@ Prague 1, Vodičkova 33
 
 - Apartments
 
-- Short-stay accommodation
+- Short stay accommodation
 
 - Online booking
 
@@ -2185,7 +2278,7 @@ Liberec, Hrádek nad Nisou
 Apartment management
 Liberec and Hrádek apartments
 Apartment management
-Benkova apartments
+Benkova Apartments
 Prague 11, Chodov
 
 - 12 apartments
@@ -2195,7 +2288,7 @@ Prague 11, Chodov
 - Flats Benkova
 
 Apartment management
-Benkova apartments
+Benkova Apartments
 
 ## Contact Looking for space or a partner?
 
@@ -2217,7 +2310,7 @@ Prague area · detail
 
 Source: https://ivoskonarik-del.github.io/propozice-cib-next/en/properties/balabenka/
 
-> Balabenka Office Building in Prague 9: approx. 12,000 m² of offices and 2,000 m² of retail, BREEAM In-Use Very Good. Offices for lease.
+> Balabenka Office Building is a Category A office building in Prague 9 with approximately 12,000 m² of office space and 2,000 m² of retail space. The building is BREEAM In Use certified at the Very Good level.
 
 12,000 m²
 of offices
@@ -2226,7 +2319,7 @@ of retail
 153
 parking spaces, 12 with EV charging
 BREEAM
-In-Use Very Good
+In Use Very Good
 Commercial real estate · Prague 9
 Balabenka Office Building
 
@@ -2247,14 +2340,14 @@ ATM
 Petrol station
 Park
 
-## An office building with long-term potential
+## An Office Building with Long Term Potential
 
 Balabenka Office Building
-An office building
-with long-term
-potential
+An Office Building
+with Long Term
+Potential
 
-Balabenka Office Building stands on the corner of Sokolovská and Českomoravská streets in Prague 9. It offers approximately 12,000 m² of Grade A office space and 2,000 m² of retail space on the ground floor. The building is defined by its undulating glazed facade, stepped terraces and an inner garden.
+Balabenka Office Building stands at the corner of Sokolovská and Českomoravská streets in Prague 9. It offers approximately 12,000 m² of Category A office space and 2,000 m² of retail space on the ground floor. Its character is defined by a curved glass façade, stepped terraces and a landscaped courtyard.
 
 The building is directly connected to the tram network, within walking distance of the metro and with quick road access to the City Ring Road and the Blanka tunnel complex.
 
@@ -2263,21 +2356,21 @@ All 20 photos
 
 ## Balabenka Office Building The building in photos
 
-## Certification BREEAM In-Use Very Good
+## Certification BREEAM In Use Very Good
 
 Energy from the roof, charging in the garages, facilities for cyclists.
 
-Balabenka holds BREEAM In-Use Very Good certification. The building offers EV charging, facilities for cyclists and rooftop solar power generation. Building management is on site and the building is protected by 24/7 security.
+Balabenka holds BREEAM In Use Very Good certification. The building offers EV charging, facilities for cyclists and rooftop solar power generation. Building management is on site and the building is protected by 24/7 security.
 
 Building photos
 
-## Offices and facilities A thoughtfully designed workplace
+## Offices and facilities A Thoughtfully Designed Workplace
 
-A thoughtfully designed working environment built for everyday use. Flexible office floors suited to both open-plan and partitioned layouts. Dedicated catering facilities within the building.
+A thoughtfully designed working environment built for everyday use. Flexible office floors suitable for both open plan and cellular layouts. Dedicated catering facilities within the building.
 
-Underground parking, EV charging and facilities for cyclists. Central reception, on-site building management and 24/7 security. Key tenants include Zásilkovna, KB, Geberit and FLOW.
+Underground parking, electric vehicle charging and facilities for cyclists. Central reception, on site building management and 24/7 security. Key tenants include Zásilkovna, KB, Geberit and FLOW.
 
-Enquire about office space
+Enquire About Office Space
 
 ## In the portfolio since 2014
 
@@ -2321,7 +2414,7 @@ Vodičkova 33
 190 00 Praha 9
 Balabenka
 +420 296 249 311
-Equestrian centre
+Equestrian Facility
 Lichoceves, 20 min from Prague
 Emma Sophia Stables
 +420 607 085 515
@@ -2339,14 +2432,14 @@ Lichoceves
 
 Source: https://ivoskonarik-del.github.io/propozice-cib-next/en/properties/vodickova-33/
 
-> Residence Vodičkova 33 is a fully refurbished historic building in the centre of Prague, combining prestigious offices and Vodičkova Luxury Suites.
+> Residence Vodičkova 33 is a fully restored historic building in central Prague. It combines prestigious office space with Vodičkova Luxury Suites.
 
 2024
-full refurbishment completed
+Full Reconstruction Completion
 3,500 m²
-of office and commercial space
+Office and Commercial Space
 1899
-Art Nouveau building completed
+Construction of the Art Nouveau Building
 Commercial real estate · Prague 1
 Residence Vodičkova 33
 
@@ -2367,9 +2460,9 @@ Built in 1899
 Residence
 Vodičkova
 
-The historic Vítek House was completely refurbished, with work completed in May 2024. Today it brings together prestigious office space, Vodičkova Luxury Suites and the head office of CIB GROUP.
+The historic Vítkův House underwent a complete refurbishment, completed in May 2024. It now brings together prestigious office space, Vodičkova Luxury Suites and the headquarters of CIB GROUP.
 
-Prestigious office space in a sensitively renovated historic building in central Prague, a few steps from Wenceslas Square. The original architectural character blends naturally with contemporary technical standards.
+Prestigious office space in a sensitively restored historic building in central Prague, just steps from Wenceslas Square. The building's original architectural character is complemented by contemporary technical standards.
 
 Check office availability
 All 39 photos
@@ -2380,7 +2473,7 @@ All 39 photos
 
 The herringbone parquet floors, stucco mouldings and tall windows have been preserved. The new elements, namely glass partitions with black frames, building services and facilities, are arranged to complement the original layout rather than overwrite it.
 
-The building stands on Vodičkova Street, a few steps from Wenceslas Square, within walking distance of the Můstek and Muzeum metro stations. Prestigious common areas and 24/7 security. Restaurants and services in the building and its surroundings.
+The building stands on Vodičkova Street, a few steps from Wenceslas Square, within walking distance of the Můstek and Muzeum metro stations. Elegant common areas and round the clock security. Dining and services within the building and in the surrounding area.
 
 Building photos
 
@@ -2399,7 +2492,7 @@ Apartments
 Luxury
 Suites
 
-Designer apartments on the upper floors of the historic building offer short-stay accommodation in central Prague, with views of the Franciscan Garden and the courtyard of Vítek House. Vodičkova Luxury Suites is a separate brand within Residence Vodičkova 33.
+Thoughtfully designed apartments on the upper floors offer refined accommodation in central Prague, with views over the Franciscan Garden and the courtyard of Vítkův House. Vodičkova Luxury Suites is a separate brand within Residence Vodičkova 33.
 
 You can book and check current availability directly at vodickovaluxurysuites.cz.
 
@@ -2408,7 +2501,7 @@ View the apartments
 Location
 A few steps from Wenceslas Square
 
-Vodičkova Street, in the very centre of Prague 1. The Můstek (A, B) and Muzeum (A, C) metro stations are within a five-minute walk, and a tram stop is right outside the building. The building is also home to the CIB GROUP head office.
+Vodičkova Street, in the very centre of Prague 1. The Můstek (A, B) and Muzeum (A, C) metro stations are within five minutes' walk, and a tram stop is right outside the building. The building is also home to the CIB GROUP head office.
 
 Address
 Vodičkova 709/33, 110 00 Praha 1
@@ -2435,7 +2528,7 @@ Vodičkova 33
 190 00 Praha 9
 Balabenka
 +420 296 249 311
-Equestrian centre
+Equestrian Facility
 Lichoceves, 20 min from Prague
 Emma Sophia Stables
 +420 607 085 515
@@ -2453,14 +2546,14 @@ Lichoceves
 
 Source: https://ivoskonarik-del.github.io/propozice-cib-next/en/properties/vodickova-luxury-suites/
 
-> Vodičkova Luxury Suites: luxury short-stay apartments on the upper floors of Residence Vodičkova 33, steps from Wenceslas Square. 24-hour reception.
+> Vodičkova Luxury Suites: luxury short stay apartments on the upper floors of Residence Vodičkova 33, steps from Wenceslas Square. 24/7 reception.
 
 Prague 1
 Vodičkova 33
 2024
 opened after renovation
 24/7
-on-site reception
+on site reception
 Apartments · Prague 1
 Vodičkova Luxury Suites
 Book a stay
@@ -2470,7 +2563,7 @@ Book a stay
 Location
 In the very centre of Prague
 
-Vodičkova Street, a few steps from Wenceslas Square. Můstek and Muzeum metro stations within walking distance, a tram stop right outside the building. The on-site reception is open around the clock.
+Vodičkova Street, a few steps from Wenceslas Square. Můstek and Muzeum metro stations within walking distance, a tram stop right outside the building. The on site reception is open around the clock.
 
 Address
 Vodičkova 709/33, 110 00 Praha 1
@@ -2489,7 +2582,7 @@ Vodičkova 33
 190 00 Praha 9
 Balabenka
 +420 296 249 311
-Equestrian centre
+Equestrian Facility
 Lichoceves, 20 min from Prague
 Emma Sophia Stables
 +420 607 085 515
@@ -2503,7 +2596,7 @@ Lichoceves
 
 ---
 
-# Residential portfolio, Liberec region
+# Liberecko Residential Portfolio
 
 Source: https://ivoskonarik-del.github.io/propozice-cib-next/en/properties/apartment-management-liberec/
 
@@ -2512,38 +2605,38 @@ Source: https://ivoskonarik-del.github.io/propozice-cib-next/en/properties/apart
 406
 residential units
 2024
-management continues after the change of ownership
+Management Continues After the Change of Ownership
 Local
 team on site
 Apartment management · Liberec region
 Liberec and Hrádek apartments
 
-## Residential portfolio in the Liberec region
+## Liberecko Residential Portfolio
 
 Apartment management, Liberec region
-Residential
-portfolio in the Liberec region
+Liberecko
+Residential Portfolio
 
-We provide long-term operational, technical and tenancy management for 406 residential units in Liberec and Hrádek nad Nisou. We maintain and modernise the buildings on an ongoing basis, in line with their technical condition and the needs of our tenants.
+We provide long term operational, technical and tenancy management for 406 residential units in Liberec and Hrádek nad Nisou. We maintain and modernise the buildings on an ongoing basis, in line with their technical condition and the needs of our tenants.
 
 The portfolio comprises 406 residential units in two locations. The management offices are on Dobiášova Street in Liberec and 1. máje Street in Hrádek nad Nisou; each has its own office hours and tenant contacts.
 
-Liberec region contacts
+Contacts for Liberecko
 All 18 photos
 
 ## Liberec and Hrádek nad Nisou Buildings under management
 
-## Our approach Management with local knowledge
+## Our approach Property Management with Local Expertise
 
-We regularly monitor the technical condition of the buildings and plan the necessary repairs according to urgency and operational needs. Tenant requests are handled locally by our regional team in Liberec and Hrádek nad Nisou.
+We continuously monitor the technical condition of the buildings and plan necessary repairs according to urgency and operational needs. Tenant requests are handled by a regional team based in Liberec and Hrádek nad Nisou.
 
-Following the change of ownership in 2024, the operational, technical and administrative management of the portfolio has remained with CIB GROUP.
+Following the change of ownership in 2024, operational, technical and administrative management of the portfolio remained with CIB GROUP.
 
 Building photos
 
 ## Residential portfolio management Contact centres for tenants
 
-Current tenants can contact the regional team with questions about maintenance, administration and tenancy matters. Prospective tenants will find contacts for both locations here.
+Current tenants can contact the regional team regarding maintenance, administration and tenancy matters. Prospective tenants will find contacts for both locations here.
 
 Contact centre
 
@@ -2606,7 +2699,7 @@ Vodičkova 33
 190 00 Praha 9
 Balabenka
 +420 296 249 311
-Equestrian centre
+Equestrian Facility
 Lichoceves, 20 min from Prague
 Emma Sophia Stables
 +420 607 085 515
@@ -2620,11 +2713,11 @@ Lichoceves
 
 ---
 
-# Benkova apartments, Chodov
+# Benkova Apartments, Chodov
 
 Source: https://ivoskonarik-del.github.io/propozice-cib-next/en/properties/apartment-management-prague/
 
-> CIB GROUP manages the residential buildings on Benkova Street in Prague's Chodov district in cooperation with Flats Benkova s.r.o.
+> Residential properties on Benkova Street in Prague's Chodov district are managed by CIB GROUP in cooperation with Flats Benkova s.r.o.
 
 Prague 11
 Chodov
@@ -2635,14 +2728,14 @@ added to the portfolio
 Flats Benkova s.r.o.
 manager
 Apartment management · Prague 11
-Benkova apartments
+Benkova Apartments
 Photo: Hynek Moravec, Wikimedia Commons, CC BY 3.0
 
-## Apartment management, Prague Contact for tenants and applicants
+## Apartment management, Prague Contact for Tenants and Prospective Tenants
 
-The residential properties on Benkova Street in Prague's Chodov district are managed by CIB GROUP in cooperation with Flats Benkova s.r.o. CIB GROUP also handles the related operational and administrative matters.
+Residential properties on Benkova Street in Prague's Chodov district are managed by CIB GROUP in cooperation with Flats Benkova s.r.o. CIB GROUP also provides the related operational and administrative management.
 
-For questions about maintenance, administration, tenancy matters or available apartments, please contact the CIB GROUP head office.
+For questions regarding maintenance, administration, tenancy matters or available apartments, please contact CIB GROUP headquarters.
 
 - +420 296 249 311 Head office, working days
 
@@ -2660,7 +2753,7 @@ Vodičkova 33
 190 00 Praha 9
 Balabenka
 +420 296 249 311
-Equestrian centre
+Equestrian Facility
 Lichoceves, 20 min from Prague
 Emma Sophia Stables
 +420 607 085 515
@@ -2678,7 +2771,7 @@ Lichoceves
 
 Source: https://ivoskonarik-del.github.io/propozice-cib-next/en/development/lichoceves/
 
-> Obec v zahradě: a long-term urban and development project in Lichoceves, 20 minutes from central Prague, with considered urban planning and full civic amenities.
+> Obec v zahradě: a long term urban and development project in Lichoceves, 20 minutes from central Prague, with considered urban planning and full civic amenities.
 
 Thoughtful urban planning
 Quality infrastructure
@@ -2686,13 +2779,13 @@ Full civic amenities
 Development · Prague-West
 Obec v zahradě
 
-## A long-term vision for developing Lichoceves
+## A long term vision for developing Lichoceves
 
 Lichoceves development
-A long-term vision
+A long term vision
 for developing Lichoceves
 
-Obec v zahradě is a long-term planning and development project in Lichoceves, about 20 minutes from the centre of Prague. It is based on carefully considered urban planning and brings together quality housing, public space, landscape, infrastructure and civic amenities.
+Obec v zahradě is a long term planning and development project in Lichoceves, about 20 minutes from the centre of Prague. It is based on carefully considered urban planning and brings together quality housing, public space, landscape, infrastructure and civic amenities.
 
 The aim is to develop the village gradually, building naturally on its existing character. The project is being prepared in stages and has already received a positive EIA opinion for its next phases of development.
 
@@ -2732,7 +2825,7 @@ Steps on site
 Location
 Lichoceves, 20 minutes from Prague
 
-A village north-west of Prague, within easy reach of the city and yet in open countryside. The wider development of Lichoceves also includes the Emma Sophia Stables equestrian centre.
+A village northwest of Prague, within easy reach of the city and yet in open countryside. The wider development of Lichoceves also includes the Emma Sophia Stables equestrian facility.
 
 Location
 Lichoceves, Prague-West
@@ -2761,7 +2854,7 @@ Vodičkova 33
 190 00 Praha 9
 Balabenka
 +420 296 249 311
-Equestrian centre
+Equestrian Facility
 Lichoceves, 20 min from Prague
 Emma Sophia Stables
 +420 607 085 515
@@ -2779,28 +2872,28 @@ Lichoceves
 
 Source: https://ivoskonarik-del.github.io/propozice-cib-next/en/stables/emma-sophia-stables/
 
-> Emma Sophia Stables is a modern equestrian centre in a restored historic farmstead in Lichoceves. Further plans include a stud farm and hippotherapy services.
+> Emma Sophia Stables is a modern equestrian facility in a restored historic farmstead in Lichoceves. Future development includes a young horse rearing facility and services related to hippotherapy.
 
-Equestrian centre
+Equestrian Facility
 Since 2023
 Historic farmstead
 Stables · Lichoceves
 Emma Sophia Stables
 
-## A restored farmstead with a new purpose
+## A Restored Farmstead with a New Purpose
 
-Part of the family holding
-A restored farmstead
-with a new purpose
+Part of the Family Holding
+A Restored Farmstead
+with a New Purpose
 
-As part of the wider development of Lichoceves, the historic farmstead underwent a complete refurbishment and became Emma Sophia Stables, a modern equestrian centre with facilities for sport horses and riders. Since 2023 it has been the home stable of show jumper Emma Sophia Španko.
+As part of the wider development of Lichoceves, the historic farmstead has been fully restored and is now home to Emma Sophia Stables, a modern equestrian facility for sport horses and riders. Since 2023, it has been the home base of show jumper Emma Sophia Španko.
 
-Today Emma Sophia Stables operates as a separate brand within the family holding. The project combines the sensitive restoration of a historic property with a practical long-term use that respects the original character of the place. Further plans include a stud farm and services related to hippotherapy.
+Emma Sophia Stables now operates as an independent brand within the family holding. The project combines the sensitive restoration of a historic property with a practical long term use that respects the original character of the place. Future development includes a young horse rearing facility and services related to hippotherapy.
 
 Visit esstables.com
 All 26 photos
 
-## Emma Sophia Stables Equestrian centre in Lichoceves
+## Emma Sophia Stables Equestrian Facility in Lichoceves
 
 ## Villa and garden Historic villa in Lichoceves
 
@@ -2857,7 +2950,7 @@ Vodičkova 33
 190 00 Praha 9
 Balabenka
 +420 296 249 311
-Equestrian centre
+Equestrian Facility
 Lichoceves, 20 min from Prague
 Emma Sophia Stables
 +420 607 085 515
@@ -2875,7 +2968,7 @@ Lichoceves
 
 Source: https://ivoskonarik-del.github.io/propozice-cib-next/en/contact/
 
-> Contact CIB GROUP: head office, acquisitions and partnerships, commercial leasing and residential portfolio management.
+> Contact CIB GROUP: headquarters enquiries, acquisitions and partnerships, commercial leasing and residential portfolio management.
 
 ## Write to us Contact us
 
@@ -2894,7 +2987,7 @@ Commercial leasing, acquisitions and partnerships, apartment management and invo
 CIB GROUP head office
 +420 296 249 311
 info@cib.cz
-CIB GROUP, Vodičkova 709/33, 110 00 Praha 1, Nové Město · working days
+CIB GROUP, Vodičkova 709/33, 110 00 Prague 1, Nové Město · working days
 Commercial leasing
 vasutova@cib.cz
 eva.spanko@cib.cz
@@ -2905,7 +2998,7 @@ New opportunities and cooperation
 Invoicing
 faktury@cib.cz
 CIB GROUP, a.s., Company ID 272 11 185
-Benkova apartments, Chodov
+Benkova Apartments, Chodov
 +420 296 249 311
 info@cib.cz
 Management: Flats Benkova s.r.o.
@@ -2923,7 +3016,7 @@ Management offices in Liberec and Hrádek nad Nisou
 
 For operational and administrative questions, to report an issue to property management or for information on available housing, please use the contacts for Liberec and Hrádek nad Nisou.
 
-General enquiries: +420 296 249 311 | info@cib.cz
+General Enquiries: +420 296 249 311 | info@cib.cz
 
 Contact centre
 
@@ -2967,7 +3060,7 @@ Fri
 Where to find us
 Head office at Vodičkova 33
 
-Entrance from Vodičkova Street, a tram stop outside the building, and Můstek and Muzeum metro stations within a five-minute walk.
+Entrance from Vodičkova Street, a tram stop outside the building, and Můstek and Muzeum metro stations within five minutes' walk.
 
 Address
 Vodičkova 709/33, 110 00 Praha 1
@@ -2977,35 +3070,125 @@ working days, by appointment
 ## Billing details Group companies
 CIB GROUP, a.s.
 
-Prague 1, Vodičkova 709/33
+Vodičkova 709/33, 110 00 Prague 1, Nové Město
 
-Company ID: 272 11 185, VAT No.: CZ27211185
+Company ID: 272 11 185
 
-Commercial Register kept by the Municipal Court in Prague, Section B, Insert 9748
+VAT ID: CZ27211185
 
-Account No.: 2001195357/8040 (CZK), 2001205365/8040 (EUR)
+Registered in the Commercial Register maintained by the Municipal Court in Prague, Section B, File No. 9748
 
-Vodičkova Luxury Suites s.r.o.
+Bank Accounts
 
-Company ID: 216 29 471, VAT No.: CZ21629471
+Oberbank, CZK: 2001205357/8040
 
-Commercial Register kept by the Municipal Court in Prague, Section C, Insert 404138
+Oberbank, EUR: 2001205365/8040
 
 Balabenka Office Building, s.r.o.
 
-Prague 1, Vodičkova 709/33
+Vodičkova 709/33, 110 00 Prague 1, Nové Město
+
+Company ID: 027 62 986
+
+VAT ID: CZ02762986
+
+Registered in the Commercial Register maintained by the Municipal Court in Prague, Section C, File No. 223559
+
+Bank Accounts
+
+CZK: 2001194141/8040
+
+EUR: 2001194168/8040
+
+Vodičkova Luxury Suites s.r.o.
+
+Vodičkova 709/33, 110 00 Prague 1, Nové Město
+
+Company ID: 216 29 471
+
+VAT ID: CZ21629471
+
+Registered in the Commercial Register maintained by the Municipal Court in Prague, Section C, File No. 404138
+
+Bank Account
+
+CZK: 2001271821/8040
+
+Obec v zahradě, s.r.o.
+
+Vodičkova 709/33, 110 00 Prague 1, Nové Město
+
+Company ID: 275 73 290
+
+VAT ID: CZ27573290
+
+Registered in the Commercial Register maintained by the Municipal Court in Prague, Section C, File No. 114620
+
+Bank Accounts
+
+CZK: 207993572/0300
+
+EUR: 1017549803/0300
+
+Infrastruktura Lichoceves, s.r.o.
+
+Vodičkova 709/33, 110 00 Prague 1, Nové Město
+
+Company ID: 035 16 016
+
+VAT ID: CZ03516016
+
+Registered in the Commercial Register maintained by the Municipal Court in Prague, Section C, File No. 243787
+
+Bank Account
+
+CZK: 218055741/0600
+
+MAISON development, a.s.
+
+Vodičkova 709/33, 110 00 Prague 1, Nové Město
+
+Company ID: 261 18 629
+
+VAT ID: CZ26118629
+
+Registered in the Commercial Register maintained by the Municipal Court in Prague, Section B, File No. 6170
+
+Bank Accounts
+
+CZK: 217303563/0300
+
+EUR: 1017506483/0300
 
 Flats Liberecko s.r.o.
 
-Prague 1, Vodičkova 709/33
+Vodičkova 709/33, 110 00 Prague 1, Nové Město
+
+Company ID: 210 56 455
+
+VAT ID: CZ21056455
+
+Registered in the Commercial Register maintained by the Municipal Court in Prague, Section C, File No. 396335
+
+Bank Accounts
+
+Liberec, CZK: 317271263/0300
+
+Hrádek nad Nisou, CZK: 317271693/0300
 
 Flats Benkova s.r.o.
 
-Prague 1, Vodičkova 709/33
+Vodičkova 709/33, 110 00 Prague 1, Nové Město
 
-Obec v zahradě, s. r. o.
+Company ID: 210 56 447
 
-Prague 1, Vodičkova 709/33
+VAT ID: CZ21056447
+
+Registered in the Commercial Register maintained by the Municipal Court in Prague, Section C, File No. 396334
+
+Bank Account
+
+317270893/0300
 
 ## Property contacts Our addresses
 +420 296 249 311
@@ -3017,7 +3200,7 @@ Vodičkova 33
 190 00 Praha 9
 Balabenka
 +420 296 249 311
-Equestrian centre
+Equestrian Facility
 Lichoceves, 20 min from Prague
 Emma Sophia Stables
 +420 607 085 515
@@ -3056,7 +3239,7 @@ Changes to this policy
 
 ## 01 · Controller Who processes your data
 
-The controller of personal data is CIB GROUP, a.s., Company ID 272 11 185, with its registered office at Vodičkova 709/33, 110 00 Praha 1, registered in the Commercial Register kept by the Municipal Court in Prague, Section B, Insert 9748.
+The controller of personal data is CIB GROUP, a.s., Company ID 272 11 185, with its registered office at Vodičkova 709/33, 110 00 Prague 1, registered in the Commercial Register maintained by the Municipal Court in Prague, Section B, File No. 9748.
 
 Contact for questions about personal data protection: info@cib.cz, telephone +420 296 249 311, or in writing to the registered office address.
 
@@ -3078,7 +3261,7 @@ This policy describes how we process personal data in connection with this websi
 
 - Retention in email and further communication: for the time needed to handle the enquiry and the subsequent communication. If no contractual relationship arises from it, we will erase the data no later than 1 year after the last communication. If a contractual relationship arises, retention is governed by the contract and by statutory periods (for example accounting and tax periods).
 
-- Spam protection: we keep the IP address and time of submission for no longer than 24 hours, solely to prevent the bulk sending of messages. This protection does not use cookies or third-party tools.
+- Spam protection: we keep the IP address and time of submission for no longer than 24 hours, solely to prevent the bulk sending of messages. This protection does not use cookies or third party tools.
 
 Providing your data is voluntary. Without contact details, however, we cannot reply to you.
 
@@ -3086,7 +3269,7 @@ Providing your data is voluntary. Without contact details, however, we cannot re
 
 On every visit, the hosting provider processes technical data about the request (IP address, time, requested page, browser type) in server logs. This processing serves to ensure the operation and security of the website and is based on our legitimate interest (Article 6(1)(f) GDPR).
 
-The website does not measure traffic, does not use analytics or advertising tools and does not profile anyone. No automated decision-making takes place.
+The website does not measure traffic, does not use analytics or advertising tools and does not profile anyone. No automated decision making takes place.
 
 ## 03 · Recipients Who we share data with
 
@@ -3128,15 +3311,15 @@ Base maps and map font. Map data © OpenStreetMap contributors.
 
 Links to Google Maps, social networks and the websites of our projects open only after you click them. The policies of their operators then apply on their pages.
 
-The recording of the benefit concert on the About us page loads from youtube-nocookie.com (YouTube, Google) only after you click the video preview. Until then our website does not communicate with YouTube and the preview image is stored on our own website. Once the video starts, Google's policies apply.
+The recording of the charity concert on the About us page loads from youtube-nocookie.com (YouTube, Google) only after you click the video preview. Until then our website does not communicate with YouTube and the preview image is stored on our own website. Once the video starts, Google's policies apply.
 
-If in the future we wish to use non-essential cookies (for example for traffic measurement), we will ask for your consent in advance. Refusing will be as easy as consenting, and you will be able to withdraw your consent at any time.
+If in the future we wish to use cookies that are not strictly necessary (for example for traffic measurement), we will ask for your consent in advance. Refusing will be as easy as consenting, and you will be able to withdraw your consent at any time.
 
 ## 05 · Administration Website administration
 
-The website content is edited by authorised administrators in a secure administration area. They sign in with a username, a password and a one-time code from an authenticator app (two-factor authentication). An administrator's session is stored only in their browser's session storage (sessionStorage) and ends when the window is closed. The administration does not use cookies. This does not apply to website visitors.
+The website content is edited by authorised administrators in a secure administration area. They log in with a username, a password and a one time code from an authenticator app (two factor authentication). An administrator's session is stored only in their browser's session storage (sessionStorage) and ends when the window is closed. The administration does not use cookies. This does not apply to website visitors.
 
-For security reasons, we record the administrator's name, time, IP address, country and browser type for sign-ins and changes in the administration. The legal basis is our legitimate interest in protecting the website (Article 6(1)(f) GDPR). We keep the last 100 records; older ones are deleted on a rolling basis.
+For security reasons, we record the administrator's name, time, IP address, country and browser type for logins and changes in the administration. The legal basis is our legitimate interest in protecting the website (Article 6(1)(f) GDPR). We keep the last 100 records; older ones are deleted on a rolling basis.
 
 ## 06 · Apartment tenants GDPR: notice to tenants
 
@@ -3146,9 +3329,9 @@ As landlords of apartments, our companies have a statutory right and obligation 
 
 - Name and surname, address, date of birth or, where applicable, birth number of the tenant (contracting party), SIPO connection number or the number of the account the tenant uses to pay rent, contact details.
 
-- Name and surname, address, date of birth or, where applicable, birth number of persons (co-)residing in the apartment other than the tenant, contact details.
+- Name and surname, address, date of birth or, where applicable, birth number of persons living in the apartment other than the tenant, contact details.
 
-- The relationship between the tenant and the co-residents, as this information may be material to protecting the rights of the tenant and the co-residents.
+- The relationship between the tenant and the other residents, as this information may be material to protecting the rights of the tenant and the other residents.
 
 ### After the end of the tenancy (i.e. after the apartment has been handed over)
 
@@ -3156,7 +3339,7 @@ As landlords of apartments, our companies have a statutory right and obligation 
 
 - Data on the number of persons residing in the apartment during the tenancy (for the purposes of billing and complaints).
 
-- Personal data of any guarantors and co-debtors of the tenant (tenants).
+- Personal data of any guarantors and joint debtors of the tenant (tenants).
 
 - Contact details.
 
@@ -3182,7 +3365,7 @@ Download notice to tenants (PDF, in Czech)
 
 ## 07 · Security How we protect data
 
-The website runs exclusively over an encrypted HTTPS connection. Access to the administration is protected by a password and two-factor authentication, and sign-in attempts are limited. Only persons who need personal data to handle your request have access to it.
+The website runs exclusively over an encrypted HTTPS connection. Access to the administration is protected by a password and two factor authentication, and login attempts are limited. Only persons who need personal data to handle your request have access to it.
 
 ## 08 · Your rights What rights you have
 

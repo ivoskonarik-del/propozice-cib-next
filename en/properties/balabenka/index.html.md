@@ -2,7 +2,7 @@
 
 Source: https://ivoskonarik-del.github.io/propozice-cib-next/en/properties/balabenka/
 
-> Balabenka Office Building in Prague 9: approx. 12,000 m² of offices and 2,000 m² of retail, BREEAM In-Use Very Good. Offices for lease.
+> Balabenka Office Building is a Category A office building in Prague 9 with approximately 12,000 m² of office space and 2,000 m² of retail space. The building is BREEAM In Use certified at the Very Good level.
 
 12,000 m²
 of offices
@@ -11,7 +11,7 @@ of retail
 153
 parking spaces, 12 with EV charging
 BREEAM
-In-Use Very Good
+In Use Very Good
 Commercial real estate · Prague 9
 Balabenka Office Building
 
@@ -32,14 +32,14 @@ ATM
 Petrol station
 Park
 
-## An office building with long-term potential
+## An Office Building with Long Term Potential
 
 Balabenka Office Building
-An office building
-with long-term
-potential
+An Office Building
+with Long Term
+Potential
 
-Balabenka Office Building stands on the corner of Sokolovská and Českomoravská streets in Prague 9. It offers approximately 12,000 m² of Grade A office space and 2,000 m² of retail space on the ground floor. The building is defined by its undulating glazed facade, stepped terraces and an inner garden.
+Balabenka Office Building stands at the corner of Sokolovská and Českomoravská streets in Prague 9. It offers approximately 12,000 m² of Category A office space and 2,000 m² of retail space on the ground floor. Its character is defined by a curved glass façade, stepped terraces and a landscaped courtyard.
 
 The building is directly connected to the tram network, within walking distance of the metro and with quick road access to the City Ring Road and the Blanka tunnel complex.
 
@@ -48,21 +48,21 @@ All 20 photos
 
 ## Balabenka Office Building The building in photos
 
-## Certification BREEAM In-Use Very Good
+## Certification BREEAM In Use Very Good
 
 Energy from the roof, charging in the garages, facilities for cyclists.
 
-Balabenka holds BREEAM In-Use Very Good certification. The building offers EV charging, facilities for cyclists and rooftop solar power generation. Building management is on site and the building is protected by 24/7 security.
+Balabenka holds BREEAM In Use Very Good certification. The building offers EV charging, facilities for cyclists and rooftop solar power generation. Building management is on site and the building is protected by 24/7 security.
 
 Building photos
 
-## Offices and facilities A thoughtfully designed workplace
+## Offices and facilities A Thoughtfully Designed Workplace
 
-A thoughtfully designed working environment built for everyday use. Flexible office floors suited to both open-plan and partitioned layouts. Dedicated catering facilities within the building.
+A thoughtfully designed working environment built for everyday use. Flexible office floors suitable for both open plan and cellular layouts. Dedicated catering facilities within the building.
 
-Underground parking, EV charging and facilities for cyclists. Central reception, on-site building management and 24/7 security. Key tenants include Zásilkovna, KB, Geberit and FLOW.
+Underground parking, electric vehicle charging and facilities for cyclists. Central reception, on site building management and 24/7 security. Key tenants include Zásilkovna, KB, Geberit and FLOW.
 
-Enquire about office space
+Enquire About Office Space
 
 ## In the portfolio since 2014
 
@@ -106,7 +106,7 @@ Vodičkova 33
 190 00 Praha 9
 Balabenka
 +420 296 249 311
-Equestrian centre
+Equestrian Facility
 Lichoceves, 20 min from Prague
 Emma Sophia Stables
 +420 607 085 515

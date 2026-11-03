@@ -2,12 +2,12 @@
 
 Source: https://ivoskonarik-del.github.io/propozice-cib-next/en/
 
-> CIB GROUP, a private family holding focused on commercial real estate, development and residential asset management, has developed long-term projects since 2004.
+> CIB GROUP is a privately owned family holding company that since 2004 focuses on commercial real estate, development, residential property management and projects with long term potential.
 
 Head office
 Vodičkova 709/33
 
-## Group portfolio Our properties and activities
+## Group portfolio Portfolio and Group Activities
 View all
 Balabenka Office Building
 Offices
@@ -39,7 +39,7 @@ Prague 1, Vodičkova 33
 
 - Apartments
 
-- Short-stay accommodation
+- Short stay accommodation
 
 - Central Prague
 
@@ -86,7 +86,7 @@ Emma Sophia Stables
 Stables
 Lichoceves
 
-- Equestrian centre
+- Equestrian Facility
 
 - Since 2023
 
@@ -101,11 +101,11 @@ Private family holding
 CIB
 GROUP
 
-CIB GROUP is a private family holding focused on real estate, development and property management. We judge projects by their long-term potential, their quality and the benefit they bring to the surrounding area. We invest in commercial assets, develop our own projects and provide long-term property management.
+CIB GROUP is a private family holding focused on real estate, development and property management. We judge projects by their long term potential, their quality and the benefit they bring to the surrounding area. We invest in commercial assets, develop our own projects and provide long term property management.
 
-For us, buying a property is only the beginning. Over time we get to know each building, invest in it and look for ways to keep improving it. This long-term relationship with every building is at the heart of our approach. The group was founded in 2004, originally as Canadian Investment Bridge, and is now headquartered at Vodičkova 33 in the centre of Prague.
+We hold properties in our portfolio for many years. This allows us to understand what truly works, where investment makes sense and how each property can be developed while preserving its quality and value. The group was founded in 2004, originally as Canadian Investment Bridge, and is now headquartered at Vodičkova 33 in the centre of Prague.
 
-We look beyond the horizon of a single transaction. We create value through long-term ownership, considered development and active management.
+We look beyond a single transaction and create value through long term ownership, thoughtful development and active management.
 
 More about the group
 Our head office Vodičkova 33
@@ -139,7 +139,7 @@ Since 2004
 
 ## Leasing, acquisitions and partnerships Get in touch
 
-We continue to develop our existing projects and actively seek new investment opportunities. We are particularly interested in office and retail properties, mixed-use projects and development where we can create long-term value.
+Following the completion of major residential portfolio transactions, we continue to develop our existing projects and actively seek new investment opportunities.
 
 - +420 296 249 311 Head office, working days
 
@@ -159,7 +159,7 @@ Vodičkova 33
 190 00 Praha 9
 Balabenka
 +420 296 249 311
-Equestrian centre
+Equestrian Facility
 Lichoceves, 20 min from Prague
 Emma Sophia Stables
 +420 607 085 515

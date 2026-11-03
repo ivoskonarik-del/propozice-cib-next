@@ -1,4 +1,4 @@
-# Residential portfolio, Liberec region
+# Liberecko Residential Portfolio
 
 Source: https://ivoskonarik-del.github.io/propozice-cib-next/en/properties/apartment-management-liberec/
 
@@ -7,38 +7,38 @@ Source: https://ivoskonarik-del.github.io/propozice-cib-next/en/properties/apart
 406
 residential units
 2024
-management continues after the change of ownership
+Management Continues After the Change of Ownership
 Local
 team on site
 Apartment management · Liberec region
 Liberec and Hrádek apartments
 
-## Residential portfolio in the Liberec region
+## Liberecko Residential Portfolio
 
 Apartment management, Liberec region
-Residential
-portfolio in the Liberec region
+Liberecko
+Residential Portfolio
 
-We provide long-term operational, technical and tenancy management for 406 residential units in Liberec and Hrádek nad Nisou. We maintain and modernise the buildings on an ongoing basis, in line with their technical condition and the needs of our tenants.
+We provide long term operational, technical and tenancy management for 406 residential units in Liberec and Hrádek nad Nisou. We maintain and modernise the buildings on an ongoing basis, in line with their technical condition and the needs of our tenants.
 
 The portfolio comprises 406 residential units in two locations. The management offices are on Dobiášova Street in Liberec and 1. máje Street in Hrádek nad Nisou; each has its own office hours and tenant contacts.
 
-Liberec region contacts
+Contacts for Liberecko
 All 18 photos
 
 ## Liberec and Hrádek nad Nisou Buildings under management
 
-## Our approach Management with local knowledge
+## Our approach Property Management with Local Expertise
 
-We regularly monitor the technical condition of the buildings and plan the necessary repairs according to urgency and operational needs. Tenant requests are handled locally by our regional team in Liberec and Hrádek nad Nisou.
+We continuously monitor the technical condition of the buildings and plan necessary repairs according to urgency and operational needs. Tenant requests are handled by a regional team based in Liberec and Hrádek nad Nisou.
 
-Following the change of ownership in 2024, the operational, technical and administrative management of the portfolio has remained with CIB GROUP.
+Following the change of ownership in 2024, operational, technical and administrative management of the portfolio remained with CIB GROUP.
 
 Building photos
 
 ## Residential portfolio management Contact centres for tenants
 
-Current tenants can contact the regional team with questions about maintenance, administration and tenancy matters. Prospective tenants will find contacts for both locations here.
+Current tenants can contact the regional team regarding maintenance, administration and tenancy matters. Prospective tenants will find contacts for both locations here.
 
 Contact centre
 
@@ -101,7 +101,7 @@ Vodičkova 33
 190 00 Praha 9
 Balabenka
 +420 296 249 311
-Equestrian centre
+Equestrian Facility
 Lichoceves, 20 min from Prague
 Emma Sophia Stables
 +420 607 085 515

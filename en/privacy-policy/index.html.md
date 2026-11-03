@@ -23,7 +23,7 @@ Changes to this policy
 
 ## 01 · Controller Who processes your data
 
-The controller of personal data is CIB GROUP, a.s., Company ID 272 11 185, with its registered office at Vodičkova 709/33, 110 00 Praha 1, registered in the Commercial Register kept by the Municipal Court in Prague, Section B, Insert 9748.
+The controller of personal data is CIB GROUP, a.s., Company ID 272 11 185, with its registered office at Vodičkova 709/33, 110 00 Prague 1, registered in the Commercial Register maintained by the Municipal Court in Prague, Section B, File No. 9748.
 
 Contact for questions about personal data protection: info@cib.cz, telephone +420 296 249 311, or in writing to the registered office address.
 
@@ -45,7 +45,7 @@ This policy describes how we process personal data in connection with this websi
 
 - Retention in email and further communication: for the time needed to handle the enquiry and the subsequent communication. If no contractual relationship arises from it, we will erase the data no later than 1 year after the last communication. If a contractual relationship arises, retention is governed by the contract and by statutory periods (for example accounting and tax periods).
 
-- Spam protection: we keep the IP address and time of submission for no longer than 24 hours, solely to prevent the bulk sending of messages. This protection does not use cookies or third-party tools.
+- Spam protection: we keep the IP address and time of submission for no longer than 24 hours, solely to prevent the bulk sending of messages. This protection does not use cookies or third party tools.
 
 Providing your data is voluntary. Without contact details, however, we cannot reply to you.
 
@@ -53,7 +53,7 @@ Providing your data is voluntary. Without contact details, however, we cannot re
 
 On every visit, the hosting provider processes technical data about the request (IP address, time, requested page, browser type) in server logs. This processing serves to ensure the operation and security of the website and is based on our legitimate interest (Article 6(1)(f) GDPR).
 
-The website does not measure traffic, does not use analytics or advertising tools and does not profile anyone. No automated decision-making takes place.
+The website does not measure traffic, does not use analytics or advertising tools and does not profile anyone. No automated decision making takes place.
 
 ## 03 · Recipients Who we share data with
 
@@ -95,15 +95,15 @@ Base maps and map font. Map data © OpenStreetMap contributors.
 
 Links to Google Maps, social networks and the websites of our projects open only after you click them. The policies of their operators then apply on their pages.
 
-The recording of the benefit concert on the About us page loads from youtube-nocookie.com (YouTube, Google) only after you click the video preview. Until then our website does not communicate with YouTube and the preview image is stored on our own website. Once the video starts, Google's policies apply.
+The recording of the charity concert on the About us page loads from youtube-nocookie.com (YouTube, Google) only after you click the video preview. Until then our website does not communicate with YouTube and the preview image is stored on our own website. Once the video starts, Google's policies apply.
 
-If in the future we wish to use non-essential cookies (for example for traffic measurement), we will ask for your consent in advance. Refusing will be as easy as consenting, and you will be able to withdraw your consent at any time.
+If in the future we wish to use cookies that are not strictly necessary (for example for traffic measurement), we will ask for your consent in advance. Refusing will be as easy as consenting, and you will be able to withdraw your consent at any time.
 
 ## 05 · Administration Website administration
 
-The website content is edited by authorised administrators in a secure administration area. They sign in with a username, a password and a one-time code from an authenticator app (two-factor authentication). An administrator's session is stored only in their browser's session storage (sessionStorage) and ends when the window is closed. The administration does not use cookies. This does not apply to website visitors.
+The website content is edited by authorised administrators in a secure administration area. They log in with a username, a password and a one time code from an authenticator app (two factor authentication). An administrator's session is stored only in their browser's session storage (sessionStorage) and ends when the window is closed. The administration does not use cookies. This does not apply to website visitors.
 
-For security reasons, we record the administrator's name, time, IP address, country and browser type for sign-ins and changes in the administration. The legal basis is our legitimate interest in protecting the website (Article 6(1)(f) GDPR). We keep the last 100 records; older ones are deleted on a rolling basis.
+For security reasons, we record the administrator's name, time, IP address, country and browser type for logins and changes in the administration. The legal basis is our legitimate interest in protecting the website (Article 6(1)(f) GDPR). We keep the last 100 records; older ones are deleted on a rolling basis.
 
 ## 06 · Apartment tenants GDPR: notice to tenants
 
@@ -113,9 +113,9 @@ As landlords of apartments, our companies have a statutory right and obligation 
 
 - Name and surname, address, date of birth or, where applicable, birth number of the tenant (contracting party), SIPO connection number or the number of the account the tenant uses to pay rent, contact details.
 
-- Name and surname, address, date of birth or, where applicable, birth number of persons (co-)residing in the apartment other than the tenant, contact details.
+- Name and surname, address, date of birth or, where applicable, birth number of persons living in the apartment other than the tenant, contact details.
 
-- The relationship between the tenant and the co-residents, as this information may be material to protecting the rights of the tenant and the co-residents.
+- The relationship between the tenant and the other residents, as this information may be material to protecting the rights of the tenant and the other residents.
 
 ### After the end of the tenancy (i.e. after the apartment has been handed over)
 
@@ -123,7 +123,7 @@ As landlords of apartments, our companies have a statutory right and obligation 
 
 - Data on the number of persons residing in the apartment during the tenancy (for the purposes of billing and complaints).
 
-- Personal data of any guarantors and co-debtors of the tenant (tenants).
+- Personal data of any guarantors and joint debtors of the tenant (tenants).
 
 - Contact details.
 
@@ -149,7 +149,7 @@ Download notice to tenants (PDF, in Czech)
 
 ## 07 · Security How we protect data
 
-The website runs exclusively over an encrypted HTTPS connection. Access to the administration is protected by a password and two-factor authentication, and sign-in attempts are limited. Only persons who need personal data to handle your request have access to it.
+The website runs exclusively over an encrypted HTTPS connection. Access to the administration is protected by a password and two factor authentication, and login attempts are limited. Only persons who need personal data to handle your request have access to it.
 
 ## 08 · Your rights What rights you have
 

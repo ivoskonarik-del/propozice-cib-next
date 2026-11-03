@@ -1,8 +1,8 @@
-# About us
+# About Us
 
 Source: https://ivoskonarik-del.github.io/propozice-cib-next/en/about-us/
 
-> CIB GROUP is a private family holding focused on real estate, development and management, with long-standing support for the Hippokrates Foundation.
+> CIB GROUP, a privately owned family holding company focused on real estate, development and management, has long supported the Hippokrates Endowment Fund.
 
 2004
 group founded
@@ -19,9 +19,9 @@ About the group
 We build
 value over time
 
-CIB GROUP is a family holding that brings together real estate investment, development and management. We invest in commercial assets, develop our own projects and provide long-term property management.
+CIB GROUP is a family holding that brings together real estate investment, development and management. We invest in commercial assets, develop our own projects and provide long term property management.
 
-For us, buying a property is only the beginning. Over time we get to know each building, invest in it and look for ways to keep improving it. This long-term relationship with every building is at the heart of our approach.
+Our work with a property does not end when we acquire it. We get to know it over time, invest in it and look for ways to improve it. This long term relationship with each building defines our approach.
 
 Our projects
 History and milestones
@@ -31,7 +31,7 @@ History and milestones
 
 ### We invest
 
-In commercial real estate with long-term potential, which we hold and develop across market cycles.
+In commercial real estate with long term potential, which we hold and develop across market cycles.
 
 Balabenka Office Building
 02
@@ -49,50 +49,51 @@ A residential portfolio run by a local team, with a focus on technical condition
 
 Liberec and Hrádek apartments
 
-## Long-term support Music that helps
+## Longstanding Support Music That Makes a Difference
 
 Every year
 since
 2014
 
-CIB GROUP has long supported the Hippokrates Foundation (Nadační fond Hippokrates). Every year we hold a benefit concert at which Radka, Eva and Emma Španko perform with EvRam Band. During the evening, our business partners and friends also join us in supporting the foundation.
+Supporting the Hippokrates Endowment Fund has been a longstanding commitment of CIB GROUP. Each year, we host a charity concert featuring Radka, Eva and Emma Španko together with EvRam Band. Our business partners and friends also join us in supporting the fund during the evening.
 
-The Hippokrates Foundation supports the care of patients at the Gynaecological Oncology Centre of the General University Hospital in Prague, the training of doctors and nurses, and improvements to the environment in which treatment takes place.
+The Hippokrates Endowment Fund supports care for patients of the Gynaecological Oncology Centre at the General University Hospital in Prague, education for doctors and nurses, and improvements to the environment in which treatment is provided.
 
-For us, this is not a one-off donation. The concert has become an annual tradition that began in 2014 in the Chapel of the Holy Cross at Apolinář. Supporting the foundation is a long-term commitment for us and a tradition we want to keep building on.
+Our support for the fund is a long term commitment and a tradition since 2014 that we intend to continue developing.
 
 Concert recording
 Concert highlights
 
-This selection of videos captures the atmosphere of the evenings that have become a fixed part of our annual support.
+A selection of videos captures the atmosphere of the evenings, which have become an established part of our annual support.
 
 6 December 2025 · Kaiserštejnský palác
 
 The video loads from YouTube only after you click.
 
-More about our support for the Hippokrates Foundation
-Benefit concerts EvRam Band
+Hippokrates Endowment Fund
+Learn More About Our Support for the Hippokrates Endowment Fund
+EvRam Band Charity Concerts
 Photo: Tereza Španko
 
-Photos from each year's concert capture EvRam Band on stage and the guests who regularly join us in supporting the foundation.
+Photographs from each year capture EvRam Band performances and gatherings of guests who regularly join us in supporting the fund.
 
 Photo: Tereza Španko
 
-## How we work We own responsibly and manage with care
+## How We Work We Own Responsibly and Manage with Care
 01
-Owned assets
+Owned Assets
 
-With our own assets, we think long term. We create value through quality workmanship, the right use of each property, well-considered refurbishments and active management.
+We manage every asset with a long term perspective, focusing on quality, thoughtful refurbishment, the right use and active management to build lasting value.
 
 02
 Development
 
-We plan development in phases and in response to the specific site. What matters to us is long-term functionality, infrastructure and the benefit to the surrounding area.
+We prepare development projects in stages and with the specific character of each location in mind. Long term functionality, infrastructure and a positive contribution to the surrounding area are central to our approach.
 
 03
-Managed properties
+Properties Under Management
 
-For the properties we manage, we focus on stable operation, good technical condition and clear communication with tenants.
+For properties under management, we focus on stable operations, sound technical condition and clear communication with tenants.
 
 ## The building from 1899
 
@@ -106,15 +107,15 @@ The herringbone parquet floors, stucco mouldings and tall windows have been pres
 
 Residence Vodičkova 33
 
-## History and milestones Milestones that shaped the group
+## History and milestones Milestones that Shaped the Group
 
-Select a year to see its milestones.
+Select a year to explore the individual milestones.
 
-Alois Přibyl played a significant part in building CIB GROUP from its very beginning. As a founding partner and 50% co-owner of the company, he helped shape its direction until his death in 2023.
+Alois Přibyl played a significant role in building CIB GROUP from the outset. As a founding partner who held a 50 per cent ownership interest in the company, he helped shape its direction until his death in 2023.
 
 ### Today
 
-- We continue the long-term development of the Obec v zahradě project in Lichoceves and actively look for new opportunities in office, retail and mixed-use properties.
+- We continue the long term development of the Obec v zahradě project in Lichoceves and actively look for new opportunities in office, retail and mixed use properties.
 
 ### 2026
 
@@ -136,7 +137,7 @@ Alois Přibyl played a significant part in building CIB GROUP from its very begi
 
 ### 2023
 
-- Alois Přibyl, founding partner and 50% co-owner of the company, passes away.
+- Alois Přibyl, founding partner who held a 50 per cent ownership interest in the company, passes away.
 
 - Refurbishment of Residence Vodičkova 33 continues.
 
@@ -160,7 +161,7 @@ Alois Přibyl played a significant part in building CIB GROUP from its very begi
 
 ### 2020
 
-- Balabenka Office Building obtains BREEAM In-Use Very Good certification.
+- Balabenka Office Building obtains BREEAM In Use Very Good certification.
 
 - Sale of the residential portfolio in Klatovy.
 
@@ -314,7 +315,7 @@ Vodičkova 33
 190 00 Praha 9
 Balabenka
 +420 296 249 311
-Equestrian centre
+Equestrian Facility
 Lichoceves, 20 min from Prague
 Emma Sophia Stables
 +420 607 085 515

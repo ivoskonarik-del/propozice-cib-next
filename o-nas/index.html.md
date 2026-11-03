@@ -70,6 +70,7 @@ Výběr videí přibližuje atmosféru večerů, které se staly pevnou součás
 
 Video se z YouTube načte až po kliknutí.
 
+Nadační fond Hippokrates
 Více o naší podpoře Nadačního fondu Hippokrates
 Benefiční koncerty EvRam Band
 Foto: Tereza Španko

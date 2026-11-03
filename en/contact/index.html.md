@@ -2,7 +2,7 @@
 
 Source: https://ivoskonarik-del.github.io/propozice-cib-next/en/contact/
 
-> Contact CIB GROUP: head office, acquisitions and partnerships, commercial leasing and residential portfolio management.
+> Contact CIB GROUP: headquarters enquiries, acquisitions and partnerships, commercial leasing and residential portfolio management.
 
 ## Write to us Contact us
 
@@ -21,7 +21,7 @@ Commercial leasing, acquisitions and partnerships, apartment management and invo
 CIB GROUP head office
 +420 296 249 311
 info@cib.cz
-CIB GROUP, Vodičkova 709/33, 110 00 Praha 1, Nové Město · working days
+CIB GROUP, Vodičkova 709/33, 110 00 Prague 1, Nové Město · working days
 Commercial leasing
 vasutova@cib.cz
 eva.spanko@cib.cz
@@ -32,7 +32,7 @@ New opportunities and cooperation
 Invoicing
 faktury@cib.cz
 CIB GROUP, a.s., Company ID 272 11 185
-Benkova apartments, Chodov
+Benkova Apartments, Chodov
 +420 296 249 311
 info@cib.cz
 Management: Flats Benkova s.r.o.
@@ -50,7 +50,7 @@ Management offices in Liberec and Hrádek nad Nisou
 
 For operational and administrative questions, to report an issue to property management or for information on available housing, please use the contacts for Liberec and Hrádek nad Nisou.
 
-General enquiries: +420 296 249 311 | info@cib.cz
+General Enquiries: +420 296 249 311 | info@cib.cz
 
 Contact centre
 
@@ -94,7 +94,7 @@ Fri
 Where to find us
 Head office at Vodičkova 33
 
-Entrance from Vodičkova Street, a tram stop outside the building, and Můstek and Muzeum metro stations within a five-minute walk.
+Entrance from Vodičkova Street, a tram stop outside the building, and Můstek and Muzeum metro stations within five minutes' walk.
 
 Address
 Vodičkova 709/33, 110 00 Praha 1
@@ -104,35 +104,125 @@ working days, by appointment
 ## Billing details Group companies
 CIB GROUP, a.s.
 
-Prague 1, Vodičkova 709/33
+Vodičkova 709/33, 110 00 Prague 1, Nové Město
 
-Company ID: 272 11 185, VAT No.: CZ27211185
+Company ID: 272 11 185
 
-Commercial Register kept by the Municipal Court in Prague, Section B, Insert 9748
+VAT ID: CZ27211185
 
-Account No.: 2001195357/8040 (CZK), 2001205365/8040 (EUR)
+Registered in the Commercial Register maintained by the Municipal Court in Prague, Section B, File No. 9748
 
-Vodičkova Luxury Suites s.r.o.
+Bank Accounts
 
-Company ID: 216 29 471, VAT No.: CZ21629471
+Oberbank, CZK: 2001205357/8040
 
-Commercial Register kept by the Municipal Court in Prague, Section C, Insert 404138
+Oberbank, EUR: 2001205365/8040
 
 Balabenka Office Building, s.r.o.
 
-Prague 1, Vodičkova 709/33
+Vodičkova 709/33, 110 00 Prague 1, Nové Město
+
+Company ID: 027 62 986
+
+VAT ID: CZ02762986
+
+Registered in the Commercial Register maintained by the Municipal Court in Prague, Section C, File No. 223559
+
+Bank Accounts
+
+CZK: 2001194141/8040
+
+EUR: 2001194168/8040
+
+Vodičkova Luxury Suites s.r.o.
+
+Vodičkova 709/33, 110 00 Prague 1, Nové Město
+
+Company ID: 216 29 471
+
+VAT ID: CZ21629471
+
+Registered in the Commercial Register maintained by the Municipal Court in Prague, Section C, File No. 404138
+
+Bank Account
+
+CZK: 2001271821/8040
+
+Obec v zahradě, s.r.o.
+
+Vodičkova 709/33, 110 00 Prague 1, Nové Město
+
+Company ID: 275 73 290
+
+VAT ID: CZ27573290
+
+Registered in the Commercial Register maintained by the Municipal Court in Prague, Section C, File No. 114620
+
+Bank Accounts
+
+CZK: 207993572/0300
+
+EUR: 1017549803/0300
+
+Infrastruktura Lichoceves, s.r.o.
+
+Vodičkova 709/33, 110 00 Prague 1, Nové Město
+
+Company ID: 035 16 016
+
+VAT ID: CZ03516016
+
+Registered in the Commercial Register maintained by the Municipal Court in Prague, Section C, File No. 243787
+
+Bank Account
+
+CZK: 218055741/0600
+
+MAISON development, a.s.
+
+Vodičkova 709/33, 110 00 Prague 1, Nové Město
+
+Company ID: 261 18 629
+
+VAT ID: CZ26118629
+
+Registered in the Commercial Register maintained by the Municipal Court in Prague, Section B, File No. 6170
+
+Bank Accounts
+
+CZK: 217303563/0300
+
+EUR: 1017506483/0300
 
 Flats Liberecko s.r.o.
 
-Prague 1, Vodičkova 709/33
+Vodičkova 709/33, 110 00 Prague 1, Nové Město
+
+Company ID: 210 56 455
+
+VAT ID: CZ21056455
+
+Registered in the Commercial Register maintained by the Municipal Court in Prague, Section C, File No. 396335
+
+Bank Accounts
+
+Liberec, CZK: 317271263/0300
+
+Hrádek nad Nisou, CZK: 317271693/0300
 
 Flats Benkova s.r.o.
 
-Prague 1, Vodičkova 709/33
+Vodičkova 709/33, 110 00 Prague 1, Nové Město
 
-Obec v zahradě, s. r. o.
+Company ID: 210 56 447
 
-Prague 1, Vodičkova 709/33
+VAT ID: CZ21056447
+
+Registered in the Commercial Register maintained by the Municipal Court in Prague, Section C, File No. 396334
+
+Bank Account
+
+317270893/0300
 
 ## Property contacts Our addresses
 +420 296 249 311
@@ -144,7 +234,7 @@ Vodičkova 33
 190 00 Praha 9
 Balabenka
 +420 296 249 311
-Equestrian centre
+Equestrian Facility
 Lichoceves, 20 min from Prague
 Emma Sophia Stables
 +420 607 085 515

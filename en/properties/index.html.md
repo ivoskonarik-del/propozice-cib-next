@@ -36,7 +36,7 @@ Prague 1, Vodičkova 33
 
 - Apartments
 
-- Short-stay accommodation
+- Short stay accommodation
 
 - Online booking
 
@@ -55,7 +55,7 @@ Liberec, Hrádek nad Nisou
 Apartment management
 Liberec and Hrádek apartments
 Apartment management
-Benkova apartments
+Benkova Apartments
 Prague 11, Chodov
 
 - 12 apartments
@@ -65,7 +65,7 @@ Prague 11, Chodov
 - Flats Benkova
 
 Apartment management
-Benkova apartments
+Benkova Apartments
 
 ## Contact Looking for space or a partner?
 

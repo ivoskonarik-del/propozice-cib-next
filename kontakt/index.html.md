@@ -104,35 +104,125 @@ pracovní dny, po domluvě
 ## Fakturační údaje Společnosti skupiny
 CIB GROUP, a.s.
 
-Praha 1, Vodičkova 709/33
+Vodičkova 709/33, 110 00 Praha 1, Nové Město
 
-IČ: 272 11 185, DIČ: CZ27211185
+IČ: 272 11 185
 
-OR vedený Městským soudem v Praze, oddíl B, vložka 9748
+DIČ: CZ27211185
 
-č. ú.: 2001195357/8040 (CZK), 2001205365/8040 (EUR)
+Zapsaná v obchodním rejstříku vedeném Městským soudem v Praze, oddíl B, vložka 9748
 
-Vodičkova Luxury Suites s.r.o.
+Čísla účtů
 
-IČ: 216 29 471, DIČ: CZ21629471
+Oberbank, CZK: 2001205357/8040
 
-OR vedený Městským soudem v Praze, oddíl C, vložka 404138
+Oberbank, EUR: 2001205365/8040
 
 Balabenka Office Building, s.r.o.
 
-Praha 1, Vodičkova 709/33
+Vodičkova 709/33, 110 00 Praha 1, Nové Město
+
+IČ: 027 62 986
+
+DIČ: CZ02762986
+
+Zapsaná v obchodním rejstříku vedeném Městským soudem v Praze, oddíl C, vložka 223559
+
+Čísla účtů
+
+CZK: 2001194141/8040
+
+EUR: 2001194168/8040
+
+Vodičkova Luxury Suites s.r.o.
+
+Vodičkova 709/33, 110 00 Praha 1, Nové Město
+
+IČ: 216 29 471
+
+DIČ: CZ21629471
+
+Zapsaná v obchodním rejstříku vedeném Městským soudem v Praze, oddíl C, vložka 404138
+
+Číslo účtu
+
+CZK: 2001271821/8040
+
+Obec v zahradě, s.r.o.
+
+Vodičkova 709/33, 110 00 Praha 1, Nové Město
+
+IČ: 275 73 290
+
+DIČ: CZ27573290
+
+Zapsaná v obchodním rejstříku vedeném Městským soudem v Praze, oddíl C, vložka 114620
+
+Čísla účtů
+
+CZK: 207993572/0300
+
+EUR: 1017549803/0300
+
+Infrastruktura Lichoceves, s.r.o.
+
+Vodičkova 709/33, 110 00 Praha 1, Nové Město
+
+IČ: 035 16 016
+
+DIČ: CZ03516016
+
+Zapsaná v obchodním rejstříku vedeném Městským soudem v Praze, oddíl C, vložka 243787
+
+Číslo účtu
+
+CZK: 218055741/0600
+
+MAISON development, a.s.
+
+Vodičkova 709/33, 110 00 Praha 1, Nové Město
+
+IČ: 261 18 629
+
+DIČ: CZ26118629
+
+Zapsaná v obchodním rejstříku vedeném Městským soudem v Praze, oddíl B, vložka 6170
+
+Čísla účtů
+
+CZK: 217303563/0300
+
+EUR: 1017506483/0300
 
 Flats Liberecko s.r.o.
 
-Praha 1, Vodičkova 709/33
+Vodičkova 709/33, 110 00 Praha 1, Nové Město
+
+IČ: 210 56 455
+
+DIČ: CZ21056455
+
+Zapsaná v obchodním rejstříku vedeném Městským soudem v Praze, oddíl C, vložka 396335
+
+Čísla účtů
+
+Liberec, CZK: 317271263/0300
+
+Hrádek nad Nisou, CZK: 317271693/0300
 
 Flats Benkova s.r.o.
 
-Praha 1, Vodičkova 709/33
+Vodičkova 709/33, 110 00 Praha 1, Nové Město
 
-Obec v zahradě, s. r. o.
+IČ: 210 56 447
 
-Praha 1, Vodičkova 709/33
+DIČ: CZ21056447
+
+Zapsaná v obchodním rejstříku vedeném Městským soudem v Praze, oddíl C, vložka 396334
+
+Číslo účtu
+
+317270893/0300
 
 ## Kontakty objektů Naše adresy
 +420 296 249 311

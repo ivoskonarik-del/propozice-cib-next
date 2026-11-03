@@ -1,8 +1,8 @@
-# Benkova apartments, Chodov
+# Benkova Apartments, Chodov
 
 Source: https://ivoskonarik-del.github.io/propozice-cib-next/en/properties/apartment-management-prague/
 
-> CIB GROUP manages the residential buildings on Benkova Street in Prague's Chodov district in cooperation with Flats Benkova s.r.o.
+> Residential properties on Benkova Street in Prague's Chodov district are managed by CIB GROUP in cooperation with Flats Benkova s.r.o.
 
 Prague 11
 Chodov
@@ -13,14 +13,14 @@ added to the portfolio
 Flats Benkova s.r.o.
 manager
 Apartment management · Prague 11
-Benkova apartments
+Benkova Apartments
 Photo: Hynek Moravec, Wikimedia Commons, CC BY 3.0
 
-## Apartment management, Prague Contact for tenants and applicants
+## Apartment management, Prague Contact for Tenants and Prospective Tenants
 
-The residential properties on Benkova Street in Prague's Chodov district are managed by CIB GROUP in cooperation with Flats Benkova s.r.o. CIB GROUP also handles the related operational and administrative matters.
+Residential properties on Benkova Street in Prague's Chodov district are managed by CIB GROUP in cooperation with Flats Benkova s.r.o. CIB GROUP also provides the related operational and administrative management.
 
-For questions about maintenance, administration, tenancy matters or available apartments, please contact the CIB GROUP head office.
+For questions regarding maintenance, administration, tenancy matters or available apartments, please contact CIB GROUP headquarters.
 
 - +420 296 249 311 Head office, working days
 
@@ -38,7 +38,7 @@ Vodičkova 33
 190 00 Praha 9
 Balabenka
 +420 296 249 311
-Equestrian centre
+Equestrian Facility
 Lichoceves, 20 min from Prague
 Emma Sophia Stables
 +420 607 085 515

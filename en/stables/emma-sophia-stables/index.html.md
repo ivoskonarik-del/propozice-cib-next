@@ -2,28 +2,28 @@
 
 Source: https://ivoskonarik-del.github.io/propozice-cib-next/en/stables/emma-sophia-stables/
 
-> Emma Sophia Stables is a modern equestrian centre in a restored historic farmstead in Lichoceves. Further plans include a stud farm and hippotherapy services.
+> Emma Sophia Stables is a modern equestrian facility in a restored historic farmstead in Lichoceves. Future development includes a young horse rearing facility and services related to hippotherapy.
 
-Equestrian centre
+Equestrian Facility
 Since 2023
 Historic farmstead
 Stables · Lichoceves
 Emma Sophia Stables
 
-## A restored farmstead with a new purpose
+## A Restored Farmstead with a New Purpose
 
-Part of the family holding
-A restored farmstead
-with a new purpose
+Part of the Family Holding
+A Restored Farmstead
+with a New Purpose
 
-As part of the wider development of Lichoceves, the historic farmstead underwent a complete refurbishment and became Emma Sophia Stables, a modern equestrian centre with facilities for sport horses and riders. Since 2023 it has been the home stable of show jumper Emma Sophia Španko.
+As part of the wider development of Lichoceves, the historic farmstead has been fully restored and is now home to Emma Sophia Stables, a modern equestrian facility for sport horses and riders. Since 2023, it has been the home base of show jumper Emma Sophia Španko.
 
-Today Emma Sophia Stables operates as a separate brand within the family holding. The project combines the sensitive restoration of a historic property with a practical long-term use that respects the original character of the place. Further plans include a stud farm and services related to hippotherapy.
+Emma Sophia Stables now operates as an independent brand within the family holding. The project combines the sensitive restoration of a historic property with a practical long term use that respects the original character of the place. Future development includes a young horse rearing facility and services related to hippotherapy.
 
 Visit esstables.com
 All 26 photos
 
-## Emma Sophia Stables Equestrian centre in Lichoceves
+## Emma Sophia Stables Equestrian Facility in Lichoceves
 
 ## Villa and garden Historic villa in Lichoceves
 
@@ -80,7 +80,7 @@ Vodičkova 33
 190 00 Praha 9
 Balabenka
 +420 296 249 311
-Equestrian centre
+Equestrian Facility
 Lichoceves, 20 min from Prague
 Emma Sophia Stables
 +420 607 085 515

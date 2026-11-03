@@ -2,14 +2,14 @@
 
 Source: https://ivoskonarik-del.github.io/propozice-cib-next/en/properties/vodickova-luxury-suites/
 
-> Vodičkova Luxury Suites: luxury short-stay apartments on the upper floors of Residence Vodičkova 33, steps from Wenceslas Square. 24-hour reception.
+> Vodičkova Luxury Suites: luxury short stay apartments on the upper floors of Residence Vodičkova 33, steps from Wenceslas Square. 24/7 reception.
 
 Prague 1
 Vodičkova 33
 2024
 opened after renovation
 24/7
-on-site reception
+on site reception
 Apartments · Prague 1
 Vodičkova Luxury Suites
 Book a stay
@@ -19,7 +19,7 @@ Book a stay
 Location
 In the very centre of Prague
 
-Vodičkova Street, a few steps from Wenceslas Square. Můstek and Muzeum metro stations within walking distance, a tram stop right outside the building. The on-site reception is open around the clock.
+Vodičkova Street, a few steps from Wenceslas Square. Můstek and Muzeum metro stations within walking distance, a tram stop right outside the building. The on site reception is open around the clock.
 
 Address
 Vodičkova 709/33, 110 00 Praha 1
@@ -38,7 +38,7 @@ Vodičkova 33
 190 00 Praha 9
 Balabenka
 +420 296 249 311
-Equestrian centre
+Equestrian Facility
 Lichoceves, 20 min from Prague
 Emma Sophia Stables
 +420 607 085 515
